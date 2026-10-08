@@ -1,12 +1,14 @@
+import json 
+
 from pathlib import Path
 
-from PySide6.QtCore import Qt, QRectF
-from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush
+from PySide6.QtCore import Qt, QRectF, QPointF
+from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush, QPolygonF
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
 
-from grid_definitions import barbarossa_grids
-from hex_model import hex_center, nearest_hex
+from campaign_grid_definitions import barbarossa_grids
+from hex_model import hex_center, nearest_hex, printed_hex_number
 
 
 class MapView(QGraphicsView):
@@ -23,6 +25,8 @@ class MapView(QGraphicsView):
         self.debug_marker = None
         self.press_position = None
         self.drag_started = False
+        self.hexes = {} 
+        self.selected_hex_key = None 
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -69,6 +73,8 @@ class MapView(QGraphicsView):
         self.debug_marker = None
         self.map_scene.clear()
         self.board_records = {}
+        self.hexes = {} 
+        self.selected_hex_key = None 
         self.map_item = self.map_scene.addPixmap(pixmap)
 
         #Preserve original-image coordinates even with a preview. 
@@ -161,6 +167,8 @@ class MapView(QGraphicsView):
         self.map_path = None
         self.original_size = None
         self.board_records = {}
+        self.hexes = {} 
+        self.selected_hex_key = None 
 
         QImageReader.setAllocationLimit(1024)
 
@@ -252,75 +260,261 @@ class MapView(QGraphicsView):
         self.centerOn(self.debug_marker)
 
         return len(self.board_records)
+    def save_campaign(self, path):
+        if not self.board_records:
+            raise ValueError("Load the campaign before saving.")
 
-    def select_hex(self, event):
-        if (
-            event.button() == Qt.MouseButton.LeftButton
-            and self.map_item is not None
-        ):
-            point = self.mapToScene(event.position().toPoint())
+        #JSON cannot use tuples as dictionary keys.
+        #Store the key alongside each hex's properties instead
+        hex_records = [
+            {
+                "key": list(key),
+                "properties": properties
+            }
+            for key, properties in self.hexes.items()
+        ]
 
-            message = (
-                f"Campaign coordinates:"
-                f"x = {point.x():.1f}, y = {point.y():.1f}"
+        data = {
+            "format" : "tsww-barbarossa-campaign",
+            "version" : 1, 
+            "boards" : list(self.board_records),
+            "hexes" : hex_records,
+            "selected_hex_key" : (
+                list(self.selected_hex_key)
+                if self.selected_hex_key is not None
+                else None
+            ),
+        }
+
+        path = Path(path)
+        temporary_path = path.with_name(path.name + ".tmp")
+
+        try: 
+            temporary_path.write_text(
+                json.dumps(data, indent = 2, ensure_ascii = False),
+                encoding = "utf-8",
             )
 
-            #Identify the image containing this position
-            for board_id, record in self.board_records.items():
-                origin_x, origin_y = record["origin"]
-                width, height = record["size"]
+            #Replace the destination after writing completes.
+            temporary_path.replace(path)
+        finally:
+            if temporary_path.exists():
+                temporary_path.unlink()
+    def load_campaign_save(self, path, maps_dir):
+        path = Path(path)
 
-                if (
-                    origin_x <= point.x() < origin_x + width
-                    and origin_y <= point.y() < origin_y + height
+        try: 
+            data = json.loads(path.read_text(encoding = "utf-8"))
+        except json.JSONDecodeError as error:
+            raise ValueError(
+                "The save file contains invalid JSON."
+            ) from error
+
+        if not isinstance(data, dict):
+            raise ValueError("Invalid campaign save.")
+
+        if data.get("format") != "tsww-barbarossa-campaign":
+            raise ValueError("This is not a Barbarossa campaign save.")
+
+        if data.get("version") != 1:
+            raise ValueError("This save version is not supported.")
+        expected_boards = [
+            board[0] for board in barbarossa_boards
+        ]
+
+        if data.get("boards") != expected_boards:
+            raise ValueError("The save uses a different campaign layout.")
+
+        records = data.get("hexes")
+
+        if not isinstance(records, list):
+            raise ValueError("The save is missing its hex records.")
+
+        #Validate the saved data before replacing current campaign
+        restored_hexes = {} 
+
+        board_layout = {
+            board_id: (x,y) 
+            for board_id, filename, x, y, width, height 
+            in barbarossa_boards
+        }            
+
+        for record in records:
+            if not isinstance(record, dict):
+                raise ValueError("Invalid hex record.")
+
+            saved_key = record.get("key")
+            properties = record.get("properties")
+
+            if (
+                not isinstance(saved_key, list)
+                or len(saved_key) != 4
+                or not isinstance(properties, dict)
+            ):
+                raise ValueError("Invalid hex key or properties.")
+
+            board_id, region_name, column, row = saved_key
+
+            if (
+                not isinstance(board_id, str)
+                or not isinstance(region_name, str)
+                or type(column) is not int
+                or type(row) is not int
+                or board_id not in board_layout 
+            ):
+                raise ValueError("Invalid board or grid coordinates.")
+
+            region = next(
+                (
+                    region 
+                    for region in barbarossa_grids[board_id]["regions"]
+                    if region["name"] == region_name
+                ),
+                None,
+            )
+
+            if region is None:
+                raise ValueError(f"Unknown grid region: {region_name}")
+
+            key = (board_id, region_name, column, row)
+
+            if key in restored_hexes:
+                raise ValueError("Duplicate hex record in the save.")
+
+            local_x, local_y = hex_center(
+                region["grid"], column, row
+            )
+            origin_x, origin_y = board_layout[board_id]
+
+            number = printed_hex_number(region, column, row)
+
+            #Preserve properties, but recalculate derived values
+            restored = properties.copy()
+            restored.update({
+                "board_id" : board_id,
+                "region" : region_name,
+                "column" : column, 
+                "row" : row,
+                "printed_number" : number,
+                "game_reference" : f"{region_name}:{number}",
+                "center" : (origin_x + local_x , origin_y + local_y),
+            })
+
+            if not isinstance(restored.get("units"), list):
+                raise ValueError("Invalid units list in a hex record.")
+
+            restored_hexes[key] = restored
+
+        #All hex records have now been restored.
+        saved_selection = data.get("selected_hex_key")
+        selected_key = None
+
+        if saved_selection is not None:
+            if (
+                not isinstance(saved_selection, list)
+                or len(saved_selection) != 4
+                or not isinstance(saved_selection[0], str)
+                or not isinstance(saved_selection[1], str)
+                or type(saved_selection[2]) is not int
+                or type(saved_selection[3]) is not int
                 ):
-                    message += (
-                        f" | {board_id}"
-                        f" | Image coordinates:"
-                        f"x = {point.x() - origin_x:.1f}, "
-                        f"y = {point.y() - origin_y:.1f}"
-                    )
+                    raise ValueError("Invalid selected hex key.")
 
-                    if board_id == "Map 2":
-                        region = barbarossa_grids["Map 2"]["regions"][0]
+            selected_key = tuple(saved_selection)
 
-                        image_x = point.x() - origin_x 
-                        image_y = point.y() - origin_y
+            if selected_key not in restored_hexes:
+                raise ValueError(
+                    "The selected hex is missing from the save."
+                )
 
-                        #Only use this grid inside its region
-                        from PySide6.QtCore import QPointF
-                        from PySide6.QtGui import QPolygonF
-
-                        boundary = QPolygonF([
-                            QPointF(x,y)
-                            for x,y in region["boundary"]
-                        ])
-
-                        print(
-                            f"Click: image=({image_x:.1f}, {image_y:.1f})"
-                        )
-                        if boundary.containsPoint(
-                            QPointF(image_x, image_y),
-                            Qt.FillRule.OddEvenFill,
-                        ):
-                            column, row, center_x, center_y = nearest_hex(
-                                region["grid"], image_x, image_y
-                            )
-                            
-                            self.debug_marker.setPos(
-                                origin_x + center_x, 
-                                origin_y + center_y
-                            )
-
-                            self.centerOn(self.debug_marker)
-
-                            message += (
-                                f" |{region['name']}"
-                                f" | Grid ({column}, {row})"
-                            )
-                    break
             
-            self.window().statusBar().showMessage(message)
+        self.load_campaign(maps_dir)
+
+        self.hexes = restored_hexes
+        self.selected_hex_key = selected_key
+
+        if selected_key is not None:
+            center_x, center_y = self.hexes[selected_key]["center"]
+            self.debug_marker.setPos(center_x, center_y)
+            self.centerOn(self.debug_marker)
+
+        return len(self.hexes)
+
+
+
+    def select_hex(self, event):
+        if self.map_item is None:
+            return 
+
+        point = self.mapToScene(event.position().toPoint())
+
+        for board_id, record in self.board_records.items():
+            origin_x, origin_y = record["origin"]
+            width, height = record["size"]
+
+            image_x = point.x() - origin_x 
+            image_y = point.y() - origin_y
+
+            if not (0 <= image_x < width and 0 <= image_y < height):
+                continue
+
+            board_definition = barbarossa_grids.get(board_id)
+
+            if board_definition is None:
+                return
+
+            for region in board_definition["regions"]:
+                boundary = QPolygonF([
+                    QPointF(x,y)
+                    for x,y in region["boundary"]
+                ])
+
+                if not boundary.containsPoint(
+                    QPointF(image_x, image_y),
+                    Qt.FillRule.OddEvenFill,
+                ):
+                    continue
+
+                column, row, center_x, center_y = nearest_hex(
+                    region["grid"], image_x, image_y
+                )
+
+                campaign_x = origin_x + center_x
+                campaign_y = origin_y + center_y
+
+                number = printed_hex_number(region, column, row)
+                key = (board_id, region["name"], column, row)
+
+                #Preserve existing properties when selecting again.
+                if key not in self.hexes:
+                    self.hexes[key] = {
+                        "board_id" : board_id,
+                        "region" : region["name"],
+                        "column" : column,
+                        "row" : row, 
+                        "printed_number" : number,
+                        "game_reference" : f"{region['name']}:{number}",
+                        "center" : (campaign_x, campaign_y),
+                        "terrain" : None,
+                        "units" : [],
+                    }
+
+                self.selected_hex_key = key
+
+                self.debug_marker.setPos(campaign_x, campaign_y)
+                self.centerOn(self.debug_marker)
+
+                self.window().statusBar().showMessage(
+                    f"{board_id} | {region['name']}:{number}"
+                    f" | Grid ({column}, {row})"
+                )
+                return 
+
+            self.window().statusBar().showMessage(
+                f"{board_id} | No grid region at this position"
+            )
+            return 
+
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:

@@ -60,12 +60,74 @@ def nearest_hex(grid, image_x, image_y):
 
     return best
 
+def printed_hex_number(region, column, row):
+    """Convert internal grid indices to the game's hex number"""
+
+    grid = region["grid"]
+    numbering = region["numbering"]
+
+    xs = [x for x, y in region["boundary"]]
+    ys = [y for x, y in region["boundary"]]
+
+    width = max(xs) - min(xs)
+    height = max(ys) - min(ys)
+
+    #Region dimension control descending numbering in VASSAL
+    max_rows = floor(height / grid["dx"] + 0.5)
+    max_columns = floor(width / grid["dy"] + 0.5)
+
+    horizontal_descends = numbering["hDescend"] == "true"
+    vertical_descends = numbering["vDescend"] == "true"
+
+    numbered_column = column
+    numbered_row = row 
+
+    if grid["sideways"]:
+        if vertical_descends:
+            numbered_column = max_rows - column
+
+        if horizontal_descends:
+            numbered_row = max_columns - row
+    else:
+        if horizontal_descends:
+            numbered_column = max_columns - column
+
+        if vertical_descends:
+            numbered_row = max_rows - row
+
+    #Numbering can shift on alternate grid columns
+    if numbering["stagger"] == "true" and column % 2 != 0:
+        descends = (
+            horizontal_descends
+            if grid["sideways"]
+            else vertical_descends
+        )
+
+        numbered_row += -1 if descends else 1
+
+    horizontal = numbered_column + int(numbering["hOff"])
+    vertical = numbered_row + int(numbering["vOff"])
+
+    horizontal_digits = int(numbering["hLeading"]) + 1 
+    vertical_digits = int(numbering["vLeading"]) + 1
+
+    horitzontal_text = f"{horizontal:0{horizontal_digits}d}"
+    vertical_text = f"{vertical:0{vertical_digits}d}"
+
+    separator = numbering["sep"]
+
+    if numbering["first"] == "H": 
+        return horizontal_text + separator + vertical_text
+
+    return vertical_text + separator + horitzontal_text
 if __name__ == "__main__":
-    from grid_definitions import barbarossa_grids
+    from campaign_grid_definitions import barbarossa_grids
 
     region = barbarossa_grids["Map 2"]["regions"][0]
-    grid = region["grid"]
 
-    for column, row in [(0,0), (1,0), (2,0)]:
-        center = hex_center(grid, column, row)
-        print(f"Grid ({column}, {row}) -> center {center}")
+    center = hex_center(region["grid"], 8, 45)
+    number = printed_hex_number(region, 8, 45)
+
+    print(f"Region: {region['name']}")
+    print(f"Center: {center}")
+    print(f"Printed Hex: {number}")

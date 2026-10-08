@@ -58,6 +58,15 @@ class MainWindow(QMainWindow):
         jump_action.triggered.connect(self.map_view.jump_to_counter)
         view_menu.addAction(jump_action)
 
+        save_action = QAction("Save Campaign...", self)
+        save_action.setShortcut(QKeySequence.StandardKey.Save)
+        save_action.triggered.connect(self.save_campaign)
+        file_menu.addAction(save_action)
+
+        load_save_action = QAction("Load Campaign Save...", self)
+        load_save_action.triggered.connect(self.load_campaign_save)
+        file_menu.addAction(load_save_action)
+
     def open_map(self):
         filename, _ = QFileDialog.getOpenFileName(
             self,
@@ -107,6 +116,79 @@ class MainWindow(QMainWindow):
             " | Scroll to zoom | Drag to pan | f to fit |"
         )
 
+    def save_campaign(self):
+        if not self.map_view.board_records:
+            QMessageBox.information(
+                self,
+                "Save Campaign",
+                "Load the campaign before saving.",
+            )
+            return 
+
+        filename, _ = QFileDialog.getSaveFileName(
+            self,
+            "Save Barbarossa campaign",
+            str(project_dir / "barbarossa_campaign.json"), 
+            "Campaign saves (*.json)",
+        )
+
+        if not filename:
+            return 
+
+        path = Path(filename)
+
+        if path.suffix.lower() != ".json":
+            path = Path(str(path) + ".json")
+
+        try: 
+            self.map_view.save_campaign(path)
+
+        except (OSError, ValueError, TypeError) as error:
+            QMessageBox.critical(
+                self,
+                "Campaign saving failed",
+                str(error)
+            )
+            return
+
+        self.statusBar().showMessage(
+            f"Saved {len(self.map_view.hexes)} hex records"
+            f"to {path.name}"
+        )
+
+    def load_campaign_save(self):
+        filename, _ = QFileDialog.getOpenFileName(
+            self, 
+            "Load barbarossa campaign save",
+            str(project_dir),
+            "Campaign saves (*.json)",
+        )
+
+        if not filename:
+            return 
+
+        self.statusBar().showMessage("Loading campaign save...")
+
+        try:
+            count = self.map_view.load_campaign_save(
+                filename, maps_dir
+            )
+        except (OSError, ValueError, MemoryError) as error:
+            QMessageBox.critical(
+                self,
+                "Campaign loading failed",
+                str(error),
+            )
+            self.statusBar().showMessage("Campaign loading failed")
+            return 
+
+        self.setWindowTitle(
+            f"TSWW Barbarossa - {Path(filename).name}"
+        )
+        self.statusBar().showMessage(
+            f"Loaded {count} hex records"
+            " | J to jump to marker | F to fit map"
+        )
 
 
 
