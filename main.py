@@ -10,6 +10,7 @@ from PySide6.QtWidgets import (
 )
 
 from map_view import MapView
+from campaign_layout import barbarossa_boards
 
 project_dir = Path(__file__).resolve().parent
 maps_dir = project_dir / "assets" / "maps"
@@ -25,6 +26,7 @@ class MainWindow(QMainWindow):
 
         self.map_view = MapView(self)
         self.setCentralWidget(self.map_view)
+        self.board_records = {}
 
         self.create_menus()
         self.statusBar().showMessage("Choose File -> Open Map")
@@ -37,10 +39,16 @@ class MainWindow(QMainWindow):
         open_action.triggered.connect(self.open_map)
         file_menu.addAction(open_action)
 
+        campaign_action = QAction("Open Barbarossa Campaign", self)
+        campaign_action.setShortcut("Ctrl + Shift + O")
+        campaign_action.triggered.connect(self.open_campaign)
+        file_menu.addAction(campaign_action)
+
+
         view_menu = self.menuBar().addMenu("View")
 
         fit_action = QAction("Fit Map to Window", self)
-        fit_action.setShortcut("f")
+        fit_action.setShortcut("F")
         fit_action.triggered.connect(self.map_view.fit_map)
         view_menu.addAction(fit_action)
 
@@ -72,7 +80,30 @@ class MainWindow(QMainWindow):
             f"{name} | Original: {size.width()} x {size.height()} pixels"
             " | Scroll to zoom | Drag to pan | f to fit"
         )
-    
+    def open_campaign(self):
+        self.statusBar().showMessage("loading Campaign Maps...")
+
+
+        try:
+            count = self.map_view.load_campaign(maps_dir)
+        except (OSError, ValueError, MemoryError) as error:
+            QMessageBox.critical(
+                self,
+                "Campaign loading failed",
+                str(error),
+            )
+            self.statusBar().showMessage("Campaign loading failed")
+            return
+
+        self.setWindowTitle("TSWW Barbarossa -- Campaign")
+        self.statusBar().showMessage(
+            f"{count} campaign boards loaded"
+            " | Scroll to zoom | Drag to pan | f to fit |"
+        )
+
+
+
+
 def main():
     app = QApplication(sys.argv)
 

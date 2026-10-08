@@ -3,8 +3,11 @@ from pathlib import Path
 from PySide6.QtCore import Qt, QRectF
 from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsView
+from campaign_layout import barbarossa_boards
 
 
+print("Loaded map_view:", __file__, flush = True)
+print("Imported board count:", len(barbarossa_boards), flush = True)
 class MapView(QGraphicsView):
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -59,6 +62,7 @@ class MapView(QGraphicsView):
 
         #Replace the previous map only after loading succeeds.
         self.map_scene.clear()
+        self.board_records = {}
         self.map_item = self.map_scene.addPixmap(pixmap)
 
         #Preserve original-image coordinates even with a preview. 
@@ -92,7 +96,7 @@ class MapView(QGraphicsView):
 
     def wheelEvent(self, event):
         if self.map_item is None:
-            super().wheelEvenet(event)
+            super().wheelEvent(event)
             return
 
         delta = event.angleDelta().y()
@@ -109,3 +113,94 @@ class MapView(QGraphicsView):
             self.scale(factor,factor)
 
         event.accept()
+
+    def load_campaign(self, maps_dir):
+        print(
+            "Board list available:",
+            "barbarossa_boards" in globals(),
+            flush = True,
+        )
+        maps_dir = Path(maps_dir)
+
+        #Check every file and its dimensions before loading. 
+        for board_id, filename, x, y, width, height in barbarossa_boards:
+            path = maps_dir / filename
+
+            if not path.is_file():
+                raise FileNotFoundError(
+                    f"Missing campaign image:\n{path}"
+                )
+
+            reader = QImageReader(str(path))
+            size = reader.size()
+
+            if size.width() != width or size.height() != height:
+                raise ValueError(
+                    f"Unexpected dimensions for {filename}.\n"
+                    f"Expected: {width} x {height}\n"
+                    f"Found: {size.width()} x {size.height()}\n"
+                    "Use the original Barbarossa image without resizing."
+                )
+
+        #Release the previous map before loading the campaign.
+        self.map_scene.clear()
+        self.map_item = None
+        self.map_path = None
+        self.original_size = None
+        self.board_records = {}
+
+        QImageReader.setAllocationLimit(1024)
+
+        try:
+            for board_id, filename, x, y, width, height in barbarossa_boards:
+                path = maps_dir / filename
+
+                #Read at original resolution: no setScaledSize
+                reader = QImageReader(str(path))
+                print(f"Loading {filename}...", flush = True)
+                image = reader.read()
+
+                if image.isNull():
+                    raise ValueError(
+                        f"Cannot load {filename}:\n"
+                        f"{reader.errorString()}"
+                    )
+
+                pixmap = QPixmap.fromImage(image)
+
+                if pixmap.isNull():
+                    raise ValueError(
+                        f"Cannot create the display image for {filename}."
+                    )
+
+                item = self.map_scene.addPixmap(pixmap)
+                item.setPos(x,y)
+                print(f"Displayed {filename}", flush = True)
+
+                self.board_records[board_id] = {
+                    "filename" : filename,
+                    "origin" : (x,y),
+                    "size" : (width, height),
+                    "item" : item,
+                }
+
+                # our existing fit_map method checks map_item
+                if self.map_item is None:
+                    self.map_item = item
+
+                #The scene owns the pixmap item
+                del image, pixmap
+
+        except Exception:
+            self.map_scene.clear()
+            self.map_item = None
+            self.board_records = {}
+            raise
+
+        self.map_scene.setSceneRect(
+            self.map_scene.itemsBoundingRect()
+        )
+
+        self.fit_map()
+
+        return len(self.board_records)
