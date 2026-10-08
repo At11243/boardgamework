@@ -44,16 +44,7 @@ class MapView(QGraphicsView):
                 f"Cannot read the map dimensions:\n{reader.errorString()}"
             )
 
-        #Start with a managable preview.
-        #We will add detailed map tiles later.
-        if max(original_size.width(), original_size.height()) > 4096:
-            preview_size = original_size.scaled(
-                4096,
-                4096,
-                Qt.AspectRatioMode.KeepAspectRatio,
-            )
-            reader.setScaledSize(preview_size)
-
+        
         image = reader.read()
 
         if image.isNull():
@@ -75,7 +66,7 @@ class MapView(QGraphicsView):
         scale_y = original_size.height() / image.height()
 
         self.map_item.setTransform(
-            QTransofrm.fromScale(scale_x, scale_y)
+            QTransform.fromScale(scale_x, scale_y)
         )
 
         self.map_scene.setSceneRect(
@@ -86,3 +77,35 @@ class MapView(QGraphicsView):
                 original_size.height(),
             )
         )
+
+        self.map_path = path
+        self.original_size = original_size
+
+        self.fit_map()
+
+    def fit_map(self):
+        if self.map_item is not None:
+            self.fitInView(
+                self.map_scene.sceneRect(),
+                Qt.AspectRatioMode.KeepAspectRatio,
+            )
+
+    def wheelEvent(self, event):
+        if self.map_item is None:
+            super().wheelEvenet(event)
+            return
+
+        delta = event.angleDelta().y()
+
+        if delta == 0:
+            event.ignore()
+            return
+
+        factor = 1.2 if delta > 0 else (1 / 1.2)
+        proposed_scale = self.transform().m11() * factor
+
+        #prevent zooming indefinitely in either direction.
+        if 0.005 <= proposed_scale <= 8:
+            self.scale(factor,factor)
+
+        event.accept()
