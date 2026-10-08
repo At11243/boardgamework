@@ -6,8 +6,7 @@ from PySide6.QtWidgets import QGraphicsScene, QGraphicsView
 from campaign_layout import barbarossa_boards
 
 
-print("Loaded map_view:", __file__, flush = True)
-print("Imported board count:", len(barbarossa_boards), flush = True)
+
 class MapView(QGraphicsView):
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -18,6 +17,7 @@ class MapView(QGraphicsView):
         self.map_item = None
         self.map_path = None
         self.original_size = None
+        self.board_records = {}
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -115,11 +115,6 @@ class MapView(QGraphicsView):
         event.accept()
 
     def load_campaign(self, maps_dir):
-        print(
-            "Board list available:",
-            "barbarossa_boards" in globals(),
-            flush = True,
-        )
         maps_dir = Path(maps_dir)
 
         #Check every file and its dimensions before loading. 
@@ -204,3 +199,40 @@ class MapView(QGraphicsView):
         self.fit_map()
 
         return len(self.board_records)
+
+    def mousePressEvent(self, event):
+        print("Map click detected", flush = True)
+        if (
+            event.button() == Qt.MouseButton.LeftButton
+            and self.map_item is not None
+        ):
+            point = self.mapToScene(event.position().toPoint())
+
+            message = (
+                f"Campaign coordinates:"
+                f"x = {point.x():.1f}, y = {point.y():.1f}"
+            )
+
+            #Identify the image containing this position
+            for board_id, record in self.board_records.items():
+                origin_x, origin_y = record["origin"]
+                width, height = record["size"]
+
+                if (
+                    origin_x <= point.x() < origin_x + width
+                    and origin_y <= point.y() < origin_y + height
+                ):
+                    message += (
+                        f" | {board_id}"
+                        f" | Image coordinates:"
+                        f"x = {point.x() - origin_x:.1f}"
+                        f"y = {point.y() - origin_y:.1f}"
+                    )
+                    break
+
+            self.window().statusBar().showMessage(message)
+
+            #Preserve the existing drag-to-pan behavior
+            super().mousePressEvent(event)
+
+                

@@ -29,7 +29,8 @@ class MainWindow(QMainWindow):
         self.board_records = {}
 
         self.create_menus()
-        self.statusBar().showMessage("Choose File -> Open Map")
+        self.statusBar().setVisible(True)
+        self.statusBar().showMessage("Status bar ready- click the map")
 
     def create_menus(self):
         file_menu = self.menuBar().addMenu("File")
