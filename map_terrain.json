@@ -1,0 +1,24 @@
+{
+  "format": "tsww-barbarossa-map-terrain",
+  "version": 1,
+  "hexes": [
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        65,
+        63
+      ],
+      "properties": {
+        "review_status": "Verified",
+        "settlement": {
+          "name": "",
+          "type": "None"
+        },
+        "terrain": [
+          "Lakes"
+        ]
+      }
+    }
+  ]
+}

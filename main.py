@@ -1,14 +1,17 @@
 import sys
 from pathlib import Path
 
+from PySide6.QtCore import Qt
 from PySide6.QtGui import QAction, QKeySequence
 from PySide6.QtWidgets import (
     QApplication, 
     QMainWindow,
     QFileDialog,
     QMessageBox,
+    QDockWidget
 )
 
+from terrain_editor import TerrainEditor
 from map_view import MapView
 from campaign_layout import barbarossa_boards
 
@@ -26,6 +29,37 @@ class MainWindow(QMainWindow):
 
         self.map_view = MapView(self)
         self.setCentralWidget(self.map_view)
+
+        self.terrain_path = project_dir / "map_terrain.json"
+
+        self.terrain_editor = TerrainEditor(self)
+
+        terrain_dock = QDockWidget("Hex Information", self)
+        terrain_dock.setWidget(self.terrain_editor)
+        terrain_dock.setMinimumWidth(200)
+
+        self.addDockWidget(
+            Qt.DockWidgetArea.RightDockWidgetArea,
+            terrain_dock
+        )
+
+        self.map_view.hex_selected.connect(
+            self.terrain_editor.show_hex
+        )
+
+        self.terrain_editor.applied.connect(self.apply_terrain)
+
+        self.terrain_storage_ready = True
+
+        try: 
+            self.map_view.load_map_definitions(self.terrain_path)
+        except (OSError, ValueError) as error:
+            self.terrain_storage_ready = False
+            QMessageBox.critical(
+                self,
+                "Terrain loading failed", 
+                str(error)
+            )
         self.board_records = {}
 
         self.create_menus()
@@ -190,7 +224,34 @@ class MainWindow(QMainWindow):
             " | J to jump to marker | F to fit map"
         )
 
+    def apply_terrain(self, properties):
+        if not self.terrain_storage_ready:
+            QMessageBox.warning(
+                self,
+                "Terrain editing unavailable",
+                "The existing terrain file could not be loaded."
+                "Resolve that error and restart before saving edits.",
+            )
+            return 
 
+        try:
+            self.map_view.save_map_definition(
+                self.terrain_path, properties 
+            )
+        except (OSError, ValueError, TypeError) as error:
+            QMessageBox.critical(
+                self,
+                "Terrain saving failed",
+                str(error)
+            )
+            return 
+
+        key = self.map_view.selected_hex_key
+        reference = self.map_view.hexes[key]["game_reference"]
+
+        self.statusBar().showMessage(
+            f"Saved map information for {reference}"
+        )
 
 def main():
     app = QApplication(sys.argv)
@@ -200,5 +261,9 @@ def main():
 
     return app.exec()
 
+
+
+
 if __name__ == "__main__":
     sys.exit(main())
+

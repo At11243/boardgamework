@@ -2,7 +2,7 @@ import json
 
 from pathlib import Path
 
-from PySide6.QtCore import Qt, QRectF, QPointF
+from PySide6.QtCore import Qt, QRectF, QPointF, Signal
 from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush, QPolygonF
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
@@ -12,6 +12,7 @@ from hex_model import hex_center, nearest_hex, printed_hex_number
 
 
 class MapView(QGraphicsView):
+    hex_selected = Signal(str, dict)
     def __init__(self, parent = None):
         super().__init__(parent)
 
@@ -27,6 +28,7 @@ class MapView(QGraphicsView):
         self.drag_started = False
         self.hexes = {} 
         self.selected_hex_key = None 
+        self.map_definitions = {}
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -71,6 +73,7 @@ class MapView(QGraphicsView):
 
         #Replace the previous map only after loading succeeds.
         self.debug_marker = None
+        self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.board_records = {}
         self.hexes = {} 
@@ -162,6 +165,7 @@ class MapView(QGraphicsView):
 
         #Release the previous map before loading the campaign.
         self.debug_marker = None
+        self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.map_item = None
         self.map_path = None
@@ -214,6 +218,7 @@ class MapView(QGraphicsView):
 
         except Exception:
             self.debug_marker = None
+            self.hex_selected.emit("", {})
             self.map_scene.clear()
             self.map_item = None
             self.board_records = {}
@@ -300,6 +305,8 @@ class MapView(QGraphicsView):
         finally:
             if temporary_path.exists():
                 temporary_path.unlink()
+
+
     def load_campaign_save(self, path, maps_dir):
         path = Path(path)
 
@@ -434,6 +441,14 @@ class MapView(QGraphicsView):
         self.selected_hex_key = selected_key
 
         if selected_key is not None:
+            self.hex_selected.emit(
+                self.hexes[selected_key]["game_reference"],
+                self.map_definitions.get(selected_key, {}),
+            )
+        else:
+            self.hex_selected.emit("", {})
+
+        if selected_key is not None:
             center_x, center_y = self.hexes[selected_key]["center"]
             self.debug_marker.setPos(center_x, center_y)
             self.centerOn(self.debug_marker)
@@ -500,6 +515,10 @@ class MapView(QGraphicsView):
                     }
 
                 self.selected_hex_key = key
+                self.hex_selected.emit(
+                    self.hexes[key]["game_reference"],
+                    self.map_definitions.get(key, {}),
+                )
 
                 self.debug_marker.setPos(campaign_x, campaign_y)
                 self.centerOn(self.debug_marker)
@@ -554,6 +573,104 @@ class MapView(QGraphicsView):
         if should_select:
             self.select_hex(event)
             
+    def load_map_definitions(self, path):
+        path = Path(path)
+
+        if not path.is_file():
+            return
+
+        data = json.loads(path.read_text(encoding="utf-8"))
+
+        if (
+            not isinstance(data, dict)
+            or data.get("format") != "tsww-barbarossa-map-terrain"
+            or data.get("version") != 1
+            or not isinstance(data.get("hexes"), list)
+        ):
+            raise ValueError("Invalid map terrain file.")
+
+        definitions = {}
+
+        for record in data["hexes"]:
+            if not isinstance(record, dict):
+                raise ValueError("Invalid terrain record.")
+
+            key = record.get("key")
+            properties = record.get("properties")
+
+            if (
+                not isinstance(key, list)
+                or len(key) != 4 
+                or not isinstance(key[0], str)
+                or not isinstance(key[1], str)
+                or type(key[2]) is not int 
+                or type(key[3]) is not int
+                or not isinstance(properties, dict)
+            ):
+                raise ValueError("Invalid terrain key or properties.")
+
+            terrain = properties.get("terrain")
+            settlement = properties.get("settlement")
+
+            if terrain is not None and (
+                not isinstance(terrain, list)
+                or not all(isinstance(value, str) for value in terrain)
+            ):
+                raise ValueError("Invalid terrain list.")
+
+            if settlement is not None and (
+                not isinstance(settlement, dict)
+                or not isinstance(settlement.get("type"), str)
+                or not isinstance(settlement.get("name"), str)
+            ):
+                raise ValueError("Invalid settlement information.")
+
+            if properties.get("reivew_status", "Unknown") not in (
+                "Unkown", "Suggested", "Verified"
+            ):
+                raise ValueError("Invalid reveiw status.")
+
+            definitions[tuple(key)] = properties 
+
+        self.map_definitions = definitions
+
+    def save_map_definition(self, path, properties):
+        key = self.selected_hex_key
+        if key is None:
+            raise ValueError("Select a hex first.")
+
+        #Keep the existing definitions if writing fails.
+        definitions = self.map_definitions.copy()
+        updated = definitions.get(key, {}).copy()
+        updated.update(properties)
+        definitions[key] = updated
+
+        data = {
+            "format" : "tsww-barbarossa-map-terrain",
+            "version" : 1,
+            "hexes" : [
+                {
+                    "key" : list(hex_key),
+                    "properties" : values,
+                }
+                for hex_key, values in definitions.items()
+            ],
+        }
+
+        path = Path(path)
+        temporary_path = path.with_name(path.name + ".tmp")
+
+        try:
+            temporary_path.write_text(
+                json.dumps(data, indent = 2, ensure_ascii = False),
+                encoding = "utf-8"
+            )
+            temporary_path.replace(path)
+        finally:
+            if temporary_path.exists():
+                temporary_path.unlink()
+
+        self.map_definitions = definitions
 
     
                 
