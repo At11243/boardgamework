@@ -53,6 +53,11 @@ class MainWindow(QMainWindow):
         fit_action.triggered.connect(self.map_view.fit_map)
         view_menu.addAction(fit_action)
 
+        jump_action = QAction("Jump to Counter", self)
+        jump_action.setShortcut("J")
+        jump_action.triggered.connect(self.map_view.jump_to_counter)
+        view_menu.addAction(jump_action)
+
     def open_map(self):
         filename, _ = QFileDialog.getOpenFileName(
             self,

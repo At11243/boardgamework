@@ -1,10 +1,12 @@
 from pathlib import Path
 
 from PySide6.QtCore import Qt, QRectF
-from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform
-from PySide6.QtWidgets import QGraphicsScene, QGraphicsView
+from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush
+from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
 
+from grid_definitions import barbarossa_grids
+from hex_model import hex_center, nearest_hex
 
 
 class MapView(QGraphicsView):
@@ -18,6 +20,9 @@ class MapView(QGraphicsView):
         self.map_path = None
         self.original_size = None
         self.board_records = {}
+        self.debug_marker = None
+        self.press_position = None
+        self.drag_started = False
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -61,6 +66,7 @@ class MapView(QGraphicsView):
             raise ValueError("Could not create the map display image.")
 
         #Replace the previous map only after loading succeeds.
+        self.debug_marker = None
         self.map_scene.clear()
         self.board_records = {}
         self.map_item = self.map_scene.addPixmap(pixmap)
@@ -93,6 +99,17 @@ class MapView(QGraphicsView):
                 self.map_scene.sceneRect(),
                 Qt.AspectRatioMode.KeepAspectRatio,
             )
+
+    def jump_to_counter(self):
+            marker = getattr(self, "debug_marker", None)
+    
+            if marker is None or marker.scene() is not self.map_scene:
+                self.window().statusBar().showMessage(
+                    "load the campaign to create the marker."
+                )
+                return 
+    
+            self.centerOn(marker)
 
     def wheelEvent(self, event):
         if self.map_item is None:
@@ -138,6 +155,7 @@ class MapView(QGraphicsView):
                 )
 
         #Release the previous map before loading the campaign.
+        self.debug_marker = None
         self.map_scene.clear()
         self.map_item = None
         self.map_path = None
@@ -187,6 +205,7 @@ class MapView(QGraphicsView):
                 del image, pixmap
 
         except Exception:
+            self.debug_marker = None
             self.map_scene.clear()
             self.map_item = None
             self.board_records = {}
@@ -195,13 +214,46 @@ class MapView(QGraphicsView):
         self.map_scene.setSceneRect(
             self.map_scene.itemsBoundingRect()
         )
+        #Show one calculated hex center for alignment checking. 
+
+        region = barbarossa_grids["Map 2"]["regions"][0]
+        local_x, local_y = hex_center(region["grid"], 8, 45)
+
+        origin_x, origin_y = self.board_records["Map 2"]["origin"]
+
+        campaign_x = origin_x + local_x
+        campaign_y = origin_y + local_y
+
+        print(
+            f"Marker : image = ({local_x:.1f}, {local_y:.1f}),"
+            f"campaign=({campaign_x:.1f}, {campaign_y:.1f})",
+            flush = True,
+        )
+
+        radius = 35
+
+        marker = self.map_scene.addEllipse(
+            -radius,
+            -radius,
+            radius * 2,
+            radius * 2,
+            QPen(Qt.GlobalColor.black),
+            QBrush(Qt.GlobalColor.magenta),
+        )
+        marker.setPos(campaign_x, campaign_y)
+        marker.setZValue(100)
+        self.debug_marker = marker
 
         self.fit_map()
 
+        #Temporarily zoom to the marker for this check. REMOVE LATER
+        self.resetTransform()
+        self.scale(1.5,1.5)
+        self.centerOn(self.debug_marker)
+
         return len(self.board_records)
 
-    def mousePressEvent(self, event):
-        print("Map click detected", flush = True)
+    def select_hex(self, event):
         if (
             event.button() == Qt.MouseButton.LeftButton
             and self.map_item is not None
@@ -225,14 +277,89 @@ class MapView(QGraphicsView):
                     message += (
                         f" | {board_id}"
                         f" | Image coordinates:"
-                        f"x = {point.x() - origin_x:.1f}"
+                        f"x = {point.x() - origin_x:.1f}, "
                         f"y = {point.y() - origin_y:.1f}"
                     )
-                    break
 
+                    if board_id == "Map 2":
+                        region = barbarossa_grids["Map 2"]["regions"][0]
+
+                        image_x = point.x() - origin_x 
+                        image_y = point.y() - origin_y
+
+                        #Only use this grid inside its region
+                        from PySide6.QtCore import QPointF
+                        from PySide6.QtGui import QPolygonF
+
+                        boundary = QPolygonF([
+                            QPointF(x,y)
+                            for x,y in region["boundary"]
+                        ])
+
+                        print(
+                            f"Click: image=({image_x:.1f}, {image_y:.1f})"
+                        )
+                        if boundary.containsPoint(
+                            QPointF(image_x, image_y),
+                            Qt.FillRule.OddEvenFill,
+                        ):
+                            column, row, center_x, center_y = nearest_hex(
+                                region["grid"], image_x, image_y
+                            )
+                            
+                            self.debug_marker.setPos(
+                                origin_x + center_x, 
+                                origin_y + center_y
+                            )
+
+                            self.centerOn(self.debug_marker)
+
+                            message += (
+                                f" |{region['name']}"
+                                f" | Grid ({column}, {row})"
+                            )
+                    break
+            
             self.window().statusBar().showMessage(message)
 
-            #Preserve the existing drag-to-pan behavior
-            super().mousePressEvent(event)
+    def mousePressEvent(self, event):
+        if event.button() == Qt.MouseButton.LeftButton:
+            self.press_position = event.position().toPoint()
+            self.drag_started = False
 
+        super().mousePressEvent(event)
+
+    def mouseMoveEvent(self, event):
+        if self.press_position is not None:
+            position = event.position().toPoint()
+            distance = (
+                position - self.press_position
+            ).manhattanLength()
+
+            if distance >= QApplication.startDragDistance():
+                self.drag_started = True
+
+        super().mouseMoveEvent(event)
+
+    def mouseReleaseEvent(self, event):
+        should_select = (
+            event.button() == Qt.MouseButton.LeftButton
+            and self.press_position is not None
+            and not self.drag_started
+            and (
+                event.position().toPoint() - self.press_position
+            ).manhattanLength() < QApplication.startDragDistance()
+        )
+
+        #Finish panning before selecting and centering a hex.
+        super().mouseReleaseEvent(event)
+
+        self.press_position = None
+        self.drag_started = False 
+
+        if should_select:
+            self.select_hex(event)
+            
+
+    
                 
