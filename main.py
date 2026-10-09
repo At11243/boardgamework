@@ -49,6 +49,13 @@ class MainWindow(QMainWindow):
 
         self.terrain_editor.applied.connect(self.apply_terrain)
 
+        self.terrain_editor.edge_mode_changed.connect(
+            self.map_view.set_edge_pick_mode
+        )
+
+        self.map_view.edge_selected.connect(
+            self.terrain_editor.focus_hexside
+        )
         self.terrain_storage_ready = True
 
         try: 

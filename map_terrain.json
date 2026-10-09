@@ -12,11 +12,27 @@
       "properties": {
         "review_status": "Verified",
         "settlement": {
-          "name": "",
-          "type": "None"
+          "name": "Kokelv",
+          "type": "Point of Interest"
         },
         "terrain": [
           "Lakes"
+        ]
+      }
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        3,
+        51
+      ],
+      "properties": {
+        "review_status": "Verified",
+        "settlement": null,
+        "surface": "Water",
+        "terrain": [
+          "Lake/Sea"
         ]
       }
     }

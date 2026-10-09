@@ -8,11 +8,13 @@ from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
 
 from campaign_grid_definitions import barbarossa_grids
-from hex_model import hex_center, nearest_hex, printed_hex_number
+from hex_model import hex_center, nearest_hex, printed_hex_number, nearest_hexside
 
 
 class MapView(QGraphicsView):
     hex_selected = Signal(str, dict)
+    edge_selected = Signal(int)
+
     def __init__(self, parent = None):
         super().__init__(parent)
 
@@ -29,6 +31,8 @@ class MapView(QGraphicsView):
         self.hexes = {} 
         self.selected_hex_key = None 
         self.map_definitions = {}
+        self.edge_pick_mode = False
+        self.edge_highlight = None
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -73,6 +77,7 @@ class MapView(QGraphicsView):
 
         #Replace the previous map only after loading succeeds.
         self.debug_marker = None
+        self.edge_highlight = None
         self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.board_records = {}
@@ -165,6 +170,7 @@ class MapView(QGraphicsView):
 
         #Release the previous map before loading the campaign.
         self.debug_marker = None
+        self.edge_highlight = None
         self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.map_item = None
@@ -218,6 +224,7 @@ class MapView(QGraphicsView):
 
         except Exception:
             self.debug_marker = None
+            self.edge_highlight = None
             self.hex_selected.emit("", {})
             self.map_scene.clear()
             self.map_item = None
@@ -441,9 +448,24 @@ class MapView(QGraphicsView):
         self.selected_hex_key = selected_key
 
         if selected_key is not None:
+            board_id, region_name, column, row = selected_key
+
+            selected_region = next(
+                region for region in barbarossa_grids[board_id]["regions"]
+                if region["name"] == region_name
+            )
+
+            display_properties = self.map_definitions.get(
+                selected_key, {}
+            ).copy
+
+            display_properties["_grid_sideways"] = (
+                selected_region["grid"]["sideways"]
+            )
+
             self.hex_selected.emit(
                 self.hexes[selected_key]["game_reference"],
-                self.map_definitions.get(selected_key, {}),
+                display_properties,
             )
         else:
             self.hex_selected.emit("", {})
@@ -515,19 +537,56 @@ class MapView(QGraphicsView):
                     }
 
                 self.selected_hex_key = key
+                display_properties = self.map_definitions.get(
+                    key, {}
+                ).copy()
+
+                display_properties["_grid_sideways"] = (
+                    region["grid"]["sideways"]
+                )
+
                 self.hex_selected.emit(
                     self.hexes[key]["game_reference"],
-                    self.map_definitions.get(key, {}),
+                    display_properties,
                 )
 
                 self.debug_marker.setPos(campaign_x, campaign_y)
-                self.centerOn(self.debug_marker)
 
-                self.window().statusBar().showMessage(
-                    f"{board_id} | {region['name']}:{number}"
-                    f" | Grid ({column}, {row})"
-                )
-                return 
+                if self.edge_pick_mode:
+                    side, start, end = nearest_hexside(
+                        region["grid"],
+                        center_x,
+                        center_y,
+                        image_x,
+                        image_y
+                    )
+
+                    if self.edge_highlight is not None:
+                        self.map_scene.removeItem(self.edge_highlight)
+
+                    pen = QPen(Qt.GlobalColor.black)
+                    pen.setWidth(4)
+                    pen.setCosmetic(True)
+
+                    self.edge_highlight = self.map_scene.addLine(
+                        origin_x + start[0],
+                        origin_y + start[1],
+                        origin_x + end[0],
+                        origin_y + end[1],
+                        pen,
+                    )
+                    self.edge_highlight.setZValue(101)
+
+                    self.edge_selected.emit(side)
+                else:
+                    self.centerOn(self.debug_marker)
+
+            self.window().statusBar().showMessage(
+                f"{board_id} | {region['name']}:{number}"
+                f" | Grid ({column}, {row})"
+            )
+            
+            return 
 
             self.window().statusBar().showMessage(
                 f"{board_id} | No grid region at this position"
@@ -625,11 +684,82 @@ class MapView(QGraphicsView):
             ):
                 raise ValueError("Invalid settlement information.")
 
-            if properties.get("reivew_status", "Unknown") not in (
-                "Unkown", "Suggested", "Verified"
+            if properties.get("review_status", "Unknown") not in (
+                "Unkmown", "Suggested", "Verified"
             ):
                 raise ValueError("Invalid reveiw status.")
 
+            if properties.get("surface", "Unknown") not in (
+                "Unknown",
+                "Land",
+                "Water",
+                "Mixed Land/Water"
+            ):
+                raise ValueError("Invalid hex surface classification.")
+
+            port = properties.get("port")
+
+            if port is not None:
+                if not isinstance(port, dict):
+                    raise ValueError("Invalid port information.")
+
+                if port.get("type") not in (
+                    "Unknown", "None", "Great Port",
+                    "Large Port", "General Port", "Small Port"
+                ):
+                    raise ValueError("Invalid port class.")
+
+                if not isinstance(port.get("name"), str):
+                    raise ValueError("Invalid port name.")
+
+                for field in ("facilities", "anchorage"):
+                    if port.get(field) not in (
+                        "Unknown", "Absent", "Present"
+                    ):
+                        raise ValueError(f"Invalid port {field}.")
+
+            hexsides = properties.get("hexsides", {})
+
+            if not isinstance(hexsides, dict):
+                raise ValueError("Invalid hexside information.")
+
+            for side, values in hexsides.items():
+                if side not in ("0", "1", "2", "3", "4", "5"):
+                    raise ValueError("Invalid hexside number.")
+
+                if not isinstance(values, dict):
+                    raise ValueError("Invalid hexside record.")
+
+                if values.get("waterway") not in (
+                    "Unknown", "None", "Major River",
+                    "Minor River", "Wadi", "Canal",
+                ):
+                    raise ValueError("Invalid waterway type.")
+
+                if values.get("navigation") not in(
+                    "Unknown", "Not navigable", "Navigable",
+                ):
+                    raise ValueError("Invalid navigation value.")
+
+                if values.get("border") not in(
+                    "Unknown", "None", "Internal Border",
+                    "International Border", "Future Border"
+                ):
+                    raise ValueError("Invalid border type.")
+
+                for field in ("escarpment", "coastal_cliff"):
+                    if values.get(field, "Unknown") not in (
+                        "Unknown", "Absent", "Present"
+                    ):
+                        raise ValueError(f"Invalid hexside {field}.")
+
+                if values.get("fortification", "Unkown") not in(
+                    "Unknown",
+                    "None",
+                    "Fortifications",
+                    "Major Fortifications"
+                ):
+                    raise ValueError("Invalid hexside fortification.")
             definitions[tuple(key)] = properties 
 
         self.map_definitions = definitions
@@ -672,5 +802,11 @@ class MapView(QGraphicsView):
 
         self.map_definitions = definitions
 
+    def set_edge_pick_mode(self, enabled):
+        self.edge_pick_mode = enabled
+
+        if not enabled and self.edge_highlight is not None:
+            self.map_scene.removeItem(self.edge_highlight)
+            self.edge_highlight = None
     
                 

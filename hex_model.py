@@ -111,7 +111,7 @@ def printed_hex_number(region, column, row):
     horizontal_digits = int(numbering["hLeading"]) + 1 
     vertical_digits = int(numbering["vLeading"]) + 1
 
-    horitzontal_text = f"{horizontal:0{horizontal_digits}d}"
+    horizontal_text = f"{horizontal:0{horizontal_digits}d}"
     vertical_text = f"{vertical:0{vertical_digits}d}"
 
     separator = numbering["sep"]
@@ -119,7 +119,74 @@ def printed_hex_number(region, column, row):
     if numbering["first"] == "H": 
         return horizontal_text + separator + vertical_text
 
-    return vertical_text + separator + horitzontal_text
+    return vertical_text + separator + horizontal_text
+
+def hex_vertices(grid, center_x, center_y):
+    """Return six vertices, ordered to match our side numbers."""
+
+    dx = grid["dx"]
+    dy = grid["dy"]
+
+    if grid["sideways"]:
+        offsets = [
+            (0, -2 * dx / 3),
+            (dy / 2 , -dx / 3 ),
+            (dy / 2 , dx / 3 ),
+            (0, 2 * dx / 3),
+            (-dy / 2, dx / 3),
+            (-dy / 2 , -dx / 3)
+        ]
+    else: 
+        offsets = [
+            (-dx / 3, -dy / 2),
+            (dx / 3, -dy / 2),
+            (2 * dx / 3, 0),
+            (dx / 3, dy / 2),
+            (-dx / 3, dy / 2),
+            (-2 * dx / 3, 0),
+        ]
+
+    return [
+        (center_x + x , center_y + y)
+        for x,y in offsets
+    ]
+
+def nearest_hexside(grid, center_x, center_y, click_x, click_y):
+    """Return the nearest side and its two endpoints."""
+
+    vertices = hex_vertices(grid, center_x, center_y)
+    best = None
+    best_distance = float("inf")
+
+    for side in range(6):
+        start = vertices[side]
+        end = vertices[(side + 1 ) % 6]
+
+        vx = end[0] - start[0]
+        vy = end[1] - start[1]
+
+        fraction = (
+            (click_x - start[0]) * vx 
+            + (click_y - start[1]) * vy
+        ) / (vx * vx + vy * vy)
+
+        fraction = max(0, min(1, fraction))
+
+        closest_x = start[0] + fraction * vx
+        closest_y = start[1] + fraction * vy
+
+        distance = (
+            (click_x - closest_x) ** 2 
+            + (click_y - closest_y ) ** 2 
+        )
+
+        if distance < best_distance:
+            best_distance = distance 
+            best = (side, start, end)
+
+    return best
+
+
 if __name__ == "__main__":
     from campaign_grid_definitions import barbarossa_grids
 
