@@ -35,6 +35,84 @@
           "Lake/Sea"
         ]
       }
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        3,
+        50
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Present",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null
+      }
     }
   ]
 }

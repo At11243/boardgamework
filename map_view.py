@@ -3,13 +3,18 @@ import json
 from pathlib import Path
 
 from PySide6.QtCore import Qt, QRectF, QPointF, Signal
-from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush, QPolygonF
+from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush, QPolygonF, QColor
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
 
 from campaign_grid_definitions import barbarossa_grids
-from hex_model import hex_center, nearest_hex, printed_hex_number, nearest_hexside
-
+from hex_model import (
+    hex_center, 
+    nearest_hex, 
+    printed_hex_number, 
+    nearest_hexside,
+    hex_vertices
+)
 
 class MapView(QGraphicsView):
     hex_selected = Signal(str, dict)
@@ -33,6 +38,9 @@ class MapView(QGraphicsView):
         self.map_definitions = {}
         self.edge_pick_mode = False
         self.edge_highlight = None
+        self.review_overlay_enabled = False
+
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
 
         #Drag the map by holding the left mouse button.
         self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
@@ -272,6 +280,7 @@ class MapView(QGraphicsView):
         self.centerOn(self.debug_marker)
 
         return len(self.board_records)
+    
     def save_campaign(self, path):
         if not self.board_records:
             raise ValueError("Load the campaign before saving.")
@@ -312,7 +321,6 @@ class MapView(QGraphicsView):
         finally:
             if temporary_path.exists():
                 temporary_path.unlink()
-
 
     def load_campaign_save(self, path, maps_dir):
         path = Path(path)
@@ -477,8 +485,6 @@ class MapView(QGraphicsView):
 
         return len(self.hexes)
 
-
-
     def select_hex(self, event):
         if self.map_item is None:
             return 
@@ -567,91 +573,12 @@ class MapView(QGraphicsView):
                 f" | Selected side {side}"
             )
             return 
-        
-        for board_id, record in self.board_records.items():
-            origin_x, origin_y = record["origin"]
-            width, height = record["size"]
-
-            image_x = point.x() - origin_x 
-            image_y = point.y() - origin_y
-
-            if not (0 <= image_x < width and 0 <= image_y < height):
-                continue
-
-            board_definition = barbarossa_grids.get(board_id)
-
-            if board_definition is None:
-                return
-
-            for region in board_definition["regions"]:
-                boundary = QPolygonF([
-                    QPointF(x,y)
-                    for x,y in region["boundary"]
-                ])
-
-                if not boundary.containsPoint(
-                    QPointF(image_x, image_y),
-                    Qt.FillRule.OddEvenFill,
-                ):
-                    continue
-
-                column, row, center_x, center_y = nearest_hex(
-                    region["grid"], image_x, image_y
-                )
-
-                campaign_x = origin_x + center_x
-                campaign_y = origin_y + center_y
-
-                number = printed_hex_number(region, column, row)
-                key = (board_id, region["name"], column, row)
-
-                #Preserve existing properties when selecting again.
-                if key not in self.hexes:
-                    self.hexes[key] = {
-                        "board_id" : board_id,
-                        "region" : region["name"],
-                        "column" : column,
-                        "row" : row, 
-                        "printed_number" : number,
-                        "game_reference" : f"{region['name']}:{number}",
-                        "center" : (campaign_x, campaign_y),
-                        "terrain" : None,
-                        "units" : [],
-                    }
-
-                self.selected_hex_key = key
-                display_properties = self.map_definitions.get(
-                    key, {}
-                ).copy()
-
-                display_properties["_grid_sideways"] = (
-                    region["grid"]["sideways"]
-                )
-
-                self.hex_selected.emit(
-                    self.hexes[key]["game_reference"],
-                    display_properties,
-                )
-
-                self.debug_marker.setPos(campaign_x, campaign_y)
-
-                self.centerOn(self.debug_marker)
-
-                self.window().statusBar().showMessage(
-                    f"{board_id} | {region['name']}:{number}"
-                    f" | Grid ({column}, {row})"
-                )
-            
-                return 
-
-            self.window().statusBar().showMessage(
-                f"{board_id} | No grid region at this position"
-            )
-            return 
-
+         
+        self.select_campaign_point(point)
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
+            self.setFocus()
             self.press_position = event.position().toPoint()
             self.drag_started = False
 
@@ -870,6 +797,8 @@ class MapView(QGraphicsView):
                 temporary_path.unlink()
 
         self.map_definitions = definitions
+        self.viewport().update()
+        
 
     def set_edge_pick_mode(self, enabled):
         self.edge_pick_mode = enabled
@@ -878,4 +807,238 @@ class MapView(QGraphicsView):
             self.map_scene.removeItem(self.edge_highlight)
             self.edge_highlight = None
     
-                
+    def select_campaign_point(self, point):
+        """Select the hex at a campaign position."""
+
+        for board_id, record in self.board_records.items():
+            origin_x, origin_y = record["origin"]
+            width, height = record["size"]
+
+            image_x = point.x() - origin_x
+            image_y = point.y() - origin_y
+
+            if not (0 <= image_x < width and 0 <= image_y < height):
+                continue
+
+            for region in barbarossa_grids[board_id]["regions"]:
+                boundary = QPolygonF([
+                    QPointF(x,y)
+                    for x,y in region["boundary"]
+                ])
+
+                if not boundary.containsPoint(
+                    QPointF(image_x, image_y),
+                    Qt.FillRule.OddEvenFill,
+                ):
+                    continue 
+
+                column, row, center_x, center_y = nearest_hex(
+                    region["grid"], image_x, image_y
+                )
+
+                key = (board_id, region["name"], column, row)
+                number = printed_hex_number(region, column, row)
+
+                campaign_x = origin_x + center_x
+                campaign_y = origin_y + center_y
+
+                if key not in self.hexes:
+                    self.hexes[key] = {
+                        "board_id" : board_id,
+                        "region" : region["name"],
+                        "column" : column,
+                        "row" : row,
+                        "printed_number" : number,
+                        "game_reference" : f"{region['name']}:{number}",
+                        "center" : (campaign_x, campaign_y),
+                        "terrain" : None,
+                        "units" : [],
+                    }
+
+                self.selected_hex_key = key
+
+                if self.edge_highlight is not None:
+                    self.map_scene.removeItem(self.edge_highlight)
+                    self.edge_highlight = None
+
+                properties = self.map_definitions.get(key, {}).copy()
+                properties["_grid_sideways"] = region["grid"]["sideways"]
+
+                self.hex_selected.emit(
+                    self.hexes[key]["game_reference"],
+                    properties,
+                )
+
+                self.debug_marker.setPos(campaign_x, campaign_y)
+                self.centerOn(self.debug_marker)
+
+                self.window().statusBar().showMessage(
+                    f"{board_id} | {region['name']}:{number}"
+                    f" | Grid ({column}, {row})"
+                )
+                return True
+
+            self.window().statusBar().showMessaage(
+                f"{board_id} | No grid region at this position"
+            )
+            return False
+
+        return False 
+
+    def keyPressEvent(self, event):
+        arrows = {
+            Qt.Key.Key_Up,
+            Qt.Key.Key_Down,
+            Qt.Key.Key_Left,
+            Qt.Key.Key_Right,
+        }
+
+        if event.key() not in arrows:
+            super().keyPressEvent(event)
+            return
+
+        if self.selected_hex_key is None:
+            self.window().statusBar().showMessage(
+                "Select a hex before using the arrow keys."
+            )
+            event.accept()
+            return
+
+        if self.edge_pick_mode:
+            self.window().statusBar().showMessage(
+                "Turn off Pick Hex Edge before moving between hexes."
+            )
+            event.accept()
+            return
+
+        board_id, region_name, column, row = self.selected_hex_key
+
+        region = next(
+            region
+            for region in barbarossa_grids[board_id]["regions"]
+            if region["name"] == region_name
+        )
+
+        grid = region["grid"]
+        origin_x, origin_y = self.board_records[board_id]["origin"]
+
+        local_x, local_y = hex_center(grid, column, row)
+        center_x = origin_x + local_x
+        center_y = origin_y + local_y
+
+        vertices = hex_vertices(grid, center_x, center_y)
+
+        if grid["sideways"]:
+            directions = {
+                Qt.Key.Key_Up: 5, 
+                Qt.Key.Key_Down : 2,
+                Qt.Key.Key_Left : 4,
+                Qt.Key.Key_Right : 1,
+            }
+        else:
+            directions = {
+                Qt.Key.Key_Up : 0,
+                Qt.Key.Key_Down : 3, 
+                Qt.Key.Key_Left : 4, 
+                Qt.Key.Key_Right : 1,
+            }
+
+        side = directions[event.key()]
+        start = vertices[side]
+        end = vertices[(side + 1) % 6]
+
+        #Reflect the center through the shared edge's midpoint.
+        target = QPointF(
+            start[0] + end[0] - center_x,
+            start[1] + end[1] - center_y,
+        )
+
+        if not self.select_campaign_point(target):
+            self.window().statusBar().showMessage(
+                "No mapped neighboring hex in that direction."
+            )
+
+        event.accept()
+
+    def set_review_overlay(self, enabled):
+        self.review_overlay_enabled = enabled
+        self.viewport().update()
+
+    def drawForeground(self, painter, rect):
+        super().drawForeground(painter, rect)
+
+        if not self.review_overlay_enabled:
+            return
+
+        painter.save()
+        painter.setPen(Qt.PenStyle.NoPen)
+
+        #Wash every defined region red: unedited means unknown.
+        painter.setBrush(QColor(220, 65, 65, 45))
+
+        for board_id, record in self.board_records.items():
+            definition = barbarossa_grids.get(board_id)
+
+            if definition is None:
+                continue
+
+            origin_x, origin_y = record["origin"]
+
+            for region in definition["regions"]:
+                polygon = QPolygonF([
+                    QPointF(origin_x + x, origin_y + y)
+                    for x,y in region["boundary"]
+                ])
+
+                if polygon.boundingRect().intersects(rect):
+                    painter.drawPolygon(polygon)
+
+
+        colors = {
+            "Verified" : QColor(30, 200, 90, 110),
+            "Suggested" : QColor(255, 185, 25, 110),
+        }
+
+        for key, properties in self.map_definitions.items():
+            color = colors.get(properties.get("review_status"))
+
+            if color is None:
+                continue
+
+            board_id, region_name, column, row = key
+            record = self.board_records.get(board_id)
+
+            if record is None:
+                continue
+
+            region = next(
+                ( 
+                    region 
+                    for region in barbarossa_grids[board_id]["regions"]
+                    if region["name"] == region_name
+                ),
+                None,
+            )
+
+            if region is None:
+                continue
+
+            local_x, local_y = hex_center(
+                region["grid"], column, row
+            )
+            origin_x, origin_y = record["origin"]
+
+            polygon = QPolygonF([
+                QPointF(x,y)
+                for x, y in hex_vertices(
+                    region["grid"],
+                    origin_x + local_x, 
+                    origin_y + local_y
+                )
+            ])
+
+            if polygon.boundingRect().intersects(rect):
+                painter.setBrush(color)
+                painter.drawPolygon(polygon)
+
+        painter.restore()

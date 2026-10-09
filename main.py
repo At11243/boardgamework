@@ -99,6 +99,15 @@ class MainWindow(QMainWindow):
         jump_action.triggered.connect(self.map_view.jump_to_counter)
         view_menu.addAction(jump_action)
 
+        review_action = QAction(
+            "Review Overlay -- Green / Amber/ Red", self
+        )
+        review_action.setCheckable(True)
+        review_action.toggled.connect(
+            self.map_view.set_review_overlay
+        )
+        view_menu.addAction(review_action)
+
         save_action = QAction("Save Campaign...", self)
         save_action.setShortcut(QKeySequence.StandardKey.Save)
         save_action.triggered.connect(self.save_campaign)
@@ -136,6 +145,7 @@ class MainWindow(QMainWindow):
             f"{name} | Original: {size.width()} x {size.height()} pixels"
             " | Scroll to zoom | Drag to pan | f to fit"
         )
+
     def open_campaign(self):
         self.statusBar().showMessage("loading Campaign Maps...")
 
