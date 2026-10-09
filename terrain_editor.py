@@ -18,7 +18,6 @@ terrain_types = [
     "Desert Hills",
     "Stony Hills",
     "Mountain",
-    "High Mountain",
     "Desert Mountain",
     "Woods",
     "Paddy Fields", 
@@ -76,7 +75,7 @@ border_types = [
     "None",
     "Internal Border",
     "International Border",
-    "future Border"
+    "Future Border"
 ]
 
 navigation_types = [
@@ -172,6 +171,20 @@ class TerrainEditor(QWidget):
         self.port_anchorage.addItems(presence_types)
         port_layout.addWidget(self.port_anchorage)
 
+        port_layout.addWidget(QLabel("Naval Base Type"))
+        self.port_naval_base_type = QLineEdit()
+        self.port_naval_base_type.setPlaceholderText(
+            "Printed type; blank = unknown"
+        )
+        port_layout.addWidget(self.port_naval_base_type)
+
+        port_layout.addWidget(QLabel("Shipbuilding capacity"))
+        self.port_shipbuilding_capacity = QLineEdit()
+        self.port_shipbuilding_capacity.setPlaceholderText(
+            "Printed capacity; blank = unknown"
+        )
+        port_layout.addWidget(self.port_shipbuilding_capacity)
+
         fields_layout.addWidget(port_group)
 
 
@@ -221,6 +234,11 @@ class TerrainEditor(QWidget):
 
             side_layout.addWidget(fortification)
 
+            side_layout.addWidget(QLabel("High Mountain"))
+            high_mountain = QComboBox()
+            high_mountain.addItems(presence_types)
+            side_layout.addWidget(high_mountain)
+
             self.hexside_controls[str(side)] = {
                 "group" : group,
                 "waterway" : waterway,
@@ -229,6 +247,7 @@ class TerrainEditor(QWidget):
                 "escarpment" : escarpment,
                 "coastal_cliff" : coastal_cliff,
                 "fortification" : fortification,
+                "high_mountain" : high_mountain, 
             }
 
             fields_layout.addWidget(group)
@@ -312,6 +331,13 @@ class TerrainEditor(QWidget):
             port.get("anchorage", "Unknown")
         )
 
+        self.port_naval_base_type.setText(
+            port.get("naval_base_type") or ""
+        )
+        self.port_shipbuilding_capacity.setText(
+            port.get("shipbuilding_capacity") or ""
+        )
+
         #Side numbers run clockwise in image coordinates.
         if properties.get("_grid_sideways", True):
             directions = [
@@ -363,6 +389,10 @@ class TerrainEditor(QWidget):
             controls["fortification"].setCurrentText(
                 values.get("fortification", "Unknown")
             )
+            controls["high_mountain"].setCurrentText(
+                values.get("high_mountain", "Unknown")
+            )
+
         self.update_enabled()
 
     def apply_values(self):
@@ -392,6 +422,12 @@ class TerrainEditor(QWidget):
             "name" : self.port_name.text().strip(),
             "facilities" : self.port_facilities.currentText(),
             "anchorage" : self.port_anchorage.currentText(),
+            "naval_base_type" : (
+                self.port_naval_base_type.text().strip() or None
+            ),
+            "shipbuilding_capacity" : (
+                self.port_shipbuilding_capacity.text().strip() or None
+            ),
         }
 
         hexsides = {
@@ -401,7 +437,8 @@ class TerrainEditor(QWidget):
                 "border" : controls["border"].currentText(),
                 "escarpment" : controls["escarpment"].currentText(),
                 "coastal_cliff" : controls["coastal_cliff"].currentText(),
-                "fortification" : controls["fortification"].currentText()
+                "fortification" : controls["fortification"].currentText(),
+                "high_mountain" : controls["high_mountain"].currentText(),
             }
             for side, controls in self.hexside_controls.items()
         }
@@ -416,6 +453,6 @@ class TerrainEditor(QWidget):
         })
 
     def focus_hexside(self, side):
-        group = self.hexside_controls[str(side)]["group"]
-        self.scroll_area.ensureWidgetVisible(group)
-        self.hexside_controls[str(side)]["waterway"].setFocus()
+        widget = self.hexside_controls[str(side)]["waterway"]
+        widget.setFocus()
+        self.scroll_area.ensureWidgetVisible(widget, 20, 40)

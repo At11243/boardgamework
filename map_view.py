@@ -457,7 +457,7 @@ class MapView(QGraphicsView):
 
             display_properties = self.map_definitions.get(
                 selected_key, {}
-            ).copy
+            ).copy()
 
             display_properties["_grid_sideways"] = (
                 selected_region["grid"]["sideways"]
@@ -485,6 +485,89 @@ class MapView(QGraphicsView):
 
         point = self.mapToScene(event.position().toPoint())
 
+        if self.edge_pick_mode:
+            if self.selected_hex_key is None:
+                self.window().statusBar().showMessage(
+                    "Turn off Pick Hex Edge and select a hex first."
+                )
+                return
+
+            board_id, region_name, column, row = self.selected_hex_key
+
+            region = next(
+                region
+                for region in barbarossa_grids[board_id]["regions"]
+                if region["name"] == region_name
+            )
+
+            origin_x, origin_y = self.board_records[board_id]["origin"]
+
+            center_x, center_y = hex_center(
+                region["grid"], column, row
+            )
+
+            side, start, end = nearest_hexside(
+                region["grid"],
+                center_x,
+                center_y,
+                point.x() - origin_x,
+                point.y() - origin_y,
+            )
+
+            #Ignore clicks far from the selected hex's edge
+            start_x = origin_x + start[0]
+            start_y = origin_y + start[1]
+            end_x = origin_x + end[0]
+            end_y = origin_y + end[1]
+
+            vx = end_x - start_x 
+            vy = end_y - start_y
+
+            fraction = (
+                (point.x() - start_x) * vx 
+                + (point.y() - start_y) * vy
+            ) / (vx * vx + vy * vy)
+
+            fraction = max(0, min(1, fraction))
+
+            closest_x = start_x + fraction * vx
+            closest_y = start_y + fraction * vy
+
+            click_position = event.position().toPoint()
+            edge_position = self.mapFromScene(
+                QPointF(closest_x, closest_y)
+            )
+
+            distance_squared = (
+                (click_position.x() - edge_position.x()) ** 2 
+                + (click_position.y() - edge_position.y()) ** 2 
+            )
+
+            if distance_squared > 20 ** 2: 
+                self.window().statusBar().showMessage(
+                    "Click near an edge of the selected hex."
+                )
+                return
+
+            if self.edge_highlight is not None:
+                self.map_scene.removeItem(self.edge_highlight)
+
+            pen = QPen(Qt.GlobalColor.yellow)
+            pen.setWidth(6) 
+            pen.setCosmetic(True)
+
+            self.edge_highlight = self.map_scene.addLine(
+                start_x, start_y, end_x, end_y, pen
+            )
+            self.edge_highlight.setZValue(101)
+            self.edge_selected.emit(side)
+
+            self.window().statusBar().showMessage(
+                f"{self.hexes[self.selected_hex_key]['game_reference']}"
+                f" | Selected side {side}"
+            )
+            return 
+        
         for board_id, record in self.board_records.items():
             origin_x, origin_y = record["origin"]
             width, height = record["size"]
@@ -552,41 +635,14 @@ class MapView(QGraphicsView):
 
                 self.debug_marker.setPos(campaign_x, campaign_y)
 
-                if self.edge_pick_mode:
-                    side, start, end = nearest_hexside(
-                        region["grid"],
-                        center_x,
-                        center_y,
-                        image_x,
-                        image_y
-                    )
+                self.centerOn(self.debug_marker)
 
-                    if self.edge_highlight is not None:
-                        self.map_scene.removeItem(self.edge_highlight)
-
-                    pen = QPen(Qt.GlobalColor.black)
-                    pen.setWidth(4)
-                    pen.setCosmetic(True)
-
-                    self.edge_highlight = self.map_scene.addLine(
-                        origin_x + start[0],
-                        origin_y + start[1],
-                        origin_x + end[0],
-                        origin_y + end[1],
-                        pen,
-                    )
-                    self.edge_highlight.setZValue(101)
-
-                    self.edge_selected.emit(side)
-                else:
-                    self.centerOn(self.debug_marker)
-
-            self.window().statusBar().showMessage(
-                f"{board_id} | {region['name']}:{number}"
-                f" | Grid ({column}, {row})"
-            )
+                self.window().statusBar().showMessage(
+                    f"{board_id} | {region['name']}:{number}"
+                    f" | Grid ({column}, {row})"
+                )
             
-            return 
+                return 
 
             self.window().statusBar().showMessage(
                 f"{board_id} | No grid region at this position"
@@ -685,7 +741,7 @@ class MapView(QGraphicsView):
                 raise ValueError("Invalid settlement information.")
 
             if properties.get("review_status", "Unknown") not in (
-                "Unkmown", "Suggested", "Verified"
+                "Unknown", "Suggested", "Verified"
             ):
                 raise ValueError("Invalid reveiw status.")
 
@@ -693,7 +749,7 @@ class MapView(QGraphicsView):
                 "Unknown",
                 "Land",
                 "Water",
-                "Mixed Land/Water"
+                "Mixed land/water"
             ):
                 raise ValueError("Invalid hex surface classification.")
 
@@ -716,6 +772,15 @@ class MapView(QGraphicsView):
                     if port.get(field) not in (
                         "Unknown", "Absent", "Present"
                     ):
+                        raise ValueError(f"Invalid port {field}.")
+
+                for field in (
+                    "naval_base_type",
+                    "shipbuilding_capacity",
+                ):
+                    value = port.get(field)
+
+                    if value is not None and not isinstance(value, str):
                         raise ValueError(f"Invalid port {field}.")
 
             hexsides = properties.get("hexsides", {})
@@ -747,13 +812,17 @@ class MapView(QGraphicsView):
                 ):
                     raise ValueError("Invalid border type.")
 
-                for field in ("escarpment", "coastal_cliff"):
+                for field in (
+                    "escarpment", 
+                    "coastal_cliff",
+                    "high_mountain",
+                    ):
                     if values.get(field, "Unknown") not in (
                         "Unknown", "Absent", "Present"
                     ):
                         raise ValueError(f"Invalid hexside {field}.")
 
-                if values.get("fortification", "Unkown") not in(
+                if values.get("fortification", "Unknown") not in(
                     "Unknown",
                     "None",
                     "Fortifications",
