@@ -87,6 +87,9 @@ navigation_types = [
 class TerrainEditor(QWidget):
     applied = Signal(dict)
     edge_mode_changed = Signal(bool)
+    transport_mode_changed = Signal(bool, str)
+    transport_branch_requested = Signal()
+    transport_erase_changed = Signal(bool)
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -110,6 +113,86 @@ class TerrainEditor(QWidget):
             self.edge_mode_changed.emit
         )
         fields_layout.addWidget(self.edge_button)
+
+        transport_group = QGroupBox("Transport drawing")
+        transport_layout = QVBoxLayout(transport_group)
+
+        self.transport_type = QComboBox()
+        self.transport_type.addItems([
+            "Tarmac Road",
+            "Gravel Road",
+            "Track",
+            "High Capacity Railway",
+            "Low Capacity Railway",
+            "Broad Gauge High Cap RR",
+            "Broad Gauge Low Cap RR",
+            "High Capacity Ferry",
+            "Ferry",
+            ])
+        
+        transport_layout.addWidget(self.transport_type)
+
+        self.transport_button = QPushButton("Draw Transport")
+        self.transport_button.setCheckable(True)
+        transport_layout.addWidget(self.transport_button)
+
+        self.transport_erase = QCheckBox(
+            "Erase selected transport type"
+        )
+        self.transport_erase.toggled.connect(
+            self.transport_erase_changed.emit
+        )
+        transport_layout.addWidget(self.transport_erase)
+
+        self.transport_branch_button = QPushButton(
+            "Start New Branch"
+        )
+        self.transport_branch_button.setEnabled(False)
+        self.transport_branch_button.clicked.connect(
+            self.transport_branch_requested.emit
+        )
+        transport_layout.addWidget(self.transport_branch_button)
+
+        self.transport_button.toggled.connect(
+            self.transport_branch_button.setEnabled
+        )
+        fields_layout.addWidget(transport_group)
+
+        self.transport_summary = QLabel(
+            "No transport connections recorded."
+        )
+        self.transport_summary.setWordWrap(True)
+        transport_layout.addWidget(self.transport_summary)
+
+        transport_layout.addWidget(
+            QLabel("Transport review status")
+        )
+
+        self.transport_review_status = QComboBox()
+        self.transport_review_status.addItems([
+            "Unknown",
+            "In progress",
+            "Verified",
+        ])
+        transport_layout.addWidget(self.transport_review_status)
+
+        self.transport_save_button = QPushButton(
+            "Apply and Save Hex"
+        )
+        self.transport_save_button.clicked.connect(
+            self.apply_values
+        )
+        transport_layout.addWidget(self.transport_save_button)
+
+        self.transport_button.toggled.connect(
+            self.change_transport_mode
+        )
+        self.transport_type.currentTextChanged.connect(
+            self.change_transport_type
+        )
+        self.edge_button.toggled.connect(
+            self.stop_transport_for_edge_mode
+        )
 
         fields_layout.addWidget(QLabel("Hex surface"))
 
@@ -279,6 +362,27 @@ class TerrainEditor(QWidget):
 
         self.show_hex(None, {})
 
+    def change_transport_mode(self, enabled):
+        if enabled:
+            self.edge_button.setChecked(False)
+
+        self.transport_mode_changed.emit(
+            enabled, self.transport_type.currentText()
+        )
+
+    def change_transport_type(self, transport_type):
+        self.transport_mode_changed.emit(
+            self.transport_button.isChecked(),
+            transport_type,
+        )
+
+    def stop_transport_for_edge_mode(self, enabled):
+        if enabled:
+            self.transport_button.setChecked(False)
+
+    def show_transport_connections(self, text):
+        self.transport_summary.setText(text)
+
     def update_enabled(self):
         self.fields.setEnabled(
             self.has_selection and self.developer_mode.isChecked()
@@ -286,6 +390,7 @@ class TerrainEditor(QWidget):
 
         if not self.fields.isEnabled():
             self.edge_button.setChecked(False)
+            self.transport_button.setChecked(False)
 
     def show_hex(self, reference, properties):
         self.has_selection = bool(reference)
@@ -393,6 +498,10 @@ class TerrainEditor(QWidget):
                 values.get("high_mountain", "Unknown")
             )
 
+        self.transport_review_status.setCurrentText(
+            properties.get("transport_review_status", "Unknown")
+        )
+
         self.update_enabled()
 
     def apply_values(self):
@@ -450,6 +559,9 @@ class TerrainEditor(QWidget):
             "port" : port,
             "hexsides" : hexsides,
             "review_status" : self.review_status.currentText(),
+            "transport_review_status" : (
+                self.transport_review_status.currentText()
+            ),
         })
 
     def focus_hexside(self, side):

@@ -3,7 +3,17 @@ import json
 from pathlib import Path
 
 from PySide6.QtCore import Qt, QRectF, QPointF, Signal
-from PySide6.QtGui import QImageReader, QPainter, QPixmap, QTransform, QPen, QBrush, QPolygonF, QColor
+from PySide6.QtGui import (
+    QImageReader, 
+    QPainter, 
+    QPixmap, 
+    QTransform, 
+    QPen, 
+    QBrush, 
+    QPolygonF, 
+    QColor,
+    QPainterPath,
+)
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
 from campaign_layout import barbarossa_boards
 
@@ -13,12 +23,14 @@ from hex_model import (
     nearest_hex, 
     printed_hex_number, 
     nearest_hexside,
-    hex_vertices
+    hex_vertices,
+    is_playable_hex,
 )
 
 class MapView(QGraphicsView):
     hex_selected = Signal(str, dict)
     edge_selected = Signal(int)
+    transport_summary_changed = Signal(str)
 
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -39,6 +51,18 @@ class MapView(QGraphicsView):
         self.edge_pick_mode = False
         self.edge_highlight = None
         self.review_overlay_enabled = False
+        self.transport_review_overlay_enabled = False
+        self.transport_review_overlay_enabled = False
+        self.join_markers = []
+        self.transport_draw_mode = False 
+        self.transport_draw_type = "Tarmac Road"
+        self.transport_anchor = None 
+        self.transport_segments = {} 
+        self.transport_erase_mode = False 
+
+        self.transport_path = Path(__file__).resolve().with_name(
+            "map_transport.json"
+        )
 
         self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
 
@@ -86,6 +110,9 @@ class MapView(QGraphicsView):
         #Replace the previous map only after loading succeeds.
         self.debug_marker = None
         self.edge_highlight = None
+        self.join_markers = []
+        self.transport_anchor = None 
+        self.transport_segments = {}
         self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.board_records = {}
@@ -179,6 +206,9 @@ class MapView(QGraphicsView):
         #Release the previous map before loading the campaign.
         self.debug_marker = None
         self.edge_highlight = None
+        self.join_markers = []
+        self.transport_anchor = None 
+        self.transport_segments = {} 
         self.hex_selected.emit("", {})
         self.map_scene.clear()
         self.map_item = None
@@ -233,6 +263,9 @@ class MapView(QGraphicsView):
         except Exception:
             self.debug_marker = None
             self.edge_highlight = None
+            self.join_markers = []
+            self.transport_anchor = None 
+            self.transport_segments = {} 
             self.hex_selected.emit("", {})
             self.map_scene.clear()
             self.map_item = None
@@ -278,6 +311,7 @@ class MapView(QGraphicsView):
         self.resetTransform()
         self.scale(1.5,1.5)
         self.centerOn(self.debug_marker)
+        self.load_transport_connections()
 
         return len(self.board_records)
     
@@ -491,6 +525,10 @@ class MapView(QGraphicsView):
 
         point = self.mapToScene(event.position().toPoint())
 
+        if self.transport_draw_mode:
+            self.draw_transport_to(point)
+            return 
+        
         if self.edge_pick_mode:
             if self.selected_hex_key is None:
                 self.window().statusBar().showMessage(
@@ -798,7 +836,625 @@ class MapView(QGraphicsView):
 
         self.map_definitions = definitions
         self.viewport().update()
-        
+
+    def transport_pen(self, transport_type):
+        styles = {
+            "Tarmac Road" : ('#FFD54F', 7, Qt.PenStyle.SolidLine),
+            "Gravel Road" : ("#FF9800", 5, Qt.PenStyle.DashLine),
+            "Track" : ("#FF9800", 3, Qt.PenStyle.DotLine),
+            "High Capacity Railway": (
+                "#00E5FF", 3 , Qt.PenStyle.SolidLine
+            ),
+            "Low Capacity Railway" : (
+                "#00E5FF", 3, Qt.PenStyle.DashLine
+            ),
+            "Broad Gauge High Cap RR" : (
+                "#E040FB", 3, Qt.PenStyle.SolidLine
+            ),
+            "Broad Gauge Low Cap RR" : (
+                "#E040FB", 3, Qt.PenStyle.DashLine
+            ),
+            "High Capacity Ferry" : (
+                "#76FF03", 5, Qt.PenStyle.DashLine
+            ),
+            "Ferry" : ("#76FF03", 3, Qt.PenStyle.DotLine),
+        }
+
+        color, width, style = styles[transport_type]
+        pen = QPen(QColor(color))
+        pen.setWidthF(width)
+        pen.setStyle(style)
+        pen.setCosmetic(True)
+        return pen
+
+    def refresh_transport_summary(self, *_):
+        key = self.selected_hex_key
+
+        if key is None:
+            self.transport_summary_changed.emit("Select a hex.")
+            return
+
+        key = self.canonical_transport_key(key)
+
+        connections = [] 
+
+        for segment in self.transport_segments.values(): 
+            if segment["source_key"] == key:
+                side = segment["source_side"]
+                other_key = segment["target_key"]
+            elif segment["target_key"] == key:
+                side = segment["target_side"]
+                other_key = segment["source_key"]
+            else:
+                continue
+
+            board_id, region_name, column, row = other_key
+
+            region = next(
+                entry
+                for entry in barbarossa_grids[board_id]["regions"]
+                if entry["name"] == region_name
+            )
+
+            number = printed_hex_number(region, column, row)
+
+            connections.append(
+                f"Side {side} : {segment['type']}"
+                f" -> {board_id} : {region_name}:{number}"
+            )
+
+        self.transport_summary_changed.emit(
+            "\n".join(sorted(connections))
+            if connections
+            else "No transport connections recorded."
+        )
+
+
+    def set_transport_erase_mode(self, enabled):
+        self.transport_erase_mode = enabled
+        self.transport_anchor = None
+
+        self.window().statusBar().showMessage(
+            "Erase mode: click both ends of a connection."
+            if enabled
+            else "Draw mode: click a starting hex."
+        )
+
+    def save_transport_connections(self):
+        data = {
+            "format" : "tsww-barbarossa-transport",
+            "version" : 1,
+            "connections" : [
+                {
+                    "source_key" : list(segment["source_key"]),
+                    "source_side" : segment["source_side"],
+                    "target_key" : list(segment["target_key"]),
+                    "target_side" : segment["target_side"],
+                    "type" : segment["type"],
+                }
+                for segment in self.transport_segments.values()
+            ],
+        }
+
+        temporary_path = self.transport_path.with_name(
+            self.transport_path.name + ".tmp"
+        )
+
+        try: 
+            temporary_path.write_text(
+                json.dumps(data, indent = 2, ensure_ascii = False),
+                encoding = "utf-8",
+            )
+            temporary_path.replace(self.transport_path)
+        finally: 
+            if temporary_path.exists():
+                temporary_path.unlink()
+
+    def canonical_transport_key(self, key):
+        """Give matching hex centers one transport key."""
+
+
+        key = tuple(key)
+        grid, campaign_x, campaign_y = (
+            self.transport_key_geometry(list(key))
+        )
+
+        candidates = [key]
+
+        for board_id, record in self.board_records.items():
+            origin_x, origin_y = record["origin"]
+            width, height = record["size"]
+
+            image_x = campaign_x - origin_x 
+            image_y = campaign_y - origin_y
+
+            if not (
+                0 <= image_x < width
+                and 0 <= image_y < height
+            ):
+                continue
+            for region in barbarossa_grids[board_id]["regions"]:
+                column, row, center_x, center_y = nearest_hex(
+                    region["grid"], image_x, image_y  
+                )
+
+                tolerance = min(
+                    grid["dx"],
+                    grid["dy"],
+                    region["grid"]["dx"],
+                    region["grid"]["dy"], 
+                ) * 0.05
+
+                distance = (
+                    (center_x - image_x ) ** 2 
+                    + (center_y - image_y) ** 2
+                ) ** 0.5
+
+                if distance > tolerance:
+                    continue
+
+                if not is_playable_hex(
+                    board_id, region["name"], column, row
+                ):
+                    continue
+
+                boundary = QPolygonF([
+                    QPointF(x,y)
+                    for x,y in region["boundary"]
+                ])
+
+                if not boundary.containsPoint(
+                    QPointF(center_x, center_y),
+                    Qt.FillRule.OddEvenFill,
+                ):
+                    continue 
+
+                candidates.append((
+                    board_id,
+                    region["name"],
+                    column,
+                    row
+                ))
+
+        #Deterministic choice, regardless of click position.
+        return min(candidates)
+
+    def normalize_transport_hex(self, record):
+        key = self.canonical_transport_key(record["key"])
+
+        grid, center_x, center_y = (
+            self.transport_key_geometry(list(key))
+        )
+
+        board_id, region_name, column, row = key
+
+        region = next(
+            entry
+            for entry in barbarossa_grids[board_id]["regions"]
+            if entry["name"] == region_name
+        )
+
+        number = printed_hex_number(region, column, row)
+
+        return {
+            "key" : key,
+            "grid" : grid,
+            "center" : (center_x, center_y),
+            "reference" : f"{region_name}:{number}",
+        }
+    
+
+    def transport_key_geometry(self, key):
+        if (
+            not isinstance(key, list)
+            or len(key) != 4
+            or not isinstance(key[0], str)
+            or not isinstance(key[1], str)
+            or type(key[2]) is not int
+            or type(key[3]) is not int
+        ):
+            raise ValueError("Invalid transport hex key.")
+
+        board_id, region_name, column, row = key
+
+        if board_id not in self.board_records:
+            raise ValueError(
+                f"Transport board is not loaded: {board_id}"
+            )
+
+        region = next(
+            (
+                entry 
+                for entry in barbarossa_grids[board_id]["regions"]
+                if entry["name"] == region_name
+            ),
+            None,
+        )
+
+        if region is None:
+            raise ValueError(
+                f"Unknown transport region: {region_name}"
+            )
+
+        if not is_playable_hex(
+            board_id, region_name, column, row 
+        ):
+            raise ValueError("Transport references an excluded hex.")
+
+        local_x, local_y = hex_center(
+            region["grid"], column, row 
+        )
+        origin_x, origin_y = self.board_records[board_id]["origin"]
+
+        return (
+            region["grid"],
+            origin_x + local_x,
+            origin_y + local_y,
+        )
+
+    def load_transport_connections(self):
+        if not self.transport_path.is_file():
+            return 
+
+        data = json.loads(
+            self.transport_path.read_text(encoding = "utf-8")
+        )
+
+        if (
+            not isinstance(data, dict)
+            or data.get("format") != "tsww-barbarossa-transport"
+            or data.get("version") != 1
+            or not isinstance(data.get("connections"), list)
+        ):
+            raise ValueError("Invalid transport file.")
+
+        #Validate everything before adding display items.
+        prepared = [] 
+        seen = set()
+
+        for record in data["connections"]:
+            if not isinstance(record, dict):
+                raise ValueError("Invalid transport connection.")
+
+            source_key = record.get("source_key")
+            target_key = record.get("target_key")
+            transport_type = record.get("type")
+            source_side = record.get("source_side")
+            target_side = record.get("target_side")
+
+            if (
+                type(source_side) is not int
+                or not 0 <= source_side < 6
+                or type(target_side) is not int
+                or not 0 <= target_side < 6 
+                or not isinstance(transport_type, str)
+            ):
+                raise ValueError("Invalid transport type or side.")
+
+            source_key = list(
+                self.canonical_transport_key(source_key)
+            )
+            target_key = list(
+                self.canonical_transport_key(target_key)
+            )
+
+
+            source_grid, sx, sy = self.transport_key_geometry(
+                source_key
+            )
+            target_grid, tx, ty = self.transport_key_geometry(
+                target_key
+            )
+
+            source_key = tuple(source_key)
+            target_key = tuple(target_key)
+
+            if source_key == target_key:
+                raise ValueError("Transport connects a hex to itself.")
+
+            #Recaculate sides using the normalized grids.
+            source_side, _, _ = nearest_hexside(
+                source_grid, sx, sy, tx, ty
+            )
+            target_side, _, _ = nearest_hexside(
+                target_grid, tx, ty, sx, sy
+            )
+
+
+
+            source_vertices = hex_vertices(source_grid, sx, sy)
+            target_vertices = hex_vertices(target_grid, tx, ty)
+
+            start = source_vertices[source_side]
+            end = source_vertices[(source_side + 1) % 6]
+            other_start = target_vertices[target_side]
+            other_end = target_vertices[(target_side + 1) % 6]
+
+            mx = (start[0] + end[0]) / 2
+            my = (start[1] + end[1]) / 2
+            other_mx = (other_start[0] + other_end[0]) / 2
+            other_my = (other_start[1] + other_end[1]) / 2 
+
+            tolerance = min(
+                source_grid["dx"], source_grid["dy"],
+                target_grid["dx"], target_grid["dy"],
+            ) * 0.05
+
+            if (
+                ((tx - (2 * mx - sx)) ** 2
+                 + (ty - (2 * my - sy)) ** 2) ** 0.5 > tolerance 
+                or ((mx - other_mx) ** 2 
+                    + (my - other_my) ** 2) ** 0.5 > tolerance  
+            ):
+                raise ValueError(
+                    "Saved transport hexes do not share an edge."
+                )
+
+            try:
+                pen = self.transport_pen(transport_type)
+            except KeyError:
+                raise ValueError(
+                    f"Unknown transport type: {transport_type}"
+                ) from None 
+
+            segment_key = (
+                transport_type,
+                tuple(sorted([source_key, target_key])),
+            )
+
+            if segment_key in seen:
+                # Alternate region keys can describe
+                # an already-loaded physical connection.
+                continue
+
+            seen.add(segment_key)
+
+            path = QPainterPath()
+            path.moveTo(sx, sy)
+            path.lineTo(
+                (mx + other_mx) / 2,
+                (my + other_my) / 2,
+            )
+            path.lineTo(tx, ty)
+
+            prepared.append((
+                segment_key,
+                {
+                    "source_key" : source_key,
+                    "source_side" : source_side,
+                    "target_key" : target_key,
+                    "target_side" : target_side,
+                    "type" : transport_type,
+                },
+                path,
+                pen,
+            ))
+
+        for segment_key, segment, path, pen in prepared:
+            item = self.map_scene.addPath(path, pen)
+            is_railway = (
+                "Railway" in segment["type"]
+                or "RR" in segment["type"]
+            )
+            item.setZValue(92 if is_railway else 90)
+            item.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
+
+            segment["item"] = item
+            self.transport_segments[segment_key] = segment
+
+    def draw_transport_to(self, point):
+        target = self.find_hex_at(point)
+
+        if target is None:
+            self.window().statusBar().showMessage(
+                "Choose a playable hex."
+            )
+            return 
+
+        target = self.normalize_transport_hex(target)
+
+        #First click: choose starting hex.
+        if self.transport_anchor is None:
+            self.transport_anchor = target
+            self.window().statusBar().showMessage(
+                f"Route starts at {target['reference']}"
+                " | Click a neighboring hex"
+            )
+            return 
+
+        source = self.transport_anchor 
+
+        if source["key"] == target["key"]:
+            return 
+
+        source_x, source_y = source["center"]
+        target_x, target_y = target["center"]
+
+        #Find the source edge facing the target. 
+        side, start, end = nearest_hexside(
+            source["grid"],
+            source_x,
+            source_y,
+            target_x, 
+            target_y
+        )
+
+        midpoint_x = (start[0] + end[0]) / 2
+        midpoint_y = (start[1] + end[1]) / 2
+
+        #Expected neighbor center across this edge.
+        expected_x = 2 * midpoint_x - source_x
+        expected_y = 2 * midpoint_y - source_y
+
+        tolerance = min(
+            source["grid"]["dx"],
+            source["grid"]["dy"],
+            target["grid"]["dx"],
+            target["grid"]["dy"],
+        ) * 0.05
+
+        center_error = (
+            (target_x - expected_x) ** 2 
+            + (target_y - expected_y) ** 2
+        ) ** 0.5
+
+        #Find the target edge facing the source 
+        opposite, other_start, other_end = nearest_hexside(
+            target["grid"],
+            target_x, 
+            target_y, 
+            source_x,
+            source_y
+        )
+
+        other_midpoint_x = (
+            other_start[0] + other_end[0]
+        ) / 2 
+        other_midpoint_y = (
+            other_start[1] + other_end[1]
+        ) / 2 
+
+        edge_error = (
+            (midpoint_x - other_midpoint_x) ** 2 
+            + (midpoint_y - other_midpoint_y) ** 2 
+        ) ** 0.5
+
+        if center_error > tolerance or edge_error > tolerance :
+            self.window().statusBar().showMessage(
+                "Choose an adjoining hex."
+                " | Toggle Draw Transport off and on"
+                " to start a separate route"
+            )
+            return 
+
+        #Same connection in either direction has the same key.
+        connection = tuple(sorted([
+            source["key"],
+            target["key"],
+        ]))
+
+        segment_key = (
+            self.transport_draw_type,
+            connection,
+        )
+
+        if self.transport_erase_mode:
+            segment = self.transport_segments.pop(
+                segment_key, None
+            )
+
+            if segment is None:
+                self.window().statusBar().showMessage(
+                    "No connection of the selected type"
+                    " between these hexes."
+                )
+                self.transport_anchor = None
+                return 
+
+            try:
+                self.save_transport_connections()
+            except (OSError, ValueError, TypeError) as error:
+                #Restore the record if saving failed.
+                self.transport_segments[segment_key] = segment
+                self.window().statusBar().showMessage(
+                    f"Connection was not erased: {error}"
+                )
+                return 
+
+            self.map_scene.removeItem(segment["item"])
+            self.transport_anchor = None 
+            self.refresh_transport_summary()
+
+            self.window().statusBar().showMessage(
+                f"Erased {self.transport_draw_type} connection"
+                " | Saved"
+            )
+            return 
+
+        if segment_key not in self.transport_segments:
+            crossing_x = (
+                midpoint_x + other_midpoint_x
+            ) / 2 
+            crossing_y = (
+                midpoint_y + other_midpoint_y
+            ) / 2 
+
+            path = QPainterPath()
+            path.moveTo(source_x, source_y)
+            path.lineTo(crossing_x, crossing_y)
+            path.lineTo(target_x, target_y)
+
+            pen = self.transport_pen(self.transport_draw_type)
+
+            item = self.map_scene.addPath(path, pen)
+
+            #Railways appear above the wider road lines.
+            is_railway = (
+                "Railway" in self.transport_draw_type
+                or "RR" in self.transport_draw_type
+            )
+            item.setZValue(92 if is_railway else 90)
+            item.setAcceptedMouseButtons(
+                Qt.MouseButton.NoButton
+            )
+
+            self.transport_segments[segment_key] = {
+                "source_key" : source["key"],
+                "source_side" : side,
+                "target_key" : target["key"],
+                "target_side" : opposite,
+                "type" : self.transport_draw_type,
+                "item" : item
+            }
+
+            try: 
+                self.save_transport_connections()
+            except (OSError, ValueError,  TypeError) as error:
+                self.transport_segments.pop(segment_key)
+                self.map_scene.removeItem(item)
+
+                self.window().statusBar().showMessage(
+                    f"Connection was not added: {error}"
+                )
+                return
+
+        #Next click extends the route from this hex.
+        self.transport_anchor = target
+
+        self.window().statusBar().showMessage(
+            f"{self.transport_draw_type}: "
+            f"{source['reference']} -> {target['reference']}"
+            " | Saved"
+        )
+
+        self.refresh_transport_summary()
+
+    def start_transport_branch(self):
+        if not self.transport_draw_mode:
+            return 
+
+        self.transport_anchor = None 
+
+        self.window().statusBar().showMessage(
+            "New branch | Click its starting hex,"
+            " then neighboring hexes"
+        )
+
+    def set_transport_draw_mode(self, enabled, transport_type):
+        self.transport_draw_mode = enabled
+        self.transport_draw_type = transport_type
+        self.transport_anchor = None 
+
+        if enabled:
+            self.set_edge_pick_mode(False)
+            message = (
+                f"{transport_type} drawing enabled"
+                " | Click a starting hex"
+            )
+        else:
+            message = "Transport drawing disabled"
+
+        self.window().statusBar().showMessage(message)
 
     def set_edge_pick_mode(self, enabled):
         self.edge_pick_mode = enabled
@@ -836,6 +1492,14 @@ class MapView(QGraphicsView):
                     region["grid"], image_x, image_y
                 )
 
+                if not is_playable_hex(
+                    board_id, region["name"], column, row
+                ): 
+                    self.window().statusBar().showMessage(
+                        "That position is outside the playable map."
+                    )
+                    return False
+
                 key = (board_id, region["name"], column, row)
                 number = printed_hex_number(region, column, row)
 
@@ -856,6 +1520,7 @@ class MapView(QGraphicsView):
                     }
 
                 self.selected_hex_key = key
+                self.refresh_transport_summary()
 
                 if self.edge_highlight is not None:
                     self.map_scene.removeItem(self.edge_highlight)
@@ -878,7 +1543,7 @@ class MapView(QGraphicsView):
                 )
                 return True
 
-            self.window().statusBar().showMessaage(
+            self.window().statusBar().showMessage(
                 f"{board_id} | No grid region at this position"
             )
             return False
@@ -886,6 +1551,11 @@ class MapView(QGraphicsView):
         return False 
 
     def keyPressEvent(self, event):
+        if event.key() == Qt.Key.Key_F8:
+            self.check_selected_hex_joins()
+            event.accept()
+            return
+        
         arrows = {
             Qt.Key.Key_Up,
             Qt.Key.Key_Down,
@@ -964,9 +1634,101 @@ class MapView(QGraphicsView):
         self.review_overlay_enabled = enabled
         self.viewport().update()
 
+    def set_transport_review_overlay(self, enabled):
+        self.transport_review_overlay_enabled = enabled
+        self.viewport().update()
+
+    def draw_transport_review(self, painter, rect):
+        if not self.transport_review_overlay_enabled:
+            return 
+
+        colors = {
+            "Unknown" : QColor(240, 70, 70, 65),
+            "In progress" : QColor(255, 185, 0, 85),
+            "Verified" : QColor(40, 210, 90, 85),
+        }
+
+        painter.save()
+        painter.setPen(Qt.PenStyle.NoPen)
+
+        #Unreviewed regions begin with a red background. 
+        painter.setBrush(colors["Unknown"])
+
+        for board_id, record in self.board_records.items():
+            origin_x, origin_y = record["origin"]
+
+            for region in barbarossa_grids[board_id]["regions"]:
+                polygon = QPolygonF([
+                    QPointF(origin_x + x, origin_y + y)
+                    for x,y in region["boundary"]
+                ])
+
+                if polygon.boundingRect().intersects(rect):
+                    painter.drawPolygon(polygon)
+        
+
+        for key, properties in self.map_definitions.items():
+            status = properties.get(
+                "transport_review_status", "Unknown"
+            )
+
+            if status not in ("In progress", "Verified"):
+                continue
+
+            board_id, region_name, column, row = key
+
+            if board_id not in self.board_records:
+                continue
+
+            if not is_playable_hex(
+                board_id, region_name, column, row
+            ):
+                continue 
+
+            region = next(
+                (
+                    entry
+                    for entry in barbarossa_grids[board_id]["regions"]
+                    if entry["name"] == region_name
+                ),
+                None,
+            )
+
+            if region is None:
+                continue 
+
+            local_x, local_y = hex_center(
+                region["grid"], column, row
+            )
+            origin_x, origin_y = (
+                self.board_records[board_id]["origin"]
+            )
+
+            polygon = QPolygonF([
+                QPointF(x,y)
+                for x,y in hex_vertices(
+                    region["grid"],
+                    origin_x + local_x,
+                    origin_y + local_y
+                )
+            ])
+
+            if polygon.boundingRect().intersects(rect):
+                painter.setBrush(colors[status])
+                painter.drawPolygon(polygon)
+
+        painter.restore()
+
     def drawForeground(self, painter, rect):
+
+
         super().drawForeground(painter, rect)
 
+
+        if self.transport_review_overlay_enabled:
+            self.draw_transport_review(painter, rect)
+            return 
+        
         if not self.review_overlay_enabled:
             return
 
@@ -1042,3 +1804,182 @@ class MapView(QGraphicsView):
                 painter.drawPolygon(polygon)
 
         painter.restore()
+
+    def find_hex_at(self, point): 
+        """Look up a hex without selecting or modifying it."""
+
+
+        for board_id, record in self.board_records.items():
+            origin_x, origin_y = record["origin"]
+            width, height = record["size"]
+
+            image_x = point.x() - origin_x 
+            image_y = point.y() - origin_y
+
+            if not (0 <= image_x < width and 0 <= image_y < height):
+                continue
+
+            for region in barbarossa_grids[board_id]["regions"]:
+                boundary = QPolygonF([
+                    QPointF(x,y)
+                    for x,y in region["boundary"]
+                ])
+
+                if not boundary.containsPoint(
+                    QPointF(image_x, image_y),
+                    Qt.FillRule.OddEvenFill,
+                ):
+                    continue
+
+                column, row, local_x, local_y = nearest_hex(
+                    region["grid"], image_x, image_y
+                )
+
+                if not is_playable_hex(
+                    board_id, region["name"], column, row
+                ):
+                    continue
+
+                return {
+                    "key" : (board_id, region["name"], column, row),
+                    "reference" : (
+                        f"{region['name']}:"
+                        f"{printed_hex_number(region, column, row)}"
+                    ),
+                    "grid" : region["grid"],
+                    "center" : (
+                        origin_x + local_x, 
+                        origin_y + local_y
+                    ),
+                }
+        return None 
+
+    def check_selected_hex_joins(self):
+        if self.selected_hex_key is None:
+            self.window().statusBar().showMessage(
+                "Select a hex first."
+            )
+            return 
+
+        for item in self.join_markers:
+            self.map_scene.removeItem(item)
+
+        self.join_markers = [] 
+
+        board_id, region_name, column, row = self.selected_hex_key
+
+        region = next(
+            region 
+            for region in barbarossa_grids[board_id]["regions"]
+            if region["name"] == region_name
+        )
+
+        grid = region["grid"]
+        origin_x, origin_y = self.board_records[board_id]["origin"]
+
+        local_x, local_y = hex_center(grid, column, row)
+        center_x = origin_x + local_x 
+        center_y = origin_y + local_y
+
+        vertices = hex_vertices(grid, center_x, center_y)
+
+        #Allow small differences in the original grid calibrations.
+        tolerance = min(grid["dx"], grid["dy"]) * 0.05
+
+
+        reference = printed_hex_number(region, column, row)
+        print(
+            f"\n Join check: {board_id} {region_name} : {reference}",
+            flush = True
+        )
+
+        warnings = 0
+
+        for side in range(6):
+            start = vertices[side]
+            end = vertices[(side + 1) % 6]
+
+            expected_x = start[0] + end[0] - center_x
+            expected_y = start[1] + end[1] - center_y
+
+            neighbor = self.find_hex_at(
+                QPointF(expected_x, expected_y)
+            )
+
+            if neighbor is None:
+                print(f"Side {side}: no mapped neighbor", flush = True)
+                continue
+
+            neighbor_x, neighbor_y = neighbor["center"]
+
+            center_error = (
+                (neighbor_x - expected_x) ** 2 
+                + (neighbor_y - expected_y) ** 2
+            ) ** 0.5
+
+            #Find the neighbor edge facing the selected hex.
+            opposite, other_start, other_end = nearest_hexside(
+                neighbor["grid"],
+                neighbor_x,
+                neighbor_y,
+                center_x,
+                center_y,
+            )
+
+            edge_error = (
+                (
+                    (start[0] + end[0]) / 2
+                    - (other_start[0] + other_end[0]) / 2
+                ) ** 2
+                + (
+                    (start[1] + end[1]) / 2 
+                    - (other_start[1] + other_end[1]) / 2
+                ) ** 2
+            ) ** 0.5
+
+            okay = (
+                neighbor["key"] != self.selected_hex_key
+                and center_error <= tolerance
+                and edge_error <= tolerance
+            )
+
+            if not okay:
+                warnings += 1
+
+            color = (
+                Qt.GlobalColor.green
+                if okay 
+                else Qt.GlobalColor.red
+            )
+
+            marker = self.map_scene.addEllipse(
+                neighbor_x - 10,
+                neighbor_y - 10,
+                20,
+                20,
+                QPen(color),
+                QBrush(color),
+            )
+            marker.setZValue(102)
+            marker.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
+            self.join_markers.append(marker)
+
+            crossing = (
+                " [board/region join]"
+                if neighbor["key"][:2] != self.selected_hex_key[:2]
+                else ""
+            )
+
+            print(
+                f"Side {side} -> {neighbor['key'][0]} "
+                f"{neighbor['reference']} / side {opposite}"
+                f" | center error {center_error:.2f}px"
+                f" | edge error {edge_error:.2f}px"
+                f" | {'OK' if okay else 'CHECK'}{crossing}",
+                flush = True,
+            )
+
+            self.window().statusBar().showMessage(
+                f"Join check: {warnings} alignment warnigns"
+                " | Details in terminal"
+            )

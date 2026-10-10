@@ -186,6 +186,155 @@ def nearest_hexside(grid, center_x, center_y, click_x, click_y):
 
     return best
 
+#limits use our internal column and row values.
+#Each board/region can have different limits for even and odd columns.
+#Any limit that is omitted remains unrestricted
+playable_limits = {
+    ("Map 3", "FB-SH") : {
+        "even" : {"max_row" : 72},
+        "odd" : {"max_row" : 71}
+    },
+    ("Map 6", "FB-SH"): {
+        "even" : {"max_row" : 72}, 
+        "odd" : {"max_row" : 71}, 
+    },
+}
+
+playable_exclusions = {
+    ("Map 8", "BK-SH"): {
+        "columns" : {6},
+    },
+    ("Map 8", "BK-TH"): {
+        "columns" : {6},
+    },
+    ("Map 8", "HP-C"): {
+        "rows" : {6},
+    },
+    ("Map 2", "BK-TJ"): {
+     "columns" : {44}
+    },
+    ("Map 5", "BK-SI"): {
+     "columns" : {6}
+    },
+    ("Map 5", "BK-TJ"): {
+        "hexes" : {(6,6)}
+    },
+    ("Map 8", "HP-C"): {
+        "columns" : {6}
+    },
+    ("Map 2", "FB-QH"): {
+        "columns" : {46}
+    }
+}
+
+def is_playable_hex(board_id, region_name, column, row):
+    """Check the calibrated playable limits for this grid."""
+
+    if (
+        board_id == "Map 12"
+        and region_name == "MN-SD"
+        and row == 73
+        and column % 2 == 0 
+    ): 
+        return False
+
+    if (
+        board_id == "Map 2"
+        and region_name == "HP-ZF"
+        and row == 84
+        and column % 2 != 0 
+    ):
+        return False
+
+    if (
+        board_id == "Map 12"
+        and region_name == "FB-SE"
+        and row == 73 
+        and column % 2 == 0 
+    ): 
+        return False 
+
+    if (
+        board_id == "Map 11"
+        and region_name == "MN-OE"
+        and row < 34
+    ):
+        return False
+
+    if (
+        board_id == "Map 11"
+        and region_name == "MN-OE"
+        and row == 34
+        and column % 2 == 0
+    ):
+        return False 
+
+    if (
+        board_id == "Map 8"
+        and region_name == "FB-OF"
+        and row == 34 
+        and column % 2 == 0 
+    ):
+        return False
+
+    if (
+        board_id == "Map 11" 
+        and region_name == "MN-OD"
+        and row < 34
+    ):
+        return False
+
+    if (
+        board_id == "Map 11" 
+        and region_name == "MN-OD" 
+        and row == 34
+        and column % 2 == 0
+    ):
+        return False 
+    
+    if (
+        board_id == "Map 6"
+        and region_name == "FB-SG"
+        and row == 73 
+        and column % 2 == 1
+    ):
+        return False
+
+    
+    exclusions = playable_exclusions.get(
+        (board_id, region_name), {}
+    )
+
+    if (column, row) in exclusions.get("hexes", set()): 
+        return False
+
+    if column in exclusions.get("columns", set()):
+        return False
+
+    if row in exclusions.get("rows", set()):
+        return False 
+    
+    region_limits = playable_limits.get(
+        (board_id, region_name), {}
+    ) 
+
+    parity = "odd" if column % 2 else "even"
+
+    limits = region_limits.get(parity, {})
+
+    if "min_column" in limits and column < limits["min_column"]:
+        return False
+
+    if "max_column" in limits and column > limits["max_column"]:
+        return False
+
+    if "min_row" in limits and row < limits["min_row"]:
+        return False
+
+    if "max_row" in limits and row > limits["max_row"]:
+        return False
+
+    return True
 
 if __name__ == "__main__":
     from campaign_grid_definitions import barbarossa_grids

@@ -49,6 +49,14 @@ class MainWindow(QMainWindow):
 
         self.terrain_editor.applied.connect(self.apply_terrain)
 
+        self.terrain_editor.transport_branch_requested.connect(
+            self.map_view.start_transport_branch
+        )
+
+        self.terrain_editor.transport_mode_changed.connect(
+            self.map_view.set_transport_draw_mode
+        )
+
         self.terrain_editor.edge_mode_changed.connect(
             self.map_view.set_edge_pick_mode
         )
@@ -56,6 +64,19 @@ class MainWindow(QMainWindow):
         self.map_view.edge_selected.connect(
             self.terrain_editor.focus_hexside
         )
+
+        self.map_view.transport_summary_changed.connect(
+            self.terrain_editor.show_transport_connections
+        )
+
+        self.map_view.hex_selected.connect(
+            self.map_view.refresh_transport_summary
+        )
+
+        self.terrain_editor.transport_erase_changed.connect(
+            self.map_view.set_transport_erase_mode
+        )
+
         self.terrain_storage_ready = True
 
         try: 
@@ -116,6 +137,15 @@ class MainWindow(QMainWindow):
         load_save_action = QAction("Load Campaign Save...", self)
         load_save_action.triggered.connect(self.load_campaign_save)
         file_menu.addAction(load_save_action)
+
+        transport_overlay_action = QAction(
+            "Transport Review Overlay", self
+        )
+        transport_overlay_action.setCheckable(True)
+        transport_overlay_action.toggled.connect(
+            self.map_view.set_transport_review_overlay
+        )
+        view_menu.addAction(transport_overlay_action)
 
     def open_map(self):
         filename, _ = QFileDialog.getOpenFileName(

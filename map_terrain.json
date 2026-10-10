@@ -113,6 +113,638 @@
         "surface": "Unknown",
         "terrain": null
       }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        74,
+        14
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Present",
+          "facilities": "Present",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "In progress"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        12
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Unknown"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        12
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        15
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        14
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        12
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        70,
+        14
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        71,
+        13
+      ],
+      "properties": {
+        "hexsides": {
+          "0": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "1": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "2": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "3": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "4": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          },
+          "5": {
+            "border": "Unknown",
+            "coastal_cliff": "Unknown",
+            "escarpment": "Unknown",
+            "fortification": "Unknown",
+            "high_mountain": "Unknown",
+            "navigation": "Unknown",
+            "waterway": "Unknown"
+          }
+        },
+        "port": {
+          "anchorage": "Unknown",
+          "facilities": "Unknown",
+          "name": "",
+          "naval_base_type": null,
+          "shipbuilding_capacity": null,
+          "type": "Unknown"
+        },
+        "review_status": "Unknown",
+        "settlement": null,
+        "surface": "Unknown",
+        "terrain": null,
+        "transport_review_status": "Verified"
+      }
     }
   ]
 }
