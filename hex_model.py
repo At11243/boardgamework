@@ -224,6 +224,15 @@ playable_exclusions = {
     },
     ("Map 2", "FB-QH"): {
         "columns" : {46}
+    },
+    ("Map 3", "FB-RH") :{
+        "columns" : {46}
+    },
+    ("Map 3", "FB-SH") :{
+        "columns" : {46}
+    },
+    ("Map 3", "FB-QH") :{
+        "columns" : {46}
     }
 }
 

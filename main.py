@@ -1,5 +1,8 @@
 import sys
 from pathlib import Path
+from datetime import datetime
+from tempfile import NamedTemporaryFile
+from zipfile import ZipFile, ZIP_DEFLATED
 
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QAction, QKeySequence
@@ -14,6 +17,7 @@ from PySide6.QtWidgets import (
 from terrain_editor import TerrainEditor
 from map_view import MapView
 from campaign_layout import barbarossa_boards
+from counter_browser import CounterBrowser
 
 project_dir = Path(__file__).resolve().parent
 maps_dir = project_dir / "assets" / "maps"
@@ -90,12 +94,75 @@ class MainWindow(QMainWindow):
             )
         self.board_records = {}
 
+        self.map_view.terrain_brush_path = self.terrain_path 
+
+        self.terrain_editor.terrain_brush_changed.connect(
+            self.change_terrain_brush
+        )
+        self.terrain_editor.terrain_brush_undo_requested.connect(
+            self.map_view.undo_terrain_brush
+        )
+
+        self.counter_browser = CounterBrowser(project_dir, self)
+
+        self.counter_dock = QDockWidget("Counters", self)
+        self.counter_dock.setWidget(self.counter_browser)
+
+        self.addDockWidget(
+            Qt.DockWidgetArea.LeftDockWidgetArea,
+            self.counter_dock
+        )
+
+        self.counter_browser.place_requested.connect(
+            self.place_counter
+        )
+
+        try:
+            self.counter_browser.load_catalog(
+                project_dir
+                / "assets"
+                / "counters"
+                / "counter_catalog.json"
+            )
+        except (OSError, ValueError, KeyError, TypeError) as error:
+            QMessageBox.warning(
+                self,
+                "Counter Catalog Loading Failed",
+                str(error),
+            )
+
         self.create_menus()
         self.statusBar().setVisible(True)
         self.statusBar().showMessage("Status bar ready- click the map")
 
+    def change_terrain_brush(self, enabled, properties): 
+        if enabled and not self.terrain_storage_ready:
+            self.terrain_editor.brush_button.setChecked(False)
+            QMessageBox.warning(
+                self,
+                "Terrain brush unavailable",
+                "Resolve the terrain loading error before painting."
+            )
+            return 
+
+        self.map_view.set_terrain_brush(enabled, properties)
+
+    def place_counter(self, counter):
+        try:
+            self.map_view.place_counter(counter)
+        except (OSError, ValueError, KeyError) as error:
+            QMessageBox.warning(
+                self,
+                "Counter Placement Failed",
+                str(error)
+            )
+
     def create_menus(self):
         file_menu = self.menuBar().addMenu("File")
+        backup_action = QAction("Export Mapping Backup...", self)
+        backup_action.triggered.connect(self.export_mapping_backup)
+        file_menu.addAction(backup_action)
+        file_menu.addSeparator()
 
         open_action = QAction("Open Map...", self)
         open_action.setShortcut(QKeySequence.StandardKey.Open)
@@ -109,6 +176,14 @@ class MainWindow(QMainWindow):
 
 
         view_menu = self.menuBar().addMenu("View")
+
+        audit_action = QAction("Audit Shared Hexsides...", self)
+        audit_action.triggered.connect(
+            self.map_view.audit_mapping_edges
+        )
+
+        view_menu.addAction(audit_action)
+        view_menu.addSeparator()
 
         fit_action = QAction("Fit Map to Window", self)
         fit_action.setShortcut("F")
@@ -300,6 +375,123 @@ class MainWindow(QMainWindow):
             f"Saved map information for {reference}"
         )
 
+    def export_mapping_backup(self):
+        print("Backup export clicked", flush = True)
+        if self.map_view.brush_before is not None:
+            QMessageBox.information(
+                self,
+                "Finish Painting",
+                "Release the mouse to save the brush stroke "
+                "before exporting.",
+            )
+            return 
+
+        source_paths = [
+            self.terrain_path,
+            self.map_view.transport_path,
+            project_dir / "campaign_grid_definitions.py",
+            project_dir / "campaign_layout.py",
+        ]
+
+        if not self.terrain_path.is_file():
+            QMessageBox.information(
+                self, 
+                "No saved terrain",
+                "Save some terrain information before exporting.",
+            )
+            return 
+
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-S")
+
+        filename, _ = QFileDialog.getSaveFileName(
+            self, 
+            "Export saved mapping information",
+            str(project_dir / f"barbarossa_mapping_{timestamp}.zip"),
+            "Mapping backups (*.zip)",
+        )
+
+        if not filename:
+            return
+
+        destination = Path(filename)
+
+        if destination.suffix.lower() != ".zip":
+            destionation = Path(str(destionation) + ".zip")
+
+        temporary_path = None
+
+        try:
+            #Read saved files without changing the working data. 
+            contents = {
+                path.name : path.read_bytes()
+                for path in source_paths 
+                if path.is_file()
+            }
+
+            missing = [
+                path.name
+                for path in source_paths 
+                if not path.is_file() 
+            ]
+
+            notes = (
+                "TSWW Barbarossa mapping backup\n"
+                f"Created {datetime.now().astimezone().isoformat()}\n\n"
+                "Contains saved mapping data and grid definitions.\n"
+                "Map images and campaign game saves are separate.\n\n"
+                "Included:\n"
+                + "\n".join(contents)
+                + "\n\nMissing files:\n"
+                + ("\n".join(missing) if missing else "None")
+                + "\n"
+            )
+
+            #Create the complete archive before replacing the destionation.
+            with NamedTemporaryFile(
+                dir = destination.parent,
+                prefix = "barbarossa_backup_",
+                suffix = ".tmp",
+                delete = False ,
+            ) as temporary:
+                temporary_path = Path(temporary.name)
+
+            with ZipFile(
+                temporary_path, "w", compression = ZIP_DEFLATED
+            ) as archive:
+                for name, content in contents.items():
+                    archive.writestr(name, content)
+
+                archive.writestr("BACKUP_README.txt", notes)
+
+            with ZipFile(temporary_path, "r") as archive:
+                bad_file = archive.testzip()
+
+                if bad_file is not None:
+                    raise ValueError(
+                        f"Backup verification failed: {bad_file}"
+                    )
+
+            temporary_path.replace(destination)
+
+        except (OSError, ValueError) as error:
+            QMessageBox.critical(
+                self, 
+                "Backup Export Failed",
+                str(error)
+            )
+            return
+
+        finally:
+            if temporary_path is not None:
+                if temporary_path.exists():
+                    temporary_path.unlink()
+
+        self.statusBar().showMessage(
+            f"Mapping backup exported: {destination.name}"
+        )
+
+
+        
 def main():
     app = QApplication(sys.argv)
 

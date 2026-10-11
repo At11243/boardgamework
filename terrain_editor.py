@@ -10,6 +10,12 @@ from PySide6.QtWidgets import (
     QScrollArea,
     QGroupBox,
 )
+from PySide6.QtGui import QShortcut, QKeySequence
+from mapping_fields import (
+    hex_options,
+    hex_text_fields,
+    side_options,
+)
 
 terrain_types = [
     "Clear",
@@ -35,6 +41,7 @@ terrain_types = [
     "Lava Flow",
     "Salt Lake",
     "Lake/Sea",
+    "Intensive Lakes",
 ]
 
 settlement_types = [
@@ -90,6 +97,8 @@ class TerrainEditor(QWidget):
     transport_mode_changed = Signal(bool, str)
     transport_branch_requested = Signal()
     transport_erase_changed = Signal(bool)
+    terrain_brush_changed = Signal(bool, dict)
+    terrain_brush_undo_requested = Signal()
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -104,13 +113,89 @@ class TerrainEditor(QWidget):
         self.developer_mode = QCheckBox("Developer Mode")
         layout.addWidget(self.developer_mode)
 
+        self.verify_button = QPushButton("verify & Save (F6)")
+        self.verify_button.clicked.connect(self.verify_and_save)
+        layout.addWidget(self.verify_button)
+
+        self.verify_shortcut = QShortcut(
+            QKeySequence("F6"), self
+        )
+        self.verify_shortcut.activated.connect(
+            self.verify_and_save
+        )
+
+        self.verify_transport_button = QPushButton(
+            "Verify Transport & Save (F7)"
+        )
+        self.verify_transport_button.clicked.connect(
+            self.verify_transport_and_save
+        )
+        layout.addWidget(self.verify_transport_button)
+
+        self.verify_transport_shortcut = QShortcut(
+            QKeySequence("F7"), self
+        )
+        self.verify_transport_shortcut.activated.connect(
+            self.verify_transport_and_save
+        )
+
+        self.brush_group = QGroupBox("Terrain Brush")
+        brush_layout = QVBoxLayout(self.brush_group)
+
+        brush_layout.addWidget(QLabel("Terrain to paint"))
+
+        self.brush_terrain = QComboBox()
+        self.brush_terrain.addItems(terrain_types)
+        self.brush_terrain.setCurrentText("Lake/Sea")
+        brush_layout.addWidget(self.brush_terrain)
+
+        brush_layout.addWidget(QLabel("Surface to paint"))
+
+        self.brush_surface = QComboBox()
+        self.brush_surface.addItems([
+            "Land",
+            "Water",
+            "Mixed land/waters",
+        ])
+        self.brush_surface.setCurrentText("Water")
+        brush_layout.addWidget(self.brush_surface)
+
+        self.brush_button = QPushButton("Paint & Verify Terrain")
+        self.brush_button.setCheckable(True)
+        brush_layout.addWidget(self.brush_button)
+
+        self.brush_undo_button = QPushButton("Undo Last Stroke")
+        brush_layout.addWidget(self.brush_undo_button)
+
+        brush_layout.addWidget(QLabel(
+            "Painted hexes receive these terrain values"
+            "and general review status Verified."
+        ))
+
+        layout.addWidget(self.brush_group)
+
+        self.brush_button.toggled.connect(
+            self.change_terrain_brush
+        )
+        self.brush_terrain.currentTextChanged.connect(
+            self.refresh_terrain_brush
+        )
+        self.brush_surface.currentTextChanged.connect(
+            self.refresh_terrain_brush
+        )
+        self.brush_undo_button.clicked.connect(
+            self.request_terrain_brush_undo 
+        )
+
+
+
         self.fields = QWidget()
         fields_layout = QVBoxLayout(self.fields)
 
         self.edge_button = QPushButton("Pick Hex Edge")
         self.edge_button.setCheckable(True)
         self.edge_button.toggled.connect(
-            self.edge_mode_changed.emit
+            self.change_edge_mode
         )
         fields_layout.addWidget(self.edge_button)
 
@@ -270,6 +355,33 @@ class TerrainEditor(QWidget):
 
         fields_layout.addWidget(port_group)
 
+        extra_group = QGroupBox("Additional Map Information")
+        extra_layout = QVBoxLayout(extra_group)
+
+        self.extra_hex_controls = {} 
+
+        for field, (label, options) in hex_options.items():
+            extra_layout.addWidget(QLabel(label))
+
+            control = QComboBox()
+            control.addItems(options)
+            self.extra_hex_controls[field] = control
+
+            extra_layout.addWidget(control)
+
+        self.extra_text_controls = {}
+
+        for field, label in hex_text_fields.items():
+            extra_layout.addWidget(QLabel(label))
+
+            control = QLineEdit()
+            control.setPlaceholderText("Blank = not recorded")
+            self.extra_text_controls[field] = control 
+
+            extra_layout.addWidget(control)
+
+        fields_layout.addWidget(extra_group)
+
 
         self.side_help = QLabel()
         self.side_help.setWordWrap(True)
@@ -333,6 +445,15 @@ class TerrainEditor(QWidget):
                 "high_mountain" : high_mountain, 
             }
 
+            for field, (label, options) in side_options.items():
+                side_layout.addWidget(QLabel(label))
+
+                control = QComboBox()
+                control.addItems(options)
+
+                self.hexside_controls[str(side)][field] = control
+                side_layout.addWidget(control)
+            
             fields_layout.addWidget(group)
 
         fields_layout.addWidget(QLabel("Review Status"))
@@ -365,10 +486,18 @@ class TerrainEditor(QWidget):
     def change_transport_mode(self, enabled):
         if enabled:
             self.edge_button.setChecked(False)
+            self.brush_button.setChecked(False)
 
         self.transport_mode_changed.emit(
             enabled, self.transport_type.currentText()
         )
+
+    def change_edge_mode(self, enabled):
+        if enabled:
+            self.brush_button.setChecked(False)
+            self.transport_button.setChecked(False)
+
+        self.edge_mode_changed.emit(enabled)
 
     def change_transport_type(self, transport_type):
         self.transport_mode_changed.emit(
@@ -383,14 +512,55 @@ class TerrainEditor(QWidget):
     def show_transport_connections(self, text):
         self.transport_summary.setText(text)
 
+    def terrain_brush_values(self):
+        return {
+            "terrain" : [self.brush_terrain.currentText()],
+            "surface" : self.brush_surface.currentText(),
+            "review_status" : "Verified",
+        }
+
+    def change_terrain_brush(self, enabled):
+        if enabled:
+            self.edge_button.setChecked(False)
+            self.transport_button.setChecked(False)
+
+        self.terrain_brush_changed.emit(
+            enabled,
+            self.terrain_brush_values(),
+        )
+
+    def refresh_terrain_brush(self, *_):
+        if self.brush_button.isChecked():
+            self.terrain_brush_changed.emit(
+                True,
+                self.terrain_brush_values(),
+            )
+
+    def request_terrain_brush_undo(self):
+        self.terrain_brush_undo_requested.emit()
+
     def update_enabled(self):
         self.fields.setEnabled(
+            self.has_selection and self.developer_mode.isChecked()
+        )
+
+        self.verify_button.setEnabled(
+            self.has_selection and self.developer_mode.isChecked()
+        )
+
+        self.verify_transport_button.setEnabled(
             self.has_selection and self.developer_mode.isChecked()
         )
 
         if not self.fields.isEnabled():
             self.edge_button.setChecked(False)
             self.transport_button.setChecked(False)
+
+        developer_enabled = self.developer_mode.isChecked()
+        self.brush_group.setEnabled(developer_enabled)
+
+        if not developer_enabled:
+            self.brush_button.setChecked(False)
 
     def show_hex(self, reference, properties):
         self.has_selection = bool(reference)
@@ -468,6 +638,16 @@ class TerrainEditor(QWidget):
             "Directions refer to the map as displayed."
         )
 
+        for field, control in self.extra_hex_controls.items():
+            control.setCurrentText(
+                properties.get(field, "Unknown")
+            )
+
+        for field, control in self.extra_text_controls.items():
+            control.setText(
+                properties.get(field, "")
+            )
+
         hexsides = properties.get("hexsides") or {}
 
         for side, controls in self.hexside_controls.items():
@@ -498,11 +678,37 @@ class TerrainEditor(QWidget):
                 values.get("high_mountain", "Unknown")
             )
 
+            for field in side_options:
+                controls[field].setCurrentText(
+                    values.get(field, "Unknown")
+                )
+        
+
         self.transport_review_status.setCurrentText(
             properties.get("transport_review_status", "Unknown")
         )
 
         self.update_enabled()
+
+    def verify_and_save(self):
+        if (
+            not self.has_selection
+            or not self.developer_mode.isChecked()
+        ):
+            return 
+
+        self.review_status.setCurrentText("Verified")
+        self.apply_values()
+
+    def verify_transport_and_save(self):
+        if (
+            not self.has_selection
+            or not self.developer_mode.isChecked()
+        ):
+            return 
+
+        self.transport_review_status.setCurrentText("Verified")
+        self.apply_values()
 
     def apply_values(self):
         terrain = [
@@ -552,7 +758,23 @@ class TerrainEditor(QWidget):
             for side, controls in self.hexside_controls.items()
         }
 
+        for side, controls in self.hexside_controls.items():
+            for field in side_options:
+                hexsides[side][field] = (
+                    controls[field].currentText()
+                )
+        extra_values = {
+            field:  control.currentText()
+            for field, control in self.extra_hex_controls.items()
+        }
+
+        extra_values.update({
+            field: control.text().strip()
+            for field, control in self.extra_text_controls.items()
+        })
+
         self.applied.emit({
+            **extra_values, 
             "surface" : self.surface_type.currentText(),
             "terrain" : terrain or None,
             "settlement" : settlement, 

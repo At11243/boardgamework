@@ -14,7 +14,12 @@ from PySide6.QtGui import (
     QColor,
     QPainterPath,
 )
-from PySide6.QtWidgets import QGraphicsScene, QGraphicsView, QApplication
+from PySide6.QtWidgets import (
+    QGraphicsScene, 
+    QGraphicsView, 
+    QApplication,
+    QMessageBox 
+)
 from campaign_layout import barbarossa_boards
 
 from campaign_grid_definitions import barbarossa_grids
@@ -26,6 +31,15 @@ from hex_model import (
     hex_vertices,
     is_playable_hex,
 )
+
+from mapping_support import(
+    merge_records,
+    normalize_campaign,
+    synchronize_sides,
+    audit_sides,
+)
+from mapping_fields import validate_extra_fields
+from uuid import uuid4
 
 class MapView(QGraphicsView):
     hex_selected = Signal(str, dict)
@@ -45,9 +59,18 @@ class MapView(QGraphicsView):
         self.debug_marker = None
         self.press_position = None
         self.drag_started = False
-        self.hexes = {} 
+        self.hexes = {} # Store hex information
+        self.units = {} #Store unit information
+        self.unit_items = {} #Store graphic objects separately from units
         self.selected_hex_key = None 
         self.map_definitions = {}
+        self.excluded_map_definitions = {}
+        self.terrain_brush_enabled = False 
+        self.terrain_brush_properties = {}
+        self.terrain_brush_path = None 
+        self.brush_before = None 
+        self.brush_touched = set()
+        self.brush_undo = None 
         self.edge_pick_mode = False
         self.edge_highlight = None
         self.review_overlay_enabled = False
@@ -58,6 +81,7 @@ class MapView(QGraphicsView):
         self.transport_draw_type = "Tarmac Road"
         self.transport_anchor = None 
         self.transport_segments = {} 
+        self.excluded_transport_connections = []
         self.transport_erase_mode = False 
 
         self.transport_path = Path(__file__).resolve().with_name(
@@ -117,6 +141,8 @@ class MapView(QGraphicsView):
         self.map_scene.clear()
         self.board_records = {}
         self.hexes = {} 
+        self.units = {} 
+        self.unit_items = {}
         self.selected_hex_key = None 
         self.map_item = self.map_scene.addPixmap(pixmap)
 
@@ -216,6 +242,8 @@ class MapView(QGraphicsView):
         self.original_size = None
         self.board_records = {}
         self.hexes = {} 
+        self.units = {}
+        self.unit_items = {}
         self.selected_hex_key = None 
 
         QImageReader.setAllocationLimit(1024)
@@ -314,6 +342,74 @@ class MapView(QGraphicsView):
         self.load_transport_connections()
 
         return len(self.board_records)
+
+    def place_counter(self, counter):
+        if (
+            not self.board_records
+            or self.selected_hex_key is None
+        ):
+            raise ValueError(
+                "Load the campaign and select a hex first."
+            )
+
+        if self.terrain_brush_enabled or self.transport_draw_mode:
+            raise ValueError(
+                "Turn off terrain painting and transport drawing "
+                "before placing counters."
+            )
+
+        key = self.canonical_hex_key(self.selected_hex_key)
+
+        project_dir = Path(__file__).resolve().parent
+        image_path = project_dir / counter["image_path"]
+
+        pixmap = QPixmap(str(image_path))
+
+        if pixmap.isNull():
+            raise ValueError(
+                f"Cannot load counter image:\n{image_path}"
+            )
+
+        grid, center_x, center_y = self.hex_key_geometry(key)
+
+        unit_id = uuid4().hex
+
+        #Store ordinary data separately from the graphics item.
+        self.units[unit_id] = {
+            "unit_id": unit_id,
+            "type_id": counter["type_id"],
+            "name": counter["name"],
+            "image_path": counter["image_path"],
+            "hex_key": key,
+        }
+
+        item = self.map_scene.addPixmap(pixmap)
+
+        item.setOffset(
+            -pixmap.width() / 2,
+            -pixmap.height() / 2,
+        )
+
+        #Display width in original campaign-image pixels.
+        item.setScale(80 / pixmap.width())
+        item.setPos(center_x, center_y)
+        item.setZValue(200)
+
+        item.setTransformationMode(
+            Qt.TransformationMode.SmoothTransformation
+        )
+
+        #Keep ordinary map selection working beneath the counter.
+        item.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
+
+        self.unit_items[unit_id] = item
+
+        self.window().statusBar().showMessage(
+            f"Placed {counter['name']} on "
+            f"{self.hexes[self.selected_hex_key]['game_reference']}"
+        )
+
+        return unit_id
     
     def save_campaign(self, path):
         if not self.board_records:
@@ -461,6 +557,10 @@ class MapView(QGraphicsView):
 
             restored_hexes[key] = restored
 
+        restored_hexes = normalize_campaign(
+            self, restored_hexes
+        )
+        
         #All hex records have now been restored.
         saved_selection = data.get("selected_hex_key")
         selected_key = None
@@ -476,7 +576,9 @@ class MapView(QGraphicsView):
                 ):
                     raise ValueError("Invalid selected hex key.")
 
-            selected_key = tuple(saved_selection)
+            selected_key = self.canonical_hex_key(
+                saved_selection
+            )
 
             if selected_key not in restored_hexes:
                 raise ValueError(
@@ -614,7 +716,170 @@ class MapView(QGraphicsView):
          
         self.select_campaign_point(point)
 
+    def set_terrain_brush(self, enabled, properties):
+        self.terrain_brush_enabled = enabled
+        self.terrain_brush_properties = {
+            "terrain" : list(properties["terrain"]),
+            "surface" : properties["surface"],
+            "review_status" : "Verified",
+        }
+
+        self.setDragMode(
+            QGraphicsView.DragMode.NoDrag 
+            if enabled 
+            else QGraphicsView.DragMode.ScrollHandDrag 
+        )
+
+        self.window().statusBar().showMessage(
+            "Terrain brush : drag to paint; release to save."
+            if enabled
+            else "Terrain brush off."
+        )
+
+    def paint_terrain_point(self, point):
+        record = self.find_hex_at(point)
+
+        if record is None:
+            return 
+
+        key = self.canonical_hex_key(record["key"])
+
+        if key in self.brush_touched: 
+            return 
+
+        self.brush_touched.add(key)
+
+        updated = self.map_definitions.get(key, {}).copy()
+        updated.update(self.terrain_brush_properties)
+        self.map_definitions[key] = updated
+
+        self.viewport().update()
+
+    def write_terrain_records(self, definitions):
+        if self.terrain_brush_path is None:
+            raise ValueError("The terrain save path is not configured.")
+
+        path = Path(self.terrain_brush_path)
+        temporary = path.with_name(path.name + ".tmp")
+
+        records_to_save = self.excluded_map_definitions.copy()
+        records_to_save.update(definitions)
+        
+        data = {
+            "format" : "tsww-barbarossa-map-terrain",
+            "version" : 1,
+            "hexes" : [
+                {
+                    "key" : list(key),
+                    "properties" : properties 
+                }
+                for key, properties in records_to_save.items()
+            ],
+        }
+
+        try:
+            temporary.write_text(
+                json.dumps(data, indent = 2, ensure_ascii = False),
+                encoding = "utf-8",
+            )
+            temporary.replace(path)
+        finally:
+            if temporary.exists():
+                temporary.unlink()
+
+    def refresh_selected_terrain(self): 
+        key = self.selected_hex_key
+
+        if key is None or key not in self.hexes:
+            return 
+
+        properties = self.map_definitions.get(key, {}).copy()
+        grid, _, _ = self.hex_key_geometry(key)
+        properties["_grid_sideways"] = grid["sideways"]
+
+        self.hex_selected.emit(
+            self.hexes[key]["game_reference"],
+            properties,
+        )
+
+    def finish_terrain_stroke(self):
+        before = self.brush_before
+        count = len(self.brush_touched)
+        self.brush_before = None
+        self.brush_touched = set()
+
+        if before is None or count == 0:
+            return 
+
+        try: 
+            self.write_terrain_records(self.map_definitions)
+        except (OSError, ValueError, TypeError) as error:
+            self.map_definitions = before
+            QMessageBox.critical(
+                self,
+                "Brush saving failed",
+                str(error),
+            )
+        else:
+            self.brush_undo = before
+            self.window().statusBar().showMessage(
+                f"Painted, verified, and saved {count} hexes."
+            )
+
+        self.refresh_selected_terrain()
+        self.viewport().update()
+
+    def undo_terrain_brush(self):
+        if self.brush_before is not None:
+            return 
+
+        if self.brush_undo is None:
+            self.window().statusBar().showMessage(
+                "No brush stroke to undo."
+            )
+            return 
+
+        try: 
+            self.write_terrain_records(self.brush_undo)
+        except (OSError, ValueError, TypeError) as error:
+            QMessageBox.critical(
+                self,
+                "Brush undo failed",
+                str(error),
+            )
+            return 
+
+        self.map_definitions = self.brush_undo
+        self.brush_undo = None 
+        self.refresh_selected_terrain()
+        self.viewport().update()
+
+        self.window().statusBar().showMessage(
+            "Last brush stroke undone and saved."
+        )
+
     def mousePressEvent(self, event):
+        if (
+            self.terrain_brush_enabled
+            and event.button() == Qt.MouseButton.LeftButton
+        ):
+            if not self.board_records:
+                self.window().statusBar().showMessage(
+                    "Load the campaign before painting."
+                )
+                event.accept()
+                return 
+
+            self.setFocus()
+            self.brush_before = self.map_definitions.copy()
+            self.brush_touched = set()
+
+            self.paint_terrain_point(
+                self.mapToScene(event.position().toPoint())
+            )
+            event.accept()
+            return 
+        
         if event.button() == Qt.MouseButton.LeftButton:
             self.setFocus()
             self.press_position = event.position().toPoint()
@@ -623,6 +888,13 @@ class MapView(QGraphicsView):
         super().mousePressEvent(event)
 
     def mouseMoveEvent(self, event):
+        if self.brush_before is not None:
+            self.paint_terrain_point(
+                self.mapToScene(event.position().toPoint())
+            )
+            event.accept()
+            return 
+
         if self.press_position is not None:
             position = event.position().toPoint()
             distance = (
@@ -635,6 +907,17 @@ class MapView(QGraphicsView):
         super().mouseMoveEvent(event)
 
     def mouseReleaseEvent(self, event):
+        if (
+            self.brush_before is not None
+            and event.button() == Qt.MouseButton.LeftButton
+        ):
+            self.paint_terrain_point(
+                self.mapToScene(event.position().toPoint())
+            )
+            self.finish_terrain_stroke()
+            event.accept()
+            return 
+
         should_select = (
             event.button() == Qt.MouseButton.LeftButton
             and self.press_position is not None
@@ -670,6 +953,7 @@ class MapView(QGraphicsView):
             raise ValueError("Invalid map terrain file.")
 
         definitions = {}
+        excluded_definitions = {}
 
         for record in data["hexes"]:
             if not isinstance(record, dict):
@@ -794,47 +1078,62 @@ class MapView(QGraphicsView):
                     "Major Fortifications"
                 ):
                     raise ValueError("Invalid hexside fortification.")
-            definitions[tuple(key)] = properties 
+
+            validate_extra_fields(properties)
+
+            if not is_playable_hex(
+                key[0], key[1], key[2], key[3]
+            ):
+                excluded_key = tuple(key)
+                excluded_definitions[excluded_key] = merge_records(
+                    excluded_definitions.get(excluded_key, {}),
+                    properties, 
+                    str(excluded_key),
+                )
+                continue 
+
+            shared_key = self.canonical_hex_key(key)
+
+            definitions[shared_key] = merge_records(
+                definitions.get(shared_key, {}),
+                properties,
+                str(shared_key),
+            )
 
         self.map_definitions = definitions
+        self.excluded_map_definitions = excluded_definitions
 
     def save_map_definition(self, path, properties):
         key = self.selected_hex_key
+
         if key is None:
             raise ValueError("Select a hex first.")
 
-        #Keep the existing definitions if writing fails.
+        key = self.canonical_hex_key(key)
+        validate_extra_fields(properties)
+
+        previous = self.map_definitions.get(key, {})
+
         definitions = self.map_definitions.copy()
-        updated = definitions.get(key, {}).copy()
+        updated = previous.copy()
         updated.update(properties)
         definitions[key] = updated
 
-        data = {
-            "format" : "tsww-barbarossa-map-terrain",
-            "version" : 1,
-            "hexes" : [
-                {
-                    "key" : list(hex_key),
-                    "properties" : values,
-                }
-                for hex_key, values in definitions.items()
-            ],
-        }
+        definitions = synchronize_sides(
+            self, 
+            definitions,
+            key,
+            previous,
+        )
 
-        path = Path(path)
-        temporary_path = path.with_name(path.name + ".tmp")
+        #Use the same atomic writer as the brush.
+        self.terrain_brush_path = Path(path)
+        self.write_terrain_records(definitions)
 
-        try:
-            temporary_path.write_text(
-                json.dumps(data, indent = 2, ensure_ascii = False),
-                encoding = "utf-8"
-            )
-            temporary_path.replace(path)
-        finally:
-            if temporary_path.exists():
-                temporary_path.unlink()
-
+        #Update memory only after the file is saved.
         self.map_definitions = definitions
+        self.brush_undo = None
+        self.refresh_selected_terrain()
         self.viewport().update()
 
     def transport_pen(self, transport_type):
@@ -909,7 +1208,6 @@ class MapView(QGraphicsView):
             else "No transport connections recorded."
         )
 
-
     def set_transport_erase_mode(self, enabled):
         self.transport_erase_mode = enabled
         self.transport_anchor = None
@@ -936,6 +1234,10 @@ class MapView(QGraphicsView):
             ],
         }
 
+        data["connections"].extend(
+            self.excluded_transport_connections
+        )
+
         temporary_path = self.transport_path.with_name(
             self.transport_path.name + ".tmp"
         )
@@ -950,20 +1252,19 @@ class MapView(QGraphicsView):
             if temporary_path.exists():
                 temporary_path.unlink()
 
-    def canonical_transport_key(self, key):
-        """Give matching hex centers one transport key."""
+    def canonical_hex_key(self, key):
+        """Give matching physical hexes one shared key."""
 
 
+        grid, campaign_x, campaign_y = self.hex_key_geometry(key)
         key = tuple(key)
-        grid, campaign_x, campaign_y = (
-            self.transport_key_geometry(list(key))
-        )
+
 
         candidates = [key]
 
-        for board_id, record in self.board_records.items():
-            origin_x, origin_y = record["origin"]
-            width, height = record["size"]
+        for (
+            board_id, filename, origin_x, origin_y, width, height
+        ) in barbarossa_boards:
 
             image_x = campaign_x - origin_x 
             image_y = campaign_y - origin_y
@@ -1019,6 +1320,9 @@ class MapView(QGraphicsView):
         #Deterministic choice, regardless of click position.
         return min(candidates)
 
+    def canonical_transport_key(self, key):
+        return self.canonical_hex_key(key)
+
     def normalize_transport_hex(self, record):
         key = self.canonical_transport_key(record["key"])
 
@@ -1042,30 +1346,36 @@ class MapView(QGraphicsView):
             "center" : (center_x, center_y),
             "reference" : f"{region_name}:{number}",
         }
-    
 
-    def transport_key_geometry(self, key):
+    def hex_key_geometry(self, key):
+        "Get a hex's grid and center in campaign coordinates."
+
         if (
-            not isinstance(key, list)
-            or len(key) != 4
+            not isinstance(key, (list, tuple))
+            or len(key) != 4 
             or not isinstance(key[0], str)
             or not isinstance(key[1], str)
             or type(key[2]) is not int
             or type(key[3]) is not int
         ):
-            raise ValueError("Invalid transport hex key.")
+            raise ValueError("Invalid hex key.")
 
         board_id, region_name, column, row = key
 
-        if board_id not in self.board_records:
-            raise ValueError(
-                f"Transport board is not loaded: {board_id}"
-            )
+        board = next(
+            (
+                entry for entry in barbarossa_boards 
+                if entry[0] == board_id
+            ),
+            None,
+        )
+
+        if board is None or board_id not in barbarossa_grids:
+            raise ValueError(f"Unknown campaign board: {board_id}")
 
         region = next(
             (
-                entry 
-                for entry in barbarossa_grids[board_id]["regions"]
+                entry for entry in barbarossa_grids[board_id]["regions"]
                 if entry["name"] == region_name
             ),
             None,
@@ -1073,25 +1383,29 @@ class MapView(QGraphicsView):
 
         if region is None:
             raise ValueError(
-                f"Unknown transport region: {region_name}"
+                f"Unknown region on {board_id} : {region_name}"
             )
 
         if not is_playable_hex(
-            board_id, region_name, column, row 
+            board_id, region_name, column, row
         ):
-            raise ValueError("Transport references an excluded hex.")
+            raise ValueError("The key references an excluded hex.")
 
         local_x, local_y = hex_center(
-            region["grid"], column, row 
+            region["grid"], column, row
         )
-        origin_x, origin_y = self.board_records[board_id]["origin"]
+
+        origin_x, origin_y = board[2], board[3]
 
         return (
             region["grid"],
-            origin_x + local_x,
-            origin_y + local_y,
+            origin_x + local_x, 
+            origin_y + local_y
         )
 
+    def transport_key_geometry(self, key):
+        return self.hex_key_geometry(key)
+    
     def load_transport_connections(self):
         if not self.transport_path.is_file():
             return 
@@ -1111,6 +1425,7 @@ class MapView(QGraphicsView):
         #Validate everything before adding display items.
         prepared = [] 
         seen = set()
+        excluded_connections = []
 
         for record in data["connections"]:
             if not isinstance(record, dict):
@@ -1130,6 +1445,24 @@ class MapView(QGraphicsView):
                 or not isinstance(transport_type, str)
             ):
                 raise ValueError("Invalid transport type or side.")
+
+            for endpoint in (source_key, target_key):
+                if (
+                    not isinstance(endpoint, list)
+                    or len(endpoint) != 4 
+                    or not isinstance(endpoint[0], str)
+                    or not isinstance(endpoint[1], str)
+                    or type(endpoint[2]) is not int 
+                    or type(endpoint[3]) is not int
+                ):
+                    raise ValueError("Invalid transport hex key,")
+
+            if any(
+                not is_playable_hex(*endpoint)
+                for endpoint in (source_key, target_key)
+            ):
+                excluded_connections.append(record.copy())
+                continue 
 
             source_key = list(
                 self.canonical_transport_key(source_key)
@@ -1229,6 +1562,8 @@ class MapView(QGraphicsView):
                 path,
                 pen,
             ))
+
+        self.excluded_transport_connections = excluded_connections
 
         for segment_key, segment, path, pen in prepared:
             item = self.map_scene.addPath(path, pen)
@@ -1500,11 +1835,23 @@ class MapView(QGraphicsView):
                     )
                     return False
 
-                key = (board_id, region["name"], column, row)
-                number = printed_hex_number(region, column, row)
+                key = self.canonical_hex_key(
+                    (board_id, region["name"], column, row)
+                )
 
-                campaign_x = origin_x + center_x
-                campaign_y = origin_y + center_y
+                board_id, region_name, column, row = key
+
+                region = next(
+                    entry 
+                    for entry in barbarossa_grids[board_id]["regions"]
+                    if entry["name"] == region_name
+                )
+
+                number= printed_hex_number(region, column, row)
+
+                grid, campaign_x, campaign_y = ( 
+                    self.hex_key_geometry(key)
+                )
 
                 if key not in self.hexes:
                     self.hexes[key] = {
@@ -1853,6 +2200,43 @@ class MapView(QGraphicsView):
                     ),
                 }
         return None 
+
+    def audit_mapping_edges(self):
+        if not self.board_records:
+            QMessageBox.information(
+                self,
+                "Mapping Audit",
+                "Load the campaign first."
+            )
+            return 
+
+        messages = audit_sides(self)
+
+        if not messages:
+            QMessageBox.information(
+                self,
+                "Mapping Audit",
+                "No disagreements found on recorded shared "
+                "features with mapped neighbors.\n\n"
+                "This does not verify the printed map or"
+                "unrecorded features.",
+            )
+            return 
+
+        dialog = QMessageBox(self)
+        dialog.setWindowTitle("Mapping Audit")
+        dialog.setIcon(QMessageBox.Icon.Warning)
+        dialog.setText(
+            f"Found {len(messages)} shared-feature differences."
+        )
+        dialog.setInformativeText(
+            "Open Show Details to see the affected hexes. \n"
+            "Unknown on one side means it has not been recorded there. \n"
+            "The audit does not change your data."
+        )
+        dialog.setDetailedText("\n".join(messages))
+        dialog.exec()
+
 
     def check_selected_hex_joins(self):
         if self.selected_hex_key is None:
