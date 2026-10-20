@@ -346,7 +346,7 @@ def is_playable_hex(board_id, region_name, column, row):
     return True
 
 if __name__ == "__main__":
-    from campaign_grid_definitions import barbarossa_grids
+    from maps.campaign_grid_definitions import barbarossa_grids
 
     region = barbarossa_grids["Map 2"]["regions"][0]
 

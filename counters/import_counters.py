@@ -15,6 +15,22 @@ def clean_label(value):
     return re.sub(r",[^>]*>", "", value or "").strip()
 
 
+def referenced_image_names(definition, images):
+    """Resolve single images and comma-separated VASSAL appearance lists."""
+    possible = re.findall(
+        r"[^;\\\t\r\n]+\.(?:png|jpg|jpeg|gif|bmp)",
+        definition, flags=re.IGNORECASE,
+    )
+    names = []
+    for value in possible:
+        # Prefer exact names so filenames containing commas still work.
+        candidates = [value] if value in images else value.split(",")
+        for name in candidates:
+            if name in images and name not in names:
+                names.append(name)
+    return names
+
+
 def extract_counters(module_path, project_dir):
     output_dir = project_dir / "assets" / "counters" 
     image_dir = output_dir / "images"
@@ -83,17 +99,7 @@ def extract_counters(module_path, project_dir):
 
                 definition = element.text or ""
 
-                possible_images = re.findall(
-                    r"[^;\\\t\r\n]+\.(?:png|jpg|jpeg|gif|bmp)",
-                    definition,
-                    flags=re.IGNORECASE,
-                )
-
-                image_names = list(dict.fromkeys(
-                    name
-                    for name in possible_images
-                    if name in images
-                ))
+                image_names = referenced_image_names(definition, images)
 
                 counter_types[type_id] = {
                     "type_id" : type_id,
@@ -144,7 +150,7 @@ def extract_counters(module_path, project_dir):
 
 def main():
     app = QApplication([])
-    project_dir = Path(__file__).resolve().parent
+    project_dir = Path(__file__).resolve().parents[1]
 
     filename, _ = QFileDialog.getOpenFileName(
         None,

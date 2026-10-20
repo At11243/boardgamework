@@ -1,5 +1,11 @@
-assets/
+assets/*
+!assets/counters/
+assets/counters/*
+!assets/counters/unit_definitions.json
 .venv/
 __pycache__/
 *.pyc 
 *.tmp
+tmp/
+reference/**/*.pdf
+reference/*.pdf

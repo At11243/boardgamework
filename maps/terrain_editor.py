@@ -11,7 +11,7 @@ from PySide6.QtWidgets import (
     QGroupBox,
 )
 from PySide6.QtGui import QShortcut, QKeySequence
-from mapping_fields import (
+from maps.mapping_fields import (
     hex_options,
     hex_text_fields,
     side_options,

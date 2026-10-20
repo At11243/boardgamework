@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 
 from PySide6.QtWidgets import QApplication, QFileDialog
 
-from campaign_layout import barbarossa_boards 
+from maps.campaign_layout import barbarossa_boards 
 
 def extract_grids(module_path):
     with ZipFile(module_path) as archive:
@@ -91,7 +91,7 @@ def extract_grids(module_path):
 if __name__ == "__main__":
     app = QApplication([])
 
-    project_dir = Path(__file__).resolve().parent
+    project_dir = Path(__file__).resolve().parents[1]
 
     filename, _ = QFileDialog.getOpenFileName(
         None,
@@ -104,7 +104,7 @@ if __name__ == "__main__":
         grids = extract_grids(filename)
 
         #Use a separate output while we check the extraction.
-        output_path = project_dir / "campaign_grid_definitions.py"
+        output_path = project_dir / "maps" / "campaign_grid_definitions.py"
 
         output_path.write_text(
             "# Extracted from the Barbarossa VASSAL maps extension.\n\n" + 

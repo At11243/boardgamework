@@ -1,0 +1,76 @@
+{
+  "inspected_on": "2026-10-20",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "reference/UICFB.pdf",
+      "pages": 4,
+      "sha256": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4"
+    },
+    {
+      "path": "reference/charts/Map Layout and Regauge file.pdf",
+      "pages": 2,
+      "sha256": "9334c0be43bb3ce88c07b2e14225f00f5e229385da27a784e67d3a854fdea419"
+    },
+    {
+      "path": "reference/charts/Supply Picture Barbarossa - OS wth QM.pdf",
+      "pages": 1,
+      "sha256": "9afcce8ac4c010c93f5e0bc4789eeb831c83b229c6cc9c90269c56ef30be28ed"
+    },
+    {
+      "path": "reference/charts/Supply Picture Barbarossa.pdf",
+      "pages": 10,
+      "sha256": "85be71e8cbcb2e0a0ec16a66283f02cbe76cabac3be0c9f42a782842803166b6"
+    },
+    {
+      "path": "reference/charts/TSWW GENERAL CHARTS v1.6.pdf",
+      "pages": 35,
+      "sha256": "6816230c6fc05843c0cf8d20c47e8ce0efc55d378a5b9dd717862b0f8864360c"
+    },
+    {
+      "path": "reference/charts/UICFB.pdf",
+      "pages": 4,
+      "sha256": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4"
+    },
+    {
+      "path": "reference/orders_of_battle/Axis Minor Nations PRINT.pdf",
+      "pages": 41,
+      "sha256": "c478ecee18d373af9eceecf335af0d4e9dbae7818ac969b841e902d031a08f6d"
+    },
+    {
+      "path": "reference/orders_of_battle/Axis OB PRINT.pdf",
+      "pages": 108,
+      "sha256": "ead8d65ecb20cb0806f478796ad4b2918747a1c6ac0444f49d511d4a448b0432"
+    },
+    {
+      "path": "reference/orders_of_battle/FB AT STARTS PRINT.pdf",
+      "pages": 126,
+      "sha256": "f757917d86ad09e4d1ca72d961da6ee7c6f285b1fc93e82ccdac064847e90a03"
+    },
+    {
+      "path": "reference/orders_of_battle/FB Axis Replacements.pdf",
+      "pages": 8,
+      "sha256": "c8742e60213a5feb703cd25bab03e8b42ca591ef1b68fdd4c63d04a2ca7537c5"
+    },
+    {
+      "path": "reference/orders_of_battle/Soviet OB Print v1.7.pdf",
+      "pages": 85,
+      "sha256": "c78972cc963c5f58a7968dbda5b7f595d07d37fdad19ba8e1d8718266e2bdc95"
+    },
+    {
+      "path": "reference/orders_of_battle/Western Allied OB PRINT.pdf",
+      "pages": 50,
+      "sha256": "eca4e7f3f8f139fa15788d348abca3873dafa545d555ab57c448c01114372dad"
+    },
+    {
+      "path": "reference/rules/TSWW_PRODUCTON_RULES_V1_6a.pdf",
+      "pages": 182,
+      "sha256": "7e0578fbec8686d073ab12889fa7ba0f15354bcb00923ad9d7cef099f0588acb"
+    },
+    {
+      "path": "reference/rules/TSWW_PRODUCTON_RULES_V1_6_PRINT.pdf",
+      "pages": 176,
+      "sha256": "19d7a44bcd6249488b20a62d183d19aac7e6c286b02a12cd6b6b8020adf69d68"
+    }
+  ]
+}

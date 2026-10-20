@@ -14,10 +14,14 @@ from PySide6.QtWidgets import (
     QDockWidget
 )
 
-from terrain_editor import TerrainEditor
-from map_view import MapView
-from campaign_layout import barbarossa_boards
-from counter_browser import CounterBrowser
+from maps.terrain_editor import TerrainEditor
+from maps.map_view import MapView
+from maps.campaign_layout import barbarossa_boards
+from counters.counter_browser import CounterBrowser
+from counters.stack_inspector import StackInspector
+from game.history_panel import HistoryPanel
+from game.dice_dialog import DiceDialog
+from game.player_setup_dialog import PlayerSetupDialog
 
 project_dir = Path(__file__).resolve().parent
 maps_dir = project_dir / "assets" / "maps"
@@ -103,7 +107,7 @@ class MainWindow(QMainWindow):
             self.map_view.undo_terrain_brush
         )
 
-        self.counter_browser = CounterBrowser(project_dir, self)
+        self.counter_browser = CounterBrowser(project_dir, self, show_review_controls=True)
 
         self.counter_dock = QDockWidget("Counters", self)
         self.counter_dock.setWidget(self.counter_browser)
@@ -130,6 +134,21 @@ class MainWindow(QMainWindow):
                 "Counter Catalog Loading Failed",
                 str(error),
             )
+
+        self.counter_browser.reload_reviews()
+
+        self.stack_inspector = StackInspector(self.map_view, self)
+        self.stack_dock = QDockWidget("Hex Stack", self)
+        self.stack_dock.setWidget(self.stack_inspector)
+        self.addDockWidget(Qt.DockWidgetArea.RightDockWidgetArea, self.stack_dock)
+        self.stack_inspector.refresh()
+
+        self.history_panel = HistoryPanel(self.map_view, self)
+        self.history_dock = QDockWidget("Action History", self)
+        self.history_dock.setWidget(self.history_panel)
+        self.addDockWidget(Qt.DockWidgetArea.RightDockWidgetArea, self.history_dock)
+        self.tabifyDockWidget(self.stack_dock, self.history_dock)
+        self.stack_dock.raise_()
 
         self.create_menus()
         self.statusBar().setVisible(True)
@@ -158,6 +177,13 @@ class MainWindow(QMainWindow):
             )
 
     def create_menus(self):
+        game_menu = self.menuBar().addMenu("Game")
+        setup_action = QAction("Players and Nations...", self)
+        setup_action.triggered.connect(self.open_player_setup)
+        game_menu.addAction(setup_action)
+        dice_action = QAction("Roll Dice...", self)
+        dice_action.triggered.connect(self.open_dice_dialog)
+        game_menu.addAction(dice_action)
         file_menu = self.menuBar().addMenu("File")
         backup_action = QAction("Export Mapping Backup...", self)
         backup_action.triggered.connect(self.export_mapping_backup)
@@ -176,6 +202,9 @@ class MainWindow(QMainWindow):
 
 
         view_menu = self.menuBar().addMenu("View")
+        view_menu.addAction(self.stack_dock.toggleViewAction())
+        view_menu.addAction(self.history_dock.toggleViewAction())
+        view_menu.addSeparator()
 
         audit_action = QAction("Audit Shared Hexsides...", self)
         audit_action.triggered.connect(
@@ -221,6 +250,18 @@ class MainWindow(QMainWindow):
             self.map_view.set_transport_review_overlay
         )
         view_menu.addAction(transport_overlay_action)
+
+    def open_dice_dialog(self):
+        if not self.map_view.board_records or self.map_view.history_blocked():
+            QMessageBox.information(self, "Dice", "Load a campaign and finish movement/mapping first.")
+            return
+        DiceDialog(self.map_view, self).exec()
+
+    def open_player_setup(self):
+        if not self.map_view.board_records or self.map_view.history_blocked():
+            QMessageBox.information(self, "Player Setup", "Load a campaign and finish movement/mapping first.")
+            return
+        PlayerSetupDialog(self.map_view, self).exec()
 
     def open_map(self):
         filename, _ = QFileDialog.getOpenFileName(
@@ -389,8 +430,8 @@ class MainWindow(QMainWindow):
         source_paths = [
             self.terrain_path,
             self.map_view.transport_path,
-            project_dir / "campaign_grid_definitions.py",
-            project_dir / "campaign_layout.py",
+            project_dir / "maps" / "campaign_grid_definitions.py",
+            project_dir / "maps" / "campaign_layout.py",
         ]
 
         if not self.terrain_path.is_file():

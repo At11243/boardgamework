@@ -1,4 +1,5 @@
 import json 
+from copy import deepcopy
 
 from pathlib import Path
 
@@ -12,6 +13,7 @@ from PySide6.QtGui import (
     QBrush, 
     QPolygonF, 
     QColor,
+    QShortcut,
     QPainterPath,
 )
 from PySide6.QtWidgets import (
@@ -20,10 +22,10 @@ from PySide6.QtWidgets import (
     QApplication,
     QMessageBox 
 )
-from campaign_layout import barbarossa_boards
+from maps.campaign_layout import barbarossa_boards
 
-from campaign_grid_definitions import barbarossa_grids
-from hex_model import (
+from maps.campaign_grid_definitions import barbarossa_grids
+from maps.hex_model import (
     hex_center, 
     nearest_hex, 
     printed_hex_number, 
@@ -32,19 +34,27 @@ from hex_model import (
     is_playable_hex,
 )
 
-from mapping_support import(
+from maps.mapping_support import(
     merge_records,
     normalize_campaign,
     synchronize_sides,
     audit_sides,
 )
-from mapping_fields import validate_extra_fields
+from maps.mapping_fields import validate_extra_fields
 from uuid import uuid4
+from counters.counter_state import restore_units, stack_ids
+from counters.counter_faces import face_pixmap, flipped_instance
+from game.action_history import empty_history, append_action, append_event, restore_history, EVENT_ACTIONS
+from rules import DiceService, validate_attack_result
+from rules.sides import default_setup, validate_setup
+from game.nation_roster import initial_roster
 
 class MapView(QGraphicsView):
     hex_selected = Signal(str, dict)
     edge_selected = Signal(int)
     transport_summary_changed = Signal(str)
+    stack_changed = Signal()
+    history_changed = Signal()
 
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -62,6 +72,18 @@ class MapView(QGraphicsView):
         self.hexes = {} # Store hex information
         self.units = {} #Store unit information
         self.unit_items = {} #Store graphic objects separately from units
+        self.selected_unit_id = None
+        self.moving_unit_id = None
+        self.cancel_move_shortcut = QShortcut("Escape", self)
+        self.cancel_move_shortcut.setEnabled(False)
+        self.cancel_move_shortcut.activated.connect(self.cancel_counter_move)
+        self.unit_highlight = None
+        self.campaign_metadata = {}
+        self.action_history = empty_history()
+        self.player_setup = default_setup(initial_roster())
+        self.dice_service = DiceService()
+        self.counter_project_dir = Path(__file__).resolve().parents[1]
+        self.hex_selected.connect(self.refresh_counter_selection)
         self.selected_hex_key = None 
         self.map_definitions = {}
         self.excluded_map_definitions = {}
@@ -84,9 +106,7 @@ class MapView(QGraphicsView):
         self.excluded_transport_connections = []
         self.transport_erase_mode = False 
 
-        self.transport_path = Path(__file__).resolve().with_name(
-            "map_transport.json"
-        )
+        self.transport_path = Path(__file__).resolve().parents[1] / "map_transport.json"
 
         self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
 
@@ -138,6 +158,7 @@ class MapView(QGraphicsView):
         self.transport_anchor = None 
         self.transport_segments = {}
         self.hex_selected.emit("", {})
+        self.reset_counter_selection()
         self.map_scene.clear()
         self.board_records = {}
         self.hexes = {} 
@@ -236,6 +257,7 @@ class MapView(QGraphicsView):
         self.transport_anchor = None 
         self.transport_segments = {} 
         self.hex_selected.emit("", {})
+        self.reset_counter_selection()
         self.map_scene.clear()
         self.map_item = None
         self.map_path = None
@@ -344,6 +366,8 @@ class MapView(QGraphicsView):
         return len(self.board_records)
 
     def place_counter(self, counter):
+        if self.moving_unit_id is not None:
+            raise ValueError("Finish or cancel the move before placing another counter.")
         if (
             not self.board_records
             or self.selected_hex_key is None
@@ -360,7 +384,7 @@ class MapView(QGraphicsView):
 
         key = self.canonical_hex_key(self.selected_hex_key)
 
-        project_dir = Path(__file__).resolve().parent
+        project_dir = Path(__file__).resolve().parents[1]
         image_path = project_dir / counter["image_path"]
 
         pixmap = QPixmap(str(image_path))
@@ -381,7 +405,26 @@ class MapView(QGraphicsView):
             "name": counter["name"],
             "image_path": counter["image_path"],
             "hex_key": key,
+            # Placement currently chooses an imported image, not a reviewed face.
+            "active_face": "unassigned",
+            "stack_order": max((u["stack_order"] for u in self.units.values()
+                                if u["hex_key"] == key), default=-1) + 1,
         }
+
+        self.render_counter(unit_id, pixmap)
+        self.layout_stack(key)
+        self.select_unit(unit_id)
+        self.record_counter_action("place", None, self.units[unit_id],
+                                   f"Placed {counter['name']} at {self.hex_reference(key)}")
+        self.window().statusBar().showMessage(
+            f"Placed {counter['name']} on "
+            f"{self.hexes[self.selected_hex_key]['game_reference']}"
+        )
+        return unit_id
+
+    def render_counter(self, unit_id, pixmap):
+        unit = self.units[unit_id]
+        grid, center_x, center_y = self.hex_key_geometry(unit["hex_key"])
 
         item = self.map_scene.addPixmap(pixmap)
 
@@ -403,13 +446,262 @@ class MapView(QGraphicsView):
         item.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
 
         self.unit_items[unit_id] = item
+        item.setData(0, unit_id)
+        item.setToolTip(unit["name"])
 
+    def layout_stack(self, key):
+        ids = stack_ids(self.units, key)
+        _, x, y = self.hex_key_geometry(key)
+        for index, uid in enumerate(ids):
+            # A small fan exposes the stack without spreading across the hex.
+            offset = min(index, 5) * 6
+            self.unit_items[uid].setPos(x + offset, y - offset)
+            self.unit_items[uid].setZValue(200 + index * 0.001)
+
+    def reset_counter_selection(self):
+        self.moving_unit_id = None
+        self.cancel_move_shortcut.setEnabled(False)
+        if self.unit_highlight is not None:
+            self.map_scene.removeItem(self.unit_highlight)
+            self.unit_highlight = None
+        self.selected_unit_id = None
+        self.campaign_metadata = {}
+        self.units = {}
+        self.unit_items = {}
+        self.action_history = empty_history()
+        self.player_setup = default_setup(initial_roster())
+        self.history_changed.emit()
+        self.stack_changed.emit()
+
+    def refresh_counter_selection(self, *_):
+        if (self.selected_unit_id in self.units
+                and self.units[self.selected_unit_id]["hex_key"] != self.selected_hex_key):
+            self.select_unit(None)
+        self.stack_changed.emit()
+
+    def select_unit(self, unit_id):
+        if unit_id is not None and unit_id not in self.units:
+            return
+        if self.unit_highlight is not None:
+            self.map_scene.removeItem(self.unit_highlight)
+            self.unit_highlight = None
+        self.selected_unit_id = unit_id
+        if unit_id is not None:
+            item = self.unit_items[unit_id]
+            # Draw the outline above the stack without changing stack order.
+            rect = item.sceneBoundingRect()
+            self.unit_highlight = self.map_scene.addRect(rect, QPen(QColor("yellow"), 3))
+            self.unit_highlight.setZValue(201)
+            self.unit_highlight.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
+        self.stack_changed.emit()
+
+    def flip_unavailable_reason(self):
+        if self.moving_unit_id is not None:
+            return "Finish or cancel the counter move before flipping."
+        if self.selected_unit_id not in self.units:
+            return "Select a counter to flip."
+        if self.terrain_brush_enabled or self.transport_draw_mode or self.edge_pick_mode:
+            return "Turn off terrain painting, transport drawing, and edge picking before flipping."
+        try:
+            flipped_instance(self.units[self.selected_unit_id], self.counter_project_dir)
+        except ValueError as error:
+            return str(error)
+        return ""
+
+    def flip_selected_counter(self, *_):
+        reason = self.flip_unavailable_reason()
+        if reason:
+            self.window().statusBar().showMessage(reason)
+            return False
+        uid = self.selected_unit_id
+        # Resolve and render completely before changing the current instance.
+        try:
+            updated, pixmap = flipped_instance(self.units[uid], self.counter_project_dir)
+        except ValueError as error:
+            self.window().statusBar().showMessage(str(error))
+            return False
+        before = deepcopy(self.units[uid])
+        self.units[uid] = updated
+        item = self.unit_items[uid]
+        item.setPixmap(pixmap)
+        item.setOffset(-pixmap.width() / 2, -pixmap.height() / 2)
+        item.setScale(80 / pixmap.width())
+        self.select_unit(uid)
+        self.record_counter_action("flip", before, updated,
+                                   f"Flipped {updated['name']} to {updated['active_face']}")
         self.window().statusBar().showMessage(
-            f"Placed {counter['name']} on "
-            f"{self.hexes[self.selected_hex_key]['game_reference']}"
+            f"Flipped {updated['name']} to {updated['active_face']} | No gameplay effects applied"
         )
+        return True
 
-        return unit_id
+    def move_unavailable_reason(self):
+        if self.moving_unit_id is not None:
+            return "Click a destination hex. Cancel Move or press Escape to cancel."
+        if self.selected_unit_id not in self.units:
+            return "Select a counter to move."
+        if self.terrain_brush_enabled or self.transport_draw_mode or self.edge_pick_mode:
+            return "Turn off mapping modes before moving counters."
+        return ""
+
+    def begin_counter_move(self, *_):
+        reason = self.move_unavailable_reason()
+        if reason:
+            self.window().statusBar().showMessage(reason)
+            return False
+        self.moving_unit_id = self.selected_unit_id
+        self.cancel_move_shortcut.setEnabled(True)
+        self.setFocus()
+        self.stack_changed.emit()
+        self.window().statusBar().showMessage(
+            "Click a destination hex | Escape to cancel | Movement costs and legality are manual"
+        )
+        return True
+
+    def cancel_counter_move(self, *_):
+        if self.moving_unit_id is None:
+            return
+        self.moving_unit_id = None
+        self.cancel_move_shortcut.setEnabled(False)
+        self.stack_changed.emit()
+        self.window().statusBar().showMessage("Counter move cancelled.")
+
+    def finish_counter_move(self, destination):
+        uid = self.moving_unit_id
+        if uid not in self.units:
+            return False
+        if self.terrain_brush_enabled or self.transport_draw_mode or self.edge_pick_mode:
+            self.cancel_counter_move()
+            return False
+        destination = self.canonical_hex_key(destination)
+        if destination not in self.hexes:
+            raise ValueError("Select a campaign hex before moving.")
+        unit = self.units[uid]
+        before = deepcopy(unit)
+        source = unit["hex_key"]
+        if source != destination:
+            unit["stack_order"] = max(
+                (u["stack_order"] for u in self.units.values() if u["hex_key"] == destination),
+                default=-1,
+            ) + 1
+            unit["hex_key"] = destination
+            self.layout_stack(source)
+            self.layout_stack(destination)
+        self.moving_unit_id = None
+        self.cancel_move_shortcut.setEnabled(False)
+        self.selected_hex_key = destination
+        self.select_unit(uid)
+        self.record_counter_action(
+            "move", before, unit,
+            f"Moved {unit['name']} from {self.hex_reference(source)} to {self.hex_reference(destination)}"
+        )
+        self.window().statusBar().showMessage(
+            f"Moved {unit['name']} to {self.hexes[destination]['game_reference']}"
+            " | Movement costs and legality are manual"
+        )
+        return True
+
+    def hex_reference(self, key):
+        return self.hexes.get(key, {}).get("game_reference", str(key))
+
+    def record_counter_action(self, kind, before, after, description):
+        append_action(self.action_history, kind, before, after, description)
+        self.history_changed.emit()
+
+    def history_blocked(self):
+        return bool(self.moving_unit_id is not None or self.terrain_brush_enabled
+                    or self.transport_draw_mode or self.edge_pick_mode)
+
+    def record_dice_roll(self, roll_type, *, controller="human", manual_faces=None, purpose="", rng=None):
+        if not self.board_records or self.history_blocked():
+            raise ValueError("Load a campaign and finish movement/mapping before recording dice.")
+        service = self.dice_service if rng is None else DiceService(rng=rng)
+        record = service.roll(roll_type, controller=controller, manual_faces=manual_faces,
+                              purpose=purpose)
+        append_event(self.action_history, "dice_roll", record,
+                     f"{roll_type}: {record['value']} ({record['method']})"
+                     + (f" - {record['purpose']}" if record["purpose"] else ""))
+        self.history_changed.emit()
+        return record
+
+    def record_attack_result(self, record):
+        """Future combat/AAR entry point; records results without changing units."""
+        if not self.board_records or self.history_blocked():
+            raise ValueError("Load a campaign and finish movement/mapping before recording results.")
+        record = validate_attack_result(record)
+        # Historical participants can later be eliminated; snapshots are not fabricated.
+        key = self.canonical_hex_key(record["target_hex"])
+        if key not in self.hexes:
+            raise ValueError("Attack target is not recorded in the campaign.")
+        record["target_hex"] = list(key)
+        append_event(self.action_history, "attack_result", record,
+                     f"Attack at {self.hex_reference(key)}: {record['result']} (manual)")
+        self.history_changed.emit()
+        return record
+
+    def can_undo_counter_action(self):
+        return not self.history_blocked() and self.action_history["cursor"] > 0
+
+    def can_redo_counter_action(self):
+        return (not self.history_blocked()
+                and self.action_history["cursor"] < len(self.action_history["entries"]))
+
+    def undo_counter_action(self, *_):
+        return self.apply_history_action(False)
+
+    def redo_counter_action(self, *_):
+        return self.apply_history_action(True)
+
+    def apply_history_action(self, redo):
+        available = self.can_redo_counter_action() if redo else self.can_undo_counter_action()
+        if not available:
+            return False
+        cursor = self.action_history["cursor"]
+        entry = self.action_history["entries"][cursor if redo else cursor - 1]
+        if entry["kind"] in EVENT_ACTIONS:
+            # Results are stored facts: redo reactivates the record, never rerolls.
+            self.action_history["cursor"] += 1 if redo else -1
+            self.history_changed.emit()
+            self.window().statusBar().showMessage(
+                f"{'Redid' if redo else 'Undid'} record: {entry['description']}"
+            )
+            return True
+        uid = entry["unit_id"]
+        expected = entry["before"] if redo else entry["after"]
+        target = deepcopy(entry["after"] if redo else entry["before"])
+        if self.units.get(uid) != expected:
+            self.window().statusBar().showMessage("Cannot apply history: counter state has changed.")
+            return False
+        # Missing artwork must not partially apply an Undo/Redo.
+        try:
+            pixmap = face_pixmap(target, self.counter_project_dir) if target else None
+        except ValueError as error:
+            self.window().statusBar().showMessage(str(error))
+            return False
+        affected = {snapshot["hex_key"] for snapshot in (expected, target) if snapshot}
+        self.select_unit(None)
+        if uid in self.unit_items:
+            self.map_scene.removeItem(self.unit_items.pop(uid))
+        self.units.pop(uid, None)
+        if target is not None:
+            self.units[uid] = target
+            self.render_counter(uid, pixmap)
+        for key in affected:
+            self.layout_stack(key)
+        key = (target or expected)["hex_key"]
+        self.selected_hex_key = key
+        properties = self.map_definitions.get(key, {}).copy()
+        properties["_grid_sideways"] = self.hex_key_geometry(key)[0]["sideways"]
+        self.hex_selected.emit(self.hex_reference(key), properties)
+        _, x, y = self.hex_key_geometry(key)
+        if self.debug_marker is not None:
+            self.debug_marker.setPos(x, y)
+        self.select_unit(uid if target else None)
+        self.action_history["cursor"] += 1 if redo else -1
+        self.history_changed.emit()
+        self.window().statusBar().showMessage(
+            f"{'Redid' if redo else 'Undid'}: {entry['description']}"
+        )
+        return True
     
     def save_campaign(self, path):
         if not self.board_records:
@@ -426,8 +718,13 @@ class MapView(QGraphicsView):
         ]
 
         data = {
+            **self.campaign_metadata,
             "format" : "tsww-barbarossa-campaign",
             "version" : 1, 
+            "units": list(self.units.values()),
+            "action_history": self.action_history,
+            "player_setup": validate_setup(self.player_setup),
+            "selected_unit_id": self.selected_unit_id,
             "boards" : list(self.board_records),
             "hexes" : hex_records,
             "selected_hex_key" : (
@@ -586,10 +883,50 @@ class MapView(QGraphicsView):
                 )
 
             
+        try:
+            restored_units = restore_units(
+                data.get("units", []), self.canonical_hex_key, restored_hexes
+            )
+        except (KeyError, TypeError, StopIteration) as error:
+            raise ValueError("Invalid counter board or grid region.") from error
+        restored_pixmaps = {}
+        for uid, unit in restored_units.items():
+            pixmap = face_pixmap(unit, self.counter_project_dir)
+            restored_pixmaps[uid] = pixmap
+        selected_unit = data.get("selected_unit_id")
+        if (selected_unit is not None
+                and (not isinstance(selected_unit, str) or selected_unit not in restored_units)):
+            raise ValueError("Invalid selected counter instance.")
+        if selected_unit is not None and restored_units[selected_unit]["hex_key"] != selected_key:
+            raise ValueError("Selected counter does not belong to the selected hex.")
+
+        restored_history = restore_history(data.get("action_history"), restored_units,
+                                           self.canonical_hex_key, restored_hexes)
+        # Validate every stored face assignment before replacing the campaign.
+        for entry in restored_history["entries"]:
+            for snapshot in (entry["before"], entry["after"]):
+                if snapshot is not None:
+                    face_pixmap(snapshot, self.counter_project_dir)
+
+        restored_setup = (validate_setup(data["player_setup"]) if "player_setup" in data
+                          else default_setup(initial_roster()))
         self.load_campaign(maps_dir)
 
         self.hexes = restored_hexes
         self.selected_hex_key = selected_key
+        self.campaign_metadata = {key: value for key, value in data.items()
+                                  if key not in ("format", "version", "boards", "hexes",
+                                                 "units", "selected_hex_key", "selected_unit_id",
+                                                 "action_history", "player_setup")}
+        self.units = restored_units
+        self.player_setup = restored_setup
+        self.action_history = restored_history
+        self.history_changed.emit()
+        for uid, pixmap in restored_pixmaps.items():
+            self.render_counter(uid, pixmap)
+        for key in {unit["hex_key"] for unit in self.units.values()}:
+            self.layout_stack(key)
+        self.select_unit(selected_unit)
 
         if selected_key is not None:
             board_id, region_name, column, row = selected_key
@@ -626,6 +963,16 @@ class MapView(QGraphicsView):
             return 
 
         point = self.mapToScene(event.position().toPoint())
+
+        if self.moving_unit_id is not None:
+            # Normal hex picking handles canonical joins and creates an unrecorded hex.
+            if self.select_campaign_point(point):
+                self.finish_counter_move(self.selected_hex_key)
+            else:
+                self.window().statusBar().showMessage(
+                    "Choose a playable destination hex, or press Escape to cancel."
+                )
+            return
 
         if self.transport_draw_mode:
             self.draw_transport_to(point)
@@ -714,10 +1061,22 @@ class MapView(QGraphicsView):
             )
             return 
          
+        # Preserve mapping modes and drag-to-pan; only plain clicks pick counters.
+        for item in self.map_scene.items(point):
+            uid = item.data(0)
+            if isinstance(uid, str) and uid in self.units:
+                _, x, y = self.hex_key_geometry(self.units[uid]["hex_key"])
+                self.select_campaign_point(QPointF(x, y))
+                self.select_unit(uid)
+                return
+        self.select_unit(None)
         self.select_campaign_point(point)
 
     def set_terrain_brush(self, enabled, properties):
+        if enabled:
+            self.cancel_counter_move()
         self.terrain_brush_enabled = enabled
+        self.stack_changed.emit()
         self.terrain_brush_properties = {
             "terrain" : list(properties["terrain"]),
             "surface" : properties["surface"],
@@ -1776,7 +2135,10 @@ class MapView(QGraphicsView):
         )
 
     def set_transport_draw_mode(self, enabled, transport_type):
+        if enabled:
+            self.cancel_counter_move()
         self.transport_draw_mode = enabled
+        self.stack_changed.emit()
         self.transport_draw_type = transport_type
         self.transport_anchor = None 
 
@@ -1792,7 +2154,10 @@ class MapView(QGraphicsView):
         self.window().statusBar().showMessage(message)
 
     def set_edge_pick_mode(self, enabled):
+        if enabled:
+            self.cancel_counter_move()
         self.edge_pick_mode = enabled
+        self.stack_changed.emit()
 
         if not enabled and self.edge_highlight is not None:
             self.map_scene.removeItem(self.edge_highlight)
@@ -1898,6 +2263,15 @@ class MapView(QGraphicsView):
         return False 
 
     def keyPressEvent(self, event):
+        if self.moving_unit_id is not None:
+            if event.key() == Qt.Key.Key_Escape:
+                self.cancel_counter_move()
+            elif event.key() not in (Qt.Key.Key_Up, Qt.Key.Key_Down,
+                                     Qt.Key.Key_Left, Qt.Key.Key_Right):
+                super().keyPressEvent(event)
+                return
+            event.accept()
+            return
         if event.key() == Qt.Key.Key_F8:
             self.check_selected_hex_joins()
             event.accept()

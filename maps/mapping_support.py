@@ -3,9 +3,9 @@ from copy import deepcopy
 from PySide6.QtCore import QPointF, Qt
 from PySide6.QtGui import QPolygonF
 
-from campaign_layout import barbarossa_boards 
-from campaign_grid_definitions import barbarossa_grids
-from hex_model import (
+from maps.campaign_layout import barbarossa_boards 
+from maps.campaign_grid_definitions import barbarossa_grids
+from maps.hex_model import (
     nearest_hex, 
     hex_vertices, 
     nearest_hexside, 

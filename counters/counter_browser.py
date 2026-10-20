@@ -12,23 +12,35 @@ from PySide6.QtWidgets import (
     QComboBox,
     QLabel,
     QPushButton,
+    QCheckBox,
+    QMessageBox,
 )
 
 
 class CounterBrowser(QWidget):
     place_requested = Signal(dict)
 
-    def __init__(self, project_dir, parent=None):
+    def __init__(self, project_dir, parent=None, *, show_review_controls=False):
         super().__init__(parent)
 
         self.project_dir = Path(project_dir)
         self.counter_types = {}
+        self.review_definitions = {}
 
         layout = QVBoxLayout(self)
 
         self.search = QLineEdit()
         self.search.setPlaceholderText("Search counter name...")
         layout.addWidget(self.search)
+
+        self.verified_only = QCheckBox("Verified only")
+        self.reload_reviews_button = QPushButton("Reload Reviews")
+        self.verified_only.setVisible(show_review_controls)
+        self.reload_reviews_button.setVisible(show_review_controls)
+        layout.addWidget(self.verified_only)
+        layout.addWidget(self.reload_reviews_button)
+        self.verified_only.toggled.connect(self.filter_counters)
+        self.reload_reviews_button.clicked.connect(self.reload_reviews)
 
         self.results = QListWidget()
         layout.addWidget(self.results)
@@ -76,6 +88,9 @@ class CounterBrowser(QWidget):
         self.results.clear()
 
         for type_id, record in self.counter_types.items():
+            if (self.verified_only.isChecked()
+                    and self.review_definitions.get(type_id, {}).get("review_status") != "Verified"):
+                continue
             searchable = (
                 record["name"] + " "
                 + " ".join(record.get("palette", []))
@@ -94,6 +109,36 @@ class CounterBrowser(QWidget):
         self.count_label.setText(
             f"{self.results.count()} counter definitions"
         )
+
+        self.update_review_indicators(self.review_definitions)
+
+    def load_review_definitions(self):
+        path = self.project_dir / "assets" / "counters" / "unit_definitions.json"
+        definitions = {}
+        if path.is_file():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if (not isinstance(data, dict)
+                    or data.get("format") != "tsww-barbarossa-unit-definitions"
+                    or data.get("version") != 1
+                    or not isinstance(data.get("definitions"), dict)
+                    or not all(isinstance(value, dict) for value in data["definitions"].values())):
+                raise ValueError("Invalid unit definitions file.")
+            definitions = data["definitions"]
+        current = self.results.currentItem()
+        selected = current.data(Qt.ItemDataRole.UserRole) if current else None
+        self.review_definitions = definitions
+        self.filter_counters()
+        for index in range(self.results.count()):
+            item = self.results.item(index)
+            if item.data(Qt.ItemDataRole.UserRole) == selected:
+                self.results.setCurrentItem(item)
+                break
+
+    def reload_reviews(self, *_):
+        try:
+            self.load_review_definitions()
+        except (OSError, ValueError) as error:
+            QMessageBox.warning(self, "Review Status Loading Failed", str(error))
 
     def show_counter(self, current, previous):
         self.image_choice.clear()
@@ -161,3 +206,29 @@ class CounterBrowser(QWidget):
             "name": record["name"],
             "image_path": image_path,
         })
+
+    def update_review_indicators(self, definitions):
+        self.review_definitions = definitions
+
+        symbols = {
+            "Unreviewed": "○",
+            "In progress": "…",
+            "Verified": "✓",
+        }
+
+        for index in range(self.results.count()):
+            item = self.results.item(index)
+            type_id = item.data(Qt.ItemDataRole.UserRole)
+            record = self.counter_types[type_id]
+
+            status = definitions.get(type_id, {}).get(
+                "review_status", "Unreviewed"
+            )
+
+            symbol = symbols.get(status, "?")
+
+            item.setText(f"{symbol} {record['name']}")
+            item.setToolTip(
+                " / ".join(record.get("palette", []))
+                + f"\nReview: {status}"
+            )
