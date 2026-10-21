@@ -2,6 +2,32 @@
 
 Native Python/PySide6 companion. Run commands from the project root using the project's virtual environment.
 
+## Set up on another Windows computer
+
+1. Install Git and Python (the current development environment uses Python 3.14). Sign into GitHub with an account that can access the private repository.
+2. Clone the project:
+
+   ```powershell
+   git clone https://github.com/At11243/TSWW-Barbarossa.git
+   cd TSWW-Barbarossa
+   ```
+
+3. Copy the **entire `assets` and `reference` folders** from the current computer into this project folder. They contain local artwork, the imported counter catalog, VASSAL source files, reference PDFs and backups that are not downloaded by Git. Keep the cloned `assets/counters/unit_definitions.json` if a copy operation asks about replacing it: Git contains the checkpointed definitions. Transfer any separately saved campaign JSON files too, if you use them.
+4. Create a new virtual environment on the destination computer; do not copy the old `.venv`:
+
+   ```powershell
+   py -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -B -m unittest discover -s tests -q
+   .\.venv\Scripts\python.exe -m counters.unit_editor
+   # Main map application:
+   .\.venv\Scripts\python.exe main.py
+   ```
+
+5. In the IDE, select `.venv/Scripts/python.exe` as the interpreter. Check an existing Verified aircraft, its images, and the latest mapped terrain before entering more data.
+
+Close the editor and main application before transferring or pulling data. When switching computers later, commit/push saved definitions and terrain changes on the computer you are leaving, then pull them on the other computer before opening the app. Local artwork/PDFs do not need recopying unless those files change.
+
 ```powershell
 # Main application
 .\.venv\Scripts\python.exe main.py

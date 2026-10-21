@@ -203,7 +203,7 @@
       "unit_size": "Unknown",
       "front_image": "assets/counters/images/8f8c02d7d71d5f413b98.png",
       "back_image": "assets/counters/images/92c8135f7d320d9d568c.png",
-      "review_status": "In progress",
+      "review_status": "Unreviewed",
       "notes": "",
       "ground": {
         "front": {
@@ -243,12 +243,14 @@
         "front": {
           "status": "Unknown",
           "printed_size_status": "II",
-          "descriptors": []
+          "descriptors": [],
+          "unit_size_override": null
         },
         "back": {
           "status": "Emplaced",
           "printed_size_status": "",
-          "descriptors": []
+          "descriptors": [],
+          "unit_size_override": null
         }
       }
     },
@@ -7549,7 +7551,7 @@
       }
     },
     "vassal:133:237768": {
-      "designation": "KB5",
+      "designation": "KB5 L",
       "counter_category": "Air unit",
       "nationality": "Bulgaria",
       "service": "Bulgarian Air Force",
@@ -7559,7 +7561,7 @@
       "back_image": "assets/counters/images/06a5200297a5b6976c16.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -7568,7 +7570,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "6",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -7577,7 +7583,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "6",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7597,7 +7607,7 @@
       "notes": "Imported name: BU A KB5 L.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237769": {
-      "designation": "S-328",
+      "designation": "S-328 L",
       "counter_category": "Air unit",
       "nationality": "Bulgaria",
       "service": "Bulgarian Air Force",
@@ -7607,7 +7617,7 @@
       "back_image": "assets/counters/images/1903541b34b188e05ca1.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Unreviewed",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -7616,7 +7626,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "8",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -7625,7 +7639,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "8",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7655,7 +7673,7 @@
       "back_image": "assets/counters/images/19ad6e929debadecf3f6.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -7664,7 +7682,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -7673,7 +7695,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7703,7 +7729,7 @@
       "back_image": "assets/counters/images/47e8a5654f471d86ba59.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -7712,7 +7738,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -7721,7 +7751,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7751,7 +7785,7 @@
       "back_image": "assets/counters/images/40c89bae2eb1bee9f76d.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -7760,7 +7794,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -7769,7 +7807,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7789,17 +7831,17 @@
       "notes": "Imported name: BU B PZL 43A.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237773": {
-      "designation": "KB-6",
+      "designation": "KB-6 L",
       "counter_category": "Air unit",
       "nationality": "Bulgaria",
       "service": "Bulgarian Air Force",
-      "unit_type": "Unknown",
+      "unit_type": "Bomber / Reconnaissance",
       "unit_size": "Wing",
       "front_image": "assets/counters/images/bf460031054a4d3c1a99.png",
       "back_image": "assets/counters/images/83918bd73025abc070ed.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -7808,7 +7850,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "9",
-          "aircraft_type_code": "BR"
+          "aircraft_type_code": "BR",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -7817,7 +7863,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "9",
-          "aircraft_type_code": "BR"
+          "aircraft_type_code": "BR",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7847,7 +7897,7 @@
       "back_image": "assets/counters/images/a810e98319aee4fce54b.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -7856,7 +7906,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -7865,7 +7919,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7895,7 +7953,7 @@
       "back_image": "assets/counters/images/199222ed8ffcdc2ff8f3.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "8",
@@ -7904,7 +7962,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "4",
@@ -7913,7 +7975,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7943,7 +8009,7 @@
       "back_image": "assets/counters/images/4129a1b2b332c4a69c9d.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -7952,7 +8018,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "6",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -7961,7 +8031,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "6",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -7991,7 +8065,7 @@
       "back_image": "assets/counters/images/97a26289fef57a141884.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -8000,7 +8074,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "24",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -8009,7 +8087,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "24",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8039,7 +8121,7 @@
       "back_image": "assets/counters/images/da8435b3a8d5f69813ca.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -8048,7 +8130,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -8057,7 +8143,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8077,7 +8167,7 @@
       "notes": "Imported name: BU R Fw189A2.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237779": {
-      "designation": "He60C",
+      "designation": "He60C FA",
       "counter_category": "Air unit",
       "nationality": "Bulgaria",
       "service": "Bulgarian Air Force",
@@ -8087,7 +8177,7 @@
       "back_image": "assets/counters/images/36d3ef385fcb80de506b.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8096,7 +8186,11 @@
           "strategic_bombing": "0",
           "capacity_code": "FA",
           "range": "9",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -8105,7 +8199,11 @@
           "strategic_bombing": "0",
           "capacity_code": "FA",
           "range": "9",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8135,7 +8233,7 @@
       "back_image": "assets/counters/images/7c31760ad89a8eb9ecd0.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#a6a263",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8144,7 +8242,11 @@
           "strategic_bombing": "0",
           "capacity_code": "1",
           "range": "11",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -8153,7 +8255,11 @@
           "strategic_bombing": "0",
           "capacity_code": "*",
           "range": "11",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8183,7 +8289,7 @@
       "back_image": "assets/counters/images/a4fff648f5417bd26056.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -8192,7 +8298,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "20",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -8201,7 +8311,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "20",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8231,7 +8345,7 @@
       "back_image": "assets/counters/images/26a542130249d9453d02.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -8240,7 +8354,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -8249,7 +8367,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8279,7 +8401,7 @@
       "back_image": "assets/counters/images/9ff9f4bd799b8e5bd312.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -8288,7 +8410,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -8297,7 +8423,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8317,7 +8447,7 @@
       "notes": "Imported name: FI B Do17Z-3.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237794": {
-      "designation": "SB-2bis",
+      "designation": "SB-2bis AS",
       "counter_category": "Air unit",
       "nationality": "Finland",
       "service": "Finnish Air Force",
@@ -8327,7 +8457,7 @@
       "back_image": "assets/counters/images/c4c737ec5bfebea8f092.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -8336,7 +8466,11 @@
           "strategic_bombing": "1",
           "capacity_code": "AS",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -8345,7 +8479,11 @@
           "strategic_bombing": "*",
           "capacity_code": "AS",
           "range": "25",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8375,7 +8513,7 @@
       "back_image": "assets/counters/images/e9c1f91a71f7952c8dd0.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -8384,7 +8522,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -8393,7 +8535,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8423,7 +8569,7 @@
       "back_image": "assets/counters/images/59acd8d95a894a33b398.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -8432,7 +8578,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -8441,7 +8591,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8471,7 +8625,7 @@
       "back_image": "assets/counters/images/1633a04081fef0e004bc.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -8480,7 +8634,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -8489,7 +8647,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8519,7 +8681,7 @@
       "back_image": "assets/counters/images/51a827551719dd44b7a4.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -8528,7 +8690,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -8537,7 +8703,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8567,7 +8737,7 @@
       "back_image": "assets/counters/images/62f96f71b5034b2dace6.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "7",
@@ -8576,7 +8746,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "4",
@@ -8585,7 +8759,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8615,7 +8793,7 @@
       "back_image": "assets/counters/images/1209b33743d80669aab9.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "7",
@@ -8624,7 +8802,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "4",
@@ -8633,7 +8815,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8663,7 +8849,7 @@
       "back_image": "assets/counters/images/ea7c8959825ea6bf2ccc.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -8672,7 +8858,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -8681,7 +8871,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8711,7 +8905,7 @@
       "back_image": "assets/counters/images/796458bb3f2d18f6cccf.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -8720,7 +8914,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -8729,7 +8927,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8749,7 +8951,7 @@
       "notes": "Imported name: FI F Mxd F-2.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237803": {
-      "designation": "C VE",
+      "designation": "C VE L",
       "counter_category": "Air unit",
       "nationality": "Finland",
       "service": "Finnish Air Force",
@@ -8759,7 +8961,7 @@
       "back_image": "assets/counters/images/ad3f852a6a2f8794f3bf.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8768,7 +8970,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "10",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -8777,7 +8983,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "10",
-          "aircraft_type_code": "A"
+          "aircraft_type_code": "A",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8807,7 +9017,7 @@
       "back_image": "assets/counters/images/1529fb84bf05e479aa2a.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8816,7 +9026,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -8825,7 +9039,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8845,7 +9063,7 @@
       "notes": "Imported name: FI R C X.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237805": {
-      "designation": "Mxd R-1",
+      "designation": "Mxd R-1 L",
       "counter_category": "Air unit",
       "nationality": "Finland",
       "service": "Finnish Air Force",
@@ -8855,7 +9073,7 @@
       "back_image": "assets/counters/images/1bb3a4f51a36968a412e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8864,7 +9082,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "10",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -8873,7 +9095,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "10",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8903,7 +9129,7 @@
       "back_image": "assets/counters/images/16e41b18cde819d5ca02.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -8912,7 +9138,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -8921,7 +9151,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8941,7 +9175,7 @@
       "notes": "Imported name: FI R Mxd R-2.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:237807": {
-      "designation": "Mxd R-3",
+      "designation": "Mxd R-3 FAS",
       "counter_category": "Air unit",
       "nationality": "Finland",
       "service": "Finnish Air Force",
@@ -8951,7 +9185,7 @@
       "back_image": "assets/counters/images/1d644ca06a6fb2926e12.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#ffffff",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -8960,16 +9194,24 @@
           "strategic_bombing": "1",
           "capacity_code": "FAS",
           "range": "12",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
           "air_defense": "1",
           "close_air_support": "1",
-          "strategic_bombing": "0",
+          "strategic_bombing": "1",
           "capacity_code": "FAS",
           "range": "12",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -8999,7 +9241,7 @@
       "back_image": "assets/counters/images/14466510ce9fc3212ccb.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9008,7 +9250,11 @@
           "strategic_bombing": "3",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9017,7 +9263,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9047,7 +9297,7 @@
       "back_image": "assets/counters/images/9c1ceb8903b5f5cee50a.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9056,7 +9306,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9065,7 +9319,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9095,7 +9353,7 @@
       "back_image": "assets/counters/images/cc5ec3e0d645e76126e7.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -9104,7 +9362,11 @@
           "strategic_bombing": "9",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -9113,7 +9375,11 @@
           "strategic_bombing": "4*",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9143,7 +9409,7 @@
       "back_image": "assets/counters/images/c2dda0240b09ddfa7b4c.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -9152,7 +9418,11 @@
           "strategic_bombing": "5",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -9161,7 +9431,11 @@
           "strategic_bombing": "2*",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9191,7 +9465,7 @@
       "back_image": "assets/counters/images/f62b009bcd02ddcc021e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9200,7 +9474,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9209,7 +9487,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9233,13 +9515,13 @@
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
-      "unit_type": "Unknown",
+      "unit_type": "Rocket Bomber",
       "unit_size": "Wing",
       "front_image": "assets/counters/images/bd594c3aaaede0dc6135.png",
       "back_image": "assets/counters/images/8130f9817b02715de5a8.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9248,7 +9530,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "RB"
+          "aircraft_type_code": "RB",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9257,7 +9543,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "RB"
+          "aircraft_type_code": "RB",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9281,13 +9571,13 @@
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
-      "unit_type": "Unknown",
+      "unit_type": "Rocket Bomber",
       "unit_size": "Wing",
       "front_image": "assets/counters/images/c5f4fd104ddcfdf8ea8b.png",
       "back_image": "assets/counters/images/4342be312017e9be2787.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -9296,7 +9586,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "RB"
+          "aircraft_type_code": "RB",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9305,7 +9599,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "17",
-          "aircraft_type_code": "RB"
+          "aircraft_type_code": "RB",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9335,7 +9633,7 @@
       "back_image": "assets/counters/images/0b9d90ff14d45014575a.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9344,7 +9642,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9353,7 +9655,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9383,7 +9689,7 @@
       "back_image": "assets/counters/images/d9c366b92baa0ddfa44f.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9392,7 +9698,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9401,7 +9711,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9431,7 +9745,7 @@
       "back_image": "assets/counters/images/8267b0e0525529033b28.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -9440,7 +9754,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -9449,7 +9767,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9479,7 +9801,7 @@
       "back_image": "assets/counters/images/86c32002f470c45c3cca.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "9",
@@ -9488,7 +9810,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "5",
@@ -9497,7 +9823,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9527,7 +9857,7 @@
       "back_image": "assets/counters/images/575d721bfcdd057cc53d.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "9",
@@ -9536,7 +9866,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "5",
@@ -9545,7 +9879,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9575,7 +9913,7 @@
       "back_image": "assets/counters/images/8ac0b2c4d5523794926a.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "9",
@@ -9584,7 +9922,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "5",
@@ -9593,7 +9935,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9623,7 +9969,7 @@
       "back_image": "assets/counters/images/bd138bb35305d069d09e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -9632,7 +9978,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -9641,7 +9991,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9661,17 +10015,17 @@
       "notes": "Imported name: HU F Re2000.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238000": {
-      "designation": "WM-21",
+      "designation": "WM-21 L",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
-      "unit_type": "Unknown",
+      "unit_type": "Rocket Attack",
       "unit_size": "Wing",
       "front_image": "assets/counters/images/44288e8fd27456e160dc.png",
       "back_image": "assets/counters/images/342ec8ae03a9b982636b.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9680,7 +10034,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "13",
-          "aircraft_type_code": "RA"
+          "aircraft_type_code": "RA",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9689,7 +10047,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "13",
-          "aircraft_type_code": "RA"
+          "aircraft_type_code": "RA",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9709,7 +10071,7 @@
       "notes": "Imported name: HU RA WM-21 L.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed.\nREVIEW: compact printed code RA retained on both faces. General unit type left Unknown rather than assuming whether R means reconnaissance or a rocket descriptor, or silently inserting a dual-role slash. Confirm against the rules/OB."
     },
     "vassal:133:238001": {
-      "designation": "Ju87B2",
+      "designation": "Ju87B2 T",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
@@ -9719,7 +10081,7 @@
       "back_image": "assets/counters/images/f821f273f037b91ebb27.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -9728,7 +10090,11 @@
           "strategic_bombing": "1",
           "capacity_code": "T",
           "range": "9",
-          "aircraft_type_code": "D"
+          "aircraft_type_code": "D",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -9737,7 +10103,11 @@
           "strategic_bombing": "0",
           "capacity_code": "T",
           "range": "9",
-          "aircraft_type_code": "D"
+          "aircraft_type_code": "D",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9757,7 +10127,7 @@
       "notes": "Imported name: HU D Ju87B2 T.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238002": {
-      "designation": "Ju87D1",
+      "designation": "Ju87D1 T",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
@@ -9767,7 +10137,7 @@
       "back_image": "assets/counters/images/186b8a86dae98ea7fd45.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -9776,7 +10146,11 @@
           "strategic_bombing": "2",
           "capacity_code": "T",
           "range": "17",
-          "aircraft_type_code": "D"
+          "aircraft_type_code": "D",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -9785,7 +10159,11 @@
           "strategic_bombing": "1",
           "capacity_code": "T",
           "range": "17",
-          "aircraft_type_code": "D"
+          "aircraft_type_code": "D",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9815,7 +10193,7 @@
       "back_image": "assets/counters/images/08610143d8083898c69c.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -9824,7 +10202,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "24",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -9833,7 +10215,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "24",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9853,7 +10239,7 @@
       "notes": "Imported name: HU R Do17P-1.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238004": {
-      "designation": "Fi156 Storch",
+      "designation": "Fi156 Storch L",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
@@ -9863,16 +10249,20 @@
       "back_image": "assets/counters/images/a73922af3e5e676a5f35.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
           "air_defense": "3",
-          "close_air_support": "1",
+          "close_air_support": "0",
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "7",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -9881,7 +10271,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "7",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9911,7 +10305,7 @@
       "back_image": "assets/counters/images/fbd9d8a3359fbf4085eb.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -9920,7 +10314,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -9929,7 +10327,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "8",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9949,7 +10351,7 @@
       "notes": "Imported name: HU R Fw189A2.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238006": {
-      "designation": "He170A",
+      "designation": "He170A L",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
@@ -9959,7 +10361,7 @@
       "back_image": "assets/counters/images/8223c965940f92b086be.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -9968,7 +10370,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "22",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -9977,7 +10383,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "22",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -9997,7 +10407,7 @@
       "notes": "Imported name: HU R He170A L.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238007": {
-      "designation": "He46E2 UN",
+      "designation": "He46E2 UN L",
       "counter_category": "Air unit",
       "nationality": "Hungary",
       "service": "Hungarian Air Force",
@@ -10007,7 +10417,7 @@
       "back_image": "assets/counters/images/47a00ec0e78d76146e82.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -10016,7 +10426,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "13",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -10025,7 +10439,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "13",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10055,7 +10473,7 @@
       "back_image": "assets/counters/images/dfd429cd9e7d24bb9042.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "4",
@@ -10064,7 +10482,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "35",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -10073,7 +10495,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "35",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10103,7 +10529,7 @@
       "back_image": "assets/counters/images/43da6775388e2cb5426b.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -10112,7 +10538,11 @@
           "strategic_bombing": "0",
           "capacity_code": "1",
           "range": "17",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -10121,7 +10551,11 @@
           "strategic_bombing": "0",
           "capacity_code": "*",
           "range": "17",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10151,7 +10585,7 @@
       "back_image": "assets/counters/images/894b2c69ddb986c1510e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#007736",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -10160,7 +10594,11 @@
           "strategic_bombing": "0",
           "capacity_code": "1",
           "range": "17",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -10169,7 +10607,11 @@
           "strategic_bombing": "0",
           "capacity_code": "*",
           "range": "17",
-          "aircraft_type_code": "T"
+          "aircraft_type_code": "T",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10199,7 +10641,7 @@
       "back_image": "assets/counters/images/90ec82d20ab3c5ab43d3.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#dfe8c9",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10208,7 +10650,11 @@
           "strategic_bombing": "3",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10217,7 +10663,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10247,7 +10697,7 @@
       "back_image": "assets/counters/images/485a3cdd184d4729a8b1.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#dfe8c9",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -10256,7 +10706,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -10265,7 +10719,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "7",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10295,7 +10753,7 @@
       "back_image": "assets/counters/images/d39b0df508a8eb83b131.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#dfe8c9",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -10304,7 +10762,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -10313,7 +10775,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10343,7 +10809,7 @@
       "back_image": "assets/counters/images/ed1bdf88b0367a1d53ef.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#dfe8c9",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10352,7 +10818,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "17",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10361,7 +10831,11 @@
           "strategic_bombing": "0",
           "capacity_code": "L",
           "range": "17",
-          "aircraft_type_code": "R"
+          "aircraft_type_code": "R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10391,7 +10865,7 @@
       "back_image": "assets/counters/images/5f05495598b97b1c9a4f.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10400,7 +10874,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10409,7 +10887,11 @@
           "strategic_bombing": "1",
           "capacity_code": "N/A",
           "range": "15",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10439,7 +10921,7 @@
       "back_image": "assets/counters/images/6fb78ce107ff7a2c4591.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -10448,7 +10930,11 @@
           "strategic_bombing": "5",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -10457,7 +10943,11 @@
           "strategic_bombing": "2*",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10487,7 +10977,7 @@
       "back_image": "assets/counters/images/760c3aca01c1784669fe.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -10496,7 +10986,11 @@
           "strategic_bombing": "8",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -10505,7 +10999,11 @@
           "strategic_bombing": "4",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10535,7 +11033,7 @@
       "back_image": "assets/counters/images/910ca5a4c80742242721.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -10544,7 +11042,11 @@
           "strategic_bombing": "9",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -10553,7 +11055,11 @@
           "strategic_bombing": "4*",
           "capacity_code": "N/A",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10583,7 +11089,7 @@
       "back_image": "assets/counters/images/abf1ce6397945a40b70c.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10592,7 +11098,11 @@
           "strategic_bombing": "4",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10601,7 +11111,11 @@
           "strategic_bombing": "2",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10621,7 +11135,7 @@
       "notes": "Imported name: RO B JRS79B.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238381": {
-      "designation": "JRS79B1",
+      "designation": "JRS79B1 LT",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -10631,7 +11145,7 @@
       "back_image": "assets/counters/images/de92a63336b46501d75f.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -10640,7 +11154,11 @@
           "strategic_bombing": "3",
           "capacity_code": "LT",
           "range": "18",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10649,7 +11167,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "LT",
           "range": "18",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10679,7 +11201,7 @@
       "back_image": "assets/counters/images/aae504b73e329d0e44c6.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "5",
@@ -10688,7 +11210,11 @@
           "strategic_bombing": "5",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "2",
@@ -10697,7 +11223,11 @@
           "strategic_bombing": "2*",
           "capacity_code": "N/A",
           "range": "19",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10727,7 +11257,7 @@
       "back_image": "assets/counters/images/87a18bf328231ef012fe.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -10736,7 +11266,11 @@
           "strategic_bombing": "9",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -10745,7 +11279,11 @@
           "strategic_bombing": "4*",
           "capacity_code": "N/A",
           "range": "29",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10775,7 +11313,7 @@
       "back_image": "assets/counters/images/a1eff9ea8e86ee8a6010.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -10784,7 +11322,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10793,7 +11335,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10823,7 +11369,7 @@
       "back_image": "assets/counters/images/ea3b9f3c8e51d4ebc4d9.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -10832,7 +11378,11 @@
           "strategic_bombing": "5",
           "capacity_code": "N/A",
           "range": "28",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10841,7 +11391,11 @@
           "strategic_bombing": "2*",
           "capacity_code": "N/A",
           "range": "28",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10861,7 +11415,7 @@
       "notes": "Imported name: RO B PZL P37B.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238386": {
-      "designation": "SM62",
+      "designation": "SM62 FA",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -10871,7 +11425,7 @@
       "back_image": "assets/counters/images/f7507a14891ceaeeef2c.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10880,7 +11434,11 @@
           "strategic_bombing": "2",
           "capacity_code": "FA",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10889,7 +11447,11 @@
           "strategic_bombing": "1",
           "capacity_code": "FA",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10909,7 +11471,7 @@
       "notes": "Imported name: RO B SM62 FA.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238387": {
-      "designation": "SM79-III",
+      "designation": "SM79-III V",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -10919,7 +11481,7 @@
       "back_image": "assets/counters/images/a528397804ddaaeee719.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "3",
@@ -10928,7 +11490,11 @@
           "strategic_bombing": "3",
           "capacity_code": "V",
           "range": "21",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10937,7 +11503,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "V",
           "range": "21",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -10967,7 +11537,7 @@
       "back_image": "assets/counters/images/48475a62c24fcebd15bb.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -10976,7 +11546,11 @@
           "strategic_bombing": "3",
           "capacity_code": "N/A",
           "range": "21",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -10985,7 +11559,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "N/A",
           "range": "21",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11005,7 +11583,7 @@
       "notes": "Imported name: RO B SM79B.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238389": {
-      "designation": "Z501",
+      "designation": "Z501 FA",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -11015,7 +11593,7 @@
       "back_image": "assets/counters/images/ab2c7bdc3a50eabf1669.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -11024,7 +11602,11 @@
           "strategic_bombing": "2",
           "capacity_code": "FA",
           "range": "26",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -11033,7 +11615,11 @@
           "strategic_bombing": "1",
           "capacity_code": "FA",
           "range": "26",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11053,7 +11639,7 @@
       "notes": "Imported name: RO B Z501 FA.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238390": {
-      "designation": "Z506",
+      "designation": "Z506 FA",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -11063,7 +11649,7 @@
       "back_image": "assets/counters/images/5b4c511fa46f3b4413da.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -11072,7 +11658,11 @@
           "strategic_bombing": "3",
           "capacity_code": "FA",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -11081,7 +11671,11 @@
           "strategic_bombing": "1*",
           "capacity_code": "FA",
           "range": "22",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11101,7 +11695,7 @@
       "notes": "Imported name: RO B Z506 FA.FB\nManually transcribed from both original counter images by assistant; pending user review. Full-strength front and reduced back assigned from inspected artwork. Literal printed type/code, capacities, zeros and fractional symbols retained; no ratings inferred from model names or copied from other nations. No gameplay effects applied.\nWing/Squadron and type terminology: v1.6a Rule 5.B.1-4, printed p28 / PDF p30. Nationality/service colour identification: UICFB PDF p3. Printed size/status left blank where no such text is printed."
     },
     "vassal:133:238391": {
-      "designation": "Mxd B-1",
+      "designation": "Mxd B-1 FA",
       "counter_category": "Air unit",
       "nationality": "Romania",
       "service": "Romanian Air Force",
@@ -11111,7 +11705,7 @@
       "back_image": "assets/counters/images/66672a659db6aa5fc131.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "1",
@@ -11120,7 +11714,11 @@
           "strategic_bombing": "2",
           "capacity_code": "FA",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "0",
@@ -11129,7 +11727,11 @@
           "strategic_bombing": "1",
           "capacity_code": "FA",
           "range": "14",
-          "aircraft_type_code": "B"
+          "aircraft_type_code": "B",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11159,7 +11761,7 @@
       "back_image": "assets/counters/images/f6a2d003916cb2c4ac9e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "2",
@@ -11168,7 +11770,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "20",
-          "aircraft_type_code": "B/R"
+          "aircraft_type_code": "B/R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "1",
@@ -11177,7 +11783,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "20",
-          "aircraft_type_code": "B/R"
+          "aircraft_type_code": "B/R",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11207,7 +11817,7 @@
       "back_image": "assets/counters/images/e8fc3bca95394dea24c7.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -11216,7 +11826,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "13",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -11225,7 +11839,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "13",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11255,7 +11873,7 @@
       "back_image": "assets/counters/images/4667699526eb0ed94ebb.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -11264,7 +11882,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -11273,7 +11895,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11303,7 +11929,7 @@
       "back_image": "assets/counters/images/df6779dc2fe51b1eab8e.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -11312,7 +11938,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -11321,7 +11951,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11351,7 +11985,7 @@
       "back_image": "assets/counters/images/4f88f9bec041f75fa4ff.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -11360,7 +11994,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -11369,7 +12007,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11399,7 +12041,7 @@
       "back_image": "assets/counters/images/404b4f06abd757bb34aa.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "7",
@@ -11408,7 +12050,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "4",
@@ -11417,7 +12063,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "11",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11447,7 +12097,7 @@
       "back_image": "assets/counters/images/1f5dbe94739a7f09e97f.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "7",
@@ -11456,7 +12106,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "4",
@@ -11465,7 +12119,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "10",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11495,7 +12153,7 @@
       "back_image": "assets/counters/images/c55be48f13724fb71de8.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "6",
@@ -11504,7 +12162,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "3",
@@ -11513,7 +12175,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "9",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
@@ -11543,7 +12209,7 @@
       "back_image": "assets/counters/images/5fac7929a591dee58495.png",
       "back_appearance": "Printed image",
       "blank_back_color": "#2e3192",
-      "review_status": "In progress",
+      "review_status": "Verified",
       "aircraft": {
         "front": {
           "attack_factor": "9",
@@ -11552,7 +12218,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         },
         "back": {
           "attack_factor": "5",
@@ -11561,7 +12231,11 @@
           "strategic_bombing": "0",
           "capacity_code": "N/A",
           "range": "12",
-          "aircraft_type_code": "F"
+          "aircraft_type_code": "F",
+          "tug_attack_modifier": null,
+          "tug_defense_modifier": null,
+          "tug_bombing_restriction": null,
+          "tug_range_modifier": null
         }
       },
       "faces": {
