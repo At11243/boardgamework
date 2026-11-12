@@ -462,6 +462,7 @@ class TerrainEditor(QWidget):
         self.review_status.addItems([
             "Unknown",
             "Suggested",
+            "In progress",
             "Verified"
         ])
 

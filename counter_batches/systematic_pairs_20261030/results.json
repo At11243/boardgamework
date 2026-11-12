@@ -1,0 +1,1648 @@
+{
+  "date": "2026-10-30",
+  "scanned": 1778,
+  "candidate_bearing_profiles": 1089,
+  "prior_photo_positions_visually_reviewed": 107,
+  "reciprocal_candidates_inspected": 34,
+  "new_photo_pairs": 13,
+  "matched_definitions": 53,
+  "new_verified": 53,
+  "groups": {
+    "Missing reciprocal link to an already verified pair": 29,
+    "New exact printed pairing from supplied photos": 24
+  },
+  "totals": {
+    "Verified": 5243,
+    "In progress": 1725
+  },
+  "entries": {
+    "vassal:133:236270": {
+      "designation": "403",
+      "paired_type_id": "vassal:133:236405",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:236405 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency. Fresh native KIC199 p2 r9 c10 / p1 r9 c11 comparison shows 395 Sturm (1)-6 opposite bicycle 403 (1)-6; the old 403 4-6 locator was a different appearance and is superseded, not substituted.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 9,
+        "front_column": 10,
+        "back_row": 9,
+        "back_column": 11,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed reverse confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and literal metadata; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:236270",
+        "assigned_back_image": "assets/counters/images/6cb4de83da607e2621d2.png"
+      }
+    },
+    "vassal:133:236924": {
+      "designation": "122",
+      "paired_type_id": "vassal:133:237110",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:237110 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:/Users/dt112/Downloads/KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 8,
+        "back_page": 7,
+        "front_row": 6,
+        "back_row": 6,
+        "front_column": 4,
+        "back_column": 17,
+        "result": "Printed reverse identified",
+        "confidence": 0.98,
+        "scope": "Security / Reserve role alternate. Other status, not assumed reduced. Outside-selection reserve definition and stable IDs preserved."
+      }
+    },
+    "vassal:133:239627": {
+      "designation": "Armour Regiment 6TB",
+      "paired_type_id": "vassal:133:239900",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239900 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 1,
+        "back_row": 2,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239627",
+        "assigned_back_image": "assets/counters/images/2e0ddb472f41724107df.png"
+      }
+    },
+    "vassal:133:239629": {
+      "designation": "Armour Regiment 8TB",
+      "paired_type_id": "vassal:133:239902",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239902 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 2,
+        "back_row": 1,
+        "back_column": 19,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239629",
+        "assigned_back_image": "assets/counters/images/9008340360cce272d47b.png"
+      }
+    },
+    "vassal:133:239631": {
+      "designation": "Armour Regiment 10TB",
+      "paired_type_id": "vassal:133:239904",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239904 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 3,
+        "back_row": 1,
+        "back_column": 18,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239631",
+        "assigned_back_image": "assets/counters/images/11003c79f1822bd98990.png"
+      }
+    },
+    "vassal:133:239633": {
+      "designation": "Armour Regiment 12TB",
+      "paired_type_id": "vassal:133:239906",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239906 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 4,
+        "back_row": 1,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239633",
+        "assigned_back_image": "assets/counters/images/640c0699770649c8cc0b.png"
+      }
+    },
+    "vassal:133:239635": {
+      "designation": "Armour Regiment 14TB",
+      "paired_type_id": "vassal:133:239908",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239908 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 4,
+        "back_row": 2,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239635",
+        "assigned_back_image": "assets/counters/images/ae8d8f71f9cc11e2eb96.png"
+      }
+    },
+    "vassal:133:239637": {
+      "designation": "Armour Regiment 16TB",
+      "paired_type_id": "vassal:133:239910",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239910 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 5,
+        "back_row": 1,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239637",
+        "assigned_back_image": "assets/counters/images/b37eceefaf0b2f27e9f6.png"
+      }
+    },
+    "vassal:133:239638": {
+      "designation": "Armour Regiment 17TB",
+      "paired_type_id": "vassal:133:239911",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239911 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 5,
+        "back_row": 2,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239638",
+        "assigned_back_image": "assets/counters/images/db12277fa4bd54affe9d.png"
+      }
+    },
+    "vassal:133:239639": {
+      "designation": "Armour Regiment 18TB",
+      "paired_type_id": "vassal:133:239912",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239912 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 6,
+        "back_row": 1,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239639",
+        "assigned_back_image": "assets/counters/images/8de5e918b1569d687c57.png"
+      }
+    },
+    "vassal:133:239640": {
+      "designation": "Armour Regiment 19TB",
+      "paired_type_id": "vassal:133:239913",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239913 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 6,
+        "back_row": 2,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239640",
+        "assigned_back_image": "assets/counters/images/e12bb9a2911c57b8770f.png"
+      }
+    },
+    "vassal:133:239641": {
+      "designation": "Armour Regiment 20TB",
+      "paired_type_id": "vassal:133:239914",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239914 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 7,
+        "back_row": 1,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239641",
+        "assigned_back_image": "assets/counters/images/7654cb3cf6fc5afa2f00.png"
+      }
+    },
+    "vassal:133:239644": {
+      "designation": "Armour Regiment 23TB",
+      "paired_type_id": "vassal:133:239917",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239917 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 8,
+        "back_row": 1,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239644",
+        "assigned_back_image": "assets/counters/images/1e78ce3aafbd6854b118.png"
+      }
+    },
+    "vassal:133:239645": {
+      "designation": "Armour Regiment 24TB",
+      "paired_type_id": "vassal:133:239918",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239918 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 8,
+        "back_row": 2,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239645",
+        "assigned_back_image": "assets/counters/images/23aa7853da0fbee0a784.png"
+      }
+    },
+    "vassal:133:239648": {
+      "designation": "Armour Regiment 27TB",
+      "paired_type_id": "vassal:133:239921",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239921 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 9,
+        "back_row": 1,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239648",
+        "assigned_back_image": "assets/counters/images/edfae3f2cb8d4ac94eb9.png"
+      }
+    },
+    "vassal:133:239649": {
+      "designation": "Armour Regiment 28TB",
+      "paired_type_id": "vassal:133:239922",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239922 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 9,
+        "back_row": 2,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239649",
+        "assigned_back_image": "assets/counters/images/1bb6284fd443a4083d9c.png"
+      }
+    },
+    "vassal:133:239650": {
+      "designation": "Armour Regiment 30TB",
+      "paired_type_id": "vassal:133:239924",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239924 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 10,
+        "back_row": 1,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239650",
+        "assigned_back_image": "assets/counters/images/af11bd870b37d8c8fabb.png"
+      }
+    },
+    "vassal:133:239652": {
+      "designation": "Armour Regiment 32TB",
+      "paired_type_id": "vassal:133:239926",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239926 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 10,
+        "back_row": 2,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239652",
+        "assigned_back_image": "assets/counters/images/f7ee8e3816041877fdd5.png"
+      }
+    },
+    "vassal:133:239653": {
+      "designation": "Armour Regiment 33TB",
+      "paired_type_id": "vassal:133:239927",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239927 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 10,
+        "back_row": 3,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239653",
+        "assigned_back_image": "assets/counters/images/ef88a1f08ac9f57304e9.png"
+      }
+    },
+    "vassal:133:239654": {
+      "designation": "Armour Regiment 34TB",
+      "paired_type_id": "vassal:133:239928",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239928 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 10,
+        "back_row": 4,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239654",
+        "assigned_back_image": "assets/counters/images/0c8d3907a831e3901e9b.png"
+      }
+    },
+    "vassal:133:239655": {
+      "designation": "Armour Regiment 35TB",
+      "paired_type_id": "vassal:133:239929",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239929 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 9,
+        "back_row": 4,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239655",
+        "assigned_back_image": "assets/counters/images/40ac280fbb35531a81bc.png"
+      }
+    },
+    "vassal:133:239656": {
+      "designation": "Armour Regiment 36TB",
+      "paired_type_id": "vassal:133:239930",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239930 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 9,
+        "back_row": 3,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239656",
+        "assigned_back_image": "assets/counters/images/0efb60deb459cb870519.png"
+      }
+    },
+    "vassal:133:239657": {
+      "designation": "Armour Regiment 37TB",
+      "paired_type_id": "vassal:133:239931",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239931 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 8,
+        "back_row": 3,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239657",
+        "assigned_back_image": "assets/counters/images/257c700f0323e7f0a048.png"
+      }
+    },
+    "vassal:133:239658": {
+      "designation": "Armour Regiment 38TB",
+      "paired_type_id": "vassal:133:239932",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239932 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 8,
+        "back_row": 4,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239658",
+        "assigned_back_image": "assets/counters/images/497d75a70b5eb540cb0f.png"
+      }
+    },
+    "vassal:133:239659": {
+      "designation": "Armour Regiment 39TB",
+      "paired_type_id": "vassal:133:239933",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239933 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 7,
+        "back_row": 4,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239659",
+        "assigned_back_image": "assets/counters/images/356d3cd95f72ef94897c.png"
+      }
+    },
+    "vassal:133:239660": {
+      "designation": "Armour Regiment 40TB",
+      "paired_type_id": "vassal:133:239934",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239934 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 7,
+        "back_row": 3,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239660",
+        "assigned_back_image": "assets/counters/images/ebaabe1fd526dab44e65.png"
+      }
+    },
+    "vassal:133:239661": {
+      "designation": "Armour Regiment 41TB",
+      "paired_type_id": "vassal:133:239935",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239935 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 6,
+        "back_row": 3,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239661",
+        "assigned_back_image": "assets/counters/images/ae4f1e892a279f7c7504.png"
+      }
+    },
+    "vassal:133:239662": {
+      "designation": "Armour Regiment 42TB",
+      "paired_type_id": "vassal:133:239936",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239936 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 6,
+        "back_row": 4,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239662",
+        "assigned_back_image": "assets/counters/images/2b2d2cff42dad773ce6e.png"
+      }
+    },
+    "vassal:133:239665": {
+      "designation": "Armour Regiment 45TB",
+      "paired_type_id": "vassal:133:239939",
+      "group": "Missing reciprocal link to an already verified pair",
+      "review_status": "Verified",
+      "evidence": "Existing verified vassal:133:239939 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+      "proof": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 5,
+        "back_row": 3,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239665",
+        "assigned_back_image": "assets/counters/images/7e1919be366f558b25da.png"
+      }
+    },
+    "vassal:133:235779": {
+      "designation": "154",
+      "paired_type_id": "vassal:133:235985",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:235779 / vassal:133:235985, photo [199, 5, 3, 14] opposite [199, 6, 3, 7]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof. User Q02 reading Arko 132 corroborates the reverse; earlier provisional Arko 117 / 131 readings superseded.",
+      "proof": {
+        "type_id": "vassal:133:235779",
+        "front_loc": [
+          199,
+          5,
+          3,
+          14
+        ],
+        "back_loc": [
+          199,
+          6,
+          3,
+          7
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236002",
+            "score": 0.3933069705963135
+          },
+          {
+            "type_id": "vassal:133:236011",
+            "score": 0.38956284523010254
+          }
+        ]
+      }
+    },
+    "vassal:133:235985": {
+      "designation": "Arko 132",
+      "paired_type_id": "vassal:133:235779",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:235779 / vassal:133:235985, photo [199, 5, 3, 14] opposite [199, 6, 3, 7]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof. User Q02 reading Arko 132 corroborates the reverse; earlier provisional Arko 117 / 131 readings superseded.",
+      "proof": {
+        "type_id": "vassal:133:235779",
+        "front_loc": [
+          199,
+          5,
+          3,
+          14
+        ],
+        "back_loc": [
+          199,
+          6,
+          3,
+          7
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236002",
+            "score": 0.3933069705963135
+          },
+          {
+            "type_id": "vassal:133:236011",
+            "score": 0.38956284523010254
+          }
+        ]
+      }
+    },
+    "vassal:133:235835": {
+      "designation": "849",
+      "paired_type_id": "vassal:133:235975",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:235835 / vassal:133:235975, photo [199, 5, 5, 3] opposite [199, 6, 5, 18]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof. User Q03 reading Arko 121 corroborates this copy. That Arko appearance is also used on another verified physical pairing; do not alter that earlier definition.",
+      "proof": {
+        "type_id": "vassal:133:235835",
+        "front_loc": [
+          199,
+          5,
+          5,
+          3
+        ],
+        "back_loc": [
+          199,
+          6,
+          5,
+          18
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236152",
+            "score": 0.48706763982772827
+          },
+          {
+            "type_id": "vassal:133:236226",
+            "score": 0.48055487871170044
+          }
+        ]
+      }
+    },
+    "vassal:133:235875": {
+      "designation": "II/109",
+      "paired_type_id": "vassal:133:235970",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:235875 / vassal:133:235970, photo [199, 3, 4, 18] opposite [199, 4, 4, 3]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:235875",
+        "front_loc": [
+          199,
+          3,
+          4,
+          18
+        ],
+        "back_loc": [
+          199,
+          4,
+          4,
+          3
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236280",
+            "score": 0.3282071352005005
+          },
+          {
+            "type_id": "vassal:133:235972",
+            "score": 0.3125073313713074
+          }
+        ]
+      }
+    },
+    "vassal:133:236410": {
+      "designation": "Infantry Battalion Norwegen",
+      "paired_type_id": "vassal:133:236438",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:236410 / vassal:133:236438, photo [199, 8, 3, 2] opposite [199, 7, 3, 19]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:236410",
+        "front_loc": [
+          199,
+          8,
+          3,
+          2
+        ],
+        "back_loc": [
+          199,
+          7,
+          3,
+          19
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236303",
+            "score": 0.40589433908462524
+          },
+          {
+            "type_id": "vassal:133:237193",
+            "score": 0.39974653720855713
+          }
+        ]
+      }
+    },
+    "vassal:133:236438": {
+      "designation": "Light Infantry Battalion Schlebrugge",
+      "paired_type_id": "vassal:133:236410",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:236410 / vassal:133:236438, photo [199, 8, 3, 2] opposite [199, 7, 3, 19]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:236410",
+        "front_loc": [
+          199,
+          8,
+          3,
+          2
+        ],
+        "back_loc": [
+          199,
+          7,
+          3,
+          19
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236303",
+            "score": 0.40589433908462524
+          },
+          {
+            "type_id": "vassal:133:237193",
+            "score": 0.39974653720855713
+          }
+        ]
+      }
+    },
+    "vassal:133:237026": {
+      "designation": "406",
+      "paired_type_id": "vassal:133:237040",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:237026 / vassal:133:237040, photo [199, 5, 9, 20] opposite [199, 6, 9, 1]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:237026",
+        "front_loc": [
+          199,
+          5,
+          9,
+          20
+        ],
+        "back_loc": [
+          199,
+          6,
+          9,
+          1
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236889",
+            "score": 0.41596442461013794
+          },
+          {
+            "type_id": "vassal:133:236892",
+            "score": 0.4101778268814087
+          }
+        ]
+      }
+    },
+    "vassal:133:237040": {
+      "designation": "6",
+      "paired_type_id": "vassal:133:237026",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:237026 / vassal:133:237040, photo [199, 5, 9, 20] opposite [199, 6, 9, 1]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:237026",
+        "front_loc": [
+          199,
+          5,
+          9,
+          20
+        ],
+        "back_loc": [
+          199,
+          6,
+          9,
+          1
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236889",
+            "score": 0.41596442461013794
+          },
+          {
+            "type_id": "vassal:133:236892",
+            "score": 0.4101778268814087
+          }
+        ]
+      }
+    },
+    "vassal:133:237246": {
+      "designation": "382",
+      "paired_type_id": "vassal:133:236432",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:237246 / vassal:133:236432, photo [199, 9, 11, 1] opposite [199, 10, 11, 20]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:237246",
+        "front_loc": [
+          199,
+          9,
+          11,
+          1
+        ],
+        "back_loc": [
+          199,
+          10,
+          11,
+          20
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236971",
+            "score": 0.4592493772506714
+          },
+          {
+            "type_id": "vassal:133:236972",
+            "score": 0.448995977640152
+          }
+        ]
+      }
+    },
+    "vassal:133:236432": {
+      "designation": "Infantry Regiment 620",
+      "paired_type_id": "vassal:133:237246",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:237246 / vassal:133:236432, photo [199, 9, 11, 1] opposite [199, 10, 11, 20]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:237246",
+        "front_loc": [
+          199,
+          9,
+          11,
+          1
+        ],
+        "back_loc": [
+          199,
+          10,
+          11,
+          20
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:236971",
+            "score": 0.4592493772506714
+          },
+          {
+            "type_id": "vassal:133:236972",
+            "score": 0.448995977640152
+          }
+        ]
+      }
+    },
+    "vassal:133:238106": {
+      "designation": "152",
+      "paired_type_id": "vassal:133:238118",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:238106 / vassal:133:238118, photo [120, 1, 14, 16] opposite [120, 2, 14, 5]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:238106",
+        "front_loc": [
+          120,
+          1,
+          14,
+          16
+        ],
+        "back_loc": [
+          120,
+          2,
+          14,
+          5
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:238114",
+            "score": 0.3984987139701843
+          },
+          {
+            "type_id": "vassal:133:238113",
+            "score": 0.3926767110824585
+          }
+        ]
+      }
+    },
+    "vassal:133:238118": {
+      "designation": "2A",
+      "paired_type_id": "vassal:133:238106",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:238106 / vassal:133:238118, photo [120, 1, 14, 16] opposite [120, 2, 14, 5]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:238106",
+        "front_loc": [
+          120,
+          1,
+          14,
+          16
+        ],
+        "back_loc": [
+          120,
+          2,
+          14,
+          5
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:238114",
+            "score": 0.3984987139701843
+          },
+          {
+            "type_id": "vassal:133:238113",
+            "score": 0.3926767110824585
+          }
+        ]
+      }
+    },
+    "vassal:133:238135": {
+      "designation": "KMOF",
+      "paired_type_id": "vassal:133:238126",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:238135 / vassal:133:238126, photo [120, 1, 13, 15] opposite [120, 2, 13, 6]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:238135",
+        "front_loc": [
+          120,
+          1,
+          13,
+          15
+        ],
+        "back_loc": [
+          120,
+          2,
+          13,
+          6
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:238093",
+            "score": 0.37217798829078674
+          },
+          {
+            "type_id": "vassal:133:238157",
+            "score": 0.30959492921829224
+          }
+        ]
+      }
+    },
+    "vassal:133:238126": {
+      "designation": "III C",
+      "paired_type_id": "vassal:133:238135",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:238135 / vassal:133:238126, photo [120, 1, 13, 15] opposite [120, 2, 13, 6]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:238135",
+        "front_loc": [
+          120,
+          1,
+          13,
+          15
+        ],
+        "back_loc": [
+          120,
+          2,
+          13,
+          6
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:238093",
+            "score": 0.37217798829078674
+          },
+          {
+            "type_id": "vassal:133:238157",
+            "score": 0.30959492921829224
+          }
+        ]
+      }
+    },
+    "vassal:133:239174": {
+      "designation": "65/18AD",
+      "paired_type_id": "vassal:133:239153",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239174 / vassal:133:239153, photo [132, 2, 11, 2] opposite [132, 1, 11, 19]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239174",
+        "front_loc": [
+          132,
+          2,
+          11,
+          2
+        ],
+        "back_loc": [
+          132,
+          1,
+          11,
+          19
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:239652",
+            "score": 0.5096648931503296
+          },
+          {
+            "type_id": "vassal:133:239649",
+            "score": 0.5091148018836975
+          }
+        ]
+      }
+    },
+    "vassal:133:239153": {
+      "designation": "1428",
+      "paired_type_id": "vassal:133:239174",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239174 / vassal:133:239153, photo [132, 2, 11, 2] opposite [132, 1, 11, 19]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239174",
+        "front_loc": [
+          132,
+          2,
+          11,
+          2
+        ],
+        "back_loc": [
+          132,
+          1,
+          11,
+          19
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:239652",
+            "score": 0.5096648931503296
+          },
+          {
+            "type_id": "vassal:133:239649",
+            "score": 0.5091148018836975
+          }
+        ]
+      }
+    },
+    "vassal:133:239284": {
+      "designation": "612",
+      "paired_type_id": "vassal:133:239331",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239284 / vassal:133:239331, photo [108, 5, 11, 1] opposite [108, 6, 11, 20]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239284",
+        "front_loc": [
+          108,
+          5,
+          11,
+          1
+        ],
+        "back_loc": [
+          108,
+          6,
+          11,
+          20
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:241262",
+            "score": 0.42915183305740356
+          },
+          {
+            "type_id": "vassal:133:240180",
+            "score": 0.4218881130218506
+          }
+        ]
+      }
+    },
+    "vassal:133:239331": {
+      "designation": "612",
+      "paired_type_id": "vassal:133:239284",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239284 / vassal:133:239331, photo [108, 5, 11, 1] opposite [108, 6, 11, 20]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239284",
+        "front_loc": [
+          108,
+          5,
+          11,
+          1
+        ],
+        "back_loc": [
+          108,
+          6,
+          11,
+          20
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:241262",
+            "score": 0.42915183305740356
+          },
+          {
+            "type_id": "vassal:133:240180",
+            "score": 0.4218881130218506
+          }
+        ]
+      }
+    },
+    "vassal:133:239296": {
+      "designation": "138",
+      "paired_type_id": "vassal:133:239341",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239296 / vassal:133:239341, photo [108, 9, 7, 14] opposite [108, 10, 7, 7]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239296",
+        "front_loc": [
+          108,
+          9,
+          7,
+          14
+        ],
+        "back_loc": [
+          108,
+          10,
+          7,
+          7
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.43193742632865906
+          },
+          {
+            "type_id": "vassal:133:238878",
+            "score": 0.4148961305618286
+          }
+        ]
+      }
+    },
+    "vassal:133:239341": {
+      "designation": "4/2AD",
+      "paired_type_id": "vassal:133:239296",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239296 / vassal:133:239341, photo [108, 9, 7, 14] opposite [108, 10, 7, 7]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239296",
+        "front_loc": [
+          108,
+          9,
+          7,
+          14
+        ],
+        "back_loc": [
+          108,
+          10,
+          7,
+          7
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.43193742632865906
+          },
+          {
+            "type_id": "vassal:133:238878",
+            "score": 0.4148961305618286
+          }
+        ]
+      }
+    },
+    "vassal:133:239499": {
+      "designation": "10",
+      "paired_type_id": "vassal:133:239519",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239499 / vassal:133:239519, photo [132, 5, 10, 6] opposite [132, 6, 10, 15]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239499",
+        "front_loc": [
+          132,
+          5,
+          10,
+          6
+        ],
+        "back_loc": [
+          132,
+          6,
+          10,
+          15
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.4916631281375885
+          },
+          {
+            "type_id": "vassal:133:242005",
+            "score": 0.4656364917755127
+          }
+        ]
+      }
+    },
+    "vassal:133:239519": {
+      "designation": "10Des",
+      "paired_type_id": "vassal:133:239499",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:239499 / vassal:133:239519, photo [132, 5, 10, 6] opposite [132, 6, 10, 15]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:239499",
+        "front_loc": [
+          132,
+          5,
+          10,
+          6
+        ],
+        "back_loc": [
+          132,
+          6,
+          10,
+          15
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.4916631281375885
+          },
+          {
+            "type_id": "vassal:133:242005",
+            "score": 0.4656364917755127
+          }
+        ]
+      }
+    },
+    "vassal:133:241008": {
+      "designation": "602",
+      "paired_type_id": "vassal:133:240160",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:241008 / vassal:133:240160, photo [132, 1, 12, 17] opposite [132, 2, 12, 4]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:241008",
+        "front_loc": [
+          132,
+          1,
+          12,
+          17
+        ],
+        "back_loc": [
+          132,
+          2,
+          12,
+          4
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.5197981595993042
+          },
+          {
+            "type_id": "vassal:133:240189",
+            "score": 0.5113115310668945
+          }
+        ]
+      }
+    },
+    "vassal:133:240160": {
+      "designation": "51",
+      "paired_type_id": "vassal:133:241008",
+      "group": "New exact printed pairing from supplied photos",
+      "review_status": "Verified",
+      "evidence": "Individually inspected digital originals and native paired physical cells: vassal:133:241008 / vassal:133:240160, photo [132, 1, 12, 17] opposite [132, 2, 12, 4]. Printed designation, symbol, size and literal ratings agree. Existing sheet context and mirrored position checked; similarity/OCR scores are not proof.",
+      "proof": {
+        "type_id": "vassal:133:241008",
+        "front_loc": [
+          132,
+          1,
+          12,
+          17
+        ],
+        "back_loc": [
+          132,
+          2,
+          12,
+          4
+        ],
+        "candidates": [
+          {
+            "type_id": "vassal:133:242002",
+            "score": 0.5197981595993042
+          },
+          {
+            "type_id": "vassal:133:240189",
+            "score": 0.5113115310668945
+          }
+        ]
+      }
+    }
+  },
+  "backup": "assets\\counters\\recovery_snapshots\\before-systematic-pairs-20261030.zip",
+  "temporary_editor_roundtrips": 53,
+  "editor_issues": {
+    "vassal:133:236270": [],
+    "vassal:133:236924": [],
+    "vassal:133:239627": [],
+    "vassal:133:239629": [],
+    "vassal:133:239631": [],
+    "vassal:133:239633": [],
+    "vassal:133:239635": [],
+    "vassal:133:239637": [],
+    "vassal:133:239638": [],
+    "vassal:133:239639": [],
+    "vassal:133:239640": [],
+    "vassal:133:239641": [],
+    "vassal:133:239644": [],
+    "vassal:133:239645": [],
+    "vassal:133:239648": [],
+    "vassal:133:239649": [],
+    "vassal:133:239650": [],
+    "vassal:133:239652": [],
+    "vassal:133:239653": [],
+    "vassal:133:239654": [],
+    "vassal:133:239655": [],
+    "vassal:133:239656": [],
+    "vassal:133:239657": [],
+    "vassal:133:239658": [],
+    "vassal:133:239659": [],
+    "vassal:133:239660": [],
+    "vassal:133:239661": [],
+    "vassal:133:239662": [],
+    "vassal:133:239665": [],
+    "vassal:133:235779": [],
+    "vassal:133:235985": [],
+    "vassal:133:235835": [],
+    "vassal:133:235875": [],
+    "vassal:133:236410": [],
+    "vassal:133:236438": [],
+    "vassal:133:237026": [],
+    "vassal:133:237040": [],
+    "vassal:133:237246": [],
+    "vassal:133:236432": [],
+    "vassal:133:238106": [],
+    "vassal:133:238118": [],
+    "vassal:133:238135": [],
+    "vassal:133:238126": [],
+    "vassal:133:239174": [],
+    "vassal:133:239153": [],
+    "vassal:133:239284": [],
+    "vassal:133:239331": [],
+    "vassal:133:239296": [],
+    "vassal:133:239341": [],
+    "vassal:133:239499": [],
+    "vassal:133:239519": [],
+    "vassal:133:241008": [],
+    "vassal:133:240160": []
+  },
+  "input_sha256": "7bd4634bd746c350ee0825092be62f73472f7d5437f4501cd122b607a704f3ad",
+  "output_sha256": "6aa17fdb3b4132df08afa0002e34e7efbeea4a7eef65050ca7406878fd5698e8",
+  "protected_files_sha256": {
+    "counters\\batch_review.py": "25e73e39d8de5994b38c12b724039ca5cde2e2f4c9a4876f007baca6535bc890",
+    "counters\\counter_browser.py": "aa1d70e337bfd842b23461ca386376c07583cb5144c6dd9a1c673e34ae914808",
+    "counters\\counter_faces.py": "e9f62613e8b91d4fc6c84e09c5a253f7b9ac443091c3660772b23196c5336454",
+    "counters\\counter_state.py": "fb6fa6fb158b8c9f26980150df4d06dceb3aefdf1ddd447a5a5f09d00f7d898d",
+    "counters\\import_counters.py": "9b90d4cd75ddb62e5a3a76863522b0c378e2e1264459d5e30113c98a488df3b0",
+    "counters\\stack_inspector.py": "12e45489345741e316f2a0584f2f7376dd097bab3ccf8c4945cbd01b7be47ba3",
+    "counters\\unit_editor.py": "f482349c1d3e2bf8af040682d371ec91eac3607e048cd29fa3bfaad667bc9539",
+    "counters\\unit_storage.py": "33b929d7ea94d781e2c57c61d4289d75e5c36da5ce0c1734ee1c254857c36e52",
+    "counters\\__init__.py": "43078f1116c83455e352e7ade4472c17e5b18e9b8a46aa733adc37b56dab5ec5",
+    "rules\\combat_records.py": "78b18dab89dc26423f7cd226f03dac7dbbd559cabb67b8a4fa97fa207be99796",
+    "rules\\dice.py": "ffa4ac99d6f20cb8f51258d92d314b2e3ceff0a66d0027209fd8c15e9cd39f46",
+    "rules\\sides.py": "d9143bef1f8b3e0844e5179b4b10497989493540fd976586e7afc6be3fe4cc27",
+    "rules\\__init__.py": "954791c5d0fcd1a7e85eb79ab9dd72808e459783a6471f80b06b3fa51b1c00cc",
+    "game\\action_history.py": "db5a2a6c7f32159fedc8e886be217c7767cc095011132f58a4a60e813d7b9e9b",
+    "game\\dice_dialog.py": "ee5aae07b3c4eca7ec883b7af9729225e7a811380351528e1e3d2a67a2a98902",
+    "game\\history_panel.py": "5ed53fc73bf30799c28998c9deb29ce7872b8d7eedbda0c685e0f394173d2395",
+    "game\\nation_roster.py": "26055dd6d2ba21ea81af0464746f905875b41f3b0fe8581d5cb0d9e8d0158292",
+    "game\\player_setup_dialog.py": "ecc3508e8534e98b517d77a8e9df76e1b355f47205bb6d8707b2e76669105c03",
+    "game\\__init__.py": "734256f79f951d3e604d76f2b2b15280f05f7ac5fcc451598cc0919adec0153f",
+    "maps\\campaign_grid_definitions.py": "915e655f91349525de974fdc306cc4e0d6002c30f2d3229e897ab8701b9d8779",
+    "maps\\campaign_layout.py": "82dbc5340bcfb6aad80f33604362dec042141db3e84ecdf57ec2c91017017b5b",
+    "maps\\grid_definitions.py": "c1c1219a3c5b37c82df8c839a84b75e534a23a0cfd6773b4098a9e16aec5ef4d",
+    "maps\\hex_model.py": "ca27ae8e88c286329fbb7f5e3f8575fb35f8a299b54b401340f963cbddabe6fb",
+    "maps\\import_grids.py": "5f6883f55891678cf77530627411a1a81435741bc7cd9a163249289a03e26288",
+    "maps\\mapping_fields.py": "487328721b629fd3c4c64995a6952d49a62aa107de9ea8aa93c04a79a1b0f482",
+    "maps\\mapping_support.py": "87af79405dbcaeafdae6d21747cced03160c60e8d7532a30a86e457ee5978c73",
+    "maps\\map_view.py": "921cb370cfcc85a4367bac5ba79334f8d80bafe5f1ffe7230e1aefe7f90b76df",
+    "maps\\terrain_editor.py": "aa3a7126d2e8cbdc528030dc2a58b8057c711a787942ba363c73b1de7d80f197",
+    "maps\\__init__.py": "601fe50f5c69d8bb7841cafc493e0cd35dadae455e4aefbfccd5e01039a5f4e0",
+    "reference\\UICFB.pdf": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4",
+    "reference\\charts\\Map Layout and Regauge file.pdf": "9334c0be43bb3ce88c07b2e14225f00f5e229385da27a784e67d3a854fdea419",
+    "reference\\charts\\Supply Picture Barbarossa - OS wth QM.pdf": "9afcce8ac4c010c93f5e0bc4789eeb831c83b229c6cc9c90269c56ef30be28ed",
+    "reference\\charts\\Supply Picture Barbarossa.pdf": "85be71e8cbcb2e0a0ec16a66283f02cbe76cabac3be0c9f42a782842803166b6",
+    "reference\\charts\\TSWW GENERAL CHARTS v1.6.pdf": "6816230c6fc05843c0cf8d20c47e8ce0efc55d378a5b9dd717862b0f8864360c",
+    "reference\\charts\\UICFB.pdf": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4",
+    "reference\\orders_of_battle\\Axis Minor Nations PRINT.pdf": "c478ecee18d373af9eceecf335af0d4e9dbae7818ac969b841e902d031a08f6d",
+    "reference\\orders_of_battle\\Axis OB PRINT.pdf": "ead8d65ecb20cb0806f478796ad4b2918747a1c6ac0444f49d511d4a448b0432",
+    "reference\\orders_of_battle\\FB AT STARTS PRINT.pdf": "f757917d86ad09e4d1ca72d961da6ee7c6f285b1fc93e82ccdac064847e90a03",
+    "reference\\orders_of_battle\\FB Axis Replacements.pdf": "c8742e60213a5feb703cd25bab03e8b42ca591ef1b68fdd4c63d04a2ca7537c5",
+    "reference\\orders_of_battle\\Soviet OB Print v1.7.pdf": "c78972cc963c5f58a7968dbda5b7f595d07d37fdad19ba8e1d8718266e2bdc95",
+    "reference\\orders_of_battle\\Western Allied OB PRINT.pdf": "eca4e7f3f8f139fa15788d348abca3873dafa545d555ab57c448c01114372dad",
+    "reference\\rules\\TSWW_PRODUCTON_RULES_V1_6a.pdf": "7e0578fbec8686d073ab12889fa7ba0f15354bcb00923ad9d7cef099f0588acb",
+    "reference\\rules\\TSWW_PRODUCTON_RULES_V1_6_PRINT.pdf": "19d7a44bcd6249488b20a62d183d19aac7e6c286b02a12cd6b6b8020adf69d68",
+    "main.py": "a5b82a991930916573edff4ffa556f268b0c974ec8f9a258375cd9cfb553869f",
+    "map_terrain.json": "5f5e9c551a3b580f93f79a9a6317cb5d289e6fd218081266d5953d04c3ebafb9",
+    "map_terrain_backup.json": "abefd335e1728df5e72dc549cb55ede5c864f1fd649d7c4d6fee731f0cb2e14d",
+    "map_transport.json": "fe4bd1359a91fef63d39cdd3d06ab81dc0946d6b09bd5ce4fe3066ac3c294d72",
+    "assets\\counters\\counter_catalog.json": "8f273ccc70030470e69b6cec51422ca1bb460acc9699f93d46324db2384133d4"
+  },
+  "artwork_sha256": {
+    "assets/counters/images/6cb4de83da607e2621d2.png": "fea655a4ac0cae508ee5e9ab07a8f0e66f6127b073fe92ee4a29bd3d180682be",
+    "assets/counters/images/01b553412e895bdf7064.png": "02624d3975fd689b571e280f006a8c96f76a26a4237ead94478a44bf4389f0b8",
+    "assets/counters/images/868e11668d64d746a019.png": "9bc17bd7d944d703116be1b4c7820c1eec6c49175dfbe012b7458729a2811531",
+    "assets/counters/images/bc5c03b0c3100eec64a2.png": "2bc564b528716c924029791ac1182653841388eb4ae13bbaff50e1c1c6363b62",
+    "assets/counters/images/2e0ddb472f41724107df.png": "5b6f30537d873e489121da9a88422e62fc00270a51b2deb7c9db11a1fc6133de",
+    "assets/counters/images/244ca6720f71b4c65774.png": "c9cb93ebe9a81b59d77645213519342df78099e9c76866a7ab4c9ab3115a43b8",
+    "assets/counters/images/9008340360cce272d47b.png": "b6c46a0e1488e2fc73a862ec285c81236060261a5454797b2d4efaf9c2376a56",
+    "assets/counters/images/b0ed2b86b7c8e9b3b048.png": "24de20e8cec7c4f01888224c7ad81a766c340a93292b6c7aaae2bda39120d9f1",
+    "assets/counters/images/11003c79f1822bd98990.png": "f57f732c8adfcb59c777a9bfe344e35fcb1e0d2dbe6c0d49b8b0d23c0fe34bb6",
+    "assets/counters/images/71a96e95353791e2861b.png": "03e6b3676cad6e0044a628b7b3a2d6e054505bd8f752789dcc727c814e63b72d",
+    "assets/counters/images/640c0699770649c8cc0b.png": "1ae95b71dde2c2bde4440324ca12cc156c1da4dfc1ffbf45e265a5fb901d0fa8",
+    "assets/counters/images/373cddc88508afd490be.png": "4b9456a0a37cbfe2fc7ef300b5c20ba108553330dbdf7cf6dd8602f4351f5f1b",
+    "assets/counters/images/ae8d8f71f9cc11e2eb96.png": "5fa1e5df4e5f9cf01682443685bdece016bd10dce1e5f44381e38b31a5056762",
+    "assets/counters/images/1830822fc356ed07dd1c.png": "38fbffeac1bb0f9c4a454c12095a7047a76bc87f5a5f41ebae5b8dc101240b08",
+    "assets/counters/images/b37eceefaf0b2f27e9f6.png": "5140ec4e6b0c6d9f79d3168217c0a28fcd66b524e2c80fa9f10867407e918334",
+    "assets/counters/images/a97dd2c46d97824927a6.png": "a1835945b410cc208a35360542cffb7fe4fc0f2d0f6d08e4c816cc07a53ab223",
+    "assets/counters/images/db12277fa4bd54affe9d.png": "e42f0d45473b3d1982f81e8b955a00a1474d41c3bbf26abcda1754a5db98cbc0",
+    "assets/counters/images/2f3d66fe6b2133a20f16.png": "72de2b727b1448e07c9b368e627d7f86d0d4686728b05948293483d129376fce",
+    "assets/counters/images/8de5e918b1569d687c57.png": "a113067621f0259d747f6b1f3d9fc2ae173f160ca7d845130f11ffe16e0428ad",
+    "assets/counters/images/ad657ba9478b7fb9d198.png": "0c17237783de5476bc322da5d49ecbb6e7c3914ca9a3d5423676c22463464996",
+    "assets/counters/images/e12bb9a2911c57b8770f.png": "6273b39aad832717beefc355b377c2213cfe06e46f83d0cc458f4b3f5e7c0c1d",
+    "assets/counters/images/0d19211ab642743da271.png": "005fc4b2dd1a80086d892301d132073596f71c4c74bc8b9b37d6c63dec31aacd",
+    "assets/counters/images/7654cb3cf6fc5afa2f00.png": "dccf5d85db71fbfa644c0bebad7c57794e85e0c43f03d461d266663b15c0eed1",
+    "assets/counters/images/25ad57b475f2ce11c649.png": "0ba4b6d7193ef818dfc55b38cdb94a8cd926001231779d07ca4f8c94488437ce",
+    "assets/counters/images/1e78ce3aafbd6854b118.png": "3471e931873e480e6606c15a3e5842e3c1fd0d3259f5daf4467c9ad1c56206b9",
+    "assets/counters/images/37c258f9b4ef4c642497.png": "7bcf222509728e1ac5901e614d2a6cb63f76c72d04094c259e2cc8703d950473",
+    "assets/counters/images/23aa7853da0fbee0a784.png": "7b114f8980c8e10376100a881423ca5f53df763fddcf0b19c3c150c58c819193",
+    "assets/counters/images/4794e54e2f9823fac4f7.png": "e5ee0f056c4979166acf726a6a5742a5c51a12e18e9f1e6380a52c8ac2952d46",
+    "assets/counters/images/edfae3f2cb8d4ac94eb9.png": "199aec564bd76e6bf7141b254c63cffd2548d303be1a804b05d6bbaab5b82bd8",
+    "assets/counters/images/cecce078cc7e912f2ded.png": "42e40d12a2b003d11e1b06cb50400a913151c7958defd92375a6012098f9b0cf",
+    "assets/counters/images/1bb6284fd443a4083d9c.png": "143d24e14e2038e6c9ac1375ec346b97f8d114873935f7f1c2a6d5c78f50d60f",
+    "assets/counters/images/8a306f65b71060764a92.png": "e2cafeeb3783adde5a2f7e3e35ac9c439dbb392c9a8f82c7d541aab4cf8d1fc2",
+    "assets/counters/images/af11bd870b37d8c8fabb.png": "a40a11274b726758013a2c9f45b5de8a25674cd54d567494c29a101b0df0b6de",
+    "assets/counters/images/0ea2195ab08052c0a8ef.png": "2509708126be5ee2420cd8ac526bcdbcc809954737fb608daaca71c03838c30e",
+    "assets/counters/images/f7ee8e3816041877fdd5.png": "17da38aa56c2d1b63b4f103e4768d2ca2f716e7e5e1c2abe958e29c4078f16b3",
+    "assets/counters/images/2a0b766763e8936999e2.png": "e92ef7f5ae41d9db3903f94d3a91202f0b073132099630b26b196c8c7965f543",
+    "assets/counters/images/ef88a1f08ac9f57304e9.png": "9ce943602abafae8ca5e1e03b6e62559bdb05061f0a31aed5da3725826d8ce13",
+    "assets/counters/images/c152f0db5ec07adefa23.png": "c87698edb712eeb20c602ebe0c150ad1858cb14127341616d14681247fb16c7c",
+    "assets/counters/images/0c8d3907a831e3901e9b.png": "1f85ebe93db528f1a8536eec248a33f9c31f4ac0c7cdb413d27e5b401f204a09",
+    "assets/counters/images/6f0a79eea5dcdc100e46.png": "1ee60f25da5bb3917230074dde6f937d599684a7d08bb8e2c0ccb9f4f18b6495",
+    "assets/counters/images/40ac280fbb35531a81bc.png": "2623389b70374d7468a795fc12a4f5c4c48c2adbf0a32be70263c65af0924c86",
+    "assets/counters/images/8f215ca5d6e919951e62.png": "663668a9d5b2e09bb6515967ec16778773b4795504b53fd11f004f8c8c83ef31",
+    "assets/counters/images/0efb60deb459cb870519.png": "769305b31ef5d018ae637c8c304bd7ef08bd9d22dbeeafd4f895cc5232e045e5",
+    "assets/counters/images/17a2fef8e137fc752b29.png": "7fd83548245802c4d6332f14a20ceeae2d3e470c66566f5f46ef6ff457e62672",
+    "assets/counters/images/257c700f0323e7f0a048.png": "d0d19150e917abf76df5154d25a1bcaead2ead4d6161492fd680808719a229ee",
+    "assets/counters/images/16be79d68ceacd90d13d.png": "6cdc5bc7434bb1b8540574fd9520e31448f267422627359b68aebdf35e698575",
+    "assets/counters/images/497d75a70b5eb540cb0f.png": "a64d9a721ff0ac95b969a0883dfc6e5e4010f208fee1fad2508976fb456caeae",
+    "assets/counters/images/bd6b103e4ec74b2b3924.png": "7f3f6304ce1fa85292197e92f2af735846de2c026f1d551c456062a21af0299d",
+    "assets/counters/images/356d3cd95f72ef94897c.png": "c9953fc51d61b37a756f6b517c8ad19724afb9b46527b8c2a94ca77b74bacbe2",
+    "assets/counters/images/448d2bebe4d163fe937b.png": "67a8e84d180cdf4fdb94df426353c62da3e6e78e018f6a4182ff256b9a587b6f",
+    "assets/counters/images/ebaabe1fd526dab44e65.png": "9dcad7fdaa5f7b7fb9abf2b4b6bc87bba853f3ff1613d76a105c79a976e3fd5b",
+    "assets/counters/images/00c45c52b4d230449a27.png": "f6e6360948437350cb51b0450fd6f6811ee04651fbd02989db7741cd359dc436",
+    "assets/counters/images/ae4f1e892a279f7c7504.png": "8d4891a7df0ca970060c42e8c3e30f7a92cfb8d2dc230a42aea4aeb663b83cab",
+    "assets/counters/images/38010a2cae9e622e3d24.png": "2c3c3ecb361105ec5412671ceb53c4ee49fbaa22f64a1e48e6cb7d7ac4e874bf",
+    "assets/counters/images/2b2d2cff42dad773ce6e.png": "60edbf576b29e261e9f102e7001672d6a0adceb2ef533f47e6d84d410066517e",
+    "assets/counters/images/d9ca63542b09c7aa78a4.png": "f721410228166ee6e3b9c8decb1347a258c10e09564cc0dfd27c758c98016a7a",
+    "assets/counters/images/7e1919be366f558b25da.png": "b4261b90c15b6e9d2437bae640e025a67cc2bf134edba7b1ab6d37527ec0686b",
+    "assets/counters/images/9ece02643b661d7bd4a9.png": "6aa7dd66105518b390ead94490f8fb1d39aca92cbee75bd14172c5b69fa45999",
+    "assets/counters/images/2bf459dacd39d65abe2b.png": "ac6b3a454001cba16a3bbfbf2913616c00bcf04ffc8930d22c388fb2878049b3",
+    "assets/counters/images/7989d7d84384a738a1b1.png": "dcfece3fc4285b8176202ec4e45f7a09aef31c248f9ad2e2ce245096e8e67c48",
+    "assets/counters/images/5a2455e7a9f17d1b1437.png": "17c9079b2c2d30f7aec37b0a831376c0edae508cd4a33e582e956ef73bc9adb9",
+    "assets/counters/images/a58a7186d3b73bdaf053.png": "fdacc244b1872a525406f61745cb698bdf61e8abeea445d47655dd5f43e0c5e4",
+    "assets/counters/images/953bd2fa49ff53d9ede5.png": "67108a20f44e45bcd2bf2c0520a2e437e91eb3ef351f4e1bba4d59f2614ff25c",
+    "assets/counters/images/87c154dae7380b00b5e3.png": "b12cde1132562d1de5b4ef638d2aaaa91dc511939c08575f4fa743be6c8f5a6e",
+    "assets/counters/images/87ca11880f39e17f0650.png": "0603bf4b00eabf4708eacb08b96a1c473bd2e566420fc5b8d27029378314e8d4",
+    "assets/counters/images/da70514a8e8e3aa6b477.png": "3837f562f56caf94cc0329e1b9413b8602379eeea8db5e9593be87d95d92a6fa",
+    "assets/counters/images/c45203822e71617fa700.png": "89b3ce676e5f087aa29224e98c5ddb9967d1d6ac4aea6eabafa293ef432b72df",
+    "assets/counters/images/04f2080a03bbce535d7d.png": "6e486cccfab4e0760c5ffdba232e30a021a1013a163b9cef4000eb45155177e2",
+    "assets/counters/images/c28ea13ce6a55c24c80d.png": "26593a8a18bcec0eea952c041e3d89f7fb69a1c09a2bef7c7299ab28d9d27b64",
+    "assets/counters/images/9445434c918ab4029eff.png": "0984764eb5f4700f33c1cb1853960637f5c8bd5a16a3e62af20275451435dbb5",
+    "assets/counters/images/c28bff6e4dee78bc8b4f.png": "c0a0aead174fd5fd3b81cf02b119766eba6b1e62da96e77f9426262a6ca2e92a",
+    "assets/counters/images/c6d61350a0caf89e9c00.png": "236efb634db4de2b6ca15035c55883db62d28213ff318b1d15eee595e7c89a96",
+    "assets/counters/images/de3d0223b72434fb1b3d.png": "5f7ee7fc179f7d131287fc29b4056205a1e70d565358ed264f5b14adeb952a36",
+    "assets/counters/images/65f707a3c55ebb23a69c.png": "50d759052a0c4cb76f9970e8da28afe21873b603d0656220986ec38f5b25a732",
+    "assets/counters/images/25cb097eab7604aabc85.png": "51e7f1858c2a1ba1dc3158790f0072f016f6dfe8246f53ee8e81e2a5b088e4cd",
+    "assets/counters/images/4733720e38452566a8cf.png": "10e119650bfbc23a7b9cdb102eec85652f0482074f1bbb7af4637aff5e002a97",
+    "assets/counters/images/36beca0e7dd7c31724d1.png": "580514a9a65bd99689f700db4ddcd5f45d978fe069415fa097a9c218a6249a68",
+    "assets/counters/images/97b9c7267e50538dd715.png": "0c78d2b82f98552f49292daa3ee2bb3a481ffa6b83f3153297cb78d523f64c85",
+    "assets/counters/images/c8553722d4ffc7066ff7.png": "0e354b2b4d2a0d228a5e092d087f3c3e9d89495eb78c7148de869967b1d6a746",
+    "assets/counters/images/0bbb8e1430de6bd91d29.png": "5fed4f1d6cfb7ae23251b3d3ef4b5f0dbea9e83c476aa629d95383aa05184ccb",
+    "assets/counters/images/cb44c8e1b572a5aaf75a.png": "d4dcf1ccfc67b36b53bb36ef3a0d2fe5da70611c0d39c76de560b5f8e1b23f77",
+    "assets/counters/images/ea31fb2284bd598356b2.png": "1b00cad0f81057bf6e37c5d537363e459813206b8dfd4a228948ca1a88370bc0",
+    "assets/counters/images/5029a90430e648d3c0fc.png": "9f10494f4c76037e944ac23fea0fb3989efc5cde25e830cf1b91d6ab83873720",
+    "assets/counters/images/74acda5ee764b8cdaee1.png": "3cfb85c0149b2ad07c15e418a591692b3d6dff7e81a774aa50990aa04f479afb"
+  },
+  "limitations": "All remaining definitions received metadata/module/reciprocal candidate search. NOT an exhaustive per-cell photo search or visual verification of every name-based candidate. 107 prior photo positions and 34 reciprocal candidates individually compared; 14 proposed new pairs inspected, one rejected for designation uncertainty. Existing Verified records untouched. No inferred blank backs or automatic same-name pairings."
+}

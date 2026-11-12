@@ -9,3 +9,27 @@ __pycache__/
 tmp/
 reference/**/*.pdf
 reference/*.pdf
+
+# Local recovery archives and generated review imagery/caches.
+mapping_backups/
+counter_batches/**/*.png
+counter_batches/**/*.zip
+counter_batches/**/*.html
+map_batches/**/*.png
+map_batches/**/*.html
+audits/**/*.png
+audits/**/*.npz
+audits/**/*.bak
+audits/**/ocr_inputs/
+audits/**/ocr_results/
+audits/**/factor_inputs/
+audits/**/factor_results/
+audits/**/jobs-*.json
+audits/**/factor-jobs-*.json
+audits/**/ocr_manifest.json
+audits/**/factor_manifest.json
+audits/**/ocr_comparison.json
+audits/**/suggestions.json
+audits/**/early-*.json
+counter_batches/physical_third1000_pending/
+counter_batches/third_200_20261030/

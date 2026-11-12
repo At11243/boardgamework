@@ -52,3 +52,10 @@ No outstanding user decision blocks the first foundations slice. Review optional
 ## Side-setup roster clarification
 
 The user confirmed using the local UICFB as the correct reference rather than their other 2021 key. The local key has four pages: National Colour Identifiers on PDF p3 and Strategic Map Terrain Information on p4; no neutral roster is present. Setup groups service branches under their nations, keeps Inter Allied as a distinct control pool, and treats the Axis/Western Allied/Soviet headings as editable force-group defaults. These are not date-sensitive national war-entry rulings. Nation aliases are explicit matching conveniences, not rules assigning foreign contingents. Neutral nations remain manually addable. See PROJECT_CONTEXT.md for the implemented setup scope.
+
+
+## Counter metadata layout clarification — 2026-10-30
+
+UICFB PDF p2 and R16a 4.A.3.a.i-iv (printed p19 / PDF21) distinguish printed CD components: 3/2 has level 3 and long component 2; total short-range gunnery includes both components and is not calculated by the metadata editor. R16a describes CD levels 1–8, but VASSAL artwork includes higher values (for example Trondheim 18/2 and 22/5). Preserve the artwork values under the user's VASSAL-reference policy; flag this as a rule/artwork discrepancy for future gameplay implementation rather than imposing a cap.
+
+R16a 5.C.2.e.ii-iii (printed p32 / PDF34) identifies SSF bottom-right values as patrol range and separately gives a combat speed. R16a 5.C.4 (printed p33 / PDF35) excludes both SSF and FAS from printed tactical-speed ratings. FAS bottom-right values remain literal metadata until their interpretation is established. UICFB PDF p2 states unprinted commander modifiers have no effect; metadata completeness does not require invented zero/N/A entries. These are editor/data-layout decisions, not implemented gameplay calculations. See [COUNTER_EDITOR_FORMAT_REVIEW.md](COUNTER_EDITOR_FORMAT_REVIEW.md).

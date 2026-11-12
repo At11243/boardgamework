@@ -1,0 +1,2522 @@
+{
+  "review_date": "2026-10-27",
+  "backup": "assets/counters/recovery_snapshots/before-physical-backs-20261027-112615.zip",
+  "sources": [
+    {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+      "sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+      "pages": 12,
+      "sheet_pairs": [
+        {
+          "front_page": 1,
+          "back_page": 2,
+          "status": "73 counters matched; remainder pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 3,
+          "back_page": 4,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 5,
+          "back_page": 6,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 7,
+          "back_page": 8,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 9,
+          "back_page": 10,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 11,
+          "back_page": 12,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+      "sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+      "pages": 10,
+      "sheet_pairs": [
+        {
+          "front_page": 1,
+          "back_page": 2,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 3,
+          "back_page": 4,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 5,
+          "back_page": 6,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 7,
+          "back_page": 8,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 9,
+          "back_page": 10,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+      "sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+      "pages": 10,
+      "sheet_pairs": [
+        {
+          "front_page": 1,
+          "back_page": 2,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 3,
+          "back_page": 4,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 5,
+          "back_page": 6,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 7,
+          "back_page": 8,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 9,
+          "back_page": 10,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+      "sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+      "pages": 10,
+      "sheet_pairs": [
+        {
+          "front_page": 1,
+          "back_page": 2,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 3,
+          "back_page": 4,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 5,
+          "back_page": 6,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 7,
+          "back_page": 8,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 9,
+          "back_page": 10,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+      "sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+      "pages": 10,
+      "sheet_pairs": [
+        {
+          "front_page": 1,
+          "back_page": 2,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 3,
+          "back_page": 4,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 5,
+          "back_page": 6,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 7,
+          "back_page": 8,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        },
+        {
+          "front_page": 9,
+          "back_page": 10,
+          "status": "Individual type_id matching pending",
+          "sheet_observation": "Front/back overview inspected; mixed printed and blank reverses. No per-counter status inferred from sheet membership."
+        }
+      ]
+    }
+  ],
+  "overview_scope": "All 52 pages/26 sheet pairs visually surveyed. Counter-level matching remains incomplete.",
+  "matches": [
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236304",
+      "position": [
+        3,
+        2,
+        "Army HQ",
+        "Norwegen"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 2,
+        "back_row": 3,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236297",
+      "position": [
+        3,
+        3,
+        "Army HQ",
+        "17"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 3,
+        "back_row": 3,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236294",
+      "position": [
+        3,
+        4,
+        "Army HQ",
+        "9"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 4,
+        "back_row": 3,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236293",
+      "position": [
+        3,
+        5,
+        "Army HQ",
+        "6"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 5,
+        "back_row": 3,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236298",
+      "position": [
+        4,
+        2,
+        "Army HQ",
+        "18"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 2,
+        "back_row": 4,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236296",
+      "position": [
+        4,
+        3,
+        "Army HQ",
+        "16"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 3,
+        "back_row": 4,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236295",
+      "position": [
+        4,
+        4,
+        "Army HQ",
+        "11"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 4,
+        "back_row": 4,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236291",
+      "position": [
+        4,
+        5,
+        "Army HQ",
+        "4"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 5,
+        "back_row": 4,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236286",
+      "position": [
+        4,
+        6,
+        "Army HQ",
+        "2"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 6,
+        "back_row": 4,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236277",
+      "position": [
+        4,
+        10,
+        "Army Group HQ",
+        "Mitte"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 10,
+        "back_row": 4,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236328",
+      "position": [
+        5,
+        1,
+        "Corps HQ",
+        "XXXIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 1,
+        "back_row": 5,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236306",
+      "position": [
+        5,
+        3,
+        "Corps HQ",
+        "II"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 3,
+        "back_row": 5,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236325",
+      "position": [
+        5,
+        4,
+        "Corps HQ",
+        "XXVIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 4,
+        "back_row": 5,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236323",
+      "position": [
+        5,
+        5,
+        "Corps HQ",
+        "XXVI"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 5,
+        "back_row": 5,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236344",
+      "position": [
+        5,
+        6,
+        "Corps HQ",
+        "LIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 6,
+        "back_row": 5,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236310",
+      "position": [
+        5,
+        7,
+        "Corps HQ",
+        "VI"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 7,
+        "back_row": 5,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236312",
+      "position": [
+        5,
+        8,
+        "Corps HQ",
+        "VIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 8,
+        "back_row": 5,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236311",
+      "position": [
+        5,
+        10,
+        "Corps HQ",
+        "VII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 10,
+        "back_row": 5,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236314",
+      "position": [
+        6,
+        3,
+        "Corps HQ",
+        "X"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 3,
+        "back_row": 6,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236305",
+      "position": [
+        6,
+        4,
+        "Corps HQ",
+        "I"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 4,
+        "back_row": 6,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236331",
+      "position": [
+        6,
+        5,
+        "Corps HQ",
+        "XXXVIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 5,
+        "back_row": 6,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236379",
+      "position": [
+        6,
+        6,
+        "Sec Corps HQ",
+        "102"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 6,
+        "back_row": 6,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236309",
+      "position": [
+        6,
+        7,
+        "Corps HQ",
+        "V"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 7,
+        "back_row": 6,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236320",
+      "position": [
+        6,
+        8,
+        "Corps HQ",
+        "XX"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 8,
+        "back_row": 6,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236343",
+      "position": [
+        7,
+        1,
+        "Corps HQ",
+        "LII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 1,
+        "back_row": 7,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236329",
+      "position": [
+        7,
+        4,
+        "Corps HQ",
+        "XXXIV"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 4,
+        "back_row": 7,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236326",
+      "position": [
+        7,
+        5,
+        "Corps HQ",
+        "XXIX"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 5,
+        "back_row": 7,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236380",
+      "position": [
+        7,
+        6,
+        "Sec Corps HQ",
+        "103"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 6,
+        "back_row": 7,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236316",
+      "position": [
+        7,
+        7,
+        "Corps HQ",
+        "XII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 7,
+        "back_row": 7,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236313",
+      "position": [
+        7,
+        10,
+        "Corps HQ",
+        "IX"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 10,
+        "back_row": 7,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236377",
+      "position": [
+        8,
+        1,
+        "Mtn Corps HQ",
+        "XXXXIX"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 1,
+        "back_row": 8,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236346",
+      "position": [
+        8,
+        2,
+        "Corps HQ",
+        "LV"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 2,
+        "back_row": 8,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:235689",
+      "position": [
+        8,
+        3,
+        "Art HQ",
+        "301"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 3,
+        "back_row": 8,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236324",
+      "position": [
+        8,
+        5,
+        "Corps HQ",
+        "XXVII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 5,
+        "back_row": 8,
+        "back_column": 16,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236308",
+      "position": [
+        8,
+        6,
+        "Corps HQ",
+        "IV"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 6,
+        "back_row": 8,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:235690",
+      "position": [
+        8,
+        9,
+        "Art HQ",
+        "302"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 9,
+        "back_row": 8,
+        "back_column": 12,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236315",
+      "position": [
+        8,
+        10,
+        "Corps HQ",
+        "XI"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 10,
+        "back_row": 8,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236375",
+      "position": [
+        10,
+        2,
+        "Mtn Corps HQ",
+        "XVIII"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 2,
+        "back_row": 10,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236374",
+      "position": [
+        10,
+        3,
+        "Mtn Corps HQ",
+        "NT"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 3,
+        "back_row": 10,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236373",
+      "position": [
+        10,
+        4,
+        "Mtn Corps HQ",
+        "Norwegen"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 4,
+        "back_row": 10,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236273",
+      "position": [
+        4,
+        9,
+        "Army Group HQ",
+        "A"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 9,
+        "back_row": 4,
+        "back_column": 12,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:236378",
+      "position": [
+        6,
+        1,
+        "Sec Corps HQ",
+        "101"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 1,
+        "back_row": 6,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237039",
+      "position": [
+        1,
+        20,
+        "Construction Engineer",
+        "4"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 20,
+        "back_row": 1,
+        "back_column": 1,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237068",
+      "position": [
+        1,
+        15,
+        "Construction Engineer",
+        "71"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 15,
+        "back_row": 1,
+        "back_column": 6,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237052",
+      "position": [
+        3,
+        14,
+        "Construction Engineer",
+        "24 RAD"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 14,
+        "back_row": 3,
+        "back_column": 7,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237035",
+      "position": [
+        4,
+        14,
+        "Construction Engineer",
+        "1 Fort"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 14,
+        "back_row": 4,
+        "back_column": 7,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237041",
+      "position": [
+        7,
+        17,
+        "Construction Engineer",
+        "7"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 17,
+        "back_row": 7,
+        "back_column": 4,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237060",
+      "position": [
+        8,
+        13,
+        "Construction Engineer",
+        "35"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 13,
+        "back_row": 8,
+        "back_column": 8,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237059",
+      "position": [
+        9,
+        15,
+        "Construction Engineer",
+        "34"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 9,
+        "front_column": 15,
+        "back_row": 9,
+        "back_column": 6,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "front_discrepancy": "Physical front shows X; saved/imported size is Regiment/III. Size discrepancy requires review; front values preserved."
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Physical front shows X; saved/imported size is Regiment/III. Size discrepancy requires review; front values preserved."
+      ]
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237054",
+      "position": [
+        10,
+        15,
+        "Construction Engineer",
+        "25 RAD"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 15,
+        "back_row": 10,
+        "back_column": 6,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237056",
+      "position": [
+        12,
+        16,
+        "Construction Engineer",
+        "31"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 12,
+        "front_column": 16,
+        "back_row": 12,
+        "back_column": 5,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "blank",
+      "type_id": "vassal:133:237089",
+      "position": [
+        12,
+        1,
+        "Railway Engineer",
+        "3"
+      ],
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 12,
+        "front_column": 1,
+        "back_row": 12,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Blank confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification."
+      },
+      "review_status": "Verified",
+      "remaining_issues": []
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236300",
+      "position": [
+        3,
+        1,
+        "Army HQ",
+        "Finnland",
+        "Lappland"
+      ],
+      "back_candidate_type_id": "vassal:133:236303",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 1,
+        "back_row": 3,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Lappland",
+        "matched_back_type_id": "vassal:133:236303",
+        "assigned_back_image": "assets/counters/images/dc258adff0f4954ff048.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236290",
+      "position": [
+        3,
+        6,
+        "Army HQ",
+        "4 PzGrppe",
+        "4 PzA"
+      ],
+      "back_candidate_type_id": "vassal:133:236289",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 6,
+        "back_row": 3,
+        "back_column": 15,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "4 PzA",
+        "matched_back_type_id": "vassal:133:236289",
+        "assigned_back_image": "assets/counters/images/a16858ee66d3f74dd618.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236285",
+      "position": [
+        3,
+        7,
+        "Army HQ",
+        "2 PzGrppe",
+        "2 PzA"
+      ],
+      "back_candidate_type_id": "vassal:133:236284",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 7,
+        "back_row": 3,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "2 PzA",
+        "matched_back_type_id": "vassal:133:236284",
+        "assigned_back_image": "assets/counters/images/9817d2bbc346e3116a6e.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236283",
+      "position": [
+        3,
+        8,
+        "Army HQ",
+        "1 PzGrppe",
+        "1 PzA"
+      ],
+      "back_candidate_type_id": "vassal:133:236282",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 8,
+        "back_row": 3,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "1 PzA",
+        "matched_back_type_id": "vassal:133:236282",
+        "assigned_back_image": "assets/counters/images/19f34b06825ff9ac1db5.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236281",
+      "position": [
+        3,
+        9,
+        "Army Group HQ",
+        "Sud",
+        "B"
+      ],
+      "back_candidate_type_id": "vassal:133:236274",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 9,
+        "back_row": 3,
+        "back_column": 12,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "B",
+        "matched_back_type_id": "vassal:133:236274",
+        "assigned_back_image": "assets/counters/images/ecc826c18ae6a6451e02.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236278",
+      "position": [
+        3,
+        10,
+        "Army Group HQ",
+        "Nord",
+        "Mitte"
+      ],
+      "back_candidate_type_id": "vassal:133:236277",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 10,
+        "back_row": 3,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Mitte",
+        "matched_back_type_id": "vassal:133:236277",
+        "assigned_back_image": "assets/counters/images/9e7d83e4f18aa036ff00.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236301",
+      "position": [
+        4,
+        1,
+        "Army HQ",
+        "Hollidt",
+        "Kempf"
+      ],
+      "back_candidate_type_id": "vassal:133:236302",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 1,
+        "back_row": 4,
+        "back_column": 20,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Kempf",
+        "matched_back_type_id": "vassal:133:236302",
+        "assigned_back_image": "assets/counters/images/928b5aadcf8fb1142244.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236288",
+      "position": [
+        4,
+        7,
+        "Army HQ",
+        "3 PzGrppe",
+        "3 PzA"
+      ],
+      "back_candidate_type_id": "vassal:133:236287",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 7,
+        "back_row": 4,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "3 PzA",
+        "matched_back_type_id": "vassal:133:236287",
+        "assigned_back_image": "assets/counters/images/5c89883316eb7d50c502.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236334",
+      "position": [
+        5,
+        2,
+        "Corps HQ",
+        "XXXXI",
+        "Armoured HQ oval, XXXX I / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236366",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 2,
+        "back_row": 5,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXX I / 20",
+        "matched_back_type_id": "vassal:133:236366",
+        "assigned_back_image": "assets/counters/images/6952dd8a7114f86b6408.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236347",
+      "position": [
+        6,
+        2,
+        "Corps HQ",
+        "LVI",
+        "Armoured HQ oval, LVI / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236370",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 2,
+        "back_row": 6,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, LVI / 20",
+        "matched_back_type_id": "vassal:133:236370",
+        "assigned_back_image": "assets/counters/images/c024dd781c112d9ee1fc.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236332",
+      "position": [
+        6,
+        9,
+        "Corps HQ",
+        "XXXIX",
+        "Armoured HQ oval, XXXIX / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236364",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 9,
+        "back_row": 6,
+        "back_column": 12,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXIX / 20",
+        "matched_back_type_id": "vassal:133:236364",
+        "assigned_back_image": "assets/counters/images/1b030cdd42accc02c20f.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236348",
+      "position": [
+        6,
+        10,
+        "Corps HQ",
+        "LVII",
+        "Armoured HQ oval, LVII / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236371",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 10,
+        "back_row": 6,
+        "back_column": 11,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, LVII / 20",
+        "matched_back_type_id": "vassal:133:236371",
+        "assigned_back_image": "assets/counters/images/79c2d43f2732e28dd7d8.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236340",
+      "position": [
+        7,
+        2,
+        "Corps HQ",
+        "XXXXVIII",
+        "Armoured HQ oval, XXXXVIII / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236369",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 2,
+        "back_row": 7,
+        "back_column": 19,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXXVIII / 20",
+        "matched_back_type_id": "vassal:133:236369",
+        "assigned_back_image": "assets/counters/images/951c271b3cacbb3a91e7.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236318",
+      "position": [
+        7,
+        3,
+        "Corps HQ",
+        "XIV",
+        "Armoured HQ oval, XIV / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236362",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 3,
+        "back_row": 7,
+        "back_column": 18,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XIV / 20",
+        "matched_back_type_id": "vassal:133:236362",
+        "assigned_back_image": "assets/counters/images/f5cc7044392a2daf5ef7.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236322",
+      "position": [
+        7,
+        8,
+        "Corps HQ",
+        "XXIV",
+        "Armoured HQ oval, XXIV / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236363",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 7,
+        "front_column": 8,
+        "back_row": 7,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXIV / 20",
+        "matched_back_type_id": "vassal:133:236363",
+        "assigned_back_image": "assets/counters/images/3d46c9a704f74e9d1a56.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236307",
+      "position": [
+        8,
+        4,
+        "Corps HQ",
+        "III",
+        "Armoured HQ oval, III / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236361",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 4,
+        "back_row": 8,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, III / 20",
+        "matched_back_type_id": "vassal:133:236361",
+        "assigned_back_image": "assets/counters/images/b1ddd4b4c2c57ecbfc76.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236339",
+      "position": [
+        8,
+        7,
+        "Corps HQ",
+        "XXXXVII",
+        "Armoured HQ oval, XXXXVII / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236368",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 7,
+        "back_row": 8,
+        "back_column": 14,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXXVII / 20",
+        "matched_back_type_id": "vassal:133:236368",
+        "assigned_back_image": "assets/counters/images/1cb0cd1e7b3c5c1f385b.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236333",
+      "position": [
+        8,
+        8,
+        "Corps HQ",
+        "XXXX",
+        "Armoured HQ oval, XXXX / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236365",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 8,
+        "front_column": 8,
+        "back_row": 8,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXX / 20",
+        "matched_back_type_id": "vassal:133:236365",
+        "assigned_back_image": "assets/counters/images/0891e4e504d121cf7d47.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236338",
+      "position": [
+        9,
+        4,
+        "Corps HQ",
+        "XXXXVI",
+        "Armoured HQ oval, XXXXVI / 20"
+      ],
+      "back_candidate_type_id": "vassal:133:236367",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 9,
+        "front_column": 4,
+        "back_row": 9,
+        "back_column": 17,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Armoured HQ oval, XXXXVI / 20",
+        "matched_back_type_id": "vassal:133:236367",
+        "assigned_back_image": "assets/counters/images/d5575d365db640cef5f7.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236275",
+      "position": [
+        4,
+        8,
+        "Army Group HQ",
+        "Don",
+        "Sud"
+      ],
+      "back_candidate_type_id": "vassal:133:236281",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 4,
+        "front_column": 8,
+        "back_row": 4,
+        "back_column": 13,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Sud",
+        "matched_back_type_id": "vassal:133:236281",
+        "assigned_back_image": "assets/counters/images/3a96d040e2bb8b3e6f53.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "kind": "printed",
+      "type_id": "vassal:133:236335",
+      "position": [
+        5,
+        9,
+        "Corps HQ",
+        "XXXXII",
+        "Crimea / 4"
+      ],
+      "back_candidate_type_id": "vassal:133:236381",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 9,
+        "back_row": 5,
+        "back_column": 12,
+        "orientation": "Horizontal mirror; same row, columns numbered 1-20 across front.",
+        "confidence": 0.99,
+        "result": "Printed reverse confirmed",
+        "scope": "Physical reverse appearance only; separate from whole-definition verification.",
+        "printed_back_label": "Crimea / 4",
+        "matched_back_type_id": "vassal:133:236381",
+        "assigned_back_image": "assets/counters/images/71f587a7ca3069da58cd.png"
+      },
+      "review_status": "In progress",
+      "remaining_issues": [
+        "Only one bottom value is printed; recorded literally with movement field provisional. No unprinted combat strength, zero or N/A fabricated; confirm dedicated HQ/static-AA format.",
+        "Front ground ratings: select a rating format.",
+        "Back ground ratings: select a rating format."
+      ]
+    }
+  ],
+  "counts": {
+    "matched": 73,
+    "blank_confirmed": 52,
+    "printed_back_links_repaired": 21,
+    "new_verified": 9,
+    "current_totals": {
+      "Verified": 2222,
+      "Unreviewed": 3,
+      "In progress": 4743
+    }
+  },
+  "artwork_sha256": {
+    "assets/counters/images/de9086e38ce9b4a8dc39.png": "b3ee4a5e3a1eb430939d11168181171d87f2e54b4f066b8cffeca409a61f9958",
+    "assets/counters/images/68f1d0a8910f617b3b69.png": "58b6613f2522fafe4737dcec9fa842b84b87d073d6bc18902a1f900841fd3b9f",
+    "assets/counters/images/da0d46f19d243cac7cdd.png": "0604aac88fa0c07122ea05996315aa470cbbf46a338bd56b90fff5656cc6c189",
+    "assets/counters/images/5797f06f35a6b4027730.png": "4704b76190b7cd9cf9cb284778b432eaaff63701dd9efe484ff9f752ccbe32ec",
+    "assets/counters/images/e69445ad9f63b7d3755a.png": "3002215e27c7ae001b2da57e61be7c0a9c122a60a86ecb98b9980e4350e6521b",
+    "assets/counters/images/1d02ac0abb59102b77f0.png": "c54dcdede43901cfbc99642625890885341a467838768c3b58567e2988630df8",
+    "assets/counters/images/ce2b6987200bc2349af9.png": "1320b94612c445a49f2b8a5b4a73551ca79aacdec74a29e28234e635a345087d",
+    "assets/counters/images/c5d9a17c281e326ed621.png": "4713d5ef93058936324fee6586aa7db3dd912af52dee237e2e044d00c9ae8129",
+    "assets/counters/images/2b398f50f9c3eced3382.png": "37d4e0fb6761fc5db1f99e493f9caa391e8b2e04b4b5767906eaafb200eca310",
+    "assets/counters/images/9e7d83e4f18aa036ff00.png": "00311cc3dce3ee0aca3b85d20facc60533c7473475071bdeae37ada70c04b7a8",
+    "assets/counters/images/a26ca717aad89e65903c.png": "393f19d2e48dafb6dea0e155bac946c43b71e6dc361b245e877265b0e5899e63",
+    "assets/counters/images/e0abd714321e29712954.png": "5ddbf3611af5b896fe09e8ea63a059d71aba4e0d2e15fe515efeef339893014b",
+    "assets/counters/images/524676e6c1638a45e40e.png": "8c2363be5126c049f5fd4edc52422562eef7d927ae18129abd112ba0fdcb6056",
+    "assets/counters/images/724830955d05a6c76d73.png": "bc55c1355bb148aabe1bd85c3b4c839af65020644c23b8ca28b31df845b81ba1",
+    "assets/counters/images/31baae4db973cca80038.png": "fca6341e7b809c93330dc63ebe9882575fdc8b80a36cca4a1872a340076fa446",
+    "assets/counters/images/16cb9f3797cef46c3cee.png": "033da748b4a70fac68807e36ca5e3b47ebdbff747010b86d3e6db2e8d3376b08",
+    "assets/counters/images/febc76629fee2135758b.png": "1e391bb706304f55edd1aa7a745a7100293e8df2d97e923aa32bb06f9f7986e8",
+    "assets/counters/images/2e2eca836a7c7d7a89da.png": "34953ec83f7786dd2fb59655507e3372da99bc42ccce9f6fbfb368f4bb427de3",
+    "assets/counters/images/6610fd69eaff55353ddf.png": "166c8b8e186c7e98937dff1c0bbbc72299ccb746e744f3d6231bd577e24cb069",
+    "assets/counters/images/16c279b59d87e9689011.png": "7248067c235ed3e844b580df91b5badc081b76726b323a7729b479a2a0b4612b",
+    "assets/counters/images/16cef5d9a377a1406356.png": "2532bfff6d3e987d4774b66a4327872bacd4ec965d985ec23eb531d90a043c51",
+    "assets/counters/images/f195825e3b31b22a1822.png": "6ee451aa5df30ddb27bba94181b14358eb91452d44e6ee7c00a9ec761a00edee",
+    "assets/counters/images/088db66dfaab816f1dff.png": "c8de8c6fd0d2fb818e9c5934b89fb72286073cdb789c38ed88fb1cbeb98e2185",
+    "assets/counters/images/c89c6e6059b4efd06244.png": "46d58a83fdda74e0f03d28bd8179884dd19b2ce28a50c613fa9f42e7a8deb52c",
+    "assets/counters/images/31a49a22e27eac957676.png": "b3734999f3706cc9ee70ac6c904ef4b4b9260e83a0b71b8e78eae019d872ee7d",
+    "assets/counters/images/e5973468304858c8a93f.png": "ee726277ec973b51fff548f7a8e7f2081eee879bf1db0837cdf7f69ccedf2609",
+    "assets/counters/images/ffba5c55cf290df184ef.png": "bcac4c9b10c12275ccf768515d90b53cf14a96fe0a34c0b2fa8b125457718c76",
+    "assets/counters/images/536ae88c3a47baa20dce.png": "07e8c92ace9aa97d638a032cf64076a705b73fe3a704cc30bd6259b4551e9240",
+    "assets/counters/images/04704b68cdfc9ab2188f.png": "70aac8d8cc385ee13bee6f97b3b2243e7ff5222682f1a7a6dac0bd6a262ed900",
+    "assets/counters/images/38299f8570318f1f57cb.png": "7bc0651f4a098b59bcffe9f3037c283bd0765247380eb14fce43841b71830f8d",
+    "assets/counters/images/eef9c0c7e1cdb8bee88c.png": "aeb24f5da4677794e05cf03e93a0cd414b8f0e4d4340d25759a92fdf930cd8ee",
+    "assets/counters/images/6283d02691f58f66eff4.png": "98189c7990ae0f64e23d23df99c0a82f8d29a51ed02e2d5f1aab3d574a838d65",
+    "assets/counters/images/7b0225667749f87b55f2.png": "68bc1ba9a2033e35f05c087b7d39f6ca0c28149779de5241cf10ff9e11e1b016",
+    "assets/counters/images/2c8168a18c0ee8786c92.png": "8bcb6b7974fa8ff4a091be29d0f250f5f81e685b30b40b049aebddad177dab4e",
+    "assets/counters/images/8a6a4a4c248cc218d748.png": "0f9739887ae30a4bf1e4180ccd5d62334b3440778a6f021d6d904f2f397f4e05",
+    "assets/counters/images/a0d19dd77efd75c8df9f.png": "7d3a31be50d812114ffa1cf97e8c16b3267b39112628f68f0ad25f1b71ee1bd7",
+    "assets/counters/images/4e38e52255deb137639d.png": "426e37ec5acf1b3d8c9221dfe3d9dffe78c966d73b12b828914c29e8975e09ad",
+    "assets/counters/images/8d6c70b1fef65cab278f.png": "26eade4ffe53bbac4224e1fbb048e6291f4f7e7b5f8103ef4c1c0c6436e3bf01",
+    "assets/counters/images/6823924252ac72c93d63.png": "8c77ceac8f1a1b2eebd21936f92ea62a3e8eb5b13eaab2c637b08ba6ad3de344",
+    "assets/counters/images/2236402cc0f9fdd88037.png": "a64c8df5d7a41fbb4090b174a003af378374d06a4d57323b6f35b5020c4c83f5",
+    "assets/counters/images/a953e55c9ff1b7a3f72c.png": "ec600f68040d5d8c4d44aa7020db3dd200c4f03b41ad28c6f60ea2ba68bef33a",
+    "assets/counters/images/c7a3c9d74b68b0ed3a34.png": "a0ca5956a3f3db8ac50fcab1e1e5863728ae29ef050c7cf620292703feffe7e7",
+    "assets/counters/images/fb101df4cebea3d7d40b.png": "6366956e62731f65279f71cf8df46bc754e249e2c326c4918386f0283aeb1144",
+    "assets/counters/images/6719765c3a34b885791c.png": "e6a8a93514ae7225b59c339a4d11eb858284b8ad619178fe6fecc07f9cc37f75",
+    "assets/counters/images/0ba979ac7347e84bb077.png": "495bf1e903c5a6ad053953203ce7fa7df427cfa56492c947d7b554c66615d3e9",
+    "assets/counters/images/5f5377690ee6b33f1a68.png": "539bac2996b6a5c146829698925d74130a56e84832d816409fbd2b612a354999",
+    "assets/counters/images/06f463463e2951a9d6ed.png": "f388013a4d0ab456d0f541cb67b0e1faa2e8427aeeca7fc1cfbfbfe16206b2e7",
+    "assets/counters/images/e9c399448ff48191b0d9.png": "21a7dc4fc26ac28208f75dfecea8573be82530f73460a4bdd63673741cdbe1b1",
+    "assets/counters/images/3da1ec1f5386e11d816e.png": "d5616b359ae5ac448a643d90590df5ffa606d668666b70088f57f6338ba8d265",
+    "assets/counters/images/9895002268d6aabd52d3.png": "dcd71d46d57449f0de73b3a1fbc49e560399402120d1f4a5bd085079602194b3",
+    "assets/counters/images/6abc699e94a51cffb343.png": "a7e4ea87359bbe2c296db96a251348e4148db5310ca8ba6fae1501a6cb22088e",
+    "assets/counters/images/4ebad9263c880e0063c7.png": "3f9d6e1e2b72ce7b155c0fac488ae747b6ea88ffe249c14426001ea4e19bd1ed",
+    "assets/counters/images/d17e526fc9d81e30ee0f.png": "e72465ad4ddae594237a7f956d15fa5071fc3cb2fc66ef2268fb8ac4573dd437",
+    "assets/counters/images/dc258adff0f4954ff048.png": "e20aaf08ceeed7180d6020f1d0c08aa41b7a894eba02c651663583285eab19bf",
+    "assets/counters/images/6a553926c70f831647e5.png": "41a67161b96b62b07ef0e6d478e6e07b0a412f509b56ff7bfbf6e86fa4c23dae",
+    "assets/counters/images/a16858ee66d3f74dd618.png": "4586b7737041630b47241cf863cc6c70b6083ab9e0caf9bd7354b7038f6a0257",
+    "assets/counters/images/d3dc026d1eff31840bd0.png": "ac7195566b1f7234727f7d67523e42556d45a8661b88d9bb78225c365b08b69e",
+    "assets/counters/images/9817d2bbc346e3116a6e.png": "b8dccb60078fa3d29dc02b7faac2980f0be277616c5409afa0ba9e5d27b774cb",
+    "assets/counters/images/9e90ddeed6332dc623f7.png": "02a44c951de6da2162a9fe5d5708e4806a71d619584298b21782891cd0ea559a",
+    "assets/counters/images/19f34b06825ff9ac1db5.png": "df461a951de99a841167118ccec1cf7c71da448f9bff0b309a1fcfe41033c3ab",
+    "assets/counters/images/3a96d040e2bb8b3e6f53.png": "dec39a8da67d89422af6361971f979534d288a2d3f77e8fe4cbf77030f38b853",
+    "assets/counters/images/ecc826c18ae6a6451e02.png": "2bb99cd4b27859bbb9f776e429575c45c478ab75001c2102773851a6ee389fd5",
+    "assets/counters/images/a553472b7208eeddb3f6.png": "0eea969416a96a3450a14b3b9da745337d6a7524cb29e0aa9d0a498f7104747d",
+    "assets/counters/images/a0cf670b9f2d6eb5ea5e.png": "582f17339c9255b5fd83404e67b57449ae0625e4a105f6263b11f88dea13ff9c",
+    "assets/counters/images/928b5aadcf8fb1142244.png": "0521cbed4b088e46ed5b159df80089695ce34ac689d5733cfd9fe23727b36983",
+    "assets/counters/images/bde170dcc5bd73da62a6.png": "cd9a1bbcf3d5feb3751ece245d65ca24c1eba665cb88722dd85ae81a87f74b66",
+    "assets/counters/images/5c89883316eb7d50c502.png": "cec87198d7a065dc38266f8914f92993814173681c94fc7680b902b5a88abc9a",
+    "assets/counters/images/e603b6f7e9197c89176e.png": "98dec3d9c1357c596955245f765a54adaadc1c8f73bc1ed09f5311d3ecba93c3",
+    "assets/counters/images/6952dd8a7114f86b6408.png": "a4a3c28b8dc38cbcce1274006458824a22e4859f83c2733efd9e890f974e27e7",
+    "assets/counters/images/764c0b664c04f874ecc3.png": "c7630aed4ed79b0e9d58b64f73fc1910667763944386c1cfa6eab625899f3c91",
+    "assets/counters/images/c024dd781c112d9ee1fc.png": "a09b0b4cdf25883a979c9589ccc9fe356defa9c00cd52853c6d97fe664046799",
+    "assets/counters/images/cbabb69c94a2bf09292b.png": "e29ea69e6c1bc476648a26e9ba07a937adc65d424035836ad21c6742c7e6d27c",
+    "assets/counters/images/1b030cdd42accc02c20f.png": "dfdd8eb8bf19998df51f3ac561c451ca4a9a9a971e9803747e9368ccb70fda0b",
+    "assets/counters/images/5d65d6250902a90d69df.png": "c4d95810b5c27c0198320a34f44f009d157c4e0fc890d634bb5a97ccd44cfce3",
+    "assets/counters/images/79c2d43f2732e28dd7d8.png": "812125e8cc963a0c975e0a33008e122c4e47bb0951cbce6c7534189c8870a238",
+    "assets/counters/images/728716cc6303ff957a1c.png": "92b860b494afb7af12f6d114a10ab1b3945720bb0e8cffa817840d8ff1bf7021",
+    "assets/counters/images/951c271b3cacbb3a91e7.png": "edc7499f6146fc479de64621e64579773bc9343aa1e199be2cf52ac2a84f7bd3",
+    "assets/counters/images/8e41d1b8297967605cc0.png": "78e68cc1831270564b01a5c6c02a13258cdc8e724a0ec80b430022db04918465",
+    "assets/counters/images/f5cc7044392a2daf5ef7.png": "ff64b72019906ff9071a4016f8e4119d13f80af6931626fcb6cddf7a545e97e1",
+    "assets/counters/images/57a21bc3896090ce4e9e.png": "ac413cfdb20e1308a0c599ff4f364503d0db389b15f33c2525ff7350f0ac9ad4",
+    "assets/counters/images/3d46c9a704f74e9d1a56.png": "aeb01152d3fb27e93c26a114c32b1be034a430ab2fed9981402e5641a80c9d5a",
+    "assets/counters/images/ec702e1fff2d2866c5ed.png": "72702d0cefb55d31e9cfee426fd1997ad15631f5177141c9b4273f4944710148",
+    "assets/counters/images/b1ddd4b4c2c57ecbfc76.png": "8ab3c99907761b0d6f49d81dbdc6bcbb228c2a5662afbc751e2d99d188f57a7c",
+    "assets/counters/images/e55f7fe51eaf2f4673f7.png": "788cd08834f1aff29b26342cb8a523663836890e0fd2778531edd64d9d8a0fe2",
+    "assets/counters/images/1cb0cd1e7b3c5c1f385b.png": "db2e0a18937296b1564a13b21d648e22cc62d0ee7582438fd0ae3cd1458b255e",
+    "assets/counters/images/31c3b6c9ec572475b20f.png": "1b0b0b50a07692e3c5336fed5ffa6e585aa1b1bbb84504aee29be00ac57ea352",
+    "assets/counters/images/0891e4e504d121cf7d47.png": "aa26afe829466fb0db051d95a79126f0fec70eb64db3be596f15eb09098d18e2",
+    "assets/counters/images/b364331bd96192ed1586.png": "fe690948d803e8b55d7ffa0739d7bc88c826352d595b84ab5e3ae1d1767a2500",
+    "assets/counters/images/d5575d365db640cef5f7.png": "d2873f5308d47a665f9d52f25eb79934ad01f9bb92e498f760ab8d794dc43b63",
+    "assets/counters/images/fe7b01421c55e6844bb9.png": "7803fe14e3bc8223165e9f30b6ce58e15b906f52aad300b7b908794a0227293d",
+    "assets/counters/images/7f3e66f263317211ecd2.png": "a19594398fc3744ab777de0f451e942715fa842a1f3bc23302ee748451da0e09",
+    "assets/counters/images/71f587a7ca3069da58cd.png": "345b0590df24cb020adb9b603c139eb4d08c6de80b256156de8fcbe4c4620693"
+  },
+  "pending": "Remaining individual positions on pp1-2 and all positions on the other 25 pairs require precise matching; no blanket verification performed."
+}

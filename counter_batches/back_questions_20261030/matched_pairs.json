@@ -1,0 +1,592 @@
+{
+  "entries": {
+    "vassal:133:236004": {
+      "designation": "489",
+      "pair": "vassal:133:236005",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236004 / vassal:133:236005. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236004.",
+      "issues": []
+    },
+    "vassal:133:236005": {
+      "designation": "489",
+      "pair": "vassal:133:236004",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236005 / vassal:133:236004. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236004.",
+      "issues": []
+    },
+    "vassal:133:236030": {
+      "designation": "Leland",
+      "pair": "vassal:133:236031",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236030 / vassal:133:236031. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236030.",
+      "issues": []
+    },
+    "vassal:133:236031": {
+      "designation": "Leland",
+      "pair": "vassal:133:236030",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236031 / vassal:133:236030. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236030.",
+      "issues": []
+    },
+    "vassal:133:236006": {
+      "designation": "494",
+      "pair": "vassal:133:236007",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236006 / vassal:133:236007. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236006.",
+      "issues": []
+    },
+    "vassal:133:236007": {
+      "designation": "494",
+      "pair": "vassal:133:236006",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236007 / vassal:133:236006. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236006.",
+      "issues": []
+    },
+    "vassal:133:239475": {
+      "designation": "519",
+      "pair": "vassal:133:239487",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239475 / vassal:133:239487. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239475.",
+      "issues": []
+    },
+    "vassal:133:239487": {
+      "designation": "108/17AD",
+      "pair": "vassal:133:239475",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239487 / vassal:133:239475. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239475.",
+      "issues": []
+    },
+    "vassal:133:239470": {
+      "designation": "168",
+      "pair": "vassal:133:239484",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239470 / vassal:133:239484. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239470.",
+      "issues": []
+    },
+    "vassal:133:239484": {
+      "designation": "105/7AD",
+      "pair": "vassal:133:239470",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239484 / vassal:133:239470. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239470.",
+      "issues": []
+    },
+    "vassal:133:239476": {
+      "designation": "522",
+      "pair": "vassal:133:239482",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239476 / vassal:133:239482. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239476.",
+      "issues": []
+    },
+    "vassal:133:239482": {
+      "designation": "103/21AD",
+      "pair": "vassal:133:239476",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239482 / vassal:133:239476. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239476.",
+      "issues": []
+    },
+    "vassal:133:239485": {
+      "designation": "106/15AD",
+      "pair": "vassal:133:239474",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239485 / vassal:133:239474. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239485.",
+      "issues": []
+    },
+    "vassal:133:239474": {
+      "designation": "515",
+      "pair": "vassal:133:239485",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239474 / vassal:133:239485. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239485.",
+      "issues": []
+    },
+    "vassal:133:239098": {
+      "designation": "Artillery Regiment 437",
+      "pair": "vassal:133:239231",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239098 / vassal:133:239231. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239098.",
+      "issues": []
+    },
+    "vassal:133:239231": {
+      "designation": "437",
+      "pair": "vassal:133:239098",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239231 / vassal:133:239098. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239098.",
+      "issues": []
+    },
+    "vassal:133:239073": {
+      "designation": "Artillery Regiment 268",
+      "pair": "vassal:133:239214",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239073 / vassal:133:239214. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239073.",
+      "issues": []
+    },
+    "vassal:133:239214": {
+      "designation": "268",
+      "pair": "vassal:133:239073",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239214 / vassal:133:239073. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239073.",
+      "issues": []
+    },
+    "vassal:133:239224": {
+      "designation": "374",
+      "pair": "vassal:133:239088",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239224 / vassal:133:239088. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239224.",
+      "issues": []
+    },
+    "vassal:133:239088": {
+      "designation": "Artillery Regiment 374",
+      "pair": "vassal:133:239224",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239088 / vassal:133:239224. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239224.",
+      "issues": []
+    },
+    "vassal:133:239275": {
+      "designation": "320",
+      "pair": "vassal:133:239311",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239275 / vassal:133:239311. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239275.",
+      "issues": []
+    },
+    "vassal:133:239311": {
+      "designation": "320",
+      "pair": "vassal:133:239275",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239311 / vassal:133:239275. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239275.",
+      "issues": []
+    },
+    "vassal:133:239985": {
+      "designation": "Light Armour Battalion 121TB",
+      "pair": "vassal:133:239714",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239985 / vassal:133:239714. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239985.",
+      "issues": []
+    },
+    "vassal:133:239714": {
+      "designation": "Armour Regiment 121TB",
+      "pair": "vassal:133:239985",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239714 / vassal:133:239985. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239985.",
+      "issues": []
+    },
+    "vassal:133:240010": {
+      "designation": "Light Armour Battalion 151TB",
+      "pair": "vassal:133:239740",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:240010 / vassal:133:239740. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240010.",
+      "issues": []
+    },
+    "vassal:133:239740": {
+      "designation": "Armour Regiment 151TB",
+      "pair": "vassal:133:240010",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239740 / vassal:133:240010. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240010.",
+      "issues": []
+    },
+    "vassal:133:240034": {
+      "designation": "Light Armour Battalion 196TB",
+      "pair": "vassal:133:239770",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:240034 / vassal:133:239770. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240034.",
+      "issues": []
+    },
+    "vassal:133:239770": {
+      "designation": "Armour Regiment 196TB",
+      "pair": "vassal:133:240034",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239770 / vassal:133:240034. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240034.",
+      "issues": []
+    },
+    "vassal:133:239979": {
+      "designation": "Light Armour Battalion 114TB",
+      "pair": "vassal:133:239707",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239979 / vassal:133:239707. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239979.",
+      "issues": []
+    },
+    "vassal:133:239707": {
+      "designation": "Armour Regiment 114TB",
+      "pair": "vassal:133:239979",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239707 / vassal:133:239979. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239979.",
+      "issues": []
+    },
+    "vassal:133:240017": {
+      "designation": "Light Armour Battalion 160TB",
+      "pair": "vassal:133:239747",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:240017 / vassal:133:239747. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240017.",
+      "issues": []
+    },
+    "vassal:133:239747": {
+      "designation": "Armour Regiment 160TB",
+      "pair": "vassal:133:240017",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239747 / vassal:133:240017. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240017.",
+      "issues": []
+    },
+    "vassal:133:240015": {
+      "designation": "Light Armour Battalion 158TB",
+      "pair": "vassal:133:239745",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:240015 / vassal:133:239745. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240015.",
+      "issues": []
+    },
+    "vassal:133:239745": {
+      "designation": "Armour Regiment 158TB",
+      "pair": "vassal:133:240015",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239745 / vassal:133:240015. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:240015.",
+      "issues": []
+    },
+    "vassal:133:236372": {
+      "designation": "LXXVI",
+      "pair": "vassal:133:236355",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236372 / vassal:133:236355. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236372.",
+      "issues": []
+    },
+    "vassal:133:236355": {
+      "designation": "LXXVI",
+      "pair": "vassal:133:236372",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:236355 / vassal:133:236372. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:236372.",
+      "issues": []
+    },
+    "vassal:133:241081": {
+      "designation": "33",
+      "pair": "vassal:133:241062",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:241081 / vassal:133:241062. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:241081.",
+      "issues": []
+    },
+    "vassal:133:241062": {
+      "designation": "33",
+      "pair": "vassal:133:241081",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:241062 / vassal:133:241081. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:241081.",
+      "issues": []
+    },
+    "vassal:133:241072": {
+      "designation": "20",
+      "pair": "vassal:133:241053",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:241072 / vassal:133:241053. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:241072.",
+      "issues": []
+    },
+    "vassal:133:241053": {
+      "designation": "20",
+      "pair": "vassal:133:241072",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:241053 / vassal:133:241072. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:241072.",
+      "issues": []
+    },
+    "vassal:133:239503": {
+      "designation": "2Des",
+      "pair": "vassal:133:239491",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239503 / vassal:133:239491. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239503.",
+      "issues": []
+    },
+    "vassal:133:239491": {
+      "designation": "2",
+      "pair": "vassal:133:239503",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239491 / vassal:133:239503. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239503.",
+      "issues": []
+    },
+    "vassal:133:239643": {
+      "designation": "Armour Regiment 22TB",
+      "pair": "vassal:133:239916",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239643 / vassal:133:239916. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239643.",
+      "issues": []
+    },
+    "vassal:133:239988": {
+      "designation": "Light Armour Battalion 124TB",
+      "pair": "vassal:133:239717",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239988 / vassal:133:239717. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239988.",
+      "issues": []
+    },
+    "vassal:133:239717": {
+      "designation": "Armour Regiment 124TB",
+      "pair": "vassal:133:239988",
+      "outcome": "Printed appearance pair matched",
+      "status": "Verified",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239717 / vassal:133:239988. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239988.",
+      "issues": []
+    },
+    "vassal:133:241690": {
+      "designation": "Kerch",
+      "pair": "vassal:133:241690",
+      "outcome": "Printed appearance pair matched",
+      "status": "In progress",
+      "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:241690 / vassal:133:241690. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:241690.",
+      "issues": [
+        "Physically identical printed faces confirmed; editor currently flags the same image on both faces. Keep In progress pending support for explicitly confirmed identical faces."
+      ]
+    },
+    "vassal:133:236015": {
+      "designation": "Bodo",
+      "pair": null,
+      "outcome": "Physical orientation/level answer needs clarification",
+      "status": "In progress",
+      "evidence": "Bodo: user reports Level 9 on the other side, matching the illustrated Level 9. Mirrored photo candidate instead shows Level 7. Confirm orientation/pair before linking.",
+      "issues": [
+        "Bodo: user reports Level 9 on the other side, matching the illustrated Level 9. Mirrored photo candidate instead shows Level 7. Confirm orientation/pair before linking."
+      ]
+    },
+    "vassal:133:236023": {
+      "designation": "Karmoy",
+      "pair": null,
+      "outcome": "Physical orientation/level answer needs clarification",
+      "status": "In progress",
+      "evidence": "Karmoy: user reports Level 10 on the other side, matching illustrated Level 10. Mirrored candidate instead shows Level 8. Confirm orientation/pair before linking.",
+      "issues": [
+        "Karmoy: user reports Level 10 on the other side, matching illustrated Level 10. Mirrored candidate instead shows Level 8. Confirm orientation/pair before linking."
+      ]
+    },
+    "vassal:133:236035": {
+      "designation": "Narvik",
+      "pair": null,
+      "outcome": "Physical orientation/level answer needs clarification",
+      "status": "In progress",
+      "evidence": "Narvik: user reports Level 14 V on the other side, matching illustrated Level 14 V. Mirrored candidate instead shows Level 7 without V. Confirm orientation/pair before linking.",
+      "issues": [
+        "Narvik: user reports Level 14 V on the other side, matching illustrated Level 14 V. Mirrored candidate instead shows Level 7 without V. Confirm orientation/pair before linking."
+      ]
+    },
+    "vassal:133:239091": {
+      "designation": "Artillery Regiment 392",
+      "pair": null,
+      "outcome": "Blank reverse independently confirmed from photo",
+      "status": "Verified",
+      "evidence": "392 artillery: exact original front and KIC132 p1 r13 c5 corroborated; paired p2 r13 c16 is blank across the cell, including a native 3-by-3 neighbourhood alignment check. This is a separate counter, not covered by another answer.",
+      "issues": []
+    }
+  },
+  "pairs": [
+    [
+      236004,
+      236005
+    ],
+    [
+      236030,
+      236031
+    ],
+    [
+      236006,
+      236007
+    ],
+    [
+      239475,
+      239487
+    ],
+    [
+      239470,
+      239484
+    ],
+    [
+      239476,
+      239482
+    ],
+    [
+      239485,
+      239474
+    ],
+    [
+      239098,
+      239231
+    ],
+    [
+      239073,
+      239214
+    ],
+    [
+      239224,
+      239088
+    ],
+    [
+      239275,
+      239311
+    ],
+    [
+      239985,
+      239714
+    ],
+    [
+      240010,
+      239740
+    ],
+    [
+      240034,
+      239770
+    ],
+    [
+      239979,
+      239707
+    ],
+    [
+      240017,
+      239747
+    ],
+    [
+      240015,
+      239745
+    ],
+    [
+      236372,
+      236355
+    ],
+    [
+      241081,
+      241062
+    ],
+    [
+      241072,
+      241053
+    ],
+    [
+      239503,
+      239491
+    ],
+    [
+      239643,
+      239916
+    ],
+    [
+      239988,
+      239717
+    ],
+    [
+      241690,
+      241690
+    ]
+  ],
+  "temporary_roundtrips": 50,
+  "editor_issues": {
+    "vassal:133:236004": [],
+    "vassal:133:236005": [],
+    "vassal:133:236030": [],
+    "vassal:133:236031": [],
+    "vassal:133:236006": [],
+    "vassal:133:236007": [],
+    "vassal:133:239475": [],
+    "vassal:133:239487": [],
+    "vassal:133:239470": [],
+    "vassal:133:239484": [],
+    "vassal:133:239476": [],
+    "vassal:133:239482": [],
+    "vassal:133:239485": [],
+    "vassal:133:239474": [],
+    "vassal:133:239098": [],
+    "vassal:133:239231": [],
+    "vassal:133:239073": [],
+    "vassal:133:239214": [],
+    "vassal:133:239224": [],
+    "vassal:133:239088": [],
+    "vassal:133:239275": [],
+    "vassal:133:239311": [],
+    "vassal:133:239985": [],
+    "vassal:133:239714": [],
+    "vassal:133:240010": [],
+    "vassal:133:239740": [],
+    "vassal:133:240034": [],
+    "vassal:133:239770": [],
+    "vassal:133:239979": [],
+    "vassal:133:239707": [],
+    "vassal:133:240017": [],
+    "vassal:133:239747": [],
+    "vassal:133:240015": [],
+    "vassal:133:239745": [],
+    "vassal:133:236372": [],
+    "vassal:133:236355": [],
+    "vassal:133:241081": [],
+    "vassal:133:241062": [],
+    "vassal:133:241072": [],
+    "vassal:133:241053": [],
+    "vassal:133:239503": [],
+    "vassal:133:239491": [],
+    "vassal:133:239643": [],
+    "vassal:133:239988": [],
+    "vassal:133:239717": [],
+    "vassal:133:241690": [
+      "Front and back use the same image; review assignments."
+    ],
+    "vassal:133:236015": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236023": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236035": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239091": []
+  },
+  "new_verified": 46,
+  "totals": {
+    "Verified": 5190,
+    "In progress": 1778
+  },
+  "backup": "assets\\counters\\recovery_snapshots\\before-matched-back-pairs-20261030.zip",
+  "input_sha256": "c23f1e497e22f987ffb62ad8b5b409799924f987d2c1fa6c6220f6ad76fa6562",
+  "output_sha256": "7bd4634bd746c350ee0825092be62f73472f7d5437f4501cd122b607a704f3ad",
+  "policy": "Stable IDs/fronts kept, reciprocal appearance links for drafts only; already Verified counterparts unchanged. Per-face type/size/designation/formats retained; Other used instead of inferring Reduced. VASSAL art remains working reference. Physical-side naming recorded separately.",
+  "confidence_followup": {
+    "entries": [
+      "vassal:133:241062",
+      "vassal:133:241053"
+    ],
+    "temporary_roundtrips": 2,
+    "backup": "assets\\counters\\recovery_snapshots\\before-engineer-confidence-20261030.zip",
+    "input_sha256": "40d5fed8587bc24f0fa8e26385f9875f72dbc4d1af51a40ec845ef74baccbabe"
+  }
+}

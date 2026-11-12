@@ -1,0 +1,3697 @@
+{
+  "entries": [
+    {
+      "type_id": "vassal:133:241371",
+      "index": 1,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/1ea5a586d4c7c7b515d9.png",
+      "source_back": "assets/counters/images/0decdf667dfe9f5f5ee5.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 8,
+        "back_page": 7,
+        "front_row": 14,
+        "front_column": 8,
+        "back_row": 14,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241359",
+        "assigned_back_image": "assets/counters/images/0decdf667dfe9f5f5ee5.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237700",
+      "index": 2,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/3d80a9ec5b5c9ed8224f.png",
+      "source_back": "assets/counters/images/f641918da4fdcb09b1d2.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237451",
+      "index": 3,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/c46ebdbc06ad2598ea90.png",
+      "source_back": "assets/counters/images/cc0e8fb1006a7b48277b.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "result": "No confident physical match located",
+        "confidence": 0,
+        "searched_sources": {
+          "199": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "120": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "185": [
+            7,
+            8
+          ]
+        },
+        "scope": "Available source coverage and candidate search; no reverse inferred."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238842",
+      "index": 4,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/b98b2fd9fce3aca46655.png",
+      "source_back": "assets/counters/images/22614ae3e79f6054cdd3.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 12,
+        "front_column": 4,
+        "back_row": 12,
+        "back_column": 17,
+        "orientation": "Horizontally mirrored; rows preserved; 20 columns.",
+        "result": "Printed front/back corroborated",
+        "confidence": 0.98,
+        "scope": "Individual physical faces and existing artwork/metadata; no gameplay-rule validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows SB-2 and a fighter appearance, not IL-2."
+    },
+    {
+      "type_id": "vassal:133:236047",
+      "index": 5,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/7ff819e60d1c56a4d35e.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 13,
+        "front_column": 16,
+        "back_row": 13,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows a black naval/escort appearance, not grey Svolvar Level 24."
+    },
+    {
+      "type_id": "vassal:133:240691",
+      "index": 6,
+      "contact_sheet": "manual/batch-01.png",
+      "source_front": "assets/counters/images/5d47b048864216af5c3a.png",
+      "source_back": "assets/counters/images/a1f911bcd911c83a8f5d.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:235972",
+      "index": 7,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/555425619a2a5d38c7a7.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 2,
+        "front_column": 16,
+        "back_row": 2,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows security 668 Rusl (1)-6, not Arko 108 6-4-18."
+    },
+    {
+      "type_id": "vassal:133:238674",
+      "index": 8,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/20357b2748eab7d2b0f7.png",
+      "source_back": "assets/counters/images/cb44e62576a1457fa6ab.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242239",
+      "index": 9,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/48dd060c46bae7d08607.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 5,
+        "front_column": 17,
+        "back_row": 5,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238737",
+      "index": 10,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/649cc76857177e87d26c.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 9,
+        "front_column": 19,
+        "back_row": 9,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238092",
+      "index": 11,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/4c0767fe83d9286f07c5.png",
+      "source_back": "assets/counters/images/2c55f694db6ae84f3a38.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:241879",
+      "index": 12,
+      "contact_sheet": "manual/batch-02.png",
+      "source_front": "assets/counters/images/e221e308e302410f0e7a.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 8,
+        "front_column": 3,
+        "back_row": 8,
+        "back_column": 18,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237983",
+      "index": 13,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/4b889688cf7a57a07b9b.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 13,
+        "front_column": 10,
+        "back_row": 13,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238768",
+      "index": 14,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/3f14a681aeef24d51c9b.png",
+      "source_back": "assets/counters/images/08b64d0d1db327df003f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 11,
+        "front_column": 5,
+        "back_row": 11,
+        "back_column": 16,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed front/back corroborated",
+        "confidence": 0.98,
+        "scope": "Matched individual physical faces, not rules validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:235603",
+      "index": 15,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/faba824fdb5d650031ea.png",
+      "source_back": "assets/counters/images/a97bd8471da322550ea0.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237961",
+      "index": 16,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/832818776bef6d3bdeaa.png",
+      "source_back": "assets/counters/images/c160dd093a6cd09f34a1.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 8,
+        "back_page": 7,
+        "front_row": 14,
+        "front_column": 8,
+        "back_row": 14,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:237874",
+        "assigned_back_image": "assets/counters/images/c160dd093a6cd09f34a1.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237830",
+      "index": 17,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/1d09f2ea978874d19e4a.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 9,
+        "front_column": 17,
+        "back_row": 9,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238452",
+      "index": 18,
+      "contact_sheet": "manual/batch-03.png",
+      "source_front": "assets/counters/images/c825f8785cb36e9b7e6c.png",
+      "source_back": "assets/counters/images/851c308bb57ae3a7f89b.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 2,
+        "front_column": 12,
+        "back_row": 2,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:238453",
+        "assigned_back_image": "assets/counters/images/851c308bb57ae3a7f89b.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Physical front mostly cut off; cell crop does not fully establish original regiment 53."
+    },
+    {
+      "type_id": "vassal:133:238336",
+      "index": 19,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/1dbb5a265892b3aee741.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 8,
+        "front_column": 20,
+        "back_row": 8,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238101",
+      "index": 20,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/cf1cb2cb80d11d0cd53c.png",
+      "source_back": "assets/counters/images/afb65efff0513841344f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 8,
+        "front_column": 8,
+        "back_row": 8,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:238100",
+        "assigned_back_image": "assets/counters/images/afb65efff0513841344f.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241711",
+      "index": 21,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/fb4d599989e652b225d8.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 12,
+        "back_row": 13,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236366",
+      "index": 22,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/6952dd8a7114f86b6408.png",
+      "source_back": "assets/counters/images/e603b6f7e9197c89176e.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 5,
+        "front_column": 19,
+        "back_row": 5,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:240289",
+      "index": 23,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/41acc20066798681112f.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 5,
+        "front_column": 8,
+        "back_row": 5,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238397",
+      "index": 24,
+      "contact_sheet": "manual/batch-04.png",
+      "source_front": "assets/counters/images/9c121a8f14d7bd1ea636.png",
+      "source_back": "assets/counters/images/404b4f06abd757bb34aa.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237840",
+      "index": 25,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/e2d1b710a73df0e38824.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 1,
+        "front_column": 11,
+        "back_row": 1,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242396",
+      "index": 26,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/510c4becfe65dfd0d453.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 11,
+        "front_column": 12,
+        "back_row": 11,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238358",
+      "index": 27,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/3e360c4cecaaaf9e6674.png",
+      "source_back": "assets/counters/images/fd55d9e1be4e3a46f1af.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238793",
+      "index": 28,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/bc6a32de0893278ce3c5.png",
+      "source_back": "assets/counters/images/4268eb4940acf016fa30.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242044",
+      "index": 29,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/c90dadab2677d78a7bc5.png",
+      "source_back": "assets/counters/images/52f4078ed7123a3f49ea.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 10,
+        "front_column": 18,
+        "back_row": 10,
+        "back_column": 3,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed front/back corroborated",
+        "confidence": 0.98,
+        "scope": "Matched individual physical faces, not rules validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241274",
+      "index": 30,
+      "contact_sheet": "manual/batch-05.png",
+      "source_front": "assets/counters/images/8764d0b2d4f8de6e6d6b.png",
+      "source_back": "assets/counters/images/1ca2bc9a3f5c0b23452e.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 2,
+        "front_column": 16,
+        "back_row": 2,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "Original VASSAL front matches odd PDF page; horizontally mirrored reverse, same row. Native panels and neighbouring cells inspected.",
+        "scope": "Third-pass literal identity/level pair checked. Alternate levels have Other status; no reduced-strength or gameplay interpretation inferred."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237886",
+      "index": 31,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/5c34b13b438d14bdc7b9.png",
+      "source_back": "assets/counters/images/fb7e4034dd7078cc0098.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 7,
+        "front_column": 18,
+        "back_row": 7,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238314",
+      "index": 32,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/92011de5c6a1d70a810b.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 9,
+        "front_column": 11,
+        "back_row": 9,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238585",
+      "index": 33,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/814ce0ee9fd860c8e15e.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 11,
+        "front_column": 9,
+        "back_row": 11,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242434",
+      "index": 34,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/1c92d156d0c49676227a.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 13,
+        "front_column": 17,
+        "back_row": 13,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Front name/cell boundary truncated and proposed back contains green infantry. Recheck alignment before claiming blank reverse."
+    },
+    {
+      "type_id": "vassal:133:237793",
+      "index": 35,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/be6b8c11a89ce142ebaa.png",
+      "source_back": "assets/counters/images/9ff9f4bd799b8e5bd312.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237773",
+      "index": 36,
+      "contact_sheet": "manual/batch-06.png",
+      "source_front": "assets/counters/images/bf460031054a4d3c1a99.png",
+      "source_back": "assets/counters/images/83918bd73025abc070ed.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238138",
+      "index": 37,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/1fe995f62f358e48a38c.png",
+      "source_back": "assets/counters/images/f6a0480d38a159ae3e32.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 11,
+        "back_row": 3,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242408",
+      "index": 38,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/5e673de9a0d4b7926744.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 3,
+        "front_column": 10,
+        "back_row": 3,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238559",
+      "index": 39,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/58d6587bda0e09dbe161.png",
+      "source_back": "assets/counters/images/43770b9fe3b3c6810673.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 1,
+        "front_column": 1,
+        "back_row": 1,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242007",
+      "index": 40,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/acd32acdc90e1d9cd435.png",
+      "source_back": "assets/counters/images/77f3bc3932d4c8d51dd1.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242392",
+      "index": 41,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/7472557e3e6cb91c8965.png",
+      "source_back": "assets/counters/images/30836186770742fc18f4.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242418",
+      "index": 42,
+      "contact_sheet": "manual/batch-07.png",
+      "source_front": "assets/counters/images/50e43771f637982862ee.png",
+      "source_back": "assets/counters/images/e3ae26231029e55dad3f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 11,
+        "front_column": 11,
+        "back_row": 11,
+        "back_column": 10,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed front/back corroborated",
+        "confidence": 0.98,
+        "scope": "Matched individual physical faces, not rules validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238139",
+      "index": 43,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/b8cae4b6b6a65b10a188.png",
+      "source_back": "assets/counters/images/47cd38036feb93d6c211.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 12,
+        "back_row": 3,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238561",
+      "index": 44,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/c6cc718ab9c3365d34f6.png",
+      "source_back": "assets/counters/images/bbe605daba152c780956.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 12,
+        "front_column": 13,
+        "back_row": 12,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237785",
+      "index": 45,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/9ae52b3a6a23bdb0ed8b.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 8,
+        "front_column": 11,
+        "back_row": 8,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238152",
+      "index": 46,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/1a2bcdee63d42a65c3ab.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 19,
+        "back_row": 5,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Physical source looks like IV headquarters while saved front is V; inspect the uncropped sheet to distinguish orientation and column offset."
+    },
+    {
+      "type_id": "vassal:133:238006",
+      "index": 47,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/61cca876983b96c8c663.png",
+      "source_back": "assets/counters/images/8223c965940f92b086be.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242381",
+      "index": 48,
+      "contact_sheet": "manual/batch-08.png",
+      "source_front": "assets/counters/images/7d911841f608d6f803b6.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 12,
+        "front_column": 7,
+        "back_row": 12,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236398",
+      "index": 49,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/81389fc0988de568d51d.png",
+      "source_back": "assets/counters/images/8054fea6101ad0a91153.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "result": "No confident physical match located",
+        "confidence": 0,
+        "checked_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "scope": "Original artwork and physical candidate search; no reverse assignment inferred."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237877",
+      "index": 50,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/367a5dd09e2f0aebd7fa.png",
+      "source_back": "assets/counters/images/49e811d38ea07234e252.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 7,
+        "front_column": 15,
+        "back_row": 7,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242406",
+      "index": 51,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/dcb4185711b43060043a.png",
+      "source_back": "assets/counters/images/ad4fe47380aa13f2e35a.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238301",
+      "index": 52,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/b31a5b4e4d7ff5025317.png",
+      "source_back": "assets/counters/images/dc07db835a0a0df38a30.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238306",
+      "index": 53,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/fb63dfe7525537548f52.png",
+      "source_back": "assets/counters/images/d39b0df508a8eb83b131.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:240302",
+      "index": 54,
+      "contact_sheet": "manual/batch-09.png",
+      "source_front": "assets/counters/images/c73ea7d0c472ab0c92b2.png",
+      "source_back": "assets/counters/images/dc463dda5e7548454d46.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 1,
+        "front_column": 1,
+        "back_row": 1,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:235649",
+      "index": 55,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/1e0d619052addd88587f.png",
+      "source_back": "assets/counters/images/2225441a256afc65d34f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242398",
+      "index": 56,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/62f3db1a531a7824fe82.png",
+      "source_back": "assets/counters/images/cd0a9f0811f1d70201c3.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238499",
+      "index": 57,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/843d699a7e9ce0ad37ff.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 5,
+        "front_column": 19,
+        "back_row": 5,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242393",
+      "index": 58,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/f770bacefa19ba7831f2.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 12,
+        "front_column": 15,
+        "back_row": 12,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:240304",
+      "index": 59,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/69fb57e9f33a68481ba8.png",
+      "source_back": "assets/counters/images/950fbe3d8a999798421d.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 1,
+        "front_column": 6,
+        "back_row": 1,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Physical reverse capacity appears 10 SP whereas digital pair has 20 SP. Candidate alignment/version needs examination."
+    },
+    {
+      "type_id": "vassal:133:238774",
+      "index": 60,
+      "contact_sheet": "manual/batch-10.png",
+      "source_front": "assets/counters/images/048c36b0b50a37163c52.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 10,
+        "front_column": 7,
+        "back_row": 10,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236394",
+      "index": 61,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/78bbc2e37af457b662b4.png",
+      "source_back": "assets/counters/images/deef03389c7839de61b4.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "result": "No confident physical match located",
+        "confidence": 0,
+        "checked_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "scope": "Original artwork and physical candidate search; no reverse assignment inferred."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238332",
+      "index": 62,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/639b832a940c5e66cdec.png",
+      "source_back": "assets/counters/images/2c63628172e20c602237.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 6,
+        "front_column": 11,
+        "back_row": 6,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238375",
+      "index": 63,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/2d66df488d2226661b53.png",
+      "source_back": "assets/counters/images/0bb359d4f525f106a1cc.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "result": "No confident physical match located",
+        "confidence": 0,
+        "searched_sources": {
+          "120": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "132": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "108": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "scope": "Matching attempt only; no physical reverse inferred."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:237881",
+      "index": 64,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/34563e48a1fa0df9211f.png",
+      "source_back": "assets/counters/images/0ee88e65e6e74593e343.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 5,
+        "back_row": 10,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242387",
+      "index": 65,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/2ce6159b3503139db323.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 10,
+        "front_column": 13,
+        "back_row": 10,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237788",
+      "index": 66,
+      "contact_sheet": "manual/batch-11.png",
+      "source_front": "assets/counters/images/99906a066443d7a2d3c6.png",
+      "source_back": "assets/counters/images/282b7a48605eb3521d01.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238782",
+      "index": 67,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/a660d23d5e7198a726a4.png",
+      "source_back": "assets/counters/images/6564ea41f12cbe60ec3d.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 7,
+        "front_column": 6,
+        "back_row": 7,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242048",
+      "index": 68,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/e6791d45c49314583378.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 7,
+        "front_column": 1,
+        "back_row": 7,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows Sea Hurricane IC aircraft, not commando 12."
+    },
+    {
+      "type_id": "vassal:133:237879",
+      "index": 69,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/cb4d0fdc09ce4984d1a2.png",
+      "source_back": "assets/counters/images/384009ca1fbadedd06b3.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 8,
+        "front_column": 15,
+        "back_row": 8,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238335",
+      "index": 70,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/6bd168a642c8eae3d20f.png",
+      "source_back": "assets/counters/images/191750ce48c8aa06b253.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 5,
+        "front_column": 12,
+        "back_row": 5,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238785",
+      "index": 71,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/2967592e3dd243e1b644.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 7,
+        "front_column": 1,
+        "back_row": 7,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236608",
+      "index": 72,
+      "contact_sheet": "manual/batch-12.png",
+      "source_front": "assets/counters/images/838f475e8805d2b19931.png",
+      "source_back": "assets/counters/images/7482ebe6ec801e908d04.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:238783",
+      "index": 73,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/adea830157149bf24e04.png",
+      "source_back": "assets/counters/images/c2571ea52fb4f8a41477.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 7,
+        "front_column": 5,
+        "back_row": 7,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:240398",
+      "index": 74,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/210434a2b9cde93a4b0e.png",
+      "source_back": "assets/counters/images/76188562d1cf539d3c7c.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:239482",
+      "index": 75,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/6f5028e873447f650cbc.png",
+      "source_back": "assets/counters/images/34260c7aced7f61de578.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "result": "Printed appearance pair matched",
+        "confidence": 0.98,
+        "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239482 / vassal:133:239476. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239476.",
+        "location_anchor": {
+          "type_id": "vassal:133:239476",
+          "search_index": 49,
+          "choice": 1,
+          "loc": [
+            108,
+            7,
+            7,
+            3
+          ],
+          "x": 538.2609876543211,
+          "y": 1060.9197939661515,
+          "size": 151.20000000000002,
+          "retrieval": {
+            "loc": [
+              108,
+              7,
+              7,
+              3
+            ],
+            "score": 0.6866709589958191,
+            "scale": 1.12,
+            "dx": 0,
+            "dy": 0,
+            "ocr": true
+          },
+          "confidence": 0.98,
+          "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+        },
+        "scope": "Photo corroboration plus recorded user physical observations. Conflicting coast-defense answers explicitly retained."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:241409",
+      "index": 76,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/6e7944bed690c52d7e02.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 8,
+        "front_column": 15,
+        "back_row": 8,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:239486",
+      "index": 77,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/ea5ffd154024e5c99391.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 10,
+        "front_column": 7,
+        "back_row": 10,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows artillery headquarters 6AD / 12, not 107/3GAD 4-5-12."
+    },
+    {
+      "type_id": "vassal:133:240950",
+      "index": 78,
+      "contact_sheet": "manual/batch-13.png",
+      "source_front": "assets/counters/images/b89d6f577b97a0f8ce74.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 5,
+        "back_row": 3,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:240688",
+      "index": 79,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/9862ca0b7a1a524c9aec.png",
+      "source_back": "assets/counters/images/bdc7dfae47f11d585043.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:236013",
+      "index": 80,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/1675acba09ca6a66a815.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 11,
+        "back_page": 12,
+        "front_row": 10,
+        "front_column": 19,
+        "back_row": 10,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows black naval appearance and Spotted marker, not Bergen Level 16."
+    },
+    {
+      "type_id": "vassal:133:237632",
+      "index": 81,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/66f9573d4583d6d503a8.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 11,
+        "back_page": 12,
+        "front_row": 1,
+        "front_column": 15,
+        "back_row": 1,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Blank-looking reverse contains faint rectangle; cannot distinguish bleed-through from printed marks here."
+    },
+    {
+      "type_id": "vassal:133:239240",
+      "index": 82,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/f9531758ff4a8b574f11.png",
+      "source_back": "assets/counters/images/7b33cba8a2dbcdcdec6a.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 11,
+        "front_column": 5,
+        "back_row": 11,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239107",
+        "assigned_back_image": "assets/counters/images/7b33cba8a2dbcdcdec6a.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236061",
+      "index": 83,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/5abc49a3020949ddc527.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 7,
+        "front_column": 8,
+        "back_row": 7,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows training/security appearance (1)-4, not Vestfjord Level 35."
+    },
+    {
+      "type_id": "vassal:133:241027",
+      "index": 84,
+      "contact_sheet": "manual/batch-14.png",
+      "source_front": "assets/counters/images/137a00633eda19f0425a.png",
+      "source_back": "assets/counters/images/4bf5b43268d8fddb3152.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242071",
+      "index": 85,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/3b4c56fca60f0692a537.png",
+      "source_back": "assets/counters/images/b839031f123e5078e091.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 5,
+        "front_column": 2,
+        "back_row": 5,
+        "back_column": 19,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:242072",
+        "assigned_back_image": "assets/counters/images/b839031f123e5078e091.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241853",
+      "index": 86,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/140afc240c0f276bdfa6.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 4,
+        "front_column": 17,
+        "back_row": 4,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236199",
+      "index": 87,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/aff74a133b91fcdad9da.png",
+      "source_back": "assets/counters/images/05e196639f5807a4c727.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 12,
+        "back_row": 5,
+        "back_column": 9,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed reverse confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and literal metadata; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:236198",
+        "assigned_back_image": "assets/counters/images/05e196639f5807a4c727.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236546",
+      "index": 88,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/63ba6760f710115015ba.png",
+      "source_back": "assets/counters/images/a2e38ada276906fe5caf.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:239939",
+      "index": 89,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/9ece02643b661d7bd4a9.png",
+      "source_back": "assets/counters/images/7e1919be366f558b25da.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 3,
+        "front_column": 5,
+        "back_row": 3,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239665",
+        "assigned_back_image": "assets/counters/images/7e1919be366f558b25da.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:235907",
+      "index": 90,
+      "contact_sheet": "manual/batch-15.png",
+      "source_front": "assets/counters/images/5e151de5bdcade13cf32.png",
+      "source_back": "assets/counters/images/9ce4ad9e4d00df4c198e.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 1,
+        "front_column": 5,
+        "back_row": 1,
+        "back_column": 16,
+        "orientation": "Horizontal mirror, row preserved; 20 columns.",
+        "result": "Printed reverse confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and printed metadata; no gameplay-rule validation.",
+        "matched_back_type_id": "vassal:133:235908",
+        "assigned_back_image": "assets/counters/images/9ce4ad9e4d00df4c198e.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236074",
+      "index": 91,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/47be0afccd138ff799be.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 10,
+        "front_column": 18,
+        "back_row": 10,
+        "back_column": 3,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Blank confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and literal metadata; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236970",
+      "index": 92,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/d07a00bacbe2a383a0e1.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 8,
+        "front_column": 8,
+        "back_row": 8,
+        "back_column": 13,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Blank confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and literal metadata; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241535",
+      "index": 93,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/dbf36d1bc6818d302f4c.png",
+      "source_back": "assets/counters/images/e6c5900d5ae4d3895860.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:239687",
+      "index": 94,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/ad9722d5bd281f573e48.png",
+      "source_back": "assets/counters/images/7f6bbc21737b88422db5.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 6,
+        "front_column": 16,
+        "back_row": 6,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239961",
+        "assigned_back_image": "assets/counters/images/7f6bbc21737b88422db5.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:239796",
+      "index": 95,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/067b0972e0c0b9a6b9ea.png",
+      "source_back": "assets/counters/images/85a54bb661d73a636b60.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:239129",
+      "index": 96,
+      "contact_sheet": "manual/batch-16.png",
+      "source_front": "assets/counters/images/98f2934dec5cbd987082.png",
+      "source_back": "assets/counters/images/c957124d087cde0173d0.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 11,
+        "front_column": 18,
+        "back_row": 11,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239255",
+        "assigned_back_image": "assets/counters/images/c957124d087cde0173d0.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241465",
+      "index": 97,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/31686fbc09cd8475138f.png",
+      "source_back": "assets/counters/images/e9595cd640c18d2ac576.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:236582",
+      "index": 98,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/9decc17a315263ff9eb5.png",
+      "source_back": "assets/counters/images/edb651b8dd941c0be29b.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:240677",
+      "index": 99,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/09a239943c5c5292a870.png",
+      "source_back": "assets/counters/images/a4445b3a486c430748c2.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:240892",
+      "index": 100,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/44822c43121bdb59f7bb.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 1,
+        "front_column": 1,
+        "back_row": 1,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237362",
+      "index": 101,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/db93f2ddd4ad01bfa16c.png",
+      "source_back": "assets/counters/images/4e65884c6172d5ed0ebd.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 2,
+        "front_column": 4,
+        "back_row": 2,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:237363",
+        "assigned_back_image": "assets/counters/images/4e65884c6172d5ed0ebd.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:242083",
+      "index": 102,
+      "contact_sheet": "manual/batch-17.png",
+      "source_front": "assets/counters/images/982279a46c2b39a68c6f.png",
+      "source_back": "assets/counters/images/15c2c8fdf94f107247be.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 10,
+        "back_page": 9,
+        "front_row": 4,
+        "front_column": 20,
+        "back_row": 4,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:242084",
+        "assigned_back_image": "assets/counters/images/15c2c8fdf94f107247be.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Physical front/reverse crop boundaries cut through neighbouring submarine/ship cells; require source-context alignment."
+    },
+    {
+      "type_id": "vassal:133:240075",
+      "index": 103,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/cd8f559cbb14f2510b9e.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 2,
+        "front_column": 9,
+        "back_row": 2,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:239645",
+      "index": 104,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/23aa7853da0fbee0a784.png",
+      "source_back": "assets/counters/images/4794e54e2f9823fac4f7.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "result": "Reciprocal of previously corroborated printed pair",
+        "confidence": 0.98,
+        "matched_back_type_id": "vassal:133:239918",
+        "assigned_back_image": "assets/counters/images/4794e54e2f9823fac4f7.png",
+        "evidence": "Existing verified vassal:133:239918 assigns this exact front artwork as its printed reverse; both original appearances directly inspected on reciprocal review sheets. Existing counterpart physical/evidence history retained in the audit. Not inferred from name or adjacency.",
+        "proof": {
+          "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+          "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+          "front_page": 1,
+          "back_page": 2,
+          "front_row": 2,
+          "front_column": 8,
+          "back_row": 2,
+          "back_column": 13,
+          "confidence": 0.98,
+          "result": "Printed reverse confirmed",
+          "orientation": "20 columns; horizontally mirrored reverse, same row.",
+          "scope": "Counter metadata only; no gameplay validation.",
+          "matched_back_type_id": "vassal:133:239645",
+          "assigned_back_image": "assets/counters/images/23aa7853da0fbee0a784.png"
+        },
+        "scope": "No inference of reductions, historical organization, rules or campaign quantity."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:236049",
+      "index": 105,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/2e4d1759ababad167e81.png",
+      "source_back": "assets/counters/images/0cdd2c4e64c23b7f5dd2.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 12,
+        "back_page": 11,
+        "front_row": 3,
+        "front_column": 20,
+        "back_row": 3,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236229",
+      "index": 106,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/bcbf0115b9c00272fa9d.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 3,
+        "front_column": 12,
+        "back_row": 3,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:235682",
+      "index": 107,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/9fb27cbafa53e9c4624f.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 8,
+        "front_column": 16,
+        "back_row": 8,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows armour 232, 2-18, not antiaircraft 286, 1-2-20."
+    },
+    {
+      "type_id": "vassal:133:239294",
+      "index": 108,
+      "contact_sheet": "manual/batch-18.png",
+      "source_front": "assets/counters/images/4eaeff918b56df5ce467.png",
+      "source_back": "assets/counters/images/23950becd11e23ae4cd5.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 8,
+        "front_column": 17,
+        "back_row": 8,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:239272",
+        "assigned_back_image": "assets/counters/images/23950becd11e23ae4cd5.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:237730",
+      "index": 109,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/4cce60f216eab7c78d51.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 11,
+        "back_page": 12,
+        "front_row": 4,
+        "front_column": 19,
+        "back_row": 4,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238065",
+      "index": 110,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/24f97efbf6346c2651d5.png",
+      "source_back": "assets/counters/images/00e9dc2c283f1d53f93f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 5,
+        "front_column": 5,
+        "back_row": 5,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:238064",
+        "assigned_back_image": "assets/counters/images/00e9dc2c283f1d53f93f.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:240123",
+      "index": 111,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/6fc2900787aae81a7e48.png",
+      "source_back": "assets/counters/images/487c95a03ce6c4dd4cc6.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:242000",
+      "index": 112,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/cc2dc7dd211c0dc7cbe6.png",
+      "source_back": "assets/counters/images/d86d753a5b3576aa9cd0.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 10,
+        "front_column": 7,
+        "back_row": 10,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:238504",
+      "index": 113,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/27aab3756d3d26c6076a.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 12,
+        "back_row": 3,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241361",
+      "index": 114,
+      "contact_sheet": "manual/batch-19.png",
+      "source_front": "assets/counters/images/849994b226f590017414.png",
+      "source_back": "assets/counters/images/d53df9ae30abfd02cba2.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 12,
+        "front_column": 4,
+        "back_row": 12,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241376",
+        "assigned_back_image": "assets/counters/images/d53df9ae30abfd02cba2.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:236272",
+      "index": 115,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/75a064519f498c25009c.png",
+      "source_back": "assets/counters/images/22707802091ef2bd254b.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 4,
+        "back_page": 3,
+        "front_row": 7,
+        "front_column": 5,
+        "back_row": 7,
+        "back_column": 16,
+        "orientation": "Horizontally mirrored, rows preserved; 20 columns across sheet.",
+        "result": "Printed reverse confirmed",
+        "confidence": 0.98,
+        "scope": "Individual physical appearance and literal metadata; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:236146",
+        "assigned_back_image": "assets/counters/images/22707802091ef2bd254b.png"
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241938",
+      "index": 116,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/59aa028e1cf89f0de7b7.png",
+      "source_back": "assets/counters/images/bdc5b6dc35b3dcba176a.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 6,
+        "front_column": 7,
+        "back_row": 6,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)"
+    },
+    {
+      "type_id": "vassal:133:241052",
+      "index": 117,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/9c74a997e9eb879d63cf.png",
+      "source_back": null,
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 1,
+        "front_column": 5,
+        "back_row": 1,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "Source crop shows infantry 199, 10-6, not engineer 12, (1)-6."
+    },
+    {
+      "type_id": "vassal:133:236641",
+      "index": 118,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/02ca85e76359d698f731.png",
+      "source_back": "assets/counters/images/4b8ed9562b6d99655262.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:239717",
+      "index": 119,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/44f092dc0944be9b7566.png",
+      "source_back": "assets/counters/images/ba0a317285c62a49f4c9.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {
+        "result": "Printed appearance pair matched",
+        "confidence": 0.98,
+        "evidence": "User physical answers plus enlarged original-art/native paired-photo comparison: vassal:133:239717 / vassal:133:239988. Exact designation, printed size, symbol and ratings corroborated. Source locator anchored to vassal:133:239988.",
+        "location_anchor": {
+          "type_id": "vassal:133:239988",
+          "search_index": 8,
+          "choice": 1,
+          "loc": [
+            132,
+            1,
+            14,
+            3
+          ],
+          "x": 1509.7599999999998,
+          "y": 2772.8639999999996,
+          "size": 137,
+          "retrieval": {
+            "loc": [
+              132,
+              1,
+              14,
+              3
+            ],
+            "score": 0.7775874137878418,
+            "scale": 1,
+            "dx": 0,
+            "dy": 0,
+            "ocr": true
+          },
+          "confidence": 0.98,
+          "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+        },
+        "scope": "Photo corroboration plus recorded user physical observations. Conflicting coast-defense answers explicitly retained."
+      },
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    },
+    {
+      "type_id": "vassal:133:236651",
+      "index": 120,
+      "contact_sheet": "manual/batch-20.png",
+      "source_front": "assets/counters/images/d475949aeec971842e69.png",
+      "source_back": "assets/counters/images/a9efe8a1237d6ffc646f.png",
+      "fields_inspected": [
+        "visible original-art designation",
+        "printed core factors / codes",
+        "visible formation-size / status text",
+        "visible type symbol (literal visual comparison)"
+      ],
+      "scope": "Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.",
+      "physical_location": {},
+      "artwork_finding": "No new confirmed printed-factor discrepancy identified in this sample",
+      "physical_finding": "No direct source locator"
+    }
+  ],
+  "manual_count": 120,
+  "confirmed_locator_mismatches": 9,
+  "ambiguous_source_crops": 6,
+  "findings": [
+    {
+      "type_id": "vassal:133:238842",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 12,
+        "front_column": 4,
+        "back_row": 12,
+        "back_column": 17,
+        "orientation": "Horizontally mirrored; rows preserved; 20 columns.",
+        "result": "Printed front/back corroborated",
+        "confidence": 0.98,
+        "scope": "Individual physical faces and existing artwork/metadata; no gameplay-rule validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf pp1/2 r12 c4; manual/batch-01.png",
+      "detail": "Source crop shows SB-2 and a fighter appearance, not IL-2."
+    },
+    {
+      "type_id": "vassal:133:236047",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 13,
+        "front_column": 16,
+        "back_row": 13,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp7/8 r13 c16; manual/batch-01.png",
+      "detail": "Source crop shows a black naval/escort appearance, not grey Svolvar Level 24."
+    },
+    {
+      "type_id": "vassal:133:235972",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 2,
+        "front_column": 16,
+        "back_row": 2,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp9/10 r2 c16; manual/batch-02.png",
+      "detail": "Source crop shows security 668 Rusl (1)-6, not Arko 108 6-4-18."
+    },
+    {
+      "type_id": "vassal:133:238452",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 2,
+        "front_column": 12,
+        "back_row": 2,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:238453",
+        "assigned_back_image": "assets/counters/images/851c308bb57ae3a7f89b.png"
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf pp6/5 r2 c12; manual/batch-03.png",
+      "detail": "Physical front mostly cut off; cell crop does not fully establish original regiment 53."
+    },
+    {
+      "type_id": "vassal:133:242434",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 13,
+        "front_column": 17,
+        "back_row": 13,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf pp9/10 r13 c17; manual/batch-06.png",
+      "detail": "Front name/cell boundary truncated and proposed back contains green infantry. Recheck alignment before claiming blank reverse."
+    },
+    {
+      "type_id": "vassal:133:238152",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 5,
+        "front_column": 19,
+        "back_row": 5,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf pp1/2 r5 c19; manual/batch-08.png",
+      "detail": "Physical source looks like IV headquarters while saved front is V; inspect the uncropped sheet to distinguish orientation and column offset."
+    },
+    {
+      "type_id": "vassal:133:240304",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 1,
+        "front_column": 6,
+        "back_row": 1,
+        "back_column": 15,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf pp3/4 r1 c6; manual/batch-10.png",
+      "detail": "Physical reverse capacity appears 10 SP whereas digital pair has 20 SP. Candidate alignment/version needs examination."
+    },
+    {
+      "type_id": "vassal:133:242048",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 7,
+        "front_column": 1,
+        "back_row": 7,
+        "back_column": 20,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf pp9/10 r7 c1; manual/batch-12.png",
+      "detail": "Source crop shows Sea Hurricane IC aircraft, not commando 12."
+    },
+    {
+      "type_id": "vassal:133:239486",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 10,
+        "front_column": 7,
+        "back_row": 10,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf pp7/8 r10 c7; manual/batch-13.png",
+      "detail": "Source crop shows artillery headquarters 6AD / 12, not 107/3GAD 4-5-12."
+    },
+    {
+      "type_id": "vassal:133:236013",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 11,
+        "back_page": 12,
+        "front_row": 10,
+        "front_column": 19,
+        "back_row": 10,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp11/12 r10 c19; manual/batch-14.png",
+      "detail": "Source crop shows black naval appearance and Spotted marker, not Bergen Level 16."
+    },
+    {
+      "type_id": "vassal:133:237632",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 11,
+        "back_page": 12,
+        "front_row": 1,
+        "front_column": 15,
+        "back_row": 1,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns across sheet; horizontally mirrored reverse, same row.",
+        "scope": "Printed counter metadata and physical face pairing only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp11/12 r1 c15; manual/batch-14.png",
+      "detail": "Blank-looking reverse contains faint rectangle; cannot distinguish bleed-through from printed marks here."
+    },
+    {
+      "type_id": "vassal:133:236061",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 7,
+        "front_column": 8,
+        "back_row": 7,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp9/10 r7 c8; manual/batch-14.png",
+      "detail": "Source crop shows training/security appearance (1)-4, not Vestfjord Level 35."
+    },
+    {
+      "type_id": "vassal:133:242083",
+      "kind": "ambiguous_source_crop",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 10,
+        "back_page": 9,
+        "front_row": 4,
+        "front_column": 20,
+        "back_row": 4,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:242084",
+        "assigned_back_image": "assets/counters/images/15c2c8fdf94f107247be.png"
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf pp10/9 r4 c20; manual/batch-17.png",
+      "detail": "Physical front/reverse crop boundaries cut through neighbouring submarine/ship cells; require source-context alignment."
+    },
+    {
+      "type_id": "vassal:133:235682",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 8,
+        "front_column": 16,
+        "back_row": 8,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf pp9/10 r8 c16; manual/batch-18.png",
+      "detail": "Source crop shows armour 232, 2-18, not antiaircraft 286, 1-2-20."
+    },
+    {
+      "type_id": "vassal:133:241052",
+      "kind": "confirmed_locator_mismatch",
+      "field": "physical_back_review source locator / corroboration claim",
+      "current": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 1,
+        "front_column": 5,
+        "back_row": 1,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "proposed": "Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.",
+      "source_reference": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf pp7/8 r1 c5; manual/batch-20.png",
+      "detail": "Source crop shows infantry 199, 10-6, not engineer 12, (1)-6."
+    }
+  ],
+  "by_nationality": {
+    "Soviet Union": 36,
+    "Germany": 25,
+    "Romania": 9,
+    "United Kingdom": 5,
+    "Hungary": 8,
+    "Finland": 9,
+    "Slovakia": 6,
+    "Italy": 7,
+    "Greece": 1,
+    "United States": 2,
+    "Bulgaria": 3,
+    "Poland": 1,
+    "France": 2,
+    "Australia": 1,
+    "Norway": 2,
+    "Spain": 1,
+    "Canada": 1,
+    "German": 1
+  },
+  "by_category": {
+    "Ground unit": 83,
+    "Naval unit": 22,
+    "Air unit": 13,
+    "Marker": 1,
+    "Commander": 1
+  },
+  "limits": "120 manual reviews are not a majority of 5708. The separate OCR coverage is automated literal-factor evidence, not equivalent to full manual metadata/physical verification. No new numeric correction inferred from OCR failure."
+}

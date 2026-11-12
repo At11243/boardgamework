@@ -1,0 +1,6 @@
+{
+  "assets\\counters\\unit_definitions.json": true,
+  "assets\\counters\\counter_catalog.json": true,
+  "map_terrain.json": true,
+  "map_transport.json": true
+}

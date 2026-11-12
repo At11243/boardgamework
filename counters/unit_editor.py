@@ -67,8 +67,12 @@ ground_fields = (
     ("capacity", "Capacity, including printed code"),
     ("radius", "Radius"),
     ("cd_level", "Coastal-defense level"),
-    ("cd_short", "CD short value"),
-    ("cd_long", "CD long value"),
+    ("cd_short", "CD printed short-range component"),
+    ("cd_long", "CD printed long-range component"),
+    ("fortification_level", "Fortification level"),
+    ("printed_rating", "Printed rating / operational code"),
+    ("printed_code", "Additional printed code"),
+    ("printed_symbol_rating", "Additional value inside symbol"),
 )
 
 ground_formats = {
@@ -89,9 +93,44 @@ ground_formats = {
         "capacity", "movement", "radius",
     ),
     "Coastal defense": (
-        "cd_level", "cd_short", "cd_long", "antiaircraft",
+        "cd_level", "cd_short", "cd_long", "antiaircraft", "printed_code",
     ),
+    "Movement only": ("movement", "capacity", "radius"),
+    "Operational / code": ("printed_rating", "capacity", "radius"),
+    "Fortification level": ("fortification_level",),
 }
+
+# Required printed core values, not every field available for a layout.
+# UICFB p2; R16a 4.A.3/5 pp19-20 (PDF21-22), 14.B.8 p102 (PDF104).
+# Unprinted CD short/long values and optional HQ capacities stay unknown.
+ground_required_fields = {
+    "Coastal defense": ("cd_level",),
+    "Movement only": ("movement",),
+    "Operational / code": ("printed_rating",),
+    "Fortification level": ("fortification_level",),
+}
+
+ground_format_sources = {
+    "Movement only": "UICFB p2: HQ and other single movement-value layouts. No combat strength is invented.",
+    "Operational / code": "Literal printed OP/ST code; no movement or combat rating implied. R16a 14.B.8, printed p102 / PDF104; 15, printed pp113-116 / PDF115-118.",
+    "Fortification level": "R16a 4.A.5, printed p20 / PDF22. Store the printed UR level; no gameplay effects calculated.",
+    "Coastal defense": "UICFB p2; R16a 4.A.3.a.i-ii, printed p19 / PDF21. In 3/2, level=3, printed short component=3, long component=2. This editor does not calculate effective short-range gunnery; store printed components only. Unprinted components are optional.",
+}
+
+
+def naval_required_fields(ship_type):
+    """Printed metadata layout; never infer a tactical speed from patrol range.
+
+    R16a 5.C.2.e.ii-iii, p32 / PDF34; 5.C.4, p33 / PDF35.
+    SSF's rule-defined combat speed is not a printed counter rating.
+    """
+    core = ("ship_type", "gunnery", "protection")
+    code = ship_type.strip().upper()
+    if code == "SSF":
+        return core + ("patrol_range",)
+    if code == "FAS":
+        return core + ("printed_bottom_right",)
+    return core + ("tactical_speed",)
 
 face_statuses = (
     "Unknown",
@@ -117,6 +156,8 @@ naval_fields = (
     ("antiaircraft", "Antiaircraft rating"),
     ("torpedo", "Torpedo rating"),
     ("tactical_speed", "Tactical speed"),
+    ("patrol_range", "Submarine patrol range (sea zones)"),
+    ("printed_bottom_right", "Printed bottom-right value (literal)"),
     ("capacity_code", "Capacity / code"),
     ("ship_name", "Printed ship name"),
 )
@@ -133,6 +174,8 @@ commander_fields = (
     ("movement", "Movement rating"),
     ("stacking_modifier", "Stacking modifier"),
     ("name_vehicle", "Printed name / vehicle"),
+    ("printed_header", "Printed header / modifier codes"),
+    ("printed_lower_line", "Printed lower line (literal)"),
 )
 
 unit_type_choices = (
@@ -559,6 +602,10 @@ class UnitEditor(QMainWindow):
                 control.textChanged.connect(self.mark_dirty)
 
                 label_widget = QLabel(label)
+                if field_name == "combat_strength":
+                    control.setToolTip("Keep parentheses literally, e.g. (1). R16a 5.A.2, printed p25 / PDF27; this is not automatically a defense-only rating.")
+                elif field_name in ("cd_level", "cd_short", "cd_long"):
+                    control.setToolTip(ground_format_sources["Coastal defense"])
                 face_layout.addRow(label_widget, control)
 
                 self.ground_controls[face][field_name] = control
@@ -589,6 +636,7 @@ class UnitEditor(QMainWindow):
 
         self.special_rating_controls = {}
         self.special_rating_tabs = {}
+        self.naval_rows = {}
 
         for category, section_name, fields in (
             ("Naval unit", "naval", naval_fields),
@@ -607,6 +655,8 @@ class UnitEditor(QMainWindow):
                 face_layout = QFormLayout(page)
 
                 controls = {}
+                if section_name == "naval":
+                    self.naval_rows[face] = {}
                 self.special_rating_controls[section_name][face] = (
                     controls
                 )
@@ -618,14 +668,24 @@ class UnitEditor(QMainWindow):
                     )
                     control.textChanged.connect(self.mark_dirty)
 
-                    face_layout.addRow(label, control)
+                    label_widget = QLabel(label)
+                    face_layout.addRow(label_widget, control)
                     controls[field_name] = control
+                    if section_name == "naval":
+                        self.naval_rows[face][field_name] = (label_widget, control)
+                        if field_name == "ship_type":
+                            control.textChanged.connect(self.update_naval_fields)
+                        if field_name in ("tactical_speed", "patrol_range", "printed_bottom_right"):
+                            control.setToolTip("R16a 5.C.2.e, printed p32 / PDF34; 5.C.4, p33 / PDF35. SSF uses patrol range; SSF/FAS do not print tactical speed. Keep an unexplained bottom-right value literally without assigning it a gameplay meaning.")
+                    elif field_name not in ("rank", "movement", "name_vehicle"):
+                        control.setToolTip("UICFB p2: unprinted commander modifiers have no effect. Leave unprinted values blank; do not invent zero or N/A. Codes M/C/D/R may be recorded literally; effects are not implemented.")
 
                 tabs.addTab(page, title)
 
             form.addRow(tabs)
 
         self.update_ground_fields()
+        self.update_naval_fields()
 
         # Scroll the fields while keeping Save visible below.
         fields_scroll = QScrollArea()
@@ -972,13 +1032,24 @@ class UnitEditor(QMainWindow):
             visible_fields = ground_formats.get(
                 selected_format, ()
             )
+            self.ground_formats[face].setToolTip(ground_format_sources.get(selected_format, "UICFB p2. Printed counter metadata only; gameplay remains manual."))
 
             for field_name, widgets in rows.items():
                 if field_name == "torpedoes":
                     visible = selected_format == "Coastal defense"
                 else:
-                    visible = field_name in visible_fields
+                    visible = (field_name in visible_fields
+                               or field_name in ("printed_symbol_rating", "printed_rating"))
 
+                for widget in widgets:
+                    widget.setVisible(visible)
+
+    def update_naval_fields(self, *_):
+        for face, rows in self.naval_rows.items():
+            code = self.special_rating_controls["naval"][face]["ship_type"].text().strip().upper()
+            for field, widgets in rows.items():
+                visible = (code == "SSF" if field == "patrol_range" else
+                           code not in ("SSF", "FAS") if field == "tactical_speed" else True)
                 for widget in widgets:
                     widget.setVisible(visible)
 
@@ -1641,7 +1712,8 @@ class UnitEditor(QMainWindow):
                     issues.append(f"{face.title()} ground ratings: select a rating format.")
                 # AA is optional except on dedicated antiaircraft counters.
                 required = tuple(
-                    field for field in ground_formats.get(rating_format, ())
+                    field for field in ground_required_fields.get(
+                        rating_format, ground_formats.get(rating_format, ()))
                     if field != "antiaircraft" or rating_format == "Antiaircraft"
                 )
                 controls = self.ground_controls[face]
@@ -1655,9 +1727,9 @@ class UnitEditor(QMainWindow):
                 labels = dict(aircraft_fields)
             elif category in ("Naval unit", "Commander"):
                 section = "naval" if category == "Naval unit" else "commander"
-                required = (("ship_type", "gunnery", "protection", "tactical_speed")
-                            if section == "naval" else ("rank", "movement"))
                 controls = self.special_rating_controls[section][face]
+                required = (naval_required_fields(controls["ship_type"].text())
+                            if section == "naval" else ("rank", "movement"))
                 labels = dict(naval_fields if section == "naval" else commander_fields)
             else:
                 continue

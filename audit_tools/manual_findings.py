@@ -1,0 +1,22 @@
+"""Record the 120-entry visual review; proposals only, no source-data edits."""
+import json,hashlib,re
+from pathlib import Path
+from collections import Counter
+
+def main():
+ out=Path('audits/20261109/counters');d=json.loads(Path('assets/counters/unit_definitions.json').read_text(encoding='utf-8'))['definitions'];selection=json.loads((out/'manual/selection.json').read_text())
+ # Read directly on the enlarged contact sheets, not inferred from filenames.
+ mismatch={4:'Source crop shows SB-2 and a fighter appearance, not IL-2.',5:'Source crop shows a black naval/escort appearance, not grey Svolvar Level 24.',7:'Source crop shows security 668 Rusl (1)-6, not Arko 108 6-4-18.',68:'Source crop shows Sea Hurricane IC aircraft, not commando 12.',77:'Source crop shows artillery headquarters 6AD / 12, not 107/3GAD 4-5-12.',80:'Source crop shows black naval appearance and Spotted marker, not Bergen Level 16.',83:'Source crop shows training/security appearance (1)-4, not Vestfjord Level 35.',107:'Source crop shows armour 232, 2-18, not antiaircraft 286, 1-2-20.',117:'Source crop shows infantry 199, 10-6, not engineer 12, (1)-6.'}
+ uncertain={18:'Physical front mostly cut off; cell crop does not fully establish original regiment 53.',34:'Front name/cell boundary truncated and proposed back contains green infantry. Recheck alignment before claiming blank reverse.',46:'Physical source looks like IV headquarters while saved front is V; inspect the uncropped sheet to distinguish orientation and column offset.',59:'Physical reverse capacity appears 10 SP whereas digital pair has 20 SP. Candidate alignment/version needs examination.',81:'Blank-looking reverse contains faint rectangle; cannot distinguish bleed-through from printed marks here.',102:'Physical front/reverse crop boundaries cut through neighbouring submarine/ship cells; require source-context alignment.'}
+ findings=[];records=[]
+ for i,u in enumerate(selection,1):
+  v=d[u];pbr=v.get('physical_back_review',{});fields=['visible original-art designation','printed core factors / codes','visible formation-size / status text','visible type symbol (literal visual comparison)']
+  record={'type_id':u,'index':i,'contact_sheet':f'manual/batch-{(i-1)//6+1:02}.png','source_front':v.get('front_image'),'source_back':v.get('back_image'),'fields_inspected':fields,'scope':'Independent original-artwork reading, not a reread of another generated catalog. Palette/nation conventions compared by broad UICFB pp1-3; historical identity and all optional modifiers are not independently certified. Physical pairing only where exact photos agree.','physical_location':pbr,'artwork_finding':'No new confirmed printed-factor discrepancy identified in this sample','physical_finding':'No direct source locator' if 'front_page' not in pbr else 'Visible cropped source compared; no new mismatch noted (not a new exhaustive sheet search)'}
+  if i in mismatch or i in uncertain:
+   kind='confirmed_locator_mismatch' if i in mismatch else 'ambiguous_source_crop'
+   detail=mismatch.get(i,uncertain.get(i));record['physical_finding']=detail
+   findings.append({'type_id':u,'kind':kind,'field':'physical_back_review source locator / corroboration claim','current':pbr,'proposed':'Withdraw the exact corroboration claim and locate the correct physical cell; retain digital ratings/art pending review. No automatic status or data change.','source_reference':f"{pbr.get('source_pdf')} pp{pbr.get('front_page')}/{pbr.get('back_page')} r{pbr.get('front_row')} c{pbr.get('front_column')}; manual/batch-{(i-1)//6+1:02}.png",'detail':detail})
+  records.append(record)
+ report={'entries':records,'manual_count':len(records),'confirmed_locator_mismatches':sum(z['kind']=='confirmed_locator_mismatch' for z in findings),'ambiguous_source_crops':sum(z['kind']=='ambiguous_source_crop' for z in findings),'findings':findings,'by_nationality':dict(Counter(d[u]['nationality'] for u in selection)),'by_category':dict(Counter(d[u]['counter_category'] for u in selection)),'limits':'120 manual reviews are not a majority of 5708. The separate OCR coverage is automated literal-factor evidence, not equivalent to full manual metadata/physical verification. No new numeric correction inferred from OCR failure.'}
+ (out/'manual_review.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8');print('Manual review:',len(records),'locator mismatches:',report['confirmed_locator_mismatches'],'ambiguous:',report['ambiguous_source_crops'])
+if __name__=='__main__':main()

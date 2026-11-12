@@ -1,0 +1,519 @@
+[
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      62,
+      18
+    ],
+    "hex_id": "FB-RH:0535",
+    "blue_fraction": 0.882890522480011,
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--62--18.png"
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      65,
+      15
+    ],
+    "hex_id": "FB-RH:0332",
+    "blue_fraction": 0.8442075252532959,
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--65--15.png"
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      62,
+      19
+    ],
+    "hex_id": "FB-RH:0635",
+    "blue_fraction": 0.5492382049560547,
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--62--19.png"
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      62,
+      20
+    ],
+    "hex_id": "FB-RH:0735",
+    "blue_fraction": 0.5718879699707031,
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--62--20.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-XF",
+      43,
+      29
+    ],
+    "hex_id": "HP-XF:1412",
+    "blue_fraction": 0.5806888341903687,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-XF--43--29.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-XF",
+      43,
+      28
+    ],
+    "hex_id": "HP-XF:1312",
+    "blue_fraction": 0.54570072889328,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-XF--43--28.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-XF",
+      43,
+      30
+    ],
+    "hex_id": "HP-XF:1512",
+    "blue_fraction": 0.8206669092178345,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-XF--43--30.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-XF",
+      43,
+      27
+    ],
+    "hex_id": "HP-XF:1212",
+    "blue_fraction": 0.8127274513244629,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-XF--43--27.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-QH",
+      64,
+      91
+    ],
+    "hex_id": "FB-QH:0933",
+    "blue_fraction": 0.6079708933830261,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-QH--64--91.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-QH",
+      64,
+      90
+    ],
+    "hex_id": "FB-QH:0833",
+    "blue_fraction": 0.5727341771125793,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-QH--64--90.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      35,
+      50
+    ],
+    "hex_id": "HP-ZF:1320",
+    "blue_fraction": 0.7123159170150757,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--35--50.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      35,
+      51
+    ],
+    "hex_id": "HP-ZF:1420",
+    "blue_fraction": 0.6527883410453796,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--35--51.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      35,
+      52
+    ],
+    "hex_id": "HP-ZF:1520",
+    "blue_fraction": 0.6783447861671448,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--35--52.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      22,
+      46
+    ],
+    "hex_id": "HP-ZF:0833",
+    "blue_fraction": 0.6380733847618103,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--22--46.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      22,
+      47
+    ],
+    "hex_id": "HP-ZF:0933",
+    "blue_fraction": 0.6824067234992981,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--22--47.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      22,
+      48
+    ],
+    "hex_id": "HP-ZF:1033",
+    "blue_fraction": 0.7066382765769958,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--22--48.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-YF",
+      7,
+      54
+    ],
+    "hex_id": "HP-YF:1710",
+    "blue_fraction": 0.8165525197982788,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-YF--7--54.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-YF",
+      7,
+      57
+    ],
+    "hex_id": "HP-YF:2010",
+    "blue_fraction": 0.8183364272117615,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-YF--7--57.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-YF",
+      7,
+      56
+    ],
+    "hex_id": "HP-YF:1910",
+    "blue_fraction": 0.5732037425041199,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-YF--7--56.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-YF",
+      7,
+      55
+    ],
+    "hex_id": "HP-YF:1810",
+    "blue_fraction": 0.5454158782958984,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-YF--7--55.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      32,
+      69
+    ],
+    "hex_id": "HP-ZF:3123",
+    "blue_fraction": 0.6961157917976379,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--32--69.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      32,
+      70
+    ],
+    "hex_id": "HP-ZF:3223",
+    "blue_fraction": 0.7875382900238037,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--32--70.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      32,
+      68
+    ],
+    "hex_id": "HP-ZF:3023",
+    "blue_fraction": 0.7338497042655945,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--32--68.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      34,
+      59
+    ],
+    "hex_id": "HP-ZF:2121",
+    "blue_fraction": 0.8289607167243958,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--34--59.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      34,
+      60
+    ],
+    "hex_id": "HP-ZF:2221",
+    "blue_fraction": 0.5448510646820068,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--34--60.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      34,
+      61
+    ],
+    "hex_id": "HP-ZF:2321",
+    "blue_fraction": 0.5753088593482971,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--34--61.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      34,
+      62
+    ],
+    "hex_id": "HP-ZF:2421",
+    "blue_fraction": 0.8091732263565063,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--34--62.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      50,
+      69
+    ],
+    "hex_id": "FB-PH:1747",
+    "blue_fraction": 0.5839681625366211,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--50--69.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      50,
+      67
+    ],
+    "hex_id": "FB-PH:1547",
+    "blue_fraction": 0.8925004005432129,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--50--67.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      50,
+      68
+    ],
+    "hex_id": "FB-PH:1647",
+    "blue_fraction": 0.5459731221199036,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--50--68.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      58,
+      64
+    ],
+    "hex_id": "FB-PH:1239",
+    "blue_fraction": 0.4785458743572235,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--58--64.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-QH",
+      65,
+      83
+    ],
+    "hex_id": "FB-QH:0232",
+    "blue_fraction": 0.8455615043640137,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-QH--65--83.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      65,
+      80
+    ],
+    "hex_id": "FB-PH:2932",
+    "blue_fraction": 0.8723548054695129,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--65--80.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      65,
+      79
+    ],
+    "hex_id": "FB-PH:2832",
+    "blue_fraction": 0.8826834559440613,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--65--79.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      67,
+      77
+    ],
+    "hex_id": "FB-PH:2630",
+    "blue_fraction": 0.6614166498184204,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--67--77.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      67,
+      78
+    ],
+    "hex_id": "FB-PH:2730",
+    "blue_fraction": 0.48328396677970886,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--67--78.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      67,
+      79
+    ],
+    "hex_id": "FB-PH:2830",
+    "blue_fraction": 0.645010232925415,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--67--79.png"
+  },
+  {
+    "key": [
+      "Map 2",
+      "FB-PH",
+      67,
+      80
+    ],
+    "hex_id": "FB-PH:2930",
+    "blue_fraction": 0.6589928269386292,
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--FB-PH--67--80.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SI",
+      33,
+      1
+    ],
+    "hex_id": "BK-SI:1612",
+    "blue_fraction": 0.8809201717376709,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SI--33--1.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SI",
+      33,
+      2
+    ],
+    "hex_id": "BK-SI:1712",
+    "blue_fraction": 0.7900033593177795,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SI--33--2.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SI",
+      33,
+      3
+    ],
+    "hex_id": "BK-SI:1812",
+    "blue_fraction": 0.8302748203277588,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SI--33--3.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SI",
+      33,
+      4
+    ],
+    "hex_id": "BK-SI:1912",
+    "blue_fraction": 0.7878890633583069,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SI--33--4.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SH",
+      56,
+      1
+    ],
+    "hex_id": "BK-SH:1527",
+    "blue_fraction": 0.891933023929596,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SH--56--1.png"
+  },
+  {
+    "key": [
+      "Map 5",
+      "BK-SH",
+      56,
+      3
+    ],
+    "hex_id": "BK-SH:1727",
+    "blue_fraction": 0.8772938847541809,
+    "source": "audits\\20261109\\terrain\\crops\\Map_5--BK-SH--56--3.png"
+  },
+  {
+    "key": [
+      "Map 8",
+      "FB-OE",
+      52,
+      43
+    ],
+    "hex_id": "FB-OE:2248",
+    "blue_fraction": 0.0,
+    "source": "audits\\20261109\\terrain\\crops\\Map_8--FB-OE--52--43.png"
+  },
+  {
+    "key": [
+      "Map 8",
+      "FB-PF",
+      37,
+      52
+    ],
+    "hex_id": "FB-PF:0113",
+    "blue_fraction": 0.03511889651417732,
+    "source": "audits\\20261109\\terrain\\crops\\Map_8--FB-PF--37--52.png"
+  },
+  {
+    "key": [
+      "Map 8",
+      "FB-PF",
+      34,
+      55
+    ],
+    "hex_id": "FB-PF:0416",
+    "blue_fraction": 0.0,
+    "source": "audits\\20261109\\terrain\\crops\\Map_8--FB-PF--34--55.png"
+  }
+]

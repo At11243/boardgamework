@@ -1,0 +1,1879 @@
+{
+  "batch": "map2_sea_barents_20261031",
+  "timestamp": "2026-11-02T23:20:26.865749",
+  "count": 117,
+  "hexes": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        17,
+        70
+      ],
+      "reference": "HP-ZF:3338",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9333
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        68
+      ],
+      "reference": "HP-ZF:3136",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9596
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        69
+      ],
+      "reference": "HP-ZF:3236",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9332
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        70
+      ],
+      "reference": "HP-ZF:3336",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9298
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        65
+      ],
+      "reference": "HP-ZF:2733",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9313
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        66
+      ],
+      "reference": "HP-ZF:2833",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        66
+      ],
+      "reference": "HP-ZF:2932",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.942
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        69
+      ],
+      "reference": "HP-ZF:3232",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9349
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        70
+      ],
+      "reference": "HP-ZF:3332",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9349
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        66
+      ],
+      "reference": "HP-ZF:2831",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        67
+      ],
+      "reference": "HP-ZF:2931",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9281
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        66
+      ],
+      "reference": "HP-ZF:2930",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        31,
+        65
+      ],
+      "reference": "HP-ZF:2824",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9365
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        31,
+        66
+      ],
+      "reference": "HP-ZF:2924",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        37
+      ],
+      "reference": "HP-A:0034",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9595
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        38
+      ],
+      "reference": "HP-A:0134",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.928
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        39
+      ],
+      "reference": "HP-A:0234",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9595
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        41
+      ],
+      "reference": "HP-A:0434",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        42
+      ],
+      "reference": "HP-A:0534",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9331
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        43
+      ],
+      "reference": "HP-A:0634",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        46
+      ],
+      "reference": "HP-A:0934",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9331
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        50
+      ],
+      "reference": "HP-A:1334",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9315
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        39
+      ],
+      "reference": "HP-A:0133",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.952
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        40
+      ],
+      "reference": "HP-A:0233",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        45
+      ],
+      "reference": "HP-A:0733",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9347
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        48
+      ],
+      "reference": "HP-A:1033",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.956
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        49
+      ],
+      "reference": "HP-A:1133",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9296
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        37
+      ],
+      "reference": "HP-A:0032",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9596
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        38
+      ],
+      "reference": "HP-A:0132",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9298
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        39
+      ],
+      "reference": "HP-A:0232",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9596
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        41
+      ],
+      "reference": "HP-A:0432",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        42
+      ],
+      "reference": "HP-A:0532",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9348
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        43
+      ],
+      "reference": "HP-A:0632",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        45
+      ],
+      "reference": "HP-A:0832",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9596
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        47
+      ],
+      "reference": "HP-A:1032",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.963
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        48
+      ],
+      "reference": "HP-A:1132",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9297
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        50
+      ],
+      "reference": "HP-A:1332",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9331
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        38
+      ],
+      "reference": "HP-A:0031",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        39
+      ],
+      "reference": "HP-A:0131",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9588
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        41
+      ],
+      "reference": "HP-A:0331",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9348
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        42
+      ],
+      "reference": "HP-A:0431",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        43
+      ],
+      "reference": "HP-A:0531",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9331
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        44
+      ],
+      "reference": "HP-A:0631",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        46
+      ],
+      "reference": "HP-A:0831",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        48
+      ],
+      "reference": "HP-A:1031",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        50
+      ],
+      "reference": "HP-A:1231",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        51
+      ],
+      "reference": "HP-A:1331",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9451
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        40
+      ],
+      "reference": "HP-A:0330",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9314
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        41
+      ],
+      "reference": "HP-A:0430",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        43
+      ],
+      "reference": "HP-A:0630",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        44
+      ],
+      "reference": "HP-A:0730",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9331
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        49
+      ],
+      "reference": "HP-A:1230",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        50
+      ],
+      "reference": "HP-A:1330",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9314
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        38
+      ],
+      "reference": "HP-A:0029",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9542
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        39
+      ],
+      "reference": "HP-A:0129",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.952
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        46
+      ],
+      "reference": "HP-A:0829",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9509
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        47
+      ],
+      "reference": "HP-A:0929",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.928
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        50
+      ],
+      "reference": "HP-A:1229",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9526
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        51
+      ],
+      "reference": "HP-A:1329",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9434
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        37
+      ],
+      "reference": "HP-A:0028",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        38
+      ],
+      "reference": "HP-A:0128",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9245
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        39
+      ],
+      "reference": "HP-A:0228",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.956
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        41
+      ],
+      "reference": "HP-A:0428",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9489
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        42
+      ],
+      "reference": "HP-A:0528",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9264
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        43
+      ],
+      "reference": "HP-A:0628",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9507
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        45
+      ],
+      "reference": "HP-A:0828",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        46
+      ],
+      "reference": "HP-A:0928",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9247
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        47
+      ],
+      "reference": "HP-A:1028",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9596
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        39
+      ],
+      "reference": "HP-A:0127",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9537
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        40
+      ],
+      "reference": "HP-A:0227",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        45
+      ],
+      "reference": "HP-A:0727",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9314
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        46
+      ],
+      "reference": "HP-A:0827",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        48
+      ],
+      "reference": "HP-A:1027",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9578
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        49
+      ],
+      "reference": "HP-A:1127",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9314
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        37
+      ],
+      "reference": "HP-A:0026",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9509
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        38
+      ],
+      "reference": "HP-A:0126",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9262
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        39
+      ],
+      "reference": "HP-A:0226",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9509
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        41
+      ],
+      "reference": "HP-A:0426",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9508
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        42
+      ],
+      "reference": "HP-A:0526",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9297
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        43
+      ],
+      "reference": "HP-A:0626",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        45
+      ],
+      "reference": "HP-A:0826",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9613
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        46
+      ],
+      "reference": "HP-A:0926",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.928
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        47
+      ],
+      "reference": "HP-A:1026",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.963
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        48
+      ],
+      "reference": "HP-A:1126",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9245
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        50
+      ],
+      "reference": "HP-A:1326",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9245
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        38
+      ],
+      "reference": "HP-A:0025",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        39
+      ],
+      "reference": "HP-A:0125",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9503
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        41
+      ],
+      "reference": "HP-A:0325",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9228
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        42
+      ],
+      "reference": "HP-A:0425",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.956
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        43
+      ],
+      "reference": "HP-A:0525",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9314
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        44
+      ],
+      "reference": "HP-A:0625",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.956
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        46
+      ],
+      "reference": "HP-A:0825",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9595
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        47
+      ],
+      "reference": "HP-A:0925",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.928
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        48
+      ],
+      "reference": "HP-A:1025",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        50
+      ],
+      "reference": "HP-A:1225",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        51
+      ],
+      "reference": "HP-A:1325",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9417
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        40
+      ],
+      "reference": "HP-A:0324",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9297
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        41
+      ],
+      "reference": "HP-A:0424",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        43
+      ],
+      "reference": "HP-A:0624",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        44
+      ],
+      "reference": "HP-A:0724",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9313
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        49
+      ],
+      "reference": "HP-A:1224",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9525
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        70,
+        46
+      ],
+      "reference": "HP-A:0823",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9525
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        71,
+        37
+      ],
+      "reference": "HP-A:0022",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9577
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        39
+      ],
+      "reference": "HP-A:0121",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9588
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        40
+      ],
+      "reference": "HP-A:0221",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        37
+      ],
+      "reference": "HP-A:0020",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9278
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        38
+      ],
+      "reference": "HP-A:0120",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9247
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        39
+      ],
+      "reference": "HP-A:0220",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        41
+      ],
+      "reference": "HP-A:0420",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        42
+      ],
+      "reference": "HP-A:0520",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9315
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        43
+      ],
+      "reference": "HP-A:0620",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9543
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        74,
+        38
+      ],
+      "reference": "HP-A:0019",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        74,
+        39
+      ],
+      "reference": "HP-A:0119",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.952
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        74,
+        41
+      ],
+      "reference": "HP-A:0319",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9262
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        40
+      ],
+      "reference": "HP-A:0318",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9313
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        43
+      ],
+      "reference": "HP-A:0618",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9561
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        44
+      ],
+      "reference": "HP-A:0718",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "sea_ratio": 0.9347
+    }
+  ]
+}

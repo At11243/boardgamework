@@ -698,6 +698,142 @@
       ],
       "target_side": 5,
       "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        53
+      ],
+      "source_side": 2,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        53
+      ],
+      "target_side": 5,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        53
+      ],
+      "source_side": 0,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        54
+      ],
+      "target_side": 3,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        54
+      ],
+      "source_side": 2,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        54
+      ],
+      "target_side": 5,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        54
+      ],
+      "source_side": 2,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        55
+      ],
+      "target_side": 5,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        55
+      ],
+      "source_side": 1,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        56
+      ],
+      "target_side": 4,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        56
+      ],
+      "source_side": 0,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        56
+      ],
+      "target_side": 3,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        56
+      ],
+      "source_side": 2,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        57
+      ],
+      "target_side": 5,
+      "type": "Track"
+    },
+    {
+      "source_key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        54
+      ],
+      "source_side": 1,
+      "target_key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        55
+      ],
+      "target_side": 4,
+      "type": "Track"
     }
   ]
 }

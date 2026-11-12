@@ -1,0 +1,2793 @@
+{
+  "date": "2026-10-29",
+  "status": "Focused second pass completed for 71 previously In progress definitions; unresolved metadata and unusual pairing retained.",
+  "selection": {
+    "type_ids": [
+      "vassal:133:241841",
+      "vassal:133:241865",
+      "vassal:133:241858",
+      "vassal:133:241867",
+      "vassal:133:241871",
+      "vassal:133:241854",
+      "vassal:133:241832",
+      "vassal:133:241891",
+      "vassal:133:241831",
+      "vassal:133:241893",
+      "vassal:133:241881",
+      "vassal:133:241897",
+      "vassal:133:241861",
+      "vassal:133:241874",
+      "vassal:133:241844",
+      "vassal:133:241898",
+      "vassal:133:241838",
+      "vassal:133:241911",
+      "vassal:133:241830",
+      "vassal:133:241910",
+      "vassal:133:241878",
+      "vassal:133:241821",
+      "vassal:133:242413",
+      "vassal:133:241703",
+      "vassal:133:241691",
+      "vassal:133:241716",
+      "vassal:133:241714",
+      "vassal:133:241702",
+      "vassal:133:241701",
+      "vassal:133:241694",
+      "vassal:133:241713",
+      "vassal:133:241687",
+      "vassal:133:241710",
+      "vassal:133:241700",
+      "vassal:133:241715",
+      "vassal:133:241774",
+      "vassal:133:241775",
+      "vassal:133:241720",
+      "vassal:133:241726",
+      "vassal:133:241723",
+      "vassal:133:241761",
+      "vassal:133:241729",
+      "vassal:133:241759",
+      "vassal:133:241727",
+      "vassal:133:241728",
+      "vassal:133:241756",
+      "vassal:133:241725",
+      "vassal:133:241719",
+      "vassal:133:241721",
+      "vassal:133:241724",
+      "vassal:133:241722",
+      "vassal:133:241776",
+      "vassal:133:241597",
+      "vassal:133:241587",
+      "vassal:133:241717",
+      "vassal:133:241829",
+      "vassal:133:241627",
+      "vassal:133:241628",
+      "vassal:133:241632",
+      "vassal:133:241630",
+      "vassal:133:241631",
+      "vassal:133:241629",
+      "vassal:133:241590",
+      "vassal:133:241822",
+      "vassal:133:241718",
+      "vassal:133:241136",
+      "vassal:133:241137",
+      "vassal:133:241135",
+      "vassal:133:241132",
+      "vassal:133:241133",
+      "vassal:133:241134"
+    ],
+    "input_sha256": "b27eb5f91c186509b74656b1df41023c81ae515facdb6812d982b2ae8963b18f",
+    "count": 71,
+    "prior_statuses": {
+      "vassal:133:241841": "In progress",
+      "vassal:133:241865": "In progress",
+      "vassal:133:241858": "In progress",
+      "vassal:133:241867": "In progress",
+      "vassal:133:241871": "In progress",
+      "vassal:133:241854": "In progress",
+      "vassal:133:241832": "In progress",
+      "vassal:133:241891": "In progress",
+      "vassal:133:241831": "In progress",
+      "vassal:133:241893": "In progress",
+      "vassal:133:241881": "In progress",
+      "vassal:133:241897": "In progress",
+      "vassal:133:241861": "In progress",
+      "vassal:133:241874": "In progress",
+      "vassal:133:241844": "In progress",
+      "vassal:133:241898": "In progress",
+      "vassal:133:241838": "In progress",
+      "vassal:133:241911": "In progress",
+      "vassal:133:241830": "In progress",
+      "vassal:133:241910": "In progress",
+      "vassal:133:241878": "In progress",
+      "vassal:133:241821": "In progress",
+      "vassal:133:242413": "In progress",
+      "vassal:133:241703": "In progress",
+      "vassal:133:241691": "In progress",
+      "vassal:133:241716": "In progress",
+      "vassal:133:241714": "In progress",
+      "vassal:133:241702": "In progress",
+      "vassal:133:241701": "In progress",
+      "vassal:133:241694": "In progress",
+      "vassal:133:241713": "In progress",
+      "vassal:133:241687": "In progress",
+      "vassal:133:241710": "In progress",
+      "vassal:133:241700": "In progress",
+      "vassal:133:241715": "In progress",
+      "vassal:133:241774": "In progress",
+      "vassal:133:241775": "In progress",
+      "vassal:133:241720": "In progress",
+      "vassal:133:241726": "In progress",
+      "vassal:133:241723": "In progress",
+      "vassal:133:241761": "In progress",
+      "vassal:133:241729": "In progress",
+      "vassal:133:241759": "In progress",
+      "vassal:133:241727": "In progress",
+      "vassal:133:241728": "In progress",
+      "vassal:133:241756": "In progress",
+      "vassal:133:241725": "In progress",
+      "vassal:133:241719": "In progress",
+      "vassal:133:241721": "In progress",
+      "vassal:133:241724": "In progress",
+      "vassal:133:241722": "In progress",
+      "vassal:133:241776": "In progress",
+      "vassal:133:241597": "In progress",
+      "vassal:133:241587": "In progress",
+      "vassal:133:241717": "In progress",
+      "vassal:133:241829": "In progress",
+      "vassal:133:241627": "In progress",
+      "vassal:133:241628": "In progress",
+      "vassal:133:241632": "In progress",
+      "vassal:133:241630": "In progress",
+      "vassal:133:241631": "In progress",
+      "vassal:133:241629": "In progress",
+      "vassal:133:241590": "In progress",
+      "vassal:133:241822": "In progress",
+      "vassal:133:241718": "In progress",
+      "vassal:133:241136": "In progress",
+      "vassal:133:241137": "In progress",
+      "vassal:133:241135": "In progress",
+      "vassal:133:241132": "In progress",
+      "vassal:133:241133": "In progress",
+      "vassal:133:241134": "In progress"
+    }
+  },
+  "new_verified": 55,
+  "selection_status_counts": {
+    "Verified": 55,
+    "In progress": 16
+  },
+  "current_totals": {
+    "Verified": 4265,
+    "In progress": 2703
+  },
+  "outcomes": {
+    "Exact physical match checked": 70,
+    "Physical candidate discrepancy": 1
+  },
+  "exact_face_results": {
+    "Blank confirmed": 52,
+    "Printed reverse confirmed": 16,
+    "Existing printed reverse corroborated": 2
+  },
+  "exact_matches_still_in_progress": 15,
+  "backup_before_review": "assets\\counters\\recovery_snapshots\\before-physical-second-pass-20261029-224308.zip",
+  "backup_before_save": "assets\\counters\\recovery_snapshots\\before-saving-physical-second-pass-20261029-225555.zip",
+  "sources": {
+    "199": {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+      "sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5"
+    },
+    "185": {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+      "sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a"
+    },
+    "132": {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+      "sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a"
+    },
+    "120": {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+      "sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0"
+    },
+    "108": {
+      "path": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+      "sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9"
+    }
+  },
+  "entries": [
+    {
+      "type_id": "vassal:133:241841",
+      "designation": "Gremyashchy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 2,
+        "front_column": 4,
+        "back_row": 2,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241865",
+      "designation": "Okhranyayushchiy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 7,
+        "back_row": 3,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241858",
+      "designation": "Obzhigayshchiy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 8,
+        "back_row": 3,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241867",
+      "designation": "Opustoshitelnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 9,
+        "back_row": 3,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241871",
+      "designation": "Osnashchonnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 4,
+        "front_column": 9,
+        "back_row": 4,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241854",
+      "designation": "Nyesamozhnik",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 13,
+        "back_row": 3,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241832",
+      "designation": "Bezuprechnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 14,
+        "back_row": 3,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241891",
+      "designation": "Smyshlenyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 17,
+        "back_row": 3,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241831",
+      "designation": "Bezposhchadny",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 4,
+        "front_column": 14,
+        "back_row": 4,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241893",
+      "designation": "Soobrazitelny",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 4,
+        "front_column": 18,
+        "back_row": 4,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241881",
+      "designation": "Ozhestochonnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 8,
+        "front_column": 2,
+        "back_row": 8,
+        "back_column": 19,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241897",
+      "designation": "Statny",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 8,
+        "front_column": 5,
+        "back_row": 8,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241861",
+      "designation": "Ognedyschachiy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 9,
+        "front_column": 3,
+        "back_row": 9,
+        "back_column": 18,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241874",
+      "designation": "Otbornyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 10,
+        "front_column": 2,
+        "back_row": 10,
+        "back_column": 19,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241844",
+      "designation": "Grozyashchy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 2,
+        "back_row": 14,
+        "back_column": 19,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241898",
+      "designation": "Sterugushchy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 3,
+        "back_row": 14,
+        "back_column": 18,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241838",
+      "designation": "Frunze",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 9,
+        "back_row": 14,
+        "back_column": 12,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241911",
+      "designation": "Bditelnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 10,
+        "front_column": 5,
+        "back_row": 10,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241830",
+      "designation": "Bditelnyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 5,
+        "front_column": 20,
+        "back_row": 5,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241910",
+      "designation": "Zheleznaikov",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 6,
+        "front_column": 18,
+        "back_row": 6,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241878",
+      "designation": "Otmenyy",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 7,
+        "front_column": 14,
+        "back_row": 7,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241821",
+      "designation": "Zhleznyakov",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 8,
+        "front_column": 8,
+        "back_row": 8,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241822",
+        "assigned_back_image": "assets/counters/images/44593d26798eef02bb4e.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:242413",
+      "designation": "Krakowaik",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 4,
+        "front_column": 10,
+        "back_row": 4,
+        "back_column": 11,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241703",
+      "designation": "Polyarny",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 11,
+        "front_column": 18,
+        "back_row": 11,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241691",
+      "designation": "Kiddin",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 11,
+        "front_column": 19,
+        "back_row": 11,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241716",
+      "designation": "Yokhanga",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 12,
+        "front_column": 18,
+        "back_row": 12,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241714",
+      "designation": "Vimsi",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 14,
+        "back_row": 13,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241702",
+      "designation": "Padliski",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 15,
+        "back_row": 13,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241701",
+      "designation": "Osumussar",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 16,
+        "back_row": 13,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241694",
+      "designation": "Morzhovets",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 19,
+        "back_row": 13,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241713",
+      "designation": "Veshniak",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 13,
+        "front_column": 20,
+        "back_row": 13,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241687",
+      "designation": "Hiuma",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 13,
+        "back_row": 14,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241710",
+      "designation": "Tallinn",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 14,
+        "back_row": 14,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241700",
+      "designation": "Oranienbaum",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 17,
+        "back_row": 14,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241715",
+      "designation": "Vypborg",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 18,
+        "back_row": 14,
+        "back_column": 3,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241774",
+      "designation": "Artillery Battalion 9",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 19,
+        "back_row": 14,
+        "back_column": 2,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "Emplaced CD appearance: level text transcribed literally; short/long applicability remains unknown. Do not label this Reduced.",
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241775",
+      "designation": "Artillery Battalion Baltic",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 14,
+        "front_column": 20,
+        "back_row": 14,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Existing printed reverse corroborated",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "Emplaced CD appearance: level text transcribed literally; short/long applicability remains unknown. Do not label this Reduced.",
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241720",
+      "designation": "VMF Inf III 3.FB",
+      "outcome": "Exact physical match checked",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 9,
+        "front_column": 11,
+        "back_row": 9,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "Nationality: missing or unknown (use N/A if not applicable).",
+        "Service / branch: missing or unknown (use N/A if not applicable).",
+        "Unit type: missing or unknown (use N/A if not applicable).",
+        "Front unit size: missing or unknown (use N/A if not applicable).",
+        "Back unit size: missing or unknown (use N/A if not applicable).",
+        "Back ratings: Attack rating missing or unknown.",
+        "Back ratings: Defense rating missing or unknown.",
+        "Back ratings: Movement rating missing or unknown."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241726",
+      "designation": "Infantry Regiment 12",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 9,
+        "front_column": 12,
+        "back_row": 9,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241723",
+      "designation": "Infantry Regiment 6",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 10,
+        "front_column": 11,
+        "back_row": 10,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241761",
+      "designation": "Infantry Regiment 254",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 9,
+        "front_column": 11,
+        "back_row": 9,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241729",
+      "designation": "Infantry Regiment 56",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 10,
+        "front_column": 11,
+        "back_row": 10,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241759",
+      "designation": "Infantry Regiment 142RB",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 8,
+        "front_column": 11,
+        "back_row": 8,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241727",
+      "designation": "Infantry Regiment 48",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 11,
+        "front_column": 11,
+        "back_row": 11,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241728",
+      "designation": "Infantry Regiment 55",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 12,
+        "front_column": 11,
+        "back_row": 12,
+        "back_column": 10,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241756",
+      "designation": "Infantry Regiment 116",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 12,
+        "front_column": 12,
+        "back_row": 12,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241725",
+      "designation": "Infantry Regiment 9",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 9,
+        "front_column": 15,
+        "back_row": 9,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241719",
+      "designation": "Infantry Regiment 2",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 10,
+        "front_column": 13,
+        "back_row": 10,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241721",
+      "designation": "Infantry Regiment 4",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 10,
+        "front_column": 14,
+        "back_row": 10,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241724",
+      "designation": "Infantry Regiment 8",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 10,
+        "front_column": 15,
+        "back_row": 10,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241722",
+      "designation": "Infantry Regiment 5",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 10,
+        "front_column": 16,
+        "back_row": 10,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241776",
+      "designation": "SOR",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 9,
+        "front_column": 14,
+        "back_row": 9,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241597",
+      "designation": "Georgia",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 13,
+        "front_column": 20,
+        "back_row": 13,
+        "back_column": 1,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241587",
+      "designation": "OMSBON-3",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 10,
+        "front_column": 15,
+        "back_row": 10,
+        "back_column": 6,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241717",
+      "designation": "Infantry Regiment 1",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 9,
+        "front_column": 13,
+        "back_row": 9,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241718",
+        "assigned_back_image": "assets/counters/images/9d384cf2c24671c173f9.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241829",
+      "designation": "Baku",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 7,
+        "back_page": 8,
+        "front_row": 11,
+        "front_column": 12,
+        "back_row": 11,
+        "back_column": 9,
+        "confidence": 0.98,
+        "result": "Blank confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241627",
+      "designation": "7SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 9,
+        "front_column": 14,
+        "back_row": 9,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241136",
+        "assigned_back_image": "assets/counters/images/1d41e033873e2c99886b.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241628",
+      "designation": "8SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 10,
+        "front_column": 14,
+        "back_row": 10,
+        "back_column": 7,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241137",
+        "assigned_back_image": "assets/counters/images/e13cbd22adcf5a9c7368.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241632",
+      "designation": "6SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 13,
+        "front_column": 16,
+        "back_row": 13,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241135",
+        "assigned_back_image": "assets/counters/images/179832d0bdcbc7119050.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241630",
+      "designation": "2SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 13,
+        "front_column": 17,
+        "back_row": 13,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241132",
+        "assigned_back_image": "assets/counters/images/f54961484163ceda1c0b.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241631",
+      "designation": "3SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 14,
+        "front_column": 16,
+        "back_row": 14,
+        "back_column": 5,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241133",
+        "assigned_back_image": "assets/counters/images/c489ec0cdd28b9a088f1.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241629",
+      "designation": "1SA",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 14,
+        "front_column": 17,
+        "back_row": 14,
+        "back_column": 4,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241134",
+        "assigned_back_image": "assets/counters/images/417fb4f6c1835833a2a1.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241590",
+      "designation": "Black Sea",
+      "outcome": "Physical candidate discrepancy",
+      "review_status": "In progress",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 9,
+        "back_page": 10,
+        "front_row": 14,
+        "front_column": 20,
+        "back_row": 14,
+        "back_column": 1,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "remaining_issues": [
+        "back: confidence must be greater than 95%",
+        "No exact physical profile established in this first-pass artwork review and naval/coastal candidate search. Other photo sheets may still supply a match. This does not establish absence or a blank reverse.",
+        "Second-pass recheck: mirrored reverse of Black Sea security 1-2-4 contains a printed red infantry 4 appearance (2-6), not a blank. Exact local counterpart and unusual pairing need confirmation; preserve front metadata and leave back unreviewed.",
+        "Back appearance: not yet reviewed.",
+        "Back ground ratings: select a rating format."
+      ]
+    },
+    {
+      "type_id": "vassal:133:241822",
+      "designation": "Zhleznyakov",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 185.pdf",
+        "source_sha256": "49a830373c4554ac9e003c802582ad2546f4c0be7c8ddda93902ca883b65a58a",
+        "front_page": 6,
+        "back_page": 5,
+        "front_row": 8,
+        "front_column": 13,
+        "back_row": 8,
+        "back_column": 8,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241821",
+        "assigned_back_image": "assets/counters/images/cfab7bdc3b300e720f7b.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241718",
+      "designation": "Infantry Regiment 1",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 108.pdf",
+        "source_sha256": "7071fdde8afba999e37e2ed389e9c22542c6fd7b0b746cf520c231c61f8cc5a9",
+        "front_page": 10,
+        "back_page": 9,
+        "front_row": 9,
+        "front_column": 8,
+        "back_row": 9,
+        "back_column": 13,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241717",
+        "assigned_back_image": "assets/counters/images/56937141903efd0159fb.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241136",
+      "designation": "37",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 4,
+        "back_page": 3,
+        "front_row": 9,
+        "front_column": 7,
+        "back_row": 9,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241627",
+        "assigned_back_image": "assets/counters/images/551e24895029e716364c.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241137",
+      "designation": "38",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 4,
+        "back_page": 3,
+        "front_row": 10,
+        "front_column": 7,
+        "back_row": 10,
+        "back_column": 14,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241628",
+        "assigned_back_image": "assets/counters/images/6d0a73f4476d4e04f4e1.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241135",
+      "designation": "36",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 13,
+        "front_column": 5,
+        "back_row": 13,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241632",
+        "assigned_back_image": "assets/counters/images/ecbb6a1fd13cc361c585.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241132",
+      "designation": "33",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 13,
+        "front_column": 4,
+        "back_row": 13,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241630",
+        "assigned_back_image": "assets/counters/images/b45a5779a3301b2a9411.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241133",
+      "designation": "34",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 14,
+        "front_column": 5,
+        "back_row": 14,
+        "back_column": 16,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241631",
+        "assigned_back_image": "assets/counters/images/b80294b718f22152a561.png"
+      },
+      "remaining_issues": []
+    },
+    {
+      "type_id": "vassal:133:241134",
+      "designation": "35",
+      "outcome": "Exact physical match checked",
+      "review_status": "Verified",
+      "evidence": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 132.pdf",
+        "source_sha256": "06806aaf0adf4838419e70f6bd5ae87991444fcb6ecf59b7dc9659f3cc3bf37a",
+        "front_page": 2,
+        "back_page": 1,
+        "front_row": 14,
+        "front_column": 4,
+        "back_row": 14,
+        "back_column": 17,
+        "confidence": 0.98,
+        "result": "Printed reverse confirmed",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation.",
+        "matched_back_type_id": "vassal:133:241629",
+        "assigned_back_image": "assets/counters/images/dff83e20b54cb57a686a.png"
+      },
+      "remaining_issues": []
+    }
+  ],
+  "final_visual_decisions": {
+    "vassal:133:241841": {
+      "type_id": "vassal:133:241841",
+      "pdf": 185,
+      "page": 5,
+      "row": 2,
+      "column": 4,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241865": {
+      "type_id": "vassal:133:241865",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 7,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241858": {
+      "type_id": "vassal:133:241858",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 8,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241867": {
+      "type_id": "vassal:133:241867",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 9,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241871": {
+      "type_id": "vassal:133:241871",
+      "pdf": 185,
+      "page": 5,
+      "row": 4,
+      "column": 9,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241854": {
+      "type_id": "vassal:133:241854",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 13,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241832": {
+      "type_id": "vassal:133:241832",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 14,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241891": {
+      "type_id": "vassal:133:241891",
+      "pdf": 185,
+      "page": 5,
+      "row": 3,
+      "column": 17,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241831": {
+      "type_id": "vassal:133:241831",
+      "pdf": 185,
+      "page": 5,
+      "row": 4,
+      "column": 14,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241893": {
+      "type_id": "vassal:133:241893",
+      "pdf": 185,
+      "page": 5,
+      "row": 4,
+      "column": 18,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241881": {
+      "type_id": "vassal:133:241881",
+      "pdf": 185,
+      "page": 5,
+      "row": 8,
+      "column": 2,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241897": {
+      "type_id": "vassal:133:241897",
+      "pdf": 185,
+      "page": 5,
+      "row": 8,
+      "column": 5,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241861": {
+      "type_id": "vassal:133:241861",
+      "pdf": 185,
+      "page": 5,
+      "row": 9,
+      "column": 3,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241874": {
+      "type_id": "vassal:133:241874",
+      "pdf": 185,
+      "page": 5,
+      "row": 10,
+      "column": 2,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241844": {
+      "type_id": "vassal:133:241844",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 2,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241898": {
+      "type_id": "vassal:133:241898",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 3,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241838": {
+      "type_id": "vassal:133:241838",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 9,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241911": {
+      "type_id": "vassal:133:241911",
+      "pdf": 185,
+      "page": 5,
+      "row": 10,
+      "column": 5,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241830": {
+      "type_id": "vassal:133:241830",
+      "pdf": 185,
+      "page": 5,
+      "row": 5,
+      "column": 20,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241910": {
+      "type_id": "vassal:133:241910",
+      "pdf": 185,
+      "page": 5,
+      "row": 6,
+      "column": 18,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241878": {
+      "type_id": "vassal:133:241878",
+      "pdf": 185,
+      "page": 5,
+      "row": 7,
+      "column": 14,
+      "kind": "blank",
+      "detail": "Second pass: closer comparison of designation/transliteration and literal naval ratings; original stored identification retained."
+    },
+    "vassal:133:241821": {
+      "type_id": "vassal:133:241821",
+      "pdf": 185,
+      "page": 5,
+      "row": 8,
+      "column": 8,
+      "kind": "pair",
+      "detail": "Second pass: cruiser spelling varies between print and saved transcription; full ratings and F/RM appearances compared.",
+      "back_type_id": "vassal:133:241822"
+    },
+    "vassal:133:242413": {
+      "type_id": "vassal:133:242413",
+      "pdf": 120,
+      "page": 9,
+      "row": 4,
+      "column": 10,
+      "kind": "blank",
+      "detail": "Second pass: printed Krakowiak compared with saved Krakowaik spelling and full 2 DE 3 / 1-0 R 8 profile; stored name retained."
+    },
+    "vassal:133:241703": {
+      "type_id": "vassal:133:241703",
+      "pdf": 185,
+      "page": 5,
+      "row": 11,
+      "column": 18,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241691": {
+      "type_id": "vassal:133:241691",
+      "pdf": 185,
+      "page": 5,
+      "row": 11,
+      "column": 19,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241716": {
+      "type_id": "vassal:133:241716",
+      "pdf": 185,
+      "page": 5,
+      "row": 12,
+      "column": 18,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241714": {
+      "type_id": "vassal:133:241714",
+      "pdf": 185,
+      "page": 5,
+      "row": 13,
+      "column": 14,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241702": {
+      "type_id": "vassal:133:241702",
+      "pdf": 185,
+      "page": 5,
+      "row": 13,
+      "column": 15,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241701": {
+      "type_id": "vassal:133:241701",
+      "pdf": 185,
+      "page": 5,
+      "row": 13,
+      "column": 16,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241694": {
+      "type_id": "vassal:133:241694",
+      "pdf": 185,
+      "page": 5,
+      "row": 13,
+      "column": 19,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241713": {
+      "type_id": "vassal:133:241713",
+      "pdf": 185,
+      "page": 5,
+      "row": 13,
+      "column": 20,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241687": {
+      "type_id": "vassal:133:241687",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 13,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241710": {
+      "type_id": "vassal:133:241710",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 14,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241700": {
+      "type_id": "vassal:133:241700",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 17,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241715": {
+      "type_id": "vassal:133:241715",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 18,
+      "kind": "blank",
+      "detail": "Second pass: unique coastal position/level and printed label compared; dedicated short/long rating classification still unresolved."
+    },
+    "vassal:133:241774": {
+      "type_id": "vassal:133:241774",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 19,
+      "kind": "confirm",
+      "detail": ""
+    },
+    "vassal:133:241775": {
+      "type_id": "vassal:133:241775",
+      "pdf": 185,
+      "page": 5,
+      "row": 14,
+      "column": 20,
+      "kind": "confirm",
+      "detail": ""
+    },
+    "vassal:133:241720": {
+      "type_id": "vassal:133:241720",
+      "pdf": 132,
+      "page": 1,
+      "row": 9,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241726": {
+      "type_id": "vassal:133:241726",
+      "pdf": 132,
+      "page": 1,
+      "row": 9,
+      "column": 12,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241723": {
+      "type_id": "vassal:133:241723",
+      "pdf": 132,
+      "page": 1,
+      "row": 10,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241761": {
+      "type_id": "vassal:133:241761",
+      "pdf": 132,
+      "page": 5,
+      "row": 9,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241729": {
+      "type_id": "vassal:133:241729",
+      "pdf": 132,
+      "page": 5,
+      "row": 10,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241759": {
+      "type_id": "vassal:133:241759",
+      "pdf": 132,
+      "page": 7,
+      "row": 8,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241727": {
+      "type_id": "vassal:133:241727",
+      "pdf": 132,
+      "page": 7,
+      "row": 11,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241728": {
+      "type_id": "vassal:133:241728",
+      "pdf": 132,
+      "page": 7,
+      "row": 12,
+      "column": 11,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241756": {
+      "type_id": "vassal:133:241756",
+      "pdf": 132,
+      "page": 7,
+      "row": 12,
+      "column": 12,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241725": {
+      "type_id": "vassal:133:241725",
+      "pdf": 108,
+      "page": 9,
+      "row": 9,
+      "column": 15,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241719": {
+      "type_id": "vassal:133:241719",
+      "pdf": 108,
+      "page": 9,
+      "row": 10,
+      "column": 13,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241721": {
+      "type_id": "vassal:133:241721",
+      "pdf": 108,
+      "page": 9,
+      "row": 10,
+      "column": 14,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241724": {
+      "type_id": "vassal:133:241724",
+      "pdf": 108,
+      "page": 9,
+      "row": 10,
+      "column": 15,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241722": {
+      "type_id": "vassal:133:241722",
+      "pdf": 108,
+      "page": 9,
+      "row": 10,
+      "column": 16,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241776": {
+      "type_id": "vassal:133:241776",
+      "pdf": 108,
+      "page": 9,
+      "row": 9,
+      "column": 14,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241597": {
+      "type_id": "vassal:133:241597",
+      "pdf": 108,
+      "page": 9,
+      "row": 13,
+      "column": 20,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241587": {
+      "type_id": "vassal:133:241587",
+      "pdf": 132,
+      "page": 7,
+      "row": 10,
+      "column": 15,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241717": {
+      "type_id": "vassal:133:241717",
+      "pdf": 108,
+      "page": 9,
+      "row": 9,
+      "column": 13,
+      "kind": "pair",
+      "detail": "Infantry 1 has 2-6 and 3-4-6 printed appearances on the physical pair; no reduced label inferred.",
+      "back_type_id": "vassal:133:241718"
+    },
+    "vassal:133:241829": {
+      "type_id": "vassal:133:241829",
+      "pdf": 132,
+      "page": 7,
+      "row": 11,
+      "column": 12,
+      "kind": "blank",
+      "detail": ""
+    },
+    "vassal:133:241627": {
+      "type_id": "vassal:133:241627",
+      "pdf": 132,
+      "page": 3,
+      "row": 9,
+      "column": 14,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241136"
+    },
+    "vassal:133:241628": {
+      "type_id": "vassal:133:241628",
+      "pdf": 132,
+      "page": 3,
+      "row": 10,
+      "column": 14,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241137"
+    },
+    "vassal:133:241632": {
+      "type_id": "vassal:133:241632",
+      "pdf": 132,
+      "page": 1,
+      "row": 13,
+      "column": 16,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241135"
+    },
+    "vassal:133:241630": {
+      "type_id": "vassal:133:241630",
+      "pdf": 132,
+      "page": 1,
+      "row": 13,
+      "column": 17,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241132"
+    },
+    "vassal:133:241631": {
+      "type_id": "vassal:133:241631",
+      "pdf": 132,
+      "page": 1,
+      "row": 14,
+      "column": 16,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241133"
+    },
+    "vassal:133:241629": {
+      "type_id": "vassal:133:241629",
+      "pdf": 132,
+      "page": 1,
+      "row": 14,
+      "column": 17,
+      "kind": "pair",
+      "detail": "Red 0-4 construction appearance paired with printed brown 0-6 engineer appearance. Stored front metadata preserved; alternate designation/type/size recorded per face.",
+      "back_type_id": "vassal:133:241134"
+    },
+    "vassal:133:241590": {
+      "type_id": "vassal:133:241590",
+      "pdf": 108,
+      "page": 9,
+      "row": 14,
+      "column": 20,
+      "kind": "flag",
+      "detail": "Second-pass recheck: mirrored reverse of Black Sea security 1-2-4 contains a printed red infantry 4 appearance (2-6), not a blank. Exact local counterpart and unusual pairing need confirmation; preserve front metadata and leave back unreviewed."
+    },
+    "vassal:133:241822": {
+      "type_id": "vassal:133:241822",
+      "pdf": 185,
+      "page": 6,
+      "row": 8,
+      "column": 13,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241821",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241718": {
+      "type_id": "vassal:133:241718",
+      "pdf": 108,
+      "page": 10,
+      "row": 9,
+      "column": 8,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241717",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241136": {
+      "type_id": "vassal:133:241136",
+      "pdf": 132,
+      "page": 4,
+      "row": 9,
+      "column": 7,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241627",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241137": {
+      "type_id": "vassal:133:241137",
+      "pdf": 132,
+      "page": 4,
+      "row": 10,
+      "column": 7,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241628",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241135": {
+      "type_id": "vassal:133:241135",
+      "pdf": 132,
+      "page": 2,
+      "row": 13,
+      "column": 5,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241632",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241132": {
+      "type_id": "vassal:133:241132",
+      "pdf": 132,
+      "page": 2,
+      "row": 13,
+      "column": 4,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241630",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241133": {
+      "type_id": "vassal:133:241133",
+      "pdf": 132,
+      "page": 2,
+      "row": 14,
+      "column": 5,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241631",
+      "detail": "Reciprocal physical pair"
+    },
+    "vassal:133:241134": {
+      "type_id": "vassal:133:241134",
+      "pdf": 132,
+      "page": 2,
+      "row": 14,
+      "column": 4,
+      "kind": "pair",
+      "back_type_id": "vassal:133:241629",
+      "detail": "Reciprocal physical pair"
+    }
+  },
+  "rejected_candidates": {},
+  "validation": {
+    "editor_fixture_roundtrips": 71,
+    "reverse_rendering_checks": 70,
+    "verified": 55,
+    "totals": {
+      "Verified": 4265,
+      "In progress": 2703
+    },
+    "exact_but_still_draft": {
+      "vassal:133:241687": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241691": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241694": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241700": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241701": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241702": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241703": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241710": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241713": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241714": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241715": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241716": [
+        "CD level retained literally; short/long applicability remains unknown, including slash-separated levels. No CD movement inferred.",
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241720": [
+        "Nationality: missing or unknown (use N/A if not applicable).",
+        "Service / branch: missing or unknown (use N/A if not applicable).",
+        "Unit type: missing or unknown (use N/A if not applicable).",
+        "Front unit size: missing or unknown (use N/A if not applicable).",
+        "Back unit size: missing or unknown (use N/A if not applicable).",
+        "Back ratings: Attack rating missing or unknown.",
+        "Back ratings: Defense rating missing or unknown.",
+        "Back ratings: Movement rating missing or unknown."
+      ],
+      "vassal:133:241774": [
+        "Emplaced CD appearance: level text transcribed literally; short/long applicability remains unknown. Do not label this Reduced.",
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241775": [
+        "Emplaced CD appearance: level text transcribed literally; short/long applicability remains unknown. Do not label this Reduced.",
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ]
+    },
+    "input_sha256": "b27eb5f91c186509b74656b1df41023c81ae515facdb6812d982b2ae8963b18f",
+    "editor_issues": {
+      "vassal:133:241132": [],
+      "vassal:133:241133": [],
+      "vassal:133:241134": [],
+      "vassal:133:241135": [],
+      "vassal:133:241136": [],
+      "vassal:133:241137": [],
+      "vassal:133:241587": [],
+      "vassal:133:241590": [
+        "Back appearance: not yet reviewed.",
+        "Back ground ratings: select a rating format."
+      ],
+      "vassal:133:241597": [],
+      "vassal:133:241627": [],
+      "vassal:133:241628": [],
+      "vassal:133:241629": [],
+      "vassal:133:241630": [],
+      "vassal:133:241631": [],
+      "vassal:133:241632": [],
+      "vassal:133:241687": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241691": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241694": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241700": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241701": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241702": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241703": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241710": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241713": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241714": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241715": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241716": [
+        "Front ratings: CD short value missing or unknown.",
+        "Front ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241717": [],
+      "vassal:133:241718": [],
+      "vassal:133:241719": [],
+      "vassal:133:241720": [
+        "Nationality: missing or unknown (use N/A if not applicable).",
+        "Service / branch: missing or unknown (use N/A if not applicable).",
+        "Unit type: missing or unknown (use N/A if not applicable).",
+        "Front unit size: missing or unknown (use N/A if not applicable)."
+      ],
+      "vassal:133:241721": [],
+      "vassal:133:241722": [],
+      "vassal:133:241723": [],
+      "vassal:133:241724": [],
+      "vassal:133:241725": [],
+      "vassal:133:241726": [],
+      "vassal:133:241727": [],
+      "vassal:133:241728": [],
+      "vassal:133:241729": [],
+      "vassal:133:241756": [],
+      "vassal:133:241759": [],
+      "vassal:133:241761": [],
+      "vassal:133:241774": [
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241775": [
+        "Back ratings: CD short value missing or unknown.",
+        "Back ratings: CD long value missing or unknown."
+      ],
+      "vassal:133:241776": [],
+      "vassal:133:241821": [],
+      "vassal:133:241822": [],
+      "vassal:133:241829": [],
+      "vassal:133:241830": [],
+      "vassal:133:241831": [],
+      "vassal:133:241832": [],
+      "vassal:133:241838": [],
+      "vassal:133:241841": [],
+      "vassal:133:241844": [],
+      "vassal:133:241854": [],
+      "vassal:133:241858": [],
+      "vassal:133:241861": [],
+      "vassal:133:241865": [],
+      "vassal:133:241867": [],
+      "vassal:133:241871": [],
+      "vassal:133:241874": [],
+      "vassal:133:241878": [],
+      "vassal:133:241881": [],
+      "vassal:133:241891": [],
+      "vassal:133:241893": [],
+      "vassal:133:241897": [],
+      "vassal:133:241898": [],
+      "vassal:133:241910": [],
+      "vassal:133:241911": [],
+      "vassal:133:242413": []
+    },
+    "final_notes_fixture_roundtrips": 2
+  },
+  "artwork_sha256": {
+    "assets/counters/images/f54961484163ceda1c0b.png": "efe89513afac355beeb712f9db9bc2ef277b787c2bb2397866abdc1ce17ea717",
+    "assets/counters/images/b45a5779a3301b2a9411.png": "8695c040696b677c242f302afaf2bacf3aba7d5450306cc1eba52678d85cae56",
+    "assets/counters/images/c489ec0cdd28b9a088f1.png": "43085ea914bc6cf096ed959391ff1758ec4e90390309a47c039140304873702a",
+    "assets/counters/images/b80294b718f22152a561.png": "51be504b900a1701b5351c48e9bf5c17b3979899575297ce6163f3ff1d5a2ffa",
+    "assets/counters/images/417fb4f6c1835833a2a1.png": "f2dc5f8c8151fe499ec1909e4c9e5b0b2395fd6185612e043f5172f924ba31f7",
+    "assets/counters/images/dff83e20b54cb57a686a.png": "2dce9d61ce7cd14b9507e4a4f0cfd8600b36fd29d6bf623bb676accf5d40f417",
+    "assets/counters/images/179832d0bdcbc7119050.png": "7746b138cf60d4f18491e607f323eeef68cbeb5e663dd644bb885edc0d622d4a",
+    "assets/counters/images/ecbb6a1fd13cc361c585.png": "0c8c31e0e154c45d6dd8d20d91d7adec4f81dd4238394cd6df0a0e917295b5f9",
+    "assets/counters/images/1d41e033873e2c99886b.png": "7ba666c3753e1afcc3cdd5303bacb3039ed38f39568dab84f79ef736ad184a0a",
+    "assets/counters/images/551e24895029e716364c.png": "f7f1b3e2ebc6e3ce3f58ce775d3989b961178f3bb18b6bf286004acd12d77862",
+    "assets/counters/images/e13cbd22adcf5a9c7368.png": "6eb2594992ed7f62510b2b410e8c37e62fd7ddb8794a3c46512a6a794a6be625",
+    "assets/counters/images/6d0a73f4476d4e04f4e1.png": "9d6baca7dc2c4d2baf1e5c9586a9ce7ec92f5a963138362a4a572e2f8ac7cce7",
+    "assets/counters/images/ee8cb406e3c7366227ce.png": "22a82d6c2fb525ab3fb91348bbaffde5664667c01dc8d34b860d02fdbd55e9d4",
+    "assets/counters/images/abcbc91266282995838a.png": "230f9761e16ae04d442de44b91793d5ec520f3149f4cd030d3e2324d134e93d5",
+    "assets/counters/images/08ecbc90a32ff9f6d9c7.png": "1fa9c61faafffb118aebaaf00f7f8f9a6c4fa939b928b1b94945cbd2d0354c01",
+    "assets/counters/images/402ffcaf0d32880f5b05.png": "93267f8704c9761874040841afddef234597609d4bb9ef1b71b16828ea778149",
+    "assets/counters/images/bdb8822878c525993934.png": "1db8ea0731782c7b844b45869ad359c41700490e34f021261388d1d59016060c",
+    "assets/counters/images/733412039bb7a42a2cb6.png": "390b06c4f4ce267d9fff786f46522a31dcf73dd061517e1d51cfc2d9f2403a19",
+    "assets/counters/images/f4f8f919b2d95c7fe839.png": "0096524a70183fda73562ae2a7618abb437489b26dab4863d662aaa19029f3ca",
+    "assets/counters/images/f57e2047a7d3f5b436d4.png": "635f09473417c46b11ffe5b4ab9030cc01df0226c49c5df4aa5845f6b1639355",
+    "assets/counters/images/a87eb80ef7e1f375303f.png": "85a450f3795ff192041b86b975837cdeee5cb0218e93c4fc4fd218c913bab16f",
+    "assets/counters/images/8f3fa513e8c85c5775cc.png": "f616292b75ea31784f6e922903164dd41b37c5de07181937f7de30f8fbc25ff2",
+    "assets/counters/images/0793720432c1035a78fb.png": "02d6a02defdabe4cdd64511989d1442ef6b587e694055fa703cffda7a2ce6e03",
+    "assets/counters/images/d1ee9038605245787d49.png": "8720a88a836b99ba9618a124dbabf6261a4e0e209d4be72f67b266e5670fffb3",
+    "assets/counters/images/b1121cee749e80c28ced.png": "56c162b0d8a31a21659734ffbff652712c56ad046ca839c8f9c12912e30c521a",
+    "assets/counters/images/9e7a468b394158f70d34.png": "d15b8aef1518abddc3f1fb66a4f33c850b25972795c20bfcf84876bd649e1373",
+    "assets/counters/images/abe1cf2d75f2c25f17cf.png": "d429076d4a5f23271ab0ac67f0d1ba38a0909e2145ff71285716340dbe581f7d",
+    "assets/counters/images/56937141903efd0159fb.png": "6bc6bdaf15e420bc1c061a819386e9e6d6f957be34d23ddcf2dddf1aec5e1555",
+    "assets/counters/images/9d384cf2c24671c173f9.png": "04c6056b0678f2ab0a4f1d19ba0e9e98f655b787c8fccb452a44f33589834735",
+    "assets/counters/images/84475f47202818baaeca.png": "9a21a0b1748c16d083a24c309c8c4dfa9050fcaf9f505e12b9ad437c603d114e",
+    "assets/counters/images/fbda586ef38ed9763fdb.png": "32215d21dc5f109c0472ef182776097c9b6e970114a6c87f7c64c50603e3e0f4",
+    "assets/counters/images/a6aba4cb4338155acb72.png": "3281e2e0e17dc4e24fd9cd16fb7845b2657f305069eaa3dc86a284792cde1f1f",
+    "assets/counters/images/eeef6dbff78eb41efa7a.png": "658d6a7866a0cf84aeb8364abac1681d79c33ea843e73d4f5eb58192b7006c3a",
+    "assets/counters/images/faf236c6ce54f38c7fac.png": "6a006518ed63ba4e1d060bc58604bb8f50c92624f58a92bc88e84b6a74ac50e5",
+    "assets/counters/images/fbfd66c59e69051c08c3.png": "3598630f1ff8f954893b1df72c124bee9f0a434de45f7591e4a74d7b9f015c1c",
+    "assets/counters/images/73134d33a45d24fb0b6e.png": "d431b50a4b8a8aa311ba3e95ab00071acd7e7999c164b298344d296ea8694e06",
+    "assets/counters/images/cc445b48be02749f2ff0.png": "41221374d334f0547a688272d866a906280648104d8d91577aea66d00a8b1fd2",
+    "assets/counters/images/ec7ef24a62db0a6a7eb2.png": "c2a27b9eb7379816bd2dbc1524562e1df16847374d51685ef3d35c75373fc952",
+    "assets/counters/images/74033011432eb70ba112.png": "ddeb129b0acd9c0ba3fc41ebf7fca8ceb0e214ab1bc4d40847b983c697ccec04",
+    "assets/counters/images/98e939c2ef0e50986331.png": "b48e1b73ac595de4390524f6494357fae25c21854ec2e493199a3e87ec3d28a3",
+    "assets/counters/images/c9a9f5f8128494c46fdc.png": "584cff6966134abf9c3e1acc14a26e231ac85a407c36a88b8f6da346f4ae4767",
+    "assets/counters/images/681d6308493a69805505.png": "22e1ba16b4dc37640b11ba9f619ead48d2c632720f18fe5ba54b7daded87dd90",
+    "assets/counters/images/1149ea9f8e1dcedbbd2d.png": "9ea5d9b000a89ac1e73a14557758e5dd43a1fa996c8e41ca20a9f1a8939d4d03",
+    "assets/counters/images/c3e23b9d458e23ce25ff.png": "9cb1c31b723a5d7bd66f1b6aeadbab9e6bea72626db716cc0cf3ea0df8aef775",
+    "assets/counters/images/51fb7c6d3ac931dda8d4.png": "be9bbfdcdaab519c4ace67fa20f5700970cfc5131d1839d6b9c359f076991200",
+    "assets/counters/images/cf361eeb1757941d1f3b.png": "2408062a9e4f2b2076614d3d6116e711a8fed09b81cffb6326923181700c3c7e",
+    "assets/counters/images/005130fab53c2e146937.png": "13a6cc988f94f321f31e6920bae7b1d9e45b448a64fd82eac3cdae4bcb8cbbc8",
+    "assets/counters/images/b84789db955909a7e576.png": "a5fb5a532b66f1f82897c81f5a779f8b185e2d795f6db45cb5b77f9f5ee6ea35",
+    "assets/counters/images/cfab7bdc3b300e720f7b.png": "62c4789ede95ac1a47671f6f825e0a2cd0119c599b4f1767ceeb0baf61c878ce",
+    "assets/counters/images/44593d26798eef02bb4e.png": "c346ff43e749ae7d59e1fa575a74d18d9bf669868f2d8ef881d57635a34fa6b0",
+    "assets/counters/images/062690802a0351226f40.png": "f21bd541ca1ecc5ae880e5f1dd41d36ceccf57ae6f74330172ddb10df35db599",
+    "assets/counters/images/51cb077889ee74c325c0.png": "6968cb8c9c9c7879d031bb30bb0c2a1c7b31635058e693a0c116d3bd8a169719",
+    "assets/counters/images/833c7111671cbde8d40b.png": "25f4d70273e47f8df53fd92afcb38c453dab79d26f286b9c96195a4f5fb651b5",
+    "assets/counters/images/ccd9246864c3c060a787.png": "39191b511e4c5390c72a5cdca640bb72b0d8aa0203f416a6dc48e93fe3c9ffcc",
+    "assets/counters/images/898f760bc5d6c002072a.png": "e4949a2ea5dd5344ecae8be7f5626da74b38f2ab61c315e29e2be7d90a7c6cc9",
+    "assets/counters/images/c227aa2036e602ee7bc0.png": "9879a5e40fb436625d16e932ae458b6785192c813ec488399a34169ee25b3b0c",
+    "assets/counters/images/1452099527a092722a90.png": "c4b4bb2947a80b6e71b3c2869b0d3e41783da63170b698a3cbd927e41926463c",
+    "assets/counters/images/12dbe00aeda7c33499b2.png": "63891a9372addc8416b87e930d3076d7fd403b6a15e7a02abc9030e7b4d017fb",
+    "assets/counters/images/151de3671eb6c6573290.png": "26e5650b59738b984b42e8b3e7182aded537aa3eaf58647c53e9d275430d5c2e",
+    "assets/counters/images/9cc3b5db948623bdd5d9.png": "d940665b030e794e32ee88b58da80b4a2789b54aad1892a0f0d05fcc4b5e661e",
+    "assets/counters/images/da8d01778fe625018850.png": "5af669cdafd76015fd38c2aa01f123697c13ae09f1e284ed947cd8c8c80f46aa",
+    "assets/counters/images/3ed4b14c59f5cbd9ea9c.png": "2f7c55f426458c6db566ad73bdd80ed663c818f73117ccaa43c5ba72e6d62799",
+    "assets/counters/images/4a24aeb97ef5c6352be9.png": "05fc6800a996f56eaf4bf2aad79613be67e0b4ccb52c739ee2c2ca7e3e843602",
+    "assets/counters/images/2b903b29574edf840e08.png": "044ca5d5efd52daae743399b3377bbb987b9e9c062c67cc6e9db4d5f3d67c161",
+    "assets/counters/images/b6eb0508d08c60489a8e.png": "51702c69495882cd7b6cf0ab58eba8c0caa1e5f7b31f15ef038f331a22a0b21b",
+    "assets/counters/images/3863782b581d7180f7b5.png": "4885d63edd8478bc7035269ab5773b35b73ed05e94dda1dce623593c44d4ba37",
+    "assets/counters/images/dd1f5977ce8bd6dfdb77.png": "ed3a0a188ef95b2ebbf294d306f0bc144eb68176f73bf29d53e55583d68180f0",
+    "assets/counters/images/635f4b6c6bb882293481.png": "a87fa465d015933cbc136540ae61e1edd9466409757176f24d4b7c6584161050",
+    "assets/counters/images/a49d6baa9f3a093a7635.png": "77a51be822a958578f182e88349242d9bac6fb414284ab726aea2cbeda5b4ab5",
+    "assets/counters/images/7c33a4f4a2d5b634187c.png": "f5b1a8692083a4d5857864aa93ae25034d13c4622b4c51dbab3440a1553a940e",
+    "assets/counters/images/13466d90d3da136425de.png": "1cb27191ca5551f2fd5862787aa45c6e0b3aeada8d657dd849692fbc1e723acb",
+    "assets/counters/images/73fbce0fe3433d822a57.png": "03582cc827e8e06de9b26b566fd8fc5650cd32561be68e25e688dcd0f6b13ec1",
+    "assets/counters/images/b4b947757f09a39989b6.png": "ed04027415f30184764e51f31d7c30ef90dddfb7f56c8676860a2189467eec9b"
+  },
+  "unchanged_files_sha256": {
+    "assets/counters/counter_catalog.json": "8f273ccc70030470e69b6cec51422ca1bb460acc9699f93d46324db2384133d4",
+    "map_terrain.json": "5f5e9c551a3b580f93f79a9a6317cb5d289e6fd218081266d5953d04c3ebafb9",
+    "map_terrain_backup.json": "abefd335e1728df5e72dc549cb55ede5c864f1fd649d7c4d6fee731f0cb2e14d",
+    "map_transport.json": "fe4bd1359a91fef63d39cdd3d06ab81dc0946d6b09bd5ce4fe3066ac3c294d72",
+    "main.py": "a5b82a991930916573edff4ffa556f268b0c974ec8f9a258375cd9cfb553869f",
+    "counters\\batch_review.py": "25e73e39d8de5994b38c12b724039ca5cde2e2f4c9a4876f007baca6535bc890",
+    "counters\\counter_browser.py": "aa1d70e337bfd842b23461ca386376c07583cb5144c6dd9a1c673e34ae914808",
+    "counters\\counter_faces.py": "e9f62613e8b91d4fc6c84e09c5a253f7b9ac443091c3660772b23196c5336454",
+    "counters\\counter_state.py": "fb6fa6fb158b8c9f26980150df4d06dceb3aefdf1ddd447a5a5f09d00f7d898d",
+    "counters\\import_counters.py": "9b90d4cd75ddb62e5a3a76863522b0c378e2e1264459d5e30113c98a488df3b0",
+    "counters\\stack_inspector.py": "12e45489345741e316f2a0584f2f7376dd097bab3ccf8c4945cbd01b7be47ba3",
+    "counters\\unit_editor.py": "0b9b2fd7acdc7173eed8d22aebc7b5678203f05637ab044dddb8cb93cf9b942d",
+    "counters\\unit_storage.py": "33b929d7ea94d781e2c57c61d4289d75e5c36da5ce0c1734ee1c254857c36e52",
+    "counters\\__init__.py": "43078f1116c83455e352e7ade4472c17e5b18e9b8a46aa733adc37b56dab5ec5",
+    "maps\\campaign_grid_definitions.py": "915e655f91349525de974fdc306cc4e0d6002c30f2d3229e897ab8701b9d8779",
+    "maps\\campaign_layout.py": "82dbc5340bcfb6aad80f33604362dec042141db3e84ecdf57ec2c91017017b5b",
+    "maps\\grid_definitions.py": "c1c1219a3c5b37c82df8c839a84b75e534a23a0cfd6773b4098a9e16aec5ef4d",
+    "maps\\hex_model.py": "ca27ae8e88c286329fbb7f5e3f8575fb35f8a299b54b401340f963cbddabe6fb",
+    "maps\\import_grids.py": "5f6883f55891678cf77530627411a1a81435741bc7cd9a163249289a03e26288",
+    "maps\\mapping_fields.py": "487328721b629fd3c4c64995a6952d49a62aa107de9ea8aa93c04a79a1b0f482",
+    "maps\\mapping_support.py": "87af79405dbcaeafdae6d21747cced03160c60e8d7532a30a86e457ee5978c73",
+    "maps\\map_view.py": "921cb370cfcc85a4367bac5ba79334f8d80bafe5f1ffe7230e1aefe7f90b76df",
+    "maps\\terrain_editor.py": "aa3a7126d2e8cbdc528030dc2a58b8057c711a787942ba363c73b1de7d80f197",
+    "maps\\__init__.py": "601fe50f5c69d8bb7841cafc493e0cd35dadae455e4aefbfccd5e01039a5f4e0",
+    "game\\action_history.py": "db5a2a6c7f32159fedc8e886be217c7767cc095011132f58a4a60e813d7b9e9b",
+    "game\\dice_dialog.py": "ee5aae07b3c4eca7ec883b7af9729225e7a811380351528e1e3d2a67a2a98902",
+    "game\\history_panel.py": "5ed53fc73bf30799c28998c9deb29ce7872b8d7eedbda0c685e0f394173d2395",
+    "game\\nation_roster.py": "26055dd6d2ba21ea81af0464746f905875b41f3b0fe8581d5cb0d9e8d0158292",
+    "game\\player_setup_dialog.py": "ecc3508e8534e98b517d77a8e9df76e1b355f47205bb6d8707b2e76669105c03",
+    "game\\__init__.py": "734256f79f951d3e604d76f2b2b15280f05f7ac5fcc451598cc0919adec0153f",
+    "rules\\combat_records.py": "78b18dab89dc26423f7cd226f03dac7dbbd559cabb67b8a4fa97fa207be99796",
+    "rules\\dice.py": "ffa4ac99d6f20cb8f51258d92d314b2e3ceff0a66d0027209fd8c15e9cd39f46",
+    "rules\\sides.py": "d9143bef1f8b3e0844e5179b4b10497989493540fd976586e7afc6be3fe4cc27",
+    "rules\\__init__.py": "954791c5d0fcd1a7e85eb79ab9dd72808e459783a6471f80b06b3fa51b1c00cc",
+    "tests\\test_batch_review.py": "b24eaf27d839f7814e422bdfc3ba50db08221c4da4d31d4018ceb3b7bef3e895",
+    "tests\\test_counter_mechanics.py": "b62e4d34f25d854187784b8ffc051bc3e133d47a96cffaefcfe1f10a9e90dd30",
+    "tests\\test_import_counters.py": "3a65649c26203d1c081f70c3b20ac909d1535ec903f4aa8c14fd56d83f5e75a0",
+    "tests\\test_map_review_status.py": "80310623053e83f2d97ddfbc63add8c6ca999ccbffa5cda023165dd4c1631442",
+    "tests\\test_player_setup_dialog.py": "6d023c910d9e9ac6b32772cd5c6d841ffa56fba70b1375f4aef7d46e6f1bcc0c",
+    "tests\\test_project_layout.py": "8f55794d3076f273fdd6baaf822ad6343d1a8ebfad1459eee73e56cf8597d323",
+    "tests\\test_rules.py": "7a9ba3ae92cc7445ab20defd529f103bd20b47ce15aa7ba3413711ec1fecf0cc",
+    "tests\\test_sides.py": "74c564171c6dc8d4491c5009e31c38bf8da54c28419115e1f4fe281446d7cba7",
+    "tests\\test_unit_editor.py": "9d512a84d0fd94fa43d09f46e0ab7bd67b5da0355b1cbb56fa8e45ea888c16ac",
+    "tests\\__init__.py": "ecbd81b988076ac4302ea0921a13bf758ca9a4e3c54c5f2342df84d2f2973139"
+  },
+  "confidence_policy": "Only individually corroborated metadata and face pairings above .95 with no unresolved issues become Verified. Confidence is judgment, not calibrated probability. OCR/template suggestions are unreliable retrieval aids, never proof.",
+  "limitations": "Focused group of 71 drafts, not a second pass of all 2,758 prior drafts. Physical reverse confirmation does not resolve missing metadata semantics. No gameplay validation. Interactive GUI testing remains pending.",
+  "final_qa": "Three direct/reciprocal comparison sheets inspected with saved literal ratings, source panels and neighboring-cell context. Existing metadata names were used to resolve transcription/transliteration variants against artwork and physical counters, never filenames alone. KIC185 pp5/6, KIC120 pp9/10, KIC132 pp1-8 and KIC108 pp9/10. One Black Sea security printed-reverse discrepancy retained. All fronts and 6,897 outside-selection definitions preserved. Previous evidence/issues/notes retained in audit history.",
+  "automated_suite": "49 tests passed; temporary editor save/reload and reverse rendering counts in validation.",
+  "output_sha256": "56be79d12e8414df826375e5379d40bb75a5c9d734241045e552470bd6cff03b"
+}

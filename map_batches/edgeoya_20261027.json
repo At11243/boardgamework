@@ -1,0 +1,3145 @@
+{
+  "batch": "edgeoya_20261027",
+  "review_date": "2026-10-27",
+  "backup": "mapping_backups/before-edgeoya-20261027-072231.zip",
+  "sources": [
+    {
+      "path": "assets/maps/Map 02.HAB.png",
+      "sha256": "39058285481001ea3149d47c74ec41ec034408c45bb4311796318cd4d9b52dda"
+    },
+    {
+      "path": "reference/UICFB.pdf",
+      "sha256": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4"
+    }
+  ],
+  "source_locator": "UICFB PDF p4, map crop x7700 y2400 width1200 height1100",
+  "policy": "User project convention, not a published rule. >20% of whole hex; confidence strictly >.95.",
+  "raster_sample_caveat": "Approximate color-area support only; grid/text/antialias pixels unclassified. Sea labels 2329/2829 excluded after visual inspection. Threshold-borderline entries are drafts.",
+  "evidence": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "number": "2430",
+      "center": [
+        7911.512007650001,
+        2772.5012104887433
+      ],
+      "fractions": {
+        "Other": 0.0737,
+        "Sea": 0.8215,
+        "Hills": 0.1014,
+        "Mountain": 0.0033
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2430",
+      "confidence": 0.9,
+      "issues": [
+        "Land sliver below 20% of whole hex; Hills visible, no qualifying land class."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "number": "2530",
+      "center": [
+        8041.09756875,
+        2772.5012104887433
+      ],
+      "fractions": {
+        "Other": 0.0798,
+        "Sea": 0.0869,
+        "Hills": 0.6519,
+        "Mountain": 0.1813
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2530",
+      "confidence": 0.94,
+      "issues": [
+        "Mountain patch about 18%; near threshold and boundary/antialiasing uncertainty."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "number": "2630",
+      "center": [
+        8170.683129850001,
+        2772.5012104887433
+      ],
+      "fractions": {
+        "Other": 0.0577,
+        "Hills": 0.7901,
+        "Mountain": 0.0815,
+        "Clear": 0.0604,
+        "Sea": 0.0103
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2630",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "number": "2730",
+      "center": [
+        8300.26869095,
+        2772.5012104887433
+      ],
+      "fractions": {
+        "Other": 0.0757,
+        "Sea": 0.8022,
+        "Clear": 0.1135,
+        "Hills": 0.0027,
+        "Mountain": 0.0058
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2730",
+      "confidence": 0.9,
+      "issues": [
+        "Clear coastal sliver below 20%; land classification awaits review."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "number": "2429",
+      "center": [
+        7976.3047882,
+        2884.841258908293
+      ],
+      "fractions": {
+        "Other": 0.1217,
+        "Mountain": 0.1214,
+        "Hills": 0.2506,
+        "Sea": 0.4809,
+        "Clear": 0.0255
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2429",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "number": "2529",
+      "center": [
+        8105.890349300001,
+        2884.841258908293
+      ],
+      "fractions": {
+        "Other": 0.0526,
+        "Mountain": 0.2076,
+        "Hills": 0.6575,
+        "Clear": 0.0823
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2529",
+      "confidence": 0.94,
+      "issues": [
+        "Mountain sample about 21%; threshold borderline; combination provisional."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills",
+        "Mountain"
+      ],
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "number": "2629",
+      "center": [
+        8235.4759104,
+        2884.841258908293
+      ],
+      "fractions": {
+        "Other": 0.0732,
+        "Sea": 0.1408,
+        "Mountain": 0.0011,
+        "Hills": 0.0008,
+        "Clear": 0.0671,
+        "Glacier": 0.7171
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2629",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "number": "2729",
+      "center": [
+        8365.061471500001,
+        2884.841258908293
+      ],
+      "fractions": {
+        "Other": 0.0995,
+        "Sea": 0.6669,
+        "Clear": 0.0107,
+        "Hills": 0.0014,
+        "Glacier": 0.2204,
+        "Mountain": 0.0011
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2729",
+      "confidence": 0.94,
+      "issues": [
+        "Glacier sample about 22%; threshold borderline at coast; provisional."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "number": "2428",
+      "center": [
+        7911.512007650001,
+        2997.1813073278427
+      ],
+      "fractions": {
+        "Other": 0.0862,
+        "Sea": 0.6056,
+        "Hills": 0.0507,
+        "Mountain": 0.2575
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2428",
+      "confidence": 0.97,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Mountain"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "number": "2528",
+      "center": [
+        8041.09756875,
+        2997.1813073278427
+      ],
+      "fractions": {
+        "Other": 0.059,
+        "Mountain": 0.122,
+        "Hills": 0.7935,
+        "Clear": 0.0255
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2528",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "number": "2628",
+      "center": [
+        8170.683129850001,
+        2997.1813073278427
+      ],
+      "fractions": {
+        "Other": 0.0882,
+        "Clear": 0.1314,
+        "Hills": 0.0058,
+        "Glacier": 0.7671,
+        "Mountain": 0.0075
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2628",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "number": "2728",
+      "center": [
+        8300.26869095,
+        2997.1813073278427
+      ],
+      "fractions": {
+        "Other": 0.0705,
+        "Glacier": 0.8387,
+        "Mountain": 0.0033,
+        "Clear": 0.0782,
+        "Hills": 0.0093
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2728",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "number": "2828",
+      "center": [
+        8429.854252050001,
+        2997.1813073278427
+      ],
+      "fractions": {
+        "Other": 0.1083,
+        "Sea": 0.4348,
+        "Glacier": 0.4526,
+        "Mountain": 0.0014,
+        "Clear": 0.003
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2828",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "number": "2327",
+      "center": [
+        7846.7192271,
+        3109.5213557473926
+      ],
+      "fractions": {
+        "Other": 0.1278,
+        "Sea": 0.7139,
+        "Mountain": 0.0165,
+        "Hills": 0.0891,
+        "Clear": 0.0527
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2327",
+      "confidence": 0.9,
+      "issues": [
+        "Small western coastal tip; no individual land type clearly exceeds 20%."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "number": "2427",
+      "center": [
+        7976.3047882,
+        3109.5213557473926
+      ],
+      "fractions": {
+        "Other": 0.1142,
+        "Mountain": 0.0923,
+        "Hills": 0.3562,
+        "Clear": 0.0382,
+        "Sea": 0.3991
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2427",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "number": "2527",
+      "center": [
+        8105.890349300001,
+        3109.5213557473926
+      ],
+      "fractions": {
+        "Other": 0.2432,
+        "Clear": 0.1089,
+        "Hills": 0.0104,
+        "Glacier": 0.351,
+        "Mountain": 0.0025,
+        "Sea": 0.2841
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2527",
+      "confidence": 0.97,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "number": "2627",
+      "center": [
+        8235.4759104,
+        3109.5213557473926
+      ],
+      "fractions": {
+        "Other": 0.0482,
+        "Glacier": 0.8282,
+        "Mountain": 0.0014,
+        "Clear": 0.1205,
+        "Hills": 0.0017
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2627",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Glacier"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "number": "2727",
+      "center": [
+        8365.061471500001,
+        3109.5213557473926
+      ],
+      "fractions": {
+        "Other": 0.0705,
+        "Clear": 0.1472,
+        "Mountain": 0.0049,
+        "Sea": 0.7634,
+        "Hills": 0.014
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2727",
+      "confidence": 0.9,
+      "issues": [
+        "Narrow Clear coast below 20%; do not misclassify as sea-only."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "number": "2526",
+      "center": [
+        8041.09756875,
+        3221.861404166942
+      ],
+      "fractions": {
+        "Other": 0.2289,
+        "Sea": 0.7404,
+        "Hills": 0.0299,
+        "Mountain": 0.0008
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2526",
+      "confidence": 0.9,
+      "issues": [
+        "Tiny peninsula tip below 20%; Hills visible, classification unresolved."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "number": "2626",
+      "center": [
+        8170.683129850001,
+        3221.861404166942
+      ],
+      "fractions": {
+        "Other": 0.0781,
+        "Hills": 0.3867,
+        "Clear": 0.0313,
+        "Mountain": 0.0078,
+        "Sea": 0.4961
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2626",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "number": "2726",
+      "center": [
+        8300.26869095,
+        3221.861404166942
+      ],
+      "fractions": {
+        "Other": 0.0751,
+        "Hills": 0.0049,
+        "Sea": 0.9027,
+        "Mountain": 0.0022,
+        "Clear": 0.0151
+      },
+      "batch": "edgeoya_20261027",
+      "geographical_area": "Edgeoya (Nor)",
+      "printed_reference": "HP-ZF:2726",
+      "confidence": 0.9,
+      "issues": [
+        "Tiny Clear coastline at northern vertex, below 20%; classification unresolved."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    }
+  ],
+  "mirrored_edges": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        60
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        65
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        65
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        64
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        65
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        66
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        64
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        60
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        64
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        66
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        66
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        66
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        65
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        61
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        60
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        60
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        60
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        65
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        66
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        65
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        64
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        65
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        65
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        65
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        64
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        63
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        64
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        64
+      ],
+      "neighbor_side": 2
+    }
+  ],
+  "changed_records": [
+    [
+      "Map 2",
+      "HP-ZF",
+      30,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      30,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      30,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      30,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      25,
+      65
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      26,
+      66
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      27,
+      66
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      66
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      28,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      29,
+      65
+    ]
+  ],
+  "counts": {
+    "reviewed": 21,
+    "Verified": 12,
+    "In progress": 9,
+    "transport_verified": 21,
+    "changed_records": 41,
+    "added_records": 35,
+    "total_records": 5482
+  },
+  "checks": [
+    "All original property values preserved; no prior status changes",
+    "All proposed records roundtrip through real app loader/writer in temp file",
+    "21 editor display/apply roundtrips retain statuses, unresolved fields and map_review metadata",
+    "Exact ZIP backup bytes and integrity checked; original transport/old terrain backup unchanged"
+  ]
+}

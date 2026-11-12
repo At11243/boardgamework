@@ -1,0 +1,6976 @@
+{
+  "flags": [
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          5055,
+          70,
+          5206
+        ],
+        "center": [
+          5.0,
+          5130.642227299288
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        72,
+        14
+      ],
+      "field": "terrain",
+      "current": null,
+      "proposed": "Review missing terrain; Verified is incomplete",
+      "kind": "confirmed_completeness_error"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        17
+      ],
+      "field": "terrain",
+      "current": null,
+      "proposed": "Review missing terrain; Verified is incomplete",
+      "kind": "confirmed_completeness_error"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          6403,
+          70,
+          6554
+        ],
+        "center": [
+          5.0,
+          6478.722808333884
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          5954,
+          70,
+          6105
+        ],
+        "center": [
+          5.0,
+          6029.362614655685
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          5729,
+          70,
+          5880
+        ],
+        "center": [
+          5.0,
+          5804.682517816586
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          5505,
+          70,
+          5655
+        ],
+        "center": [
+          5.0,
+          5580.0024209774865
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          5280,
+          70,
+          5431
+        ],
+        "center": [
+          5.0,
+          5355.322324138388
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          6628,
+          70,
+          6779
+        ],
+        "center": [
+          5.0,
+          6703.402905172984
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          6853,
+          70,
+          7003
+        ],
+        "center": [
+          5.0,
+          6928.083002012083
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          6179,
+          70,
+          6329
+        ],
+        "center": [
+          5.0,
+          6254.042711494785
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          7077,
+          70,
+          7228
+        ],
+        "center": [
+          5.0,
+          7152.763098851183
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          7302,
+          70,
+          7453
+        ],
+        "center": [
+          5.0,
+          7377.443195690283
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          7527,
+          70,
+          7678
+        ],
+        "center": [
+          5.0,
+          7602.123292529382
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          7751,
+          70,
+          7902
+        ],
+        "center": [
+          5.0,
+          7826.8033893684815
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -60,
+          7976,
+          70,
+          8127
+        ],
+        "center": [
+          5.0,
+          8051.48348620758
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        59,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          6514,
+          12901,
+          6664
+        ],
+        "center": [
+          12835.763329450001,
+          6589.062856753434
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        47,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          5166,
+          12901,
+          5316
+        ],
+        "center": [
+          12835.763329450001,
+          5240.982275718838
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        57,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          6289,
+          12901,
+          6440
+        ],
+        "center": [
+          12835.763329450001,
+          6364.382759914335
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        56,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          6177,
+          12966,
+          6327
+        ],
+        "center": [
+          12900.556110000001,
+          6252.042711494785
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        55,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          6064,
+          12901,
+          6215
+        ],
+        "center": [
+          12835.763329450001,
+          6139.702663075235
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        54,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          5952,
+          12966,
+          6103
+        ],
+        "center": [
+          12900.556110000001,
+          6027.362614655685
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        53,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          5840,
+          12901,
+          5990
+        ],
+        "center": [
+          12835.763329450001,
+          5915.022566236135
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        51,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          5615,
+          12901,
+          5766
+        ],
+        "center": [
+          12835.763329450001,
+          5690.342469397036
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        52,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          5727,
+          12966,
+          5878
+        ],
+        "center": [
+          12900.556110000001,
+          5802.682517816586
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        49,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          5390,
+          12901,
+          5541
+        ],
+        "center": [
+          12835.763329450001,
+          5465.662372557937
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        50,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          5503,
+          12966,
+          5653
+        ],
+        "center": [
+          12900.556110000001,
+          5578.0024209774865
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        61,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          6738,
+          12901,
+          6889
+        ],
+        "center": [
+          12835.763329450001,
+          6813.742953592534
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        60,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          6626,
+          12966,
+          6777
+        ],
+        "center": [
+          12900.556110000001,
+          6701.402905172984
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        63,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          6963,
+          12901,
+          7114
+        ],
+        "center": [
+          12835.763329450001,
+          7038.423050431633
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        62,
+        100
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12835,
+          6851,
+          12966,
+          7001
+        ],
+        "center": [
+          12900.556110000001,
+          6926.083002012083
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        6
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          658,
+          8425,
+          789,
+          8575
+        ],
+        "center": [
+          723.3933666000001,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        7
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          788,
+          8425,
+          918,
+          8575
+        ],
+        "center": [
+          852.9589277000002,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        9
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1047,
+          8425,
+          1177,
+          8575
+        ],
+        "center": [
+          1112.0900499000002,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        11
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1306,
+          8425,
+          1437,
+          8575
+        ],
+        "center": [
+          1371.2211721000003,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        10
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1176,
+          8425,
+          1307,
+          8575
+        ],
+        "center": [
+          1241.6556110000001,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        13
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1565,
+          8425,
+          1696,
+          8575
+        ],
+        "center": [
+          1630.3522943000003,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        12
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1436,
+          8425,
+          1566,
+          8575
+        ],
+        "center": [
+          1500.7867332000003,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        76,
+        33
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4155,
+          8424,
+          4286,
+          8575
+        ],
+        "center": [
+          4220.6235163,
+          8499.584367988578
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        76,
+        32
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4026,
+          8424,
+          4156,
+          8575
+        ],
+        "center": [
+          4090.9379552,
+          8499.584367988578
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        16
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1954,
+          8425,
+          2084,
+          8575
+        ],
+        "center": [
+          2019.0489776000004,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        15
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1824,
+          8425,
+          1955,
+          8575
+        ],
+        "center": [
+          1889.4834165000004,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        17
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2083,
+          8425,
+          2214,
+          8575
+        ],
+        "center": [
+          2148.6145387000006,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        18
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2213,
+          8425,
+          2343,
+          8575
+        ],
+        "center": [
+          2278.1800998000003,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        21
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2602,
+          8425,
+          2732,
+          8575
+        ],
+        "center": [
+          2666.8767831000005,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        20
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2472,
+          8425,
+          2603,
+          8575
+        ],
+        "center": [
+          2537.3112220000003,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        22
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2731,
+          8425,
+          2862,
+          8575
+        ],
+        "center": [
+          2796.4423442000007,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        23
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2861,
+          8425,
+          2991,
+          8575
+        ],
+        "center": [
+          2926.0079053000004,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        24
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2990,
+          8425,
+          3121,
+          8575
+        ],
+        "center": [
+          3055.5734664000006,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        25
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3120,
+          8425,
+          3250,
+          8575
+        ],
+        "center": [
+          3185.139027500001,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        26
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3249,
+          8425,
+          3380,
+          8575
+        ],
+        "center": [
+          3314.7045886000005,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        76,
+        28
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3509,
+          8425,
+          3639,
+          8575
+        ],
+        "center": [
+          3573.835710800001,
+          8500.106499188334
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        76,
+        30
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3766,
+          8424,
+          3897,
+          8575
+        ],
+        "center": [
+          3831.566833,
+          8499.584367988578
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        76,
+        29
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3637,
+          8424,
+          3767,
+          8575
+        ],
+        "center": [
+          3701.8812719000002,
+          8499.584367988578
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        37
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4672,
+          -112,
+          4803,
+          38
+        ],
+        "center": [
+          4737.665760700001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        39
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4932,
+          -112,
+          5062,
+          38
+        ],
+        "center": [
+          4996.8368829,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        38
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4802,
+          -112,
+          4933,
+          38
+        ],
+        "center": [
+          4867.2513218,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        40
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5061,
+          -112,
+          5192,
+          38
+        ],
+        "center": [
+          5126.422444,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        41
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5191,
+          -112,
+          5321,
+          38
+        ],
+        "center": [
+          5256.0080051,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        42
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5320,
+          -112,
+          5451,
+          38
+        ],
+        "center": [
+          5385.5935662,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        44
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5579,
+          -112,
+          5710,
+          38
+        ],
+        "center": [
+          5644.7646884000005,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        45
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5709,
+          -112,
+          5840,
+          38
+        ],
+        "center": [
+          5774.3502495,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        43
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5450,
+          -112,
+          5580,
+          38
+        ],
+        "center": [
+          5515.1791273,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        46
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5839,
+          -112,
+          5969,
+          38
+        ],
+        "center": [
+          5903.9358106,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        47
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5968,
+          -112,
+          6099,
+          38
+        ],
+        "center": [
+          6033.521371700001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        48
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6098,
+          -112,
+          6228,
+          38
+        ],
+        "center": [
+          6163.1069328,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        49
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6227,
+          -112,
+          6358,
+          38
+        ],
+        "center": [
+          6292.6924939,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        50
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6357,
+          -112,
+          6488,
+          38
+        ],
+        "center": [
+          6422.278055000001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        52
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6616,
+          -112,
+          6747,
+          38
+        ],
+        "center": [
+          6681.4491772,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        51
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6487,
+          -112,
+          6617,
+          38
+        ],
+        "center": [
+          6551.8636161,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        55
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7005,
+          -112,
+          7135,
+          38
+        ],
+        "center": [
+          7070.2058605,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        56
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7134,
+          -112,
+          7265,
+          38
+        ],
+        "center": [
+          7199.791421600001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        58
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7394,
+          -112,
+          7524,
+          38
+        ],
+        "center": [
+          7458.9625438,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        53
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6746,
+          -112,
+          6876,
+          38
+        ],
+        "center": [
+          6811.034738300001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        54
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          6875,
+          -112,
+          7006,
+          38
+        ],
+        "center": [
+          6940.6202994000005,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        59
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7523,
+          -112,
+          7654,
+          38
+        ],
+        "center": [
+          7588.5481049,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        61
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7782,
+          -112,
+          7913,
+          38
+        ],
+        "center": [
+          7847.7192271,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        57
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7264,
+          -112,
+          7395,
+          38
+        ],
+        "center": [
+          7329.376982700001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        60
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7653,
+          -112,
+          7783,
+          38
+        ],
+        "center": [
+          7718.133666000001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        64
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8171,
+          -112,
+          8302,
+          38
+        ],
+        "center": [
+          8236.4759104,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        63
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8042,
+          -112,
+          8172,
+          38
+        ],
+        "center": [
+          8106.890349300001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        62
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          7912,
+          -112,
+          8043,
+          38
+        ],
+        "center": [
+          7977.3047882,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        66
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8430,
+          -112,
+          8561,
+          38
+        ],
+        "center": [
+          8495.6470326,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        65
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8301,
+          -112,
+          8431,
+          38
+        ],
+        "center": [
+          8366.061471500001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        82
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10504,
+          -112,
+          10634,
+          38
+        ],
+        "center": [
+          10569.0160102,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        81
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10374,
+          -112,
+          10505,
+          38
+        ],
+        "center": [
+          10439.4304491,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        80
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10245,
+          -112,
+          10375,
+          38
+        ],
+        "center": [
+          10309.844888,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        79
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10115,
+          -112,
+          10246,
+          38
+        ],
+        "center": [
+          10180.2593269,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        78
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9985,
+          -112,
+          10116,
+          38
+        ],
+        "center": [
+          10050.6737658,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        77
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9856,
+          -112,
+          9986,
+          38
+        ],
+        "center": [
+          9921.088204700001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        76
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9726,
+          -112,
+          9857,
+          38
+        ],
+        "center": [
+          9791.5026436,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        75
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9597,
+          -112,
+          9727,
+          38
+        ],
+        "center": [
+          9661.9170825,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        74
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9467,
+          -112,
+          9598,
+          38
+        ],
+        "center": [
+          9532.331521400001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        73
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9337,
+          -112,
+          9468,
+          38
+        ],
+        "center": [
+          9402.7459603,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        68
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8690,
+          -112,
+          8820,
+          38
+        ],
+        "center": [
+          8754.818154800001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        72
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9208,
+          -112,
+          9338,
+          38
+        ],
+        "center": [
+          9273.1603992,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        70
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8949,
+          -112,
+          9079,
+          38
+        ],
+        "center": [
+          9013.989277,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        69
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8819,
+          -112,
+          8950,
+          38
+        ],
+        "center": [
+          8884.4037159,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        67
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          8560,
+          -112,
+          8691,
+          38
+        ],
+        "center": [
+          8625.2325937,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        71
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          9078,
+          -112,
+          9209,
+          38
+        ],
+        "center": [
+          9143.574838100001,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        83
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10633,
+          -112,
+          10764,
+          38
+        ],
+        "center": [
+          10698.6015713,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        0,
+        84
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          10763,
+          -112,
+          10893,
+          38
+        ],
+        "center": [
+          10828.1871324,
+          -37.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        65,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          7188,
+          12901,
+          7338
+        ],
+        "center": [
+          12835.763329450001,
+          7263.103147270733
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        67,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          7412,
+          12901,
+          7563
+        ],
+        "center": [
+          12835.763329450001,
+          7487.783244109832
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          7862,
+          12901,
+          8013
+        ],
+        "center": [
+          12835.763329450001,
+          7937.1434377880305
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          8086,
+          12901,
+          8237
+        ],
+        "center": [
+          12835.763329450001,
+          8161.82353462713
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          7637,
+          12901,
+          7788
+        ],
+        "center": [
+          12835.763329450001,
+          7712.463340948932
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        6
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          658,
+          -48,
+          789,
+          102
+        ],
+        "center": [
+          723.4266000000002,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        7
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          788,
+          -48,
+          918,
+          102
+        ],
+        "center": [
+          852.9977000000002,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        8
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          917,
+          -48,
+          1048,
+          102
+        ],
+        "center": [
+          982.5688000000002,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        9
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1047,
+          -48,
+          1177,
+          102
+        ],
+        "center": [
+          1112.1399000000004,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        10
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1176,
+          -48,
+          1307,
+          102
+        ],
+        "center": [
+          1241.7110000000002,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        11
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1306,
+          -48,
+          1437,
+          102
+        ],
+        "center": [
+          1371.2821000000004,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        12
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1436,
+          -48,
+          1566,
+          102
+        ],
+        "center": [
+          1500.8532000000005,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        13
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1565,
+          -48,
+          1696,
+          102
+        ],
+        "center": [
+          1630.4243000000004,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        14
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1695,
+          -48,
+          1825,
+          102
+        ],
+        "center": [
+          1759.9954000000005,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        33
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4156,
+          -48,
+          4286,
+          102
+        ],
+        "center": [
+          4220.846300000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        32
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4026,
+          -48,
+          4157,
+          102
+        ],
+        "center": [
+          4091.275200000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        19
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2343,
+          -48,
+          2473,
+          102
+        ],
+        "center": [
+          2407.8509000000004,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        17
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2083,
+          -48,
+          2214,
+          102
+        ],
+        "center": [
+          2148.7087000000006,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        16
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1954,
+          -48,
+          2084,
+          102
+        ],
+        "center": [
+          2019.1376000000005,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        15
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          1824,
+          -48,
+          1955,
+          102
+        ],
+        "center": [
+          1889.5665000000004,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        18
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2213,
+          -48,
+          2344,
+          102
+        ],
+        "center": [
+          2278.2798000000007,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        20
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2472,
+          -48,
+          2603,
+          102
+        ],
+        "center": [
+          2537.4220000000005,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        22
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2731,
+          -48,
+          2862,
+          102
+        ],
+        "center": [
+          2796.5642000000007,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        21
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2602,
+          -48,
+          2732,
+          102
+        ],
+        "center": [
+          2666.9931000000006,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        24
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2990,
+          -48,
+          3121,
+          102
+        ],
+        "center": [
+          3055.706400000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        23
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          2861,
+          -48,
+          2991,
+          102
+        ],
+        "center": [
+          2926.135300000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        26
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3250,
+          -48,
+          3380,
+          102
+        ],
+        "center": [
+          3314.8486000000007,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        27
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3379,
+          -48,
+          3510,
+          102
+        ],
+        "center": [
+          3444.419700000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        28
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3509,
+          -48,
+          3639,
+          102
+        ],
+        "center": [
+          3573.990800000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        31
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3896,
+          -48,
+          4027,
+          102
+        ],
+        "center": [
+          3961.704100000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        30
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3767,
+          -48,
+          3897,
+          102
+        ],
+        "center": [
+          3832.1330000000007,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        29
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3637,
+          -48,
+          3768,
+          102
+        ],
+        "center": [
+          3702.561900000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        7,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          738,
+          73,
+          889
+        ],
+        "center": [
+          7.935550000000006,
+          813.313301702722
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        9,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          963,
+          73,
+          1113
+        ],
+        "center": [
+          7.935550000000006,
+          1037.9742450463568
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        11,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          1187,
+          73,
+          1338
+        ],
+        "center": [
+          7.935550000000006,
+          1262.6351883899918
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        13,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          1412,
+          73,
+          1563
+        ],
+        "center": [
+          7.935550000000006,
+          1487.2961317336267
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        15,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          1637,
+          73,
+          1787
+        ],
+        "center": [
+          7.935550000000006,
+          1711.9570750772616
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        0,
+        25
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          3120,
+          -48,
+          3251,
+          102
+        ],
+        "center": [
+          3185.2775000000006,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        34
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4285,
+          -48,
+          4416,
+          102
+        ],
+        "center": [
+          4350.417400000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        35
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4415,
+          -48,
+          4545,
+          102
+        ],
+        "center": [
+          4479.988500000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        37
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4674,
+          -48,
+          4804,
+          102
+        ],
+        "center": [
+          4739.1307000000015,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        38
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4803,
+          -48,
+          4934,
+          102
+        ],
+        "center": [
+          4868.701800000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        39
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4933,
+          -48,
+          5064,
+          102
+        ],
+        "center": [
+          4998.272900000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        41
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5192,
+          -48,
+          5323,
+          102
+        ],
+        "center": [
+          5257.415100000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        42
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5322,
+          -48,
+          5452,
+          102
+        ],
+        "center": [
+          5386.986200000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        43
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5451,
+          -48,
+          5582,
+          102
+        ],
+        "center": [
+          5516.557300000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        44
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5581,
+          -48,
+          5711,
+          102
+        ],
+        "center": [
+          5646.128400000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        88
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11280,
+          -49,
+          11411,
+          101
+        ],
+        "center": [
+          11345.729376800002,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        89
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11410,
+          -49,
+          11540,
+          101
+        ],
+        "center": [
+          11475.2149379,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        91
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11669,
+          -49,
+          11799,
+          101
+        ],
+        "center": [
+          11734.1860601,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        92
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11798,
+          -49,
+          11929,
+          101
+        ],
+        "center": [
+          11863.671621200001,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        93
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11928,
+          -49,
+          12058,
+          101
+        ],
+        "center": [
+          11993.157182300001,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        95
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12187,
+          -49,
+          12317,
+          101
+        ],
+        "center": [
+          12252.128304500002,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        96
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12316,
+          -49,
+          12447,
+          101
+        ],
+        "center": [
+          12381.6138656,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        97
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12446,
+          -49,
+          12576,
+          101
+        ],
+        "center": [
+          12511.0994267,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        7,
+        99
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12770,
+          737,
+          12900,
+          888
+        ],
+        "center": [
+          12834.81332945,
+          812.3803389368481
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        19,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          2086,
+          73,
+          2237
+        ],
+        "center": [
+          7.935550000000006,
+          2161.2789617645312
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        21,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          2311,
+          73,
+          2461
+        ],
+        "center": [
+          7.935550000000006,
+          2385.939905108166
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        25,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          2760,
+          73,
+          2911
+        ],
+        "center": [
+          7.935550000000006,
+          2835.261791795436
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        31,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          3434,
+          73,
+          3585
+        ],
+        "center": [
+          7.935550000000006,
+          3509.2446218263403
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          3659,
+          73,
+          3809
+        ],
+        "center": [
+          7.935550000000006,
+          3733.9055651699755
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        37,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          4108,
+          73,
+          4259
+        ],
+        "center": [
+          7.935550000000006,
+          4183.227451857245
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        39,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          4333,
+          73,
+          4483
+        ],
+        "center": [
+          7.935550000000006,
+          4407.88839520088
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        43,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          4782,
+          73,
+          4933
+        ],
+        "center": [
+          7.935550000000006,
+          4857.210281888149
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        45,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          5006,
+          74,
+          5157
+        ],
+        "center": [
+          8.935550000000006,
+          5081.871225231785
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        51,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          5680,
+          74,
+          5831
+        ],
+        "center": [
+          8.935550000000006,
+          5755.854055262689
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        57,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          6354,
+          74,
+          6505
+        ],
+        "center": [
+          8.935550000000006,
+          6429.836885293594
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        61,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          6804,
+          74,
+          6955
+        ],
+        "center": [
+          8.935550000000006,
+          6879.158771980863
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        63,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          7028,
+          74,
+          7179
+        ],
+        "center": [
+          8.935550000000006,
+          7103.819715324498
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        67,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          7478,
+          74,
+          7629
+        ],
+        "center": [
+          8.935550000000006,
+          7553.141602011769
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        69,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          7702,
+          74,
+          7853
+        ],
+        "center": [
+          8.935550000000006,
+          7777.802545355403
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        36
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          4544,
+          -48,
+          4675,
+          102
+        ],
+        "center": [
+          4609.559600000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        40
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          5063,
+          -48,
+          5193,
+          102
+        ],
+        "center": [
+          5127.844000000001,
+          27.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        90
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          11539,
+          -49,
+          11670,
+          101
+        ],
+        "center": [
+          11604.700499,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        94
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          12057,
+          -49,
+          12188,
+          101
+        ],
+        "center": [
+          12122.642743400002,
+          26.0
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        17,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          1861,
+          73,
+          2012
+        ],
+        "center": [
+          7.935550000000006,
+          1936.6180184208963
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        23,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          2535,
+          73,
+          2686
+        ],
+        "center": [
+          7.935550000000006,
+          2610.600848451801
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          3209,
+          73,
+          3360
+        ],
+        "center": [
+          7.935550000000006,
+          3284.5836784827056
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          3883,
+          73,
+          4034
+        ],
+        "center": [
+          7.935550000000006,
+          3958.56650851361
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -57,
+          4557,
+          73,
+          4708
+        ],
+        "center": [
+          7.935550000000006,
+          4632.549338544515
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          5231,
+          74,
+          5382
+        ],
+        "center": [
+          8.935550000000006,
+          5306.53216857542
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        49,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          5456,
+          74,
+          5607
+        ],
+        "center": [
+          8.935550000000006,
+          5531.193111919054
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          5905,
+          74,
+          6056
+        ],
+        "center": [
+          8.935550000000006,
+          5980.514998606324
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        55,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          6130,
+          74,
+          6281
+        ],
+        "center": [
+          8.935550000000006,
+          6205.1759419499585
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          6579,
+          74,
+          6730
+        ],
+        "center": [
+          8.935550000000006,
+          6654.497828637229
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        0
+      ],
+      "field": "crop",
+      "current": {
+        "bbox": [
+          -56,
+          7253,
+          74,
+          7404
+        ],
+        "center": [
+          8.935550000000006,
+          7328.480658668133
+        ],
+        "edge_clipped": true
+      },
+      "proposed": "Review clipped/off-board hex; do not train",
+      "kind": "crop_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        5
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2351",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        6
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2451",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        7
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2551",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        8
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2651",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        9
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2751",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        10
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2851",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        11
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2951",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        12
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:3051",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        2
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:2051",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        1
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1951",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        13
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:3133",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        13
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:3131",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        23,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-132",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        21,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-134",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        25,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2230",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        25,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-130",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        29,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-126",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        27,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-128",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        51,
+        15
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:0932",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        33,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-122",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        31,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-124",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        35,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-120",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        39,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-116",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        37,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-118",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        43,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-112",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        41,
+        14
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:-114",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        45,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-138",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        49,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-134",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        51,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-132",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        47,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-136",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        45,
+        93
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1252",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        45,
+        91
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1052",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        45,
+        97
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1652",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        45,
+        95
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1452",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        45,
+        94
+      ],
+      "field": "region/playability",
+      "current": "FB-QH:1352",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        53,
+        15
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:0930",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        53,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-130",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        55,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-128",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        57,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-126",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        59,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-124",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        61,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-122",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        63,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-120",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        65,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-118",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        67,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-116",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        67,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2216",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        55,
+        31
+      ],
+      "field": "region/playability",
+      "current": "BK-UJ:0428",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        55,
+        27
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2128",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        61,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2222",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        55,
+        20
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:1428",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        55,
+        15
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:0928",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        71,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-112",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        75,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-108",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        73,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-110",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        69,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-114",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        73,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2210",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        69,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2214",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        71,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2212",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        65,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2218",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        63,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2220",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        55,
+        30
+      ],
+      "field": "region/playability",
+      "current": "BK-UJ:0328",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        55,
+        29
+      ],
+      "field": "region/playability",
+      "current": "BK-UJ:0228",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        55,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-UJ:0128",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        57,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2226",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        59,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2224",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-TJ",
+        55,
+        25
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:1928",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        54
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:0251",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        52,
+        51
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:-145",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        50,
+        51
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:-147",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        48,
+        51
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:-149",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        57
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:0551",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        63
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:1151",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        50
+      ],
+      "field": "region/playability",
+      "current": "HP-A:1239",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        48
+      ],
+      "field": "region/playability",
+      "current": "HP-A:1039",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        46
+      ],
+      "field": "region/playability",
+      "current": "HP-A:0839",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        47
+      ],
+      "field": "region/playability",
+      "current": "HP-A:0939",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        43
+      ],
+      "field": "region/playability",
+      "current": "HP-A:0539",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        29,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2226",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        33,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2222",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        35,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2220",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        39,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2216",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        43,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2212",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        47,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2208",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        49,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2206",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        51,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2204",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        39
+      ],
+      "field": "region/playability",
+      "current": "HP-A:0139",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        54,
+        38
+      ],
+      "field": "region/playability",
+      "current": "HP-A:0039",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        57,
+        37
+      ],
+      "field": "region/playability",
+      "current": "BK-UJ:1026",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        58,
+        51
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:-139",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        19,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2236",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        21,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2234",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        17,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2238",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        17,
+        37
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:0000",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        15,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-102",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        13,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-104",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-XF",
+        16,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-XF:2039",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        11,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-106",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        7,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-110",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        17,
+        44
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:0700",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        5,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-112",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        17,
+        50
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:1300",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        1,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-116",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        3,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-114",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        9,
+        36
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:-108",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        17,
+        82
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4500",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        11,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4706",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        15,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4702",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        13,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4704",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        9,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4708",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        5,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4712",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        7,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4710",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        3,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4714",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        1,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4716",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4731",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        17,
+        84
+      ],
+      "field": "region/playability",
+      "current": "HP-YF:4700",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4733",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4729",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4727",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        30,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4725",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        42,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4713",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        36,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4719",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        38,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4717",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        85
+      ],
+      "field": "region/playability",
+      "current": "HP-ZF:4711",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        68
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:1651",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        47,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3050",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:2951",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        49,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3048",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        75
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:2351",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        51,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3046",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        46,
+        73
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:2151",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        53,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3044",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3038",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3036",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        67,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3030",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        69,
+        81
+      ],
+      "field": "region/playability",
+      "current": "FB-PH:3028",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        1,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-106",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        3,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2204",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        1,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:2206",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        18
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1139",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        20
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1339",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        21
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1439",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        22
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1539",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        24
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1739",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        25
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1839",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        9,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:2236",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        27
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:2039",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        7,
+        28
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:2238",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        6,
+        26
+      ],
+      "field": "region/playability",
+      "current": "BK-TI:1939",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        7,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2238",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        9,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2236",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        11,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2234",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        17,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2228",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        15,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2230",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        5,
+        5
+      ],
+      "field": "region/playability",
+      "current": "BK-TJ:-102",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        19,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2226",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        23,
+        7
+      ],
+      "field": "region/playability",
+      "current": "BK-SI:2222",
+      "proposed": "Review region key/canonical geometry; exclude from training",
+      "kind": "region_geometry_flag"
+    }
+  ],
+  "terrain_proposals": [
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        74,
+        14
+      ],
+      "reference": "FB-RH:0123",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--74--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        12
+      ],
+      "reference": "FB-QH:3126",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--71--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        12
+      ],
+      "reference": "FB-QH:3124",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--73--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        6
+      ],
+      "reference": "FB-QH:2441",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--56--6.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        11
+      ],
+      "reference": "FB-QH:3044",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--53--11.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        5
+      ],
+      "reference": "FB-QH:2444",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--53--5.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        5
+      ],
+      "reference": "FB-QH:2343",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--54--5.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        6
+      ],
+      "reference": "FB-QH:2443",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--54--6.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        11
+      ],
+      "reference": "FB-QH:2943",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--54--11.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        12
+      ],
+      "reference": "FB-QH:3043",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--54--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        12
+      ],
+      "reference": "FB-QH:3142",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        11
+      ],
+      "reference": "FB-QH:3042",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--11.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        5
+      ],
+      "reference": "FB-QH:2442",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--5.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        11
+      ],
+      "reference": "FB-QH:2941",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--56--11.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        12
+      ],
+      "reference": "FB-QH:3041",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--56--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        14
+      ],
+      "reference": "FB-RH:0141",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--56--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        15
+      ],
+      "reference": "FB-RH:0241",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--56--15.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        16
+      ],
+      "reference": "FB-RH:0440",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--57--16.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        15
+      ],
+      "reference": "FB-RH:0340",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--57--15.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        14
+      ],
+      "reference": "FB-RH:0240",
+      "field": "terrain",
+      "current": [
+        "Clear",
+        "Swamp"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--57--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        7
+      ],
+      "reference": "FB-QH:2640",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--57--7.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        10
+      ],
+      "reference": "FB-QH:2839",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--58--10.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        11
+      ],
+      "reference": "FB-QH:2939",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--58--11.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        12
+      ],
+      "reference": "FB-QH:3039",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--58--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        14
+      ],
+      "reference": "FB-RH:0139",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--58--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        6
+      ],
+      "reference": "FB-QH:2542",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Steppe"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--6.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        71,
+        14
+      ],
+      "reference": "FB-RH:0226",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Lakes"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--71--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        71,
+        15
+      ],
+      "reference": "FB-RH:0326",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Lakes"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--71--15.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        69,
+        14
+      ],
+      "reference": "FB-RH:0228",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Lakes"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--69--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        12
+      ],
+      "reference": "FB-QH:3025",
+      "field": "terrain",
+      "current": [
+        "Clear"
+      ],
+      "proposed": [
+        "Swamp"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--72--12.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "confirmed_visible_symbol_disagreement",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        72,
+        14
+      ],
+      "reference": "FB-RH:0125",
+      "field": "terrain",
+      "current": null,
+      "proposed": [
+        "Swamp"
+      ],
+      "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--72--14.png",
+      "rule_reference": "UICFB p4 Terrain Key",
+      "kind": "missing_label_proposal",
+      "detail": "Grass tufts = Steppe; larger reeds/horizontal strokes = Swamp; blue lake specks = Lakes. Land component only; coastline and other fields need separate review."
+    }
+  ],
+  "visual_land_count": 220,
+  "visual_water_sample": 36,
+  "limits": "Terrain textures and geometry only. Not an audit of all settlements, facilities, hexsides, weather labels or transport. Tiny coastal land fractions/combined reliefs need separate adjudication."
+}

@@ -1,0 +1,1403 @@
+{
+  "format": "tsww-counter-review-batch",
+  "version": 1,
+  "source": "Assistant visual inspection of both original images; German infantry pilot 2026-10-25",
+  "entries": [
+    {
+      "type_id": "vassal:133:236439",
+      "definition": {
+        "designation": "Infantry Division 214",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/6d4b918510ce7f913458.png",
+        "back_image": "assets/counters/images/66d5d57a8d6612a948db.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "7",
+            "movement": "6"
+          },
+          "back": {
+            "attack": "3",
+            "defense": "4",
+            "movement": "6",
+            "format": "Separate attack / defense / movement"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 214 @76.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 214, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 214 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 214, ratings 7-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 214, ratings 3-4-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/6d4b918510ce7f913458.png": "68de1f54def6fbbb86d13c7b281648c0b91458b3e22de1e72755b384c0e34bfd",
+        "assets/counters/images/66d5d57a8d6612a948db.png": "99cd84a6024c9c03986baaa346b50daa64400289030c959875e320b8cf3bb29c"
+      }
+    },
+    {
+      "type_id": "vassal:133:236440",
+      "definition": {
+        "designation": "Infantry Division 342",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/2f27525d6c2e2ef31190.png",
+        "back_image": "assets/counters/images/288cf90a9a2d7db0fcb4.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "attack": "7",
+            "defense": "8",
+            "movement": "6",
+            "format": "Separate attack / defense / movement"
+          },
+          "back": {
+            "attack": "3",
+            "defense": "4",
+            "movement": "6",
+            "format": "Separate attack / defense / movement"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 342 @786.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 342, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 342 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 342, ratings 7-8-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 342, ratings 3-4-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/2f27525d6c2e2ef31190.png": "57a266760b509b08266f5f9d1757c48960e37499fc284a5176ad870f4444307f",
+        "assets/counters/images/288cf90a9a2d7db0fcb4.png": "92785ed9006b80ea44456dcf7b983ba73fa145111448e100ea6cc9fffca0a780"
+      }
+    },
+    {
+      "type_id": "vassal:133:236441",
+      "definition": {
+        "designation": "Infantry Division 225",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/bf24e2c2149e1350298f.png",
+        "back_image": "assets/counters/images/a684b7e232735e6ea1d0.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "8",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "4",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 225 @86.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 225, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 225 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 225, ratings 8-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 225, ratings 4-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/bf24e2c2149e1350298f.png": "c7d001350570d626cc1885af4e9ab8cdfce746990fa52a17eed4effffe8aaeb5",
+        "assets/counters/images/a684b7e232735e6ea1d0.png": "6469ca1c0e392bf51b9bcf4e5b35ed7f7114b438488250f1f4bef03fb5c781ae"
+      }
+    },
+    {
+      "type_id": "vassal:133:236442",
+      "definition": {
+        "designation": "Infantry Division 339",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/1f4e1dc35e8dc389274a.png",
+        "back_image": "assets/counters/images/1b89a7905f9e0b39dfb4.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "9",
+            "movement": "6"
+          },
+          "back": {
+            "attack": "4",
+            "defense": "5",
+            "movement": "6",
+            "format": "Separate attack / defense / movement"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 339 @96.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 339, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 339 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 339, ratings 9-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 339, ratings 4-5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/1f4e1dc35e8dc389274a.png": "e09666cc7b97398c0a63f793afd1092bc2ce2ea6b57b2c352f530909f7bb606a",
+        "assets/counters/images/1b89a7905f9e0b39dfb4.png": "2ed02b78dc8e6e8808dd551cc579f66ed7c3bfb3e6d001130e4eeee0abe4630f"
+      }
+    },
+    {
+      "type_id": "vassal:133:236443",
+      "definition": {
+        "designation": "Infantry Division 1",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/58af202b2983844c4304.png",
+        "back_image": "assets/counters/images/49e7785b3cbdded88988.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 1 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 1, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 1 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 1, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 1, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/58af202b2983844c4304.png": "d8e4177365ec8398dc07c888ccf25683593d8878fada814d29b34e304b676a4c",
+        "assets/counters/images/49e7785b3cbdded88988.png": "164504eb31902a4ffbf7bb0a90087665dee6c9e5021012160be8be18baaa00e0"
+      }
+    },
+    {
+      "type_id": "vassal:133:236444",
+      "definition": {
+        "designation": "Infantry Division 5",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/a3cbfc725ce5f2a21148.png",
+        "back_image": "assets/counters/images/7293d8ec2c1413fe596a.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 5 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 5, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 5 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 5, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 5, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/a3cbfc725ce5f2a21148.png": "d1d75d10e554e885541776cab2a47e145cb6d0cc0e1b9d925d2ea4a0346f6ef5",
+        "assets/counters/images/7293d8ec2c1413fe596a.png": "c56f35bbeb61358c6f59d9692a978e2f8bed9713275cf9c6a8e13003a9411923"
+      }
+    },
+    {
+      "type_id": "vassal:133:236445",
+      "definition": {
+        "designation": "Infantry Division 6",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/7d0e2f4aeefc236a6bee.png",
+        "back_image": "assets/counters/images/48e1b0933f58a725b6a2.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 6 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 6, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 6 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 6, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 6, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/7d0e2f4aeefc236a6bee.png": "799cd65e06af251a7ac884ecfcab6155ecba60ae6ed721bde5808c6ceeba712e",
+        "assets/counters/images/48e1b0933f58a725b6a2.png": "a64bbb25432411a5e764bec2164c1b1d6b8320145f5358e9ecb37cf43d6f5e36"
+      }
+    },
+    {
+      "type_id": "vassal:133:236446",
+      "definition": {
+        "designation": "Infantry Division 7",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/7e974a3b3e859176ef67.png",
+        "back_image": "assets/counters/images/6de01621a0cbe3287e8e.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 7 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 7, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 7 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 7, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 7, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/7e974a3b3e859176ef67.png": "864e4208abf1e84501cbf014acc91f3c4bf52ff3d51a2af6b9af03b226aefd33",
+        "assets/counters/images/6de01621a0cbe3287e8e.png": "ec46d5053aebd51b13386c22a5b6ac4111101be31ff862850c7bfae88739ad3c"
+      }
+    },
+    {
+      "type_id": "vassal:133:236447",
+      "definition": {
+        "designation": "Infantry Division 8",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/47886ec2df472748024a.png",
+        "back_image": "assets/counters/images/8a8c80db62d90bc67b00.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 8 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 8, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 8 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 8, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 8, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/47886ec2df472748024a.png": "9cffae21e251271fc26cab2e0d5e1584fa796ecd6753fcc95faa7592258237b3",
+        "assets/counters/images/8a8c80db62d90bc67b00.png": "43accbfd755aadae9b08634dfed89749fe9f2aaf43b8dd8c89f939fb7f8c4487"
+      }
+    },
+    {
+      "type_id": "vassal:133:236448",
+      "definition": {
+        "designation": "Infantry Division 9",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/6b864f75eefc0cc44984.png",
+        "back_image": "assets/counters/images/25959dd2d965571e4979.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 9 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 9, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 9 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 9, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 9, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/6b864f75eefc0cc44984.png": "d35b38e1d4ac1cee039e5c076f549b2e7d3c4f15eb3bf32cb95d2a5287e24e6b",
+        "assets/counters/images/25959dd2d965571e4979.png": "346a87a1756962047f811aec8d43657f13cfc31e1ea7643cfdf05af9e5718c29"
+      }
+    },
+    {
+      "type_id": "vassal:133:236449",
+      "definition": {
+        "designation": "Infantry Division 11",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/e4076f4b992bc357d829.png",
+        "back_image": "assets/counters/images/8ea010c4d36cf80e7f6e.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 11 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 11, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 11 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 11, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 11, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/e4076f4b992bc357d829.png": "ec24114292196eb418b0c160a939a768f8d8e424645ca0594ae13b74da8333a2",
+        "assets/counters/images/8ea010c4d36cf80e7f6e.png": "3f9d8f9faf27b4a6707c82affbf4dc8629f6a9d4bb41d0d29cff89742a8d70c4"
+      }
+    },
+    {
+      "type_id": "vassal:133:236450",
+      "definition": {
+        "designation": "Infantry Division 12",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/ad4eefc9c290965d7593.png",
+        "back_image": "assets/counters/images/c02c4275a6c4ce2ce260.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 12 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 12, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 12 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 12, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 12, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/ad4eefc9c290965d7593.png": "8f6b2aa92f50e69b56a1fe0409764e020818394ac5b90745076dc2b4d2ef5b09",
+        "assets/counters/images/c02c4275a6c4ce2ce260.png": "f6c41a2ebca80d8b3e78edc0996b6925c750c18380babe9590692285e3efa3e3"
+      }
+    },
+    {
+      "type_id": "vassal:133:236451",
+      "definition": {
+        "designation": "Infantry Division 15",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/5b6bf7cee61da224ad27.png",
+        "back_image": "assets/counters/images/d55f28cbebd92a65618b.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 15 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 15, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 15 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 15, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 15, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/5b6bf7cee61da224ad27.png": "0b5b4c560d2b7631d979e250a1fd8b912fea276863727ee5fc8a1d05098115db",
+        "assets/counters/images/d55f28cbebd92a65618b.png": "8b567cfbc5f96435b78eafb8a52140b6eefd2bb888bb0c48d78469f5089f5d9d"
+      }
+    },
+    {
+      "type_id": "vassal:133:236452",
+      "definition": {
+        "designation": "Infantry Division 17",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/6b2f9261411e4acf487d.png",
+        "back_image": "assets/counters/images/6946eeb2a096421d82bb.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 17 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 17, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 17 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 17, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 17, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/6b2f9261411e4acf487d.png": "d01b9811f7d7b99bf5ec4dd964f594fc6f48d3a3c0c925fd008901a5229e5c58",
+        "assets/counters/images/6946eeb2a096421d82bb.png": "41a89f1b7bf5fe7716a8dcf95a507d83d915e0a8c892cc5b26c036c38e278747"
+      }
+    },
+    {
+      "type_id": "vassal:133:236453",
+      "definition": {
+        "designation": "Infantry Division 21",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/fd2a8c22a1ec2357deec.png",
+        "back_image": "assets/counters/images/08333743ccee245fda01.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 21 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 21, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 21 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 21, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 21, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/fd2a8c22a1ec2357deec.png": "d78e7a23757d6130cd4f16cf75b88b25bbdae7f0827f9d4e2474a95d082c609f",
+        "assets/counters/images/08333743ccee245fda01.png": "4be9ec96bad07ebe3e37fcde957022662fc49d66533e6d37772f56a4183f453e"
+      }
+    },
+    {
+      "type_id": "vassal:133:236454",
+      "definition": {
+        "designation": "Infantry Division 23",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/afc79b9ca62773693224.png",
+        "back_image": "assets/counters/images/fe48bbaf5ac3a8c30fa3.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 23 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 23, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 23 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 23, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 23, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/afc79b9ca62773693224.png": "e14f44730bdbbab285426e7d4211c7f994530e941cd351ded18f95781ce8fd33",
+        "assets/counters/images/fe48bbaf5ac3a8c30fa3.png": "af5e88f711111096c2e8375cebf40cbed772a21930761316f2abe722d605de94"
+      }
+    },
+    {
+      "type_id": "vassal:133:236455",
+      "definition": {
+        "designation": "Infantry Division 24",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/623936269d7c7fb4765b.png",
+        "back_image": "assets/counters/images/b05e1d4b4a1215481eba.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 24 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 24, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 24 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 24, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 24, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/623936269d7c7fb4765b.png": "ad7f24f01725b45f4bf091b7f3c536f416913d8413510076f959e0e009beb7ef",
+        "assets/counters/images/b05e1d4b4a1215481eba.png": "f91d986799c8cf3ebba85b7fbf082b867b6549f383bc4e7fcd2e309fd7100180"
+      }
+    },
+    {
+      "type_id": "vassal:133:236456",
+      "definition": {
+        "designation": "Infantry Division 26",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/eb2e5d1df7329af0b263.png",
+        "back_image": "assets/counters/images/27f03a0441156b0f01d9.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 26 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 26, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 26 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 26, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 26, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/eb2e5d1df7329af0b263.png": "848f19cdcacfc2fef76cf4aa621f4fae2c02f98657061bc9f4db2b8f27f162f4",
+        "assets/counters/images/27f03a0441156b0f01d9.png": "9de52f867fee9b09794c386bff783003521a564cbf8446719ab5841b1aac2f4b"
+      }
+    },
+    {
+      "type_id": "vassal:133:236457",
+      "definition": {
+        "designation": "Infantry Division 28",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/7e1d942848b0f0e2d5e8.png",
+        "back_image": "assets/counters/images/4ede9b7aed959764d762.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 28 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 28, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 28 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 28, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 28, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/7e1d942848b0f0e2d5e8.png": "af712a57044feea3b52459e2677c7d42bb6d98221e71236b9d20d707eae415a6",
+        "assets/counters/images/4ede9b7aed959764d762.png": "09e3106cf5b644660e434a327ed81fe2c832791ae4f3d58c5bbe9a982a99fe5f"
+      }
+    },
+    {
+      "type_id": "vassal:133:236458",
+      "definition": {
+        "designation": "Infantry Division 30",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/74b8d6ea4a37b9f64fa6.png",
+        "back_image": "assets/counters/images/24320afc9260d82a2582.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 30 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 30, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 30 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 30, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 30, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/74b8d6ea4a37b9f64fa6.png": "73a80a45d5b35c38c3ef312cf251fe45aa158f47d178971a5b3a4be5469a3405",
+        "assets/counters/images/24320afc9260d82a2582.png": "e73f0fac9d16123b1e5e3afb115af00f8f25c60e09912eb0af89ae3ebafcf1de"
+      }
+    },
+    {
+      "type_id": "vassal:133:236459",
+      "definition": {
+        "designation": "Infantry Division 31",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/1395de41467ac43197cb.png",
+        "back_image": "assets/counters/images/37bd64ce74a9d10c2216.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 31 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 31, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 31 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 31, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 31, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/1395de41467ac43197cb.png": "fb9ec1ce5165477ddb74248e6f335a58e2dd243db5e305b292bb6a0bcc93651c",
+        "assets/counters/images/37bd64ce74a9d10c2216.png": "e344c1d4e86e9d3d4a996ebfb7025e65d05c39b89e3c710d8efdd382d4075788"
+      }
+    },
+    {
+      "type_id": "vassal:133:236460",
+      "definition": {
+        "designation": "Infantry Division 32",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/710ecbea4037ae7858c1.png",
+        "back_image": "assets/counters/images/6a42ac042b9dea07b5ef.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 32 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 32, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 32 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 32, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 32, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/710ecbea4037ae7858c1.png": "4499ccca8bd28da6167024da86c836d888dda97022e2e70e4507df6a50f708f5",
+        "assets/counters/images/6a42ac042b9dea07b5ef.png": "20f63875264b7d0029e686fbf58696d2f9a45eb5a15f416b18cfc761b1f27a76"
+      }
+    },
+    {
+      "type_id": "vassal:133:236461",
+      "definition": {
+        "designation": "Infantry Division 34",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/30e702873195e492a23b.png",
+        "back_image": "assets/counters/images/a175086a402a5b67b959.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 34 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 34, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 34 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 34, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 34, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/30e702873195e492a23b.png": "7239228243390b1eae0076d976577056f54188c007b938fcff5ceb4afb4ce791",
+        "assets/counters/images/a175086a402a5b67b959.png": "1c009f509676adfc0507915bac17f0d7e5e142e2029cb6a0a7602aa9df374c9f"
+      }
+    },
+    {
+      "type_id": "vassal:133:236462",
+      "definition": {
+        "designation": "Infantry Division 35",
+        "counter_category": "Ground unit",
+        "nationality": "Germany",
+        "service": "German Army",
+        "unit_type": "Infantry",
+        "unit_size": "Division",
+        "front_image": "assets/counters/images/271f03de4d256e2e9df4.png",
+        "back_image": "assets/counters/images/b06423f5d695026d811d.png",
+        "back_appearance": "Printed image",
+        "blank_back_color": "#98918c",
+        "ground": {
+          "front": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "10",
+            "movement": "6"
+          },
+          "back": {
+            "format": "Combined combat strength / movement",
+            "combat_strength": "5",
+            "movement": "6"
+          }
+        },
+        "faces": {
+          "front": {
+            "status": "Full strength",
+            "printed_size_status": "XX",
+            "descriptors": []
+          },
+          "back": {
+            "status": "Reduced",
+            "printed_size_status": "Reduced",
+            "descriptors": []
+          }
+        },
+        "notes": "Imported name: GE Inf XX 35 @106.FB\nBoth artwork faces visually inspected by assistant. Infantry cross, printed designation 35, XX front and Reduced back checked. Rating formats transcribed independently; no filename-derived ratings. National/service colour and size/symbol references: UICFB PDF pp1-3. Metadata Verified by assistant under user authorization; this does not implement gameplay rules."
+      },
+      "review": {
+        "identity": {
+          "checked": true,
+          "evidence": "Printed 35 on both faces; infantry cross, XX, German Army grey artwork checked against existing verified 87th division and UICFB pp1-3."
+        },
+        "front": {
+          "checked": true,
+          "evidence": "Printed XX, 35, ratings 10-6."
+        },
+        "back": {
+          "checked": true,
+          "evidence": "Printed Reduced, 35, ratings 5-6."
+        }
+      },
+      "image_sha256": {
+        "assets/counters/images/271f03de4d256e2e9df4.png": "44e6035fe74f665249acb3e4aa1a752da4cab2269dc2f4a8efe471b9b11d277f",
+        "assets/counters/images/b06423f5d695026d811d.png": "b2d2029d40352974f6cf446d536c6c230be5bbfd889c78132a5e2b52e3befb52"
+      }
+    }
+  ]
+}

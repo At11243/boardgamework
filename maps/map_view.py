@@ -1349,7 +1349,7 @@ class MapView(QGraphicsView):
                 raise ValueError("Invalid settlement information.")
 
             if properties.get("review_status", "Unknown") not in (
-                "Unknown", "Suggested", "Verified"
+                "Unknown", "Suggested", "In progress", "Verified"
             ):
                 raise ValueError("Invalid reveiw status.")
 
@@ -2480,6 +2480,7 @@ class MapView(QGraphicsView):
         colors = {
             "Verified" : QColor(30, 200, 90, 110),
             "Suggested" : QColor(255, 185, 25, 110),
+            "In progress" : QColor(255, 185, 25, 110),
         }
 
         for key, properties in self.map_definitions.items():

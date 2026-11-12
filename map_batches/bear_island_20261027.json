@@ -1,0 +1,442 @@
+{
+  "batch": "Bear Island map metadata pilot",
+  "reviewed_on": "2026-10-27",
+  "backup": "mapping_backups/before-bear-island-20261027-070635.zip",
+  "backup_sha256": {
+    "map_terrain.json": "ac2b790acd32d84093de273bce2e191ddd39c0d888a286a90b8d38dde7ddaf46",
+    "map_transport.json": "b0b979db4a8b8b8293149e90732358f3fde0faf574ab4e3c8ff030668519679d",
+    "map_terrain_backup.json": "abefd335e1728df5e72dc549cb55ede5c864f1fd649d7c4d6fee731f0cb2e14d"
+  },
+  "sources": [
+    {
+      "path": "assets/maps/Map 02.HAB.png",
+      "sha256": "39058285481001ea3149d47c74ec41ec034408c45bb4311796318cd4d9b52dda",
+      "inspected_crop_xywh": [
+        6900,
+        4400,
+        900,
+        850
+      ]
+    },
+    {
+      "path": "reference/UICFB.pdf",
+      "page": 4,
+      "sha256": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4"
+    }
+  ],
+  "hexes": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "printed_reference": "HP-ZF:1912",
+      "terrain": "Clear",
+      "confidence": 0.98,
+      "inspection": "Full-resolution island and surrounding hexes visually inspected. Land tint matches UIC p4; coast occupies part of this hex. No printed settlement/port/road/rail/ferry/river/border/fortification/cliff symbols. Bear Island is a geographical label, not a settlement symbol.",
+      "unresolved": [
+        "Weather/sea zone assignment not derived",
+        "Navigation, relief, higher-ground and navigable-strait fields left Unknown"
+      ]
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "printed_reference": "HP-ZF:1911",
+      "terrain": "Hills",
+      "confidence": 0.98,
+      "inspection": "Full-resolution island and surrounding hexes visually inspected. Land tint matches UIC p4; coast occupies part of this hex. No printed settlement/port/road/rail/ferry/river/border/fortification/cliff symbols. Bear Island is a geographical label, not a settlement symbol.",
+      "unresolved": [
+        "Weather/sea zone assignment not derived",
+        "Navigation, relief, higher-ground and navigable-strait fields left Unknown"
+      ]
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "printed_reference": "HP-ZF:2012",
+      "terrain": "Mountain",
+      "confidence": 0.98,
+      "inspection": "Full-resolution island and surrounding hexes visually inspected. Land tint matches UIC p4; coast occupies part of this hex. No printed settlement/port/road/rail/ferry/river/border/fortification/cliff symbols. Bear Island is a geographical label, not a settlement symbol.",
+      "unresolved": [
+        "Weather/sea zone assignment not derived",
+        "Navigation, relief, higher-ground and navigable-strait fields left Unknown"
+      ]
+    }
+  ],
+  "mirrored_edges": [
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        42,
+        57
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        56
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        55
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "source_side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        42,
+        56
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        58
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        45,
+        57
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        45,
+        56
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        56
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "source_side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        42,
+        58
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        58
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        58
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        44,
+        57
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        56
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "source": [
+        "Map 2",
+        "HP-ZF",
+        43,
+        57
+      ],
+      "source_side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        42,
+        57
+      ],
+      "neighbor_side": 2
+    }
+  ],
+  "changed_records": [
+    [
+      "Map 2",
+      "HP-ZF",
+      42,
+      56
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      42,
+      58
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      43,
+      58
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      45,
+      56
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      45,
+      57
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      43,
+      55
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      44,
+      56
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      43,
+      56
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      44,
+      57
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      43,
+      57
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      42,
+      57
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      44,
+      58
+    ]
+  ],
+  "note": "Verified is printed metadata review, not gameplay legality. Confidence is review judgment, not calibrated probability. terrain stores land terrain; surface records coastal water. Empty zone strings and Unknown ancillary values remain unresolved."
+}

@@ -1,0 +1,7232 @@
+{
+  "batch": "map3_sector_20261030",
+  "date": "2026-10-30",
+  "backup": "mapping_backups\\before-map3-sector-20261030-134630.zip",
+  "input_sha256": "5f5e9c551a3b580f93f79a9a6317cb5d289e6fd218081266d5953d04c3ebafb9",
+  "output_sha256": "6f5eda35a4c303c26327a652704c7c4a1aa674b90bb6d5fbb96ca3a292d7ecaf",
+  "source": "assets/maps/Map 03.FB.png and reference/UICFB.pdf p4",
+  "scope": "Map 3 Kola Peninsula, White Sea, and Arctic approaches. Classify 183 Unknown placeholder hexes and add 246 pure open sea hexes.",
+  "rule_reference": "UICFB.pdf p4 TSWW Terrain Effects Chart (>20% whole-hex rule)",
+  "counts": {
+    "total_classified": 422,
+    "verified": 359,
+    "in_progress": 63,
+    "water": 283,
+    "land": 49,
+    "mixed_land_water": 90,
+    "new_hexes_added": 247,
+    "existing_hexes_updated": 175,
+    "total_saved_hexes": 6001
+  },
+  "entries": [
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        2
+      ],
+      "reference": "FB-QH:2150",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        4
+      ],
+      "reference": "FB-QH:2350",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        5
+      ],
+      "reference": "FB-QH:2450",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        6
+      ],
+      "reference": "FB-QH:2550",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        7
+      ],
+      "reference": "FB-QH:2650",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        8
+      ],
+      "reference": "FB-QH:2750",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        9
+      ],
+      "reference": "FB-QH:2850",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        10
+      ],
+      "reference": "FB-QH:2950",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        11
+      ],
+      "reference": "FB-QH:3050",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        12
+      ],
+      "reference": "FB-QH:3150",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        3
+      ],
+      "reference": "FB-QH:2149",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        4
+      ],
+      "reference": "FB-QH:2249",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        5
+      ],
+      "reference": "FB-QH:2349",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        6
+      ],
+      "reference": "FB-QH:2449",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        7
+      ],
+      "reference": "FB-QH:2549",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        8
+      ],
+      "reference": "FB-QH:2649",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Hills. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        9
+      ],
+      "reference": "FB-QH:2749",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        10
+      ],
+      "reference": "FB-QH:2849",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        11
+      ],
+      "reference": "FB-QH:2949",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        48,
+        12
+      ],
+      "reference": "FB-QH:3049",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        3
+      ],
+      "reference": "FB-QH:2248",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        4
+      ],
+      "reference": "FB-QH:2348",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        5
+      ],
+      "reference": "FB-QH:2448",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        6
+      ],
+      "reference": "FB-QH:2548",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        7
+      ],
+      "reference": "FB-QH:2648",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Hills. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        8
+      ],
+      "reference": "FB-QH:2748",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        9
+      ],
+      "reference": "FB-QH:2848",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        10
+      ],
+      "reference": "FB-QH:2948",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        11
+      ],
+      "reference": "FB-QH:3048",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        49,
+        12
+      ],
+      "reference": "FB-QH:3148",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        4
+      ],
+      "reference": "FB-QH:2247",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        5
+      ],
+      "reference": "FB-QH:2347",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        6
+      ],
+      "reference": "FB-QH:2447",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        7
+      ],
+      "reference": "FB-QH:2547",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        8
+      ],
+      "reference": "FB-QH:2647",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        9
+      ],
+      "reference": "FB-QH:2747",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        10
+      ],
+      "reference": "FB-QH:2847",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        11
+      ],
+      "reference": "FB-QH:2947",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        50,
+        12
+      ],
+      "reference": "FB-QH:3047",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        3
+      ],
+      "reference": "FB-QH:2246",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        4
+      ],
+      "reference": "FB-QH:2346",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        5
+      ],
+      "reference": "FB-QH:2446",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        6
+      ],
+      "reference": "FB-QH:2546",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        7
+      ],
+      "reference": "FB-QH:2646",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        8
+      ],
+      "reference": "FB-QH:2746",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        9
+      ],
+      "reference": "FB-QH:2846",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        10
+      ],
+      "reference": "FB-QH:2946",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        11
+      ],
+      "reference": "FB-QH:3046",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        51,
+        12
+      ],
+      "reference": "FB-QH:3146",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        4
+      ],
+      "reference": "FB-QH:2245",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        5
+      ],
+      "reference": "FB-QH:2345",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        6
+      ],
+      "reference": "FB-QH:2445",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        7
+      ],
+      "reference": "FB-QH:2545",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        8
+      ],
+      "reference": "FB-QH:2645",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        9
+      ],
+      "reference": "FB-QH:2745",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        10
+      ],
+      "reference": "FB-QH:2845",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        11
+      ],
+      "reference": "FB-QH:2945",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        12
+      ],
+      "reference": "FB-QH:3045",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        3
+      ],
+      "reference": "FB-QH:2244",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        4
+      ],
+      "reference": "FB-QH:2344",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        5
+      ],
+      "reference": "FB-QH:2444",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        6
+      ],
+      "reference": "FB-QH:2544",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        7
+      ],
+      "reference": "FB-QH:2644",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Hills. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        8
+      ],
+      "reference": "FB-QH:2744",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        9
+      ],
+      "reference": "FB-QH:2844",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        10
+      ],
+      "reference": "FB-QH:2944",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        11
+      ],
+      "reference": "FB-QH:3044",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        12
+      ],
+      "reference": "FB-QH:3144",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        2
+      ],
+      "reference": "FB-QH:2043",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        4
+      ],
+      "reference": "FB-QH:2243",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        5
+      ],
+      "reference": "FB-QH:2343",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        6
+      ],
+      "reference": "FB-QH:2443",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        7
+      ],
+      "reference": "FB-QH:2543",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        8
+      ],
+      "reference": "FB-QH:2643",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        9
+      ],
+      "reference": "FB-QH:2743",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        10
+      ],
+      "reference": "FB-QH:2843",
+      "surface": "Land",
+      "terrain": [
+        "Mountain"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        11
+      ],
+      "reference": "FB-QH:2943",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        12
+      ],
+      "reference": "FB-QH:3043",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        2
+      ],
+      "reference": "FB-QH:2142",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        4
+      ],
+      "reference": "FB-QH:2342",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        5
+      ],
+      "reference": "FB-QH:2442",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        6
+      ],
+      "reference": "FB-QH:2542",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        7
+      ],
+      "reference": "FB-QH:2642",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        8
+      ],
+      "reference": "FB-QH:2742",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        9
+      ],
+      "reference": "FB-QH:2842",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        10
+      ],
+      "reference": "FB-QH:2942",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        11
+      ],
+      "reference": "FB-QH:3042",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        12
+      ],
+      "reference": "FB-QH:3142",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        0
+      ],
+      "reference": "FB-QH:1841",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        2
+      ],
+      "reference": "FB-QH:2041",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        4
+      ],
+      "reference": "FB-QH:2241",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        5
+      ],
+      "reference": "FB-QH:2341",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        6
+      ],
+      "reference": "FB-QH:2441",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        7
+      ],
+      "reference": "FB-QH:2541",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        8
+      ],
+      "reference": "FB-QH:2641",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        9
+      ],
+      "reference": "FB-QH:2741",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        10
+      ],
+      "reference": "FB-QH:2841",
+      "surface": "Land",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        11
+      ],
+      "reference": "FB-QH:2941",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        12
+      ],
+      "reference": "FB-QH:3041",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        6
+      ],
+      "reference": "FB-QH:2540",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        7
+      ],
+      "reference": "FB-QH:2640",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        8
+      ],
+      "reference": "FB-QH:2740",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        9
+      ],
+      "reference": "FB-QH:2840",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Hills. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        10
+      ],
+      "reference": "FB-QH:2940",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Hills"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        11
+      ],
+      "reference": "FB-QH:3040",
+      "surface": "Land",
+      "terrain": [
+        "Clear",
+        "Swamp"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        12
+      ],
+      "reference": "FB-QH:3140",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        4
+      ],
+      "reference": "FB-QH:2239",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        5
+      ],
+      "reference": "FB-QH:2339",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        6
+      ],
+      "reference": "FB-QH:2439",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        7
+      ],
+      "reference": "FB-QH:2539",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        8
+      ],
+      "reference": "FB-QH:2639",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        9
+      ],
+      "reference": "FB-QH:2739",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        10
+      ],
+      "reference": "FB-QH:2839",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        11
+      ],
+      "reference": "FB-QH:2939",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        12
+      ],
+      "reference": "FB-QH:3039",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        2
+      ],
+      "reference": "FB-QH:2138",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        4
+      ],
+      "reference": "FB-QH:2338",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        5
+      ],
+      "reference": "FB-QH:2438",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        6
+      ],
+      "reference": "FB-QH:2538",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        7
+      ],
+      "reference": "FB-QH:2638",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        8
+      ],
+      "reference": "FB-QH:2738",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        9
+      ],
+      "reference": "FB-QH:2838",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        10
+      ],
+      "reference": "FB-QH:2938",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex.",
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        11
+      ],
+      "reference": "FB-QH:3038",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        3
+      ],
+      "reference": "FB-QH:2137",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        8
+      ],
+      "reference": "FB-QH:2637",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        9
+      ],
+      "reference": "FB-QH:2737",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        11
+      ],
+      "reference": "FB-QH:2937",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        12
+      ],
+      "reference": "FB-QH:3037",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        2
+      ],
+      "reference": "FB-QH:2136",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        4
+      ],
+      "reference": "FB-QH:2336",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        5
+      ],
+      "reference": "FB-QH:2436",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        6
+      ],
+      "reference": "FB-QH:2536",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        8
+      ],
+      "reference": "FB-QH:2736",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        9
+      ],
+      "reference": "FB-QH:2836",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        10
+      ],
+      "reference": "FB-QH:2936",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        11
+      ],
+      "reference": "FB-QH:3036",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        4
+      ],
+      "reference": "FB-QH:2235",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        5
+      ],
+      "reference": "FB-QH:2335",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        6
+      ],
+      "reference": "FB-QH:2435",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        7
+      ],
+      "reference": "FB-QH:2535",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        9
+      ],
+      "reference": "FB-QH:2735",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        10
+      ],
+      "reference": "FB-QH:2835",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        11
+      ],
+      "reference": "FB-QH:2935",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        3
+      ],
+      "reference": "FB-QH:2234",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        4
+      ],
+      "reference": "FB-QH:2334",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        6
+      ],
+      "reference": "FB-QH:2534",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        7
+      ],
+      "reference": "FB-QH:2634",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        0
+      ],
+      "reference": "FB-QH:1833",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        1
+      ],
+      "reference": "FB-QH:1933",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        2
+      ],
+      "reference": "FB-QH:2033",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        4
+      ],
+      "reference": "FB-QH:2233",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        5
+      ],
+      "reference": "FB-QH:2333",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        6
+      ],
+      "reference": "FB-QH:2433",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        7
+      ],
+      "reference": "FB-QH:2533",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        9
+      ],
+      "reference": "FB-QH:2733",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        10
+      ],
+      "reference": "FB-QH:2833",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        11
+      ],
+      "reference": "FB-QH:2933",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        0
+      ],
+      "reference": "FB-QH:1932",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        1
+      ],
+      "reference": "FB-QH:2032",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        2
+      ],
+      "reference": "FB-QH:2132",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        4
+      ],
+      "reference": "FB-QH:2332",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        5
+      ],
+      "reference": "FB-QH:2432",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        6
+      ],
+      "reference": "FB-QH:2532",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        10
+      ],
+      "reference": "FB-QH:2932",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        11
+      ],
+      "reference": "FB-QH:3032",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        0
+      ],
+      "reference": "FB-QH:1831",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        2
+      ],
+      "reference": "FB-QH:2031",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        3
+      ],
+      "reference": "FB-QH:2131",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        5
+      ],
+      "reference": "FB-QH:2331",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        6
+      ],
+      "reference": "FB-QH:2431",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        7
+      ],
+      "reference": "FB-QH:2531",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        8
+      ],
+      "reference": "FB-QH:2631",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        9
+      ],
+      "reference": "FB-QH:2731",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        10
+      ],
+      "reference": "FB-QH:2831",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        11
+      ],
+      "reference": "FB-QH:2931",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        12
+      ],
+      "reference": "FB-QH:3031",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        0
+      ],
+      "reference": "FB-QH:1930",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        1
+      ],
+      "reference": "FB-QH:2030",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        2
+      ],
+      "reference": "FB-QH:2130",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        4
+      ],
+      "reference": "FB-QH:2330",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        5
+      ],
+      "reference": "FB-QH:2430",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        6
+      ],
+      "reference": "FB-QH:2530",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        7
+      ],
+      "reference": "FB-QH:2630",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        8
+      ],
+      "reference": "FB-QH:2730",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        9
+      ],
+      "reference": "FB-QH:2830",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        10
+      ],
+      "reference": "FB-QH:2930",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        11
+      ],
+      "reference": "FB-QH:3030",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        12
+      ],
+      "reference": "FB-QH:3130",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        0
+      ],
+      "reference": "FB-QH:1829",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        1
+      ],
+      "reference": "FB-QH:1929",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        2
+      ],
+      "reference": "FB-QH:2029",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        9
+      ],
+      "reference": "FB-QH:2729",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        10
+      ],
+      "reference": "FB-QH:2829",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        11
+      ],
+      "reference": "FB-QH:2929",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        3
+      ],
+      "reference": "FB-QH:2228",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        12
+      ],
+      "reference": "FB-QH:3128",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex.",
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        0
+      ],
+      "reference": "FB-QH:1827",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        1
+      ],
+      "reference": "FB-QH:1927",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        2
+      ],
+      "reference": "FB-QH:2027",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        9
+      ],
+      "reference": "FB-QH:2727",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        10
+      ],
+      "reference": "FB-QH:2827",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        0
+      ],
+      "reference": "FB-QH:1926",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        1
+      ],
+      "reference": "FB-QH:2026",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        2
+      ],
+      "reference": "FB-QH:2126",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        8
+      ],
+      "reference": "FB-QH:2726",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        9
+      ],
+      "reference": "FB-QH:2826",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        12
+      ],
+      "reference": "FB-QH:3126",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        0
+      ],
+      "reference": "FB-QH:1825",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        2
+      ],
+      "reference": "FB-QH:2025",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        3
+      ],
+      "reference": "FB-QH:2125",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        8
+      ],
+      "reference": "FB-QH:2625",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        9
+      ],
+      "reference": "FB-QH:2725",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        12
+      ],
+      "reference": "FB-QH:3025",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        0
+      ],
+      "reference": "FB-QH:1924",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        1
+      ],
+      "reference": "FB-QH:2024",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        2
+      ],
+      "reference": "FB-QH:2124",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        4
+      ],
+      "reference": "FB-QH:2324",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        5
+      ],
+      "reference": "FB-QH:2424",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        6
+      ],
+      "reference": "FB-QH:2524",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        8
+      ],
+      "reference": "FB-QH:2724",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        12
+      ],
+      "reference": "FB-QH:3124",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        2
+      ],
+      "reference": "FB-QH:2023",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        4
+      ],
+      "reference": "FB-QH:2223",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        5
+      ],
+      "reference": "FB-QH:2323",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        6
+      ],
+      "reference": "FB-QH:2423",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        7
+      ],
+      "reference": "FB-QH:2523",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        3
+      ],
+      "reference": "FB-QH:2222",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        4
+      ],
+      "reference": "FB-QH:2322",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        6
+      ],
+      "reference": "FB-QH:2522",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        7
+      ],
+      "reference": "FB-QH:2622",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        14
+      ],
+      "reference": "FB-RH:0250",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        15
+      ],
+      "reference": "FB-RH:0350",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        16
+      ],
+      "reference": "FB-RH:0450",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        18
+      ],
+      "reference": "FB-RH:0650",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        20
+      ],
+      "reference": "FB-RH:0850",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        21
+      ],
+      "reference": "FB-RH:0950",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        23
+      ],
+      "reference": "FB-RH:1150",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        25
+      ],
+      "reference": "FB-RH:1350",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        28
+      ],
+      "reference": "FB-RH:1650",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        14
+      ],
+      "reference": "FB-RH:0149",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        18
+      ],
+      "reference": "FB-RH:0549",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        21
+      ],
+      "reference": "FB-RH:0849",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        22
+      ],
+      "reference": "FB-RH:0949",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        28
+      ],
+      "reference": "FB-RH:1549",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        14
+      ],
+      "reference": "FB-RH:0248",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        15
+      ],
+      "reference": "FB-RH:0348",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        16
+      ],
+      "reference": "FB-RH:0448",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        19
+      ],
+      "reference": "FB-RH:0748",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        20
+      ],
+      "reference": "FB-RH:0848",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        21
+      ],
+      "reference": "FB-RH:0948",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        23
+      ],
+      "reference": "FB-RH:1148",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        24
+      ],
+      "reference": "FB-RH:1248",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        27
+      ],
+      "reference": "FB-RH:1548",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        28
+      ],
+      "reference": "FB-RH:1648",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        42
+      ],
+      "reference": "FB-RH:3048",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        14
+      ],
+      "reference": "FB-RH:0147",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        15
+      ],
+      "reference": "FB-RH:0247",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        16
+      ],
+      "reference": "FB-RH:0347",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        17
+      ],
+      "reference": "FB-RH:0447",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        19
+      ],
+      "reference": "FB-RH:0647",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        20
+      ],
+      "reference": "FB-RH:0747",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        21
+      ],
+      "reference": "FB-RH:0847",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        23
+      ],
+      "reference": "FB-RH:1047",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        24
+      ],
+      "reference": "FB-RH:1147",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        25
+      ],
+      "reference": "FB-RH:1247",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        28
+      ],
+      "reference": "FB-RH:1547",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        29
+      ],
+      "reference": "FB-RH:1647",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        43
+      ],
+      "reference": "FB-RH:3047",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        14
+      ],
+      "reference": "FB-RH:0246",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        16
+      ],
+      "reference": "FB-RH:0446",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        22
+      ],
+      "reference": "FB-RH:1046",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        23
+      ],
+      "reference": "FB-RH:1146",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        25
+      ],
+      "reference": "FB-RH:1346",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        31
+      ],
+      "reference": "FB-RH:1946",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        14
+      ],
+      "reference": "FB-RH:0145",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        15
+      ],
+      "reference": "FB-RH:0245",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        16
+      ],
+      "reference": "FB-RH:0345",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        19
+      ],
+      "reference": "FB-RH:0645",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        20
+      ],
+      "reference": "FB-RH:0745",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        21
+      ],
+      "reference": "FB-RH:0845",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        23
+      ],
+      "reference": "FB-RH:1045",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        24
+      ],
+      "reference": "FB-RH:1145",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        25
+      ],
+      "reference": "FB-RH:1245",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        26
+      ],
+      "reference": "FB-RH:1345",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        28
+      ],
+      "reference": "FB-RH:1545",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        29
+      ],
+      "reference": "FB-RH:1645",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        30
+      ],
+      "reference": "FB-RH:1745",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        14
+      ],
+      "reference": "FB-RH:0244",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        15
+      ],
+      "reference": "FB-RH:0344",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        18
+      ],
+      "reference": "FB-RH:0644",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        19
+      ],
+      "reference": "FB-RH:0744",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        20
+      ],
+      "reference": "FB-RH:0844",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        21
+      ],
+      "reference": "FB-RH:0944",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        23
+      ],
+      "reference": "FB-RH:1144",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        24
+      ],
+      "reference": "FB-RH:1244",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        25
+      ],
+      "reference": "FB-RH:1344",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        28
+      ],
+      "reference": "FB-RH:1644",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        29
+      ],
+      "reference": "FB-RH:1744",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        30
+      ],
+      "reference": "FB-RH:1844",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        14
+      ],
+      "reference": "FB-RH:0143",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        15
+      ],
+      "reference": "FB-RH:0243",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        16
+      ],
+      "reference": "FB-RH:0343",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        17
+      ],
+      "reference": "FB-RH:0443",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        18
+      ],
+      "reference": "FB-RH:0543",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        19
+      ],
+      "reference": "FB-RH:0643",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        21
+      ],
+      "reference": "FB-RH:0843",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        27
+      ],
+      "reference": "FB-RH:1443",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        30
+      ],
+      "reference": "FB-RH:1743",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        31
+      ],
+      "reference": "FB-RH:1843",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        14
+      ],
+      "reference": "FB-RH:0242",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        15
+      ],
+      "reference": "FB-RH:0342",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        16
+      ],
+      "reference": "FB-RH:0442",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        17
+      ],
+      "reference": "FB-RH:0542",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        18
+      ],
+      "reference": "FB-RH:0642",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        19
+      ],
+      "reference": "FB-RH:0742",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        20
+      ],
+      "reference": "FB-RH:0842",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        21
+      ],
+      "reference": "FB-RH:0942",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        23
+      ],
+      "reference": "FB-RH:1142",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        24
+      ],
+      "reference": "FB-RH:1242",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        25
+      ],
+      "reference": "FB-RH:1342",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        27
+      ],
+      "reference": "FB-RH:1542",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        29
+      ],
+      "reference": "FB-RH:1742",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        30
+      ],
+      "reference": "FB-RH:1842",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        32
+      ],
+      "reference": "FB-RH:2042",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        14
+      ],
+      "reference": "FB-RH:0141",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        15
+      ],
+      "reference": "FB-RH:0241",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        16
+      ],
+      "reference": "FB-RH:0341",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        17
+      ],
+      "reference": "FB-RH:0441",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        18
+      ],
+      "reference": "FB-RH:0541",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        19
+      ],
+      "reference": "FB-RH:0641",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        20
+      ],
+      "reference": "FB-RH:0741",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        21
+      ],
+      "reference": "FB-RH:0841",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        23
+      ],
+      "reference": "FB-RH:1041",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        24
+      ],
+      "reference": "FB-RH:1141",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        25
+      ],
+      "reference": "FB-RH:1241",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        26
+      ],
+      "reference": "FB-RH:1341",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        28
+      ],
+      "reference": "FB-RH:1541",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        30
+      ],
+      "reference": "FB-RH:1741",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        32
+      ],
+      "reference": "FB-RH:1941",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        33
+      ],
+      "reference": "FB-RH:2041",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        14
+      ],
+      "reference": "FB-RH:0240",
+      "surface": "Land",
+      "terrain": [
+        "Clear",
+        "Swamp"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        15
+      ],
+      "reference": "FB-RH:0340",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        16
+      ],
+      "reference": "FB-RH:0440",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        17
+      ],
+      "reference": "FB-RH:0540",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex.",
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        18
+      ],
+      "reference": "FB-RH:0640",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        22
+      ],
+      "reference": "FB-RH:1040",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        23
+      ],
+      "reference": "FB-RH:1140",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        25
+      ],
+      "reference": "FB-RH:1340",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        26
+      ],
+      "reference": "FB-RH:1440",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        31
+      ],
+      "reference": "FB-RH:1940",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        32
+      ],
+      "reference": "FB-RH:2040",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        14
+      ],
+      "reference": "FB-RH:0139",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        15
+      ],
+      "reference": "FB-RH:0239",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        16
+      ],
+      "reference": "FB-RH:0339",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        17
+      ],
+      "reference": "FB-RH:0439",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        18
+      ],
+      "reference": "FB-RH:0539",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        19
+      ],
+      "reference": "FB-RH:0639",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        23
+      ],
+      "reference": "FB-RH:1039",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        24
+      ],
+      "reference": "FB-RH:1139",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        25
+      ],
+      "reference": "FB-RH:1239",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        26
+      ],
+      "reference": "FB-RH:1339",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        32
+      ],
+      "reference": "FB-RH:1939",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        33
+      ],
+      "reference": "FB-RH:2039",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        34
+      ],
+      "reference": "FB-RH:2139",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        38
+      ],
+      "reference": "FB-RH:2539",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        58,
+        39
+      ],
+      "reference": "FB-RH:2639",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        59,
+        16
+      ],
+      "reference": "FB-RH:0438",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        59,
+        18
+      ],
+      "reference": "FB-RH:0638",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        59,
+        37
+      ],
+      "reference": "FB-RH:2538",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        59,
+        38
+      ],
+      "reference": "FB-RH:2638",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        61,
+        20
+      ],
+      "reference": "FB-RH:0836",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        61,
+        21
+      ],
+      "reference": "FB-RH:0936",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        62,
+        23
+      ],
+      "reference": "FB-RH:1035",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        62,
+        24
+      ],
+      "reference": "FB-RH:1135",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        63,
+        23
+      ],
+      "reference": "FB-RH:1134",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        64,
+        14
+      ],
+      "reference": "FB-RH:0133",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        65,
+        21
+      ],
+      "reference": "FB-RH:0932",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        66,
+        14
+      ],
+      "reference": "FB-RH:0131",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        66,
+        21
+      ],
+      "reference": "FB-RH:0831",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        14
+      ],
+      "reference": "FB-RH:0230",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        15
+      ],
+      "reference": "FB-RH:0330",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        16
+      ],
+      "reference": "FB-RH:0430",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        18
+      ],
+      "reference": "FB-RH:0630",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        19
+      ],
+      "reference": "FB-RH:0730",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        67,
+        20
+      ],
+      "reference": "FB-RH:0830",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        14
+      ],
+      "reference": "FB-RH:0129",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        15
+      ],
+      "reference": "FB-RH:0229",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex.",
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        16
+      ],
+      "reference": "FB-RH:0329",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        20
+      ],
+      "reference": "FB-RH:0729",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        69,
+        14
+      ],
+      "reference": "FB-RH:0228",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        69,
+        15
+      ],
+      "reference": "FB-RH:0328",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex.",
+        "Near 20% threshold: Clear. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        69,
+        16
+      ],
+      "reference": "FB-RH:0428",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        70,
+        14
+      ],
+      "reference": "FB-RH:0127",
+      "surface": "Land",
+      "terrain": [
+        "Clear",
+        "Swamp"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        70,
+        15
+      ],
+      "reference": "FB-RH:0227",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear",
+        "Swamp"
+      ],
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Near 20% threshold: Swamp. Classification provisional."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        70,
+        16
+      ],
+      "reference": "FB-RH:0327",
+      "surface": "Mixed land/water",
+      "terrain": null,
+      "status": "In progress",
+      "confidence": 0.94,
+      "issues": [
+        "Small land area: no individual land type confidently exceeds 20% of whole hex."
+      ],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        71,
+        14
+      ],
+      "reference": "FB-RH:0226",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        71,
+        15
+      ],
+      "reference": "FB-RH:0326",
+      "surface": "Mixed land/water",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        74,
+        14
+      ],
+      "reference": "FB-RH:0123",
+      "surface": "Land",
+      "terrain": [
+        "Clear"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": false
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        50,
+        47
+      ],
+      "reference": "FB-SH:0547",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        51,
+        42
+      ],
+      "reference": "FB-SH:0146",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        51,
+        43
+      ],
+      "reference": "FB-SH:0246",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        51,
+        52
+      ],
+      "reference": "FB-SH:1146",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        52,
+        43
+      ],
+      "reference": "FB-SH:0145",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        52,
+        45
+      ],
+      "reference": "FB-SH:0345",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        52,
+        46
+      ],
+      "reference": "FB-SH:0445",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        53,
+        44
+      ],
+      "reference": "FB-SH:0344",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        53,
+        45
+      ],
+      "reference": "FB-SH:0444",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        54,
+        47
+      ],
+      "reference": "FB-SH:0543",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        55,
+        47
+      ],
+      "reference": "FB-SH:0642",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        56,
+        47
+      ],
+      "reference": "FB-SH:0541",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        56,
+        49
+      ],
+      "reference": "FB-SH:0741",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        57,
+        49
+      ],
+      "reference": "FB-SH:0840",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        59,
+        49
+      ],
+      "reference": "FB-SH:0838",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        60,
+        48
+      ],
+      "reference": "FB-SH:0637",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        61,
+        49
+      ],
+      "reference": "FB-SH:0836",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        61,
+        50
+      ],
+      "reference": "FB-SH:0936",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        62,
+        49
+      ],
+      "reference": "FB-SH:0735",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        62,
+        50
+      ],
+      "reference": "FB-SH:0835",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        63,
+        48
+      ],
+      "reference": "FB-SH:0734",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        63,
+        49
+      ],
+      "reference": "FB-SH:0834",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        64,
+        49
+      ],
+      "reference": "FB-SH:0733",
+      "surface": "Water",
+      "terrain": [
+        "Lake/Sea"
+      ],
+      "status": "Verified",
+      "confidence": 0.98,
+      "issues": [],
+      "is_new_hex": true
+    }
+  ]
+}

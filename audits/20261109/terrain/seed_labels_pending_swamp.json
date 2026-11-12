@@ -1,0 +1,262 @@
+[
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      23,
+      62
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--23--62.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      17,
+      64
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--17--64.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      18,
+      54
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--18--54.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      18,
+      64
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--18--64.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      27,
+      54
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--27--54.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      27,
+      55
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--27--55.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      28,
+      56
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--28--56.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      28,
+      57
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_2--HP-ZF--28--57.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      74,
+      14
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--74--14.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      73,
+      12
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--73--12.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      54,
+      6
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--54--6.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      55,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--11.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      56,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--56--11.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      56,
+      12
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--56--12.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      56,
+      14
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--56--14.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      57,
+      15
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--57--15.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      58,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--58--11.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      58,
+      12
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--58--12.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      55,
+      6
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-QH--55--6.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  },
+  {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      72,
+      14
+    ],
+    "label": "Swamp",
+    "status": "confirmed",
+    "reviewer": "assistant visual audit",
+    "source": "audits\\20261109\\terrain\\crops\\Map_3--FB-RH--72--14.png",
+    "basis": "Native map artwork and UICFB p4; primary land texture. Not a live-data update."
+  }
+]

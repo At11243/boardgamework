@@ -1,0 +1,11050 @@
+{
+  "batch": "pure_sea_confident_20261103",
+  "timestamp": "2026-11-03T00:49:37.387133",
+  "placeholders_promoted": 23,
+  "new_hexes_added": 1081,
+  "placeholders": [
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        5
+      ],
+      "reference": "FB-QH:2351",
+      "sea_ratio": 0.9846
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        11
+      ],
+      "reference": "FB-QH:2951",
+      "sea_ratio": 0.9877
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        46,
+        12
+      ],
+      "reference": "FB-QH:3051",
+      "sea_ratio": 0.9658
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        60
+      ],
+      "reference": "HP-ZF:2328",
+      "sea_ratio": 0.7118
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        27,
+        66
+      ],
+      "reference": "HP-ZF:2928",
+      "sea_ratio": 0.7417
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        11,
+        62
+      ],
+      "reference": "HP-YF:2506",
+      "sea_ratio": 0.7877
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        12,
+        60
+      ],
+      "reference": "HP-YF:2205",
+      "sea_ratio": 0.8116
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        13,
+        67
+      ],
+      "reference": "HP-YF:3004",
+      "sea_ratio": 0.774
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-YF",
+        13,
+        53
+      ],
+      "reference": "HP-YF:1604",
+      "sea_ratio": 0.789
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        68
+      ],
+      "reference": "HP-ZF:3037",
+      "sea_ratio": 0.7324
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        51
+      ],
+      "reference": "HP-ZF:1337",
+      "sea_ratio": 0.8285
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        67
+      ],
+      "reference": "HP-ZF:3036",
+      "sea_ratio": 0.7887
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        51
+      ],
+      "reference": "HP-ZF:1434",
+      "sea_ratio": 0.7412
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        63
+      ],
+      "reference": "HP-ZF:2535",
+      "sea_ratio": 0.7925
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        20,
+        72
+      ],
+      "reference": "HP-ZF:3435",
+      "sea_ratio": 0.7959
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        67
+      ],
+      "reference": "HP-ZF:3032",
+      "sea_ratio": 0.7925
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        67
+      ],
+      "reference": "HP-ZF:2933",
+      "sea_ratio": 0.7842
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        53
+      ],
+      "reference": "HP-ZF:1531",
+      "sea_ratio": 0.7547
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        28,
+        58
+      ],
+      "reference": "HP-ZF:2027",
+      "sea_ratio": 0.7887
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        29,
+        58
+      ],
+      "reference": "HP-ZF:2126",
+      "sea_ratio": 0.8151
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        32,
+        67
+      ],
+      "reference": "HP-ZF:2923",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        34,
+        67
+      ],
+      "reference": "HP-ZF:2921",
+      "sea_ratio": 0.786
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        33,
+        65
+      ],
+      "reference": "HP-ZF:2822",
+      "sea_ratio": 0.8113
+    }
+  ],
+  "new_hexes": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        69
+      ],
+      "reference": "HP-ZF:3137",
+      "sea_ratio": 0.8313
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        70
+      ],
+      "reference": "HP-ZF:3237",
+      "sea_ratio": 0.8062
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        18,
+        71
+      ],
+      "reference": "HP-ZF:3337",
+      "sea_ratio": 0.7439
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        19,
+        71
+      ],
+      "reference": "HP-ZF:3436",
+      "sea_ratio": 0.8084
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        64
+      ],
+      "reference": "HP-ZF:2734",
+      "sea_ratio": 0.8268
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        65
+      ],
+      "reference": "HP-ZF:2834",
+      "sea_ratio": 0.8062
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        66
+      ],
+      "reference": "HP-ZF:2934",
+      "sea_ratio": 0.7469
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        71
+      ],
+      "reference": "HP-ZF:3432",
+      "sea_ratio": 0.8155
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        52
+      ],
+      "reference": "HP-ZF:1431",
+      "sea_ratio": 0.8366
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        68
+      ],
+      "reference": "HP-ZF:3031",
+      "sea_ratio": 0.7307
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        69
+      ],
+      "reference": "HP-ZF:3131",
+      "sea_ratio": 0.833
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        71
+      ],
+      "reference": "HP-ZF:3331",
+      "sea_ratio": 0.7504
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        67
+      ],
+      "reference": "HP-ZF:3030",
+      "sea_ratio": 0.7612
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        26,
+        67
+      ],
+      "reference": "HP-ZF:2929",
+      "sea_ratio": 0.7911
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        31,
+        53
+      ],
+      "reference": "HP-ZF:1624",
+      "sea_ratio": 0.8185
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        31,
+        67
+      ],
+      "reference": "HP-ZF:3024",
+      "sea_ratio": 0.7921
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        32,
+        54
+      ],
+      "reference": "HP-ZF:1623",
+      "sea_ratio": 0.8063
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        33,
+        54
+      ],
+      "reference": "HP-ZF:1722",
+      "sea_ratio": 0.7606
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        39,
+        37
+      ],
+      "reference": "HP-ZF:0016",
+      "sea_ratio": 0.8172
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        62,
+        36
+      ],
+      "reference": "BK-UJ:0821",
+      "sea_ratio": 0.7911
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        63,
+        36
+      ],
+      "reference": "BK-UJ:0920",
+      "sea_ratio": 0.7623
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        64,
+        36
+      ],
+      "reference": "BK-UJ:0819",
+      "sea_ratio": 0.7979
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        68,
+        36
+      ],
+      "reference": "BK-UJ:0815",
+      "sea_ratio": 0.7976
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        69,
+        36
+      ],
+      "reference": "BK-UJ:0914",
+      "sea_ratio": 0.7557
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        70,
+        36
+      ],
+      "reference": "BK-UJ:0813",
+      "sea_ratio": 0.801
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        71,
+        35
+      ],
+      "reference": "BK-UJ:0812",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        72,
+        34
+      ],
+      "reference": "BK-UJ:0611",
+      "sea_ratio": 0.8065
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        72,
+        35
+      ],
+      "reference": "BK-UJ:0711",
+      "sea_ratio": 0.7388
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        73,
+        35
+      ],
+      "reference": "BK-UJ:0810",
+      "sea_ratio": 0.7959
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        74,
+        36
+      ],
+      "reference": "BK-UJ:0809",
+      "sea_ratio": 0.7979
+    },
+    {
+      "key": [
+        "Map 2",
+        "BK-UJ",
+        75,
+        36
+      ],
+      "reference": "BK-UJ:0908",
+      "sea_ratio": 0.7632
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        40
+      ],
+      "reference": "HP-A:0334",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        44
+      ],
+      "reference": "HP-A:0734",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        45
+      ],
+      "reference": "HP-A:0834",
+      "sea_ratio": 0.7293
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        59,
+        49
+      ],
+      "reference": "HP-A:1234",
+      "sea_ratio": 0.8014
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        38
+      ],
+      "reference": "HP-A:0033",
+      "sea_ratio": 0.7276
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        41
+      ],
+      "reference": "HP-A:0333",
+      "sea_ratio": 0.7302
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        42
+      ],
+      "reference": "HP-A:0433",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        43
+      ],
+      "reference": "HP-A:0533",
+      "sea_ratio": 0.8041
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        44
+      ],
+      "reference": "HP-A:0633",
+      "sea_ratio": 0.7487
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        46
+      ],
+      "reference": "HP-A:0833",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        47
+      ],
+      "reference": "HP-A:0933",
+      "sea_ratio": 0.7062
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        50
+      ],
+      "reference": "HP-A:1233",
+      "sea_ratio": 0.7465
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        60,
+        51
+      ],
+      "reference": "HP-A:1333",
+      "sea_ratio": 0.8144
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        40
+      ],
+      "reference": "HP-A:0332",
+      "sea_ratio": 0.789
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        44
+      ],
+      "reference": "HP-A:0732",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        46
+      ],
+      "reference": "HP-A:0932",
+      "sea_ratio": 0.7033
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        61,
+        49
+      ],
+      "reference": "HP-A:1232",
+      "sea_ratio": 0.8099
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        40
+      ],
+      "reference": "HP-A:0231",
+      "sea_ratio": 0.8049
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        45
+      ],
+      "reference": "HP-A:0731",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        47
+      ],
+      "reference": "HP-A:0931",
+      "sea_ratio": 0.7136
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        62,
+        49
+      ],
+      "reference": "HP-A:1131",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        37
+      ],
+      "reference": "HP-A:0030",
+      "sea_ratio": 0.7958
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        38
+      ],
+      "reference": "HP-A:0130",
+      "sea_ratio": 0.7976
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        39
+      ],
+      "reference": "HP-A:0230",
+      "sea_ratio": 0.7487
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        42
+      ],
+      "reference": "HP-A:0530",
+      "sea_ratio": 0.7118
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        45
+      ],
+      "reference": "HP-A:0830",
+      "sea_ratio": 0.7469
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        46
+      ],
+      "reference": "HP-A:0930",
+      "sea_ratio": 0.8079
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        47
+      ],
+      "reference": "HP-A:1030",
+      "sea_ratio": 0.6221
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        63,
+        48
+      ],
+      "reference": "HP-A:1130",
+      "sea_ratio": 0.7341
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        40
+      ],
+      "reference": "HP-A:0229",
+      "sea_ratio": 0.8046
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        45
+      ],
+      "reference": "HP-A:0729",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        48
+      ],
+      "reference": "HP-A:1029",
+      "sea_ratio": 0.7333
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        64,
+        49
+      ],
+      "reference": "HP-A:1129",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        40
+      ],
+      "reference": "HP-A:0328",
+      "sea_ratio": 0.7839
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        44
+      ],
+      "reference": "HP-A:0728",
+      "sea_ratio": 0.7825
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        48
+      ],
+      "reference": "HP-A:1128",
+      "sea_ratio": 0.7158
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        49
+      ],
+      "reference": "HP-A:1228",
+      "sea_ratio": 0.6158
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        65,
+        50
+      ],
+      "reference": "HP-A:1328",
+      "sea_ratio": 0.7226
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        38
+      ],
+      "reference": "HP-A:0027",
+      "sea_ratio": 0.7293
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        41
+      ],
+      "reference": "HP-A:0327",
+      "sea_ratio": 0.729
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        42
+      ],
+      "reference": "HP-A:0427",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        43
+      ],
+      "reference": "HP-A:0527",
+      "sea_ratio": 0.8045
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        44
+      ],
+      "reference": "HP-A:0627",
+      "sea_ratio": 0.7522
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        47
+      ],
+      "reference": "HP-A:0927",
+      "sea_ratio": 0.7096
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        50
+      ],
+      "reference": "HP-A:1227",
+      "sea_ratio": 0.7469
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        66,
+        51
+      ],
+      "reference": "HP-A:1327",
+      "sea_ratio": 0.6295
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        40
+      ],
+      "reference": "HP-A:0326",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        44
+      ],
+      "reference": "HP-A:0726",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        67,
+        49
+      ],
+      "reference": "HP-A:1226",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        40
+      ],
+      "reference": "HP-A:0225",
+      "sea_ratio": 0.8032
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        45
+      ],
+      "reference": "HP-A:0725",
+      "sea_ratio": 0.7839
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        68,
+        49
+      ],
+      "reference": "HP-A:1125",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        37
+      ],
+      "reference": "HP-A:0024",
+      "sea_ratio": 0.8278
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        38
+      ],
+      "reference": "HP-A:0124",
+      "sea_ratio": 0.7976
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        39
+      ],
+      "reference": "HP-A:0224",
+      "sea_ratio": 0.7522
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        42
+      ],
+      "reference": "HP-A:0524",
+      "sea_ratio": 0.7067
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        45
+      ],
+      "reference": "HP-A:0824",
+      "sea_ratio": 0.7469
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        46
+      ],
+      "reference": "HP-A:0924",
+      "sea_ratio": 0.8041
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        69,
+        47
+      ],
+      "reference": "HP-A:1024",
+      "sea_ratio": 0.8278
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        70,
+        45
+      ],
+      "reference": "HP-A:0723",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        71,
+        44
+      ],
+      "reference": "HP-A:0722",
+      "sea_ratio": 0.7842
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        38
+      ],
+      "reference": "HP-A:0021",
+      "sea_ratio": 0.7276
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        41
+      ],
+      "reference": "HP-A:0321",
+      "sea_ratio": 0.7341
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        42
+      ],
+      "reference": "HP-A:0421",
+      "sea_ratio": 0.8243
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        43
+      ],
+      "reference": "HP-A:0521",
+      "sea_ratio": 0.8027
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        72,
+        44
+      ],
+      "reference": "HP-A:0621",
+      "sea_ratio": 0.7504
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        40
+      ],
+      "reference": "HP-A:0320",
+      "sea_ratio": 0.7842
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        73,
+        44
+      ],
+      "reference": "HP-A:0720",
+      "sea_ratio": 0.7753
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        74,
+        40
+      ],
+      "reference": "HP-A:0219",
+      "sea_ratio": 0.8049
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        37
+      ],
+      "reference": "HP-A:0018",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        38
+      ],
+      "reference": "HP-A:0118",
+      "sea_ratio": 0.7945
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        39
+      ],
+      "reference": "HP-A:0218",
+      "sea_ratio": 0.7487
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        42
+      ],
+      "reference": "HP-A:0518",
+      "sea_ratio": 0.7113
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-A",
+        75,
+        45
+      ],
+      "reference": "HP-A:0818",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        56,
+        58
+      ],
+      "reference": "FB-PH:0641",
+      "sea_ratio": 0.7804
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        57,
+        56
+      ],
+      "reference": "FB-PH:0540",
+      "sea_ratio": 0.8058
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        57,
+        57
+      ],
+      "reference": "FB-PH:0640",
+      "sea_ratio": 0.7575
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        58,
+        58
+      ],
+      "reference": "FB-PH:0639",
+      "sea_ratio": 0.786
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        58,
+        67
+      ],
+      "reference": "FB-PH:1539",
+      "sea_ratio": 0.8116
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        58,
+        68
+      ],
+      "reference": "FB-PH:1639",
+      "sea_ratio": 0.729
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        58,
+        69
+      ],
+      "reference": "FB-PH:1739",
+      "sea_ratio": 0.5704
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        51
+      ],
+      "reference": "FB-PH:0038",
+      "sea_ratio": 0.7381
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        52
+      ],
+      "reference": "FB-PH:0138",
+      "sea_ratio": 0.7192
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        53
+      ],
+      "reference": "FB-PH:0238",
+      "sea_ratio": 0.6186
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        54
+      ],
+      "reference": "FB-PH:0338",
+      "sea_ratio": 0.7243
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        55
+      ],
+      "reference": "FB-PH:0438",
+      "sea_ratio": 0.7311
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        56
+      ],
+      "reference": "FB-PH:0538",
+      "sea_ratio": 0.7277
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        57
+      ],
+      "reference": "FB-PH:0638",
+      "sea_ratio": 0.7364
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        58
+      ],
+      "reference": "FB-PH:0738",
+      "sea_ratio": 0.6106
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        59
+      ],
+      "reference": "FB-PH:0838",
+      "sea_ratio": 0.7487
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        60
+      ],
+      "reference": "FB-PH:0938",
+      "sea_ratio": 0.7221
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        61
+      ],
+      "reference": "FB-PH:1038",
+      "sea_ratio": 0.7364
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        62
+      ],
+      "reference": "FB-PH:1138",
+      "sea_ratio": 0.6209
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        63
+      ],
+      "reference": "FB-PH:1238",
+      "sea_ratio": 0.7342
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        65
+      ],
+      "reference": "FB-PH:1438",
+      "sea_ratio": 0.7447
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        66
+      ],
+      "reference": "FB-PH:1538",
+      "sea_ratio": 0.7256
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        67
+      ],
+      "reference": "FB-PH:1638",
+      "sea_ratio": 0.6232
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        68
+      ],
+      "reference": "FB-PH:1738",
+      "sea_ratio": 0.6432
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        69
+      ],
+      "reference": "FB-PH:1838",
+      "sea_ratio": 0.7447
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        59,
+        70
+      ],
+      "reference": "FB-PH:1938",
+      "sea_ratio": 0.7342
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        52
+      ],
+      "reference": "FB-PH:0037",
+      "sea_ratio": 0.8292
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        53
+      ],
+      "reference": "FB-PH:0137",
+      "sea_ratio": 0.7553
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        56
+      ],
+      "reference": "FB-PH:0437",
+      "sea_ratio": 0.7136
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        59
+      ],
+      "reference": "FB-PH:0737",
+      "sea_ratio": 0.7557
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        60
+      ],
+      "reference": "FB-PH:0837",
+      "sea_ratio": 0.8096
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        61
+      ],
+      "reference": "FB-PH:0937",
+      "sea_ratio": 0.8313
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        62
+      ],
+      "reference": "FB-PH:1037",
+      "sea_ratio": 0.7341
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        65
+      ],
+      "reference": "FB-PH:1337",
+      "sea_ratio": 0.7575
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        68
+      ],
+      "reference": "FB-PH:1637",
+      "sea_ratio": 0.7277
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        69
+      ],
+      "reference": "FB-PH:1737",
+      "sea_ratio": 0.8313
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        70
+      ],
+      "reference": "FB-PH:1837",
+      "sea_ratio": 0.813
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        60,
+        71
+      ],
+      "reference": "FB-PH:1937",
+      "sea_ratio": 0.6309
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        53
+      ],
+      "reference": "FB-PH:0236",
+      "sea_ratio": 0.8134
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        58
+      ],
+      "reference": "FB-PH:0736",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        62
+      ],
+      "reference": "FB-PH:1136",
+      "sea_ratio": 0.7856
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        67
+      ],
+      "reference": "FB-PH:1636",
+      "sea_ratio": 0.807
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        61,
+        71
+      ],
+      "reference": "FB-PH:2036",
+      "sea_ratio": 0.7277
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        62,
+        54
+      ],
+      "reference": "FB-PH:0235",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        62,
+        58
+      ],
+      "reference": "FB-PH:0635",
+      "sea_ratio": 0.7822
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        62,
+        63
+      ],
+      "reference": "FB-PH:1135",
+      "sea_ratio": 0.8067
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        62,
+        72
+      ],
+      "reference": "FB-PH:2035",
+      "sea_ratio": 0.717
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        51
+      ],
+      "reference": "FB-PH:0034",
+      "sea_ratio": 0.7329
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        54
+      ],
+      "reference": "FB-PH:0334",
+      "sea_ratio": 0.7324
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        55
+      ],
+      "reference": "FB-PH:0434",
+      "sea_ratio": 0.8278
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        56
+      ],
+      "reference": "FB-PH:0534",
+      "sea_ratio": 0.8062
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        57
+      ],
+      "reference": "FB-PH:0634",
+      "sea_ratio": 0.7592
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        63,
+        72
+      ],
+      "reference": "FB-PH:2134",
+      "sea_ratio": 0.6866
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        64,
+        54
+      ],
+      "reference": "FB-PH:0233",
+      "sea_ratio": 0.7911
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        64,
+        58
+      ],
+      "reference": "FB-PH:0633",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        64,
+        72
+      ],
+      "reference": "FB-PH:2033",
+      "sea_ratio": 0.7221
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        65,
+        53
+      ],
+      "reference": "FB-PH:0232",
+      "sea_ratio": 0.8018
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        66,
+        52
+      ],
+      "reference": "FB-PH:0031",
+      "sea_ratio": 0.8292
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        66,
+        56
+      ],
+      "reference": "FB-PH:0431",
+      "sea_ratio": 0.7136
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        66,
+        74
+      ],
+      "reference": "FB-PH:2231",
+      "sea_ratio": 0.7358
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        67,
+        51
+      ],
+      "reference": "FB-PH:0030",
+      "sea_ratio": 0.7218
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        67,
+        76
+      ],
+      "reference": "FB-PH:2530",
+      "sea_ratio": 0.8137
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        68,
+        76
+      ],
+      "reference": "FB-PH:2429",
+      "sea_ratio": 0.7942
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        68,
+        77
+      ],
+      "reference": "FB-PH:2529",
+      "sea_ratio": 0.7342
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        69,
+        73
+      ],
+      "reference": "FB-PH:2228",
+      "sea_ratio": 0.7976
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        69,
+        78
+      ],
+      "reference": "FB-PH:2728",
+      "sea_ratio": 0.7293
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        70,
+        81
+      ],
+      "reference": "FB-PH:2927",
+      "sea_ratio": 0.6309
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-PH",
+        71,
+        80
+      ],
+      "reference": "FB-PH:2926",
+      "sea_ratio": 0.8084
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        65,
+        94
+      ],
+      "reference": "FB-QH:1332",
+      "sea_ratio": 0.7942
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        65,
+        98
+      ],
+      "reference": "FB-QH:1732",
+      "sea_ratio": 0.7175
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        88
+      ],
+      "reference": "FB-QH:0631",
+      "sea_ratio": 0.6221
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        89
+      ],
+      "reference": "FB-QH:0731",
+      "sea_ratio": 0.7256
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        92
+      ],
+      "reference": "FB-QH:1031",
+      "sea_ratio": 0.7238
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        95
+      ],
+      "reference": "FB-QH:1331",
+      "sea_ratio": 0.7452
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        96
+      ],
+      "reference": "FB-QH:1431",
+      "sea_ratio": 0.7684
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        97
+      ],
+      "reference": "FB-QH:1531",
+      "sea_ratio": 0.7684
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        66,
+        98
+      ],
+      "reference": "FB-QH:1631",
+      "sea_ratio": 0.6186
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        67,
+        89
+      ],
+      "reference": "FB-QH:0830",
+      "sea_ratio": 0.8045
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        67,
+        94
+      ],
+      "reference": "FB-QH:1330",
+      "sea_ratio": 0.7907
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        67,
+        97
+      ],
+      "reference": "FB-QH:1630",
+      "sea_ratio": 0.7504
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        67,
+        98
+      ],
+      "reference": "FB-QH:1730",
+      "sea_ratio": 0.7959
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        68,
+        87
+      ],
+      "reference": "FB-QH:0529",
+      "sea_ratio": 0.7204
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        68,
+        90
+      ],
+      "reference": "FB-QH:0829",
+      "sea_ratio": 0.8134
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        68,
+        94
+      ],
+      "reference": "FB-QH:1229",
+      "sea_ratio": 0.7911
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        68,
+        97
+      ],
+      "reference": "FB-QH:1529",
+      "sea_ratio": 0.7221
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        68,
+        99
+      ],
+      "reference": "FB-QH:1729",
+      "sea_ratio": 0.7907
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        86
+      ],
+      "reference": "FB-QH:0528",
+      "sea_ratio": 0.7307
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        87
+      ],
+      "reference": "FB-QH:0628",
+      "sea_ratio": 0.7517
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        90
+      ],
+      "reference": "FB-QH:0928",
+      "sea_ratio": 0.768
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        91
+      ],
+      "reference": "FB-QH:1028",
+      "sea_ratio": 0.8216
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        92
+      ],
+      "reference": "FB-QH:1128",
+      "sea_ratio": 0.8453
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        93
+      ],
+      "reference": "FB-QH:1228",
+      "sea_ratio": 0.7397
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        96
+      ],
+      "reference": "FB-QH:1528",
+      "sea_ratio": 0.543
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        69,
+        99
+      ],
+      "reference": "FB-QH:1828",
+      "sea_ratio": 0.7627
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        70,
+        85
+      ],
+      "reference": "FB-QH:0327",
+      "sea_ratio": 0.7894
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        70,
+        86
+      ],
+      "reference": "FB-QH:0427",
+      "sea_ratio": 0.7469
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        70,
+        96
+      ],
+      "reference": "FB-QH:1427",
+      "sea_ratio": 0.726
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        70,
+        99
+      ],
+      "reference": "FB-QH:1727",
+      "sea_ratio": 0.7959
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        81
+      ],
+      "reference": "FB-QH:0026",
+      "sea_ratio": 0.7312
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        85
+      ],
+      "reference": "FB-QH:0426",
+      "sea_ratio": 0.6292
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        89
+      ],
+      "reference": "FB-QH:0826",
+      "sea_ratio": 0.789
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        94
+      ],
+      "reference": "FB-QH:1326",
+      "sea_ratio": 0.7907
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        96
+      ],
+      "reference": "FB-QH:1526",
+      "sea_ratio": 0.7256
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        71,
+        98
+      ],
+      "reference": "FB-QH:1726",
+      "sea_ratio": 0.786
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        83
+      ],
+      "reference": "FB-QH:0125",
+      "sea_ratio": 0.7663
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        85
+      ],
+      "reference": "FB-QH:0325",
+      "sea_ratio": 0.7295
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        86
+      ],
+      "reference": "FB-QH:0425",
+      "sea_ratio": 0.7592
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        87
+      ],
+      "reference": "FB-QH:0525",
+      "sea_ratio": 0.813
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        88
+      ],
+      "reference": "FB-QH:0625",
+      "sea_ratio": 0.833
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        89
+      ],
+      "reference": "FB-QH:0725",
+      "sea_ratio": 0.7358
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        92
+      ],
+      "reference": "FB-QH:1025",
+      "sea_ratio": 0.7209
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        95
+      ],
+      "reference": "FB-QH:1325",
+      "sea_ratio": 0.7557
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        96
+      ],
+      "reference": "FB-QH:1425",
+      "sea_ratio": 0.8099
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        97
+      ],
+      "reference": "FB-QH:1525",
+      "sea_ratio": 0.6267
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        72,
+        98
+      ],
+      "reference": "FB-QH:1625",
+      "sea_ratio": 0.7504
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        85
+      ],
+      "reference": "FB-QH:0424",
+      "sea_ratio": 0.8225
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        89
+      ],
+      "reference": "FB-QH:0824",
+      "sea_ratio": 0.7993
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        94
+      ],
+      "reference": "FB-QH:1324",
+      "sea_ratio": 0.7907
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        97
+      ],
+      "reference": "FB-QH:1624",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        73,
+        98
+      ],
+      "reference": "FB-QH:1724",
+      "sea_ratio": 0.7928
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        74,
+        90
+      ],
+      "reference": "FB-QH:0823",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        74,
+        94
+      ],
+      "reference": "FB-QH:1223",
+      "sea_ratio": 0.789
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        75,
+        87
+      ],
+      "reference": "FB-QH:0622",
+      "sea_ratio": 0.7414
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        75,
+        90
+      ],
+      "reference": "FB-QH:0922",
+      "sea_ratio": 0.7592
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        75,
+        91
+      ],
+      "reference": "FB-QH:1022",
+      "sea_ratio": 0.8196
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        75,
+        92
+      ],
+      "reference": "FB-QH:1122",
+      "sea_ratio": 0.8418
+    },
+    {
+      "key": [
+        "Map 2",
+        "FB-QH",
+        75,
+        93
+      ],
+      "reference": "FB-QH:1222",
+      "sea_ratio": 0.7363
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        47,
+        3
+      ],
+      "reference": "FB-QH:2250",
+      "sea_ratio": 0.8086
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        52,
+        3
+      ],
+      "reference": "FB-QH:2145",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        53,
+        2
+      ],
+      "reference": "FB-QH:2144",
+      "sea_ratio": 0.7171
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        54,
+        3
+      ],
+      "reference": "FB-QH:2143",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        55,
+        3
+      ],
+      "reference": "FB-QH:2242",
+      "sea_ratio": 0.697
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        56,
+        3
+      ],
+      "reference": "FB-QH:2141",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        1
+      ],
+      "reference": "FB-QH:2040",
+      "sea_ratio": 0.8363
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        2
+      ],
+      "reference": "FB-QH:2140",
+      "sea_ratio": 0.549
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        3
+      ],
+      "reference": "FB-QH:2240",
+      "sea_ratio": 0.7582
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        4
+      ],
+      "reference": "FB-QH:2340",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        57,
+        5
+      ],
+      "reference": "FB-QH:2440",
+      "sea_ratio": 0.5556
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        2
+      ],
+      "reference": "FB-QH:2039",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        58,
+        3
+      ],
+      "reference": "FB-QH:2139",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        59,
+        3
+      ],
+      "reference": "FB-QH:2238",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        4
+      ],
+      "reference": "FB-QH:2237",
+      "sea_ratio": 0.7626
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        5
+      ],
+      "reference": "FB-QH:2337",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        6
+      ],
+      "reference": "FB-QH:2437",
+      "sea_ratio": 0.8589
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        7
+      ],
+      "reference": "FB-QH:2537",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        60,
+        10
+      ],
+      "reference": "FB-QH:2837",
+      "sea_ratio": 0.6944
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        3
+      ],
+      "reference": "FB-QH:2236",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        61,
+        7
+      ],
+      "reference": "FB-QH:2636",
+      "sea_ratio": 0.78
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        3
+      ],
+      "reference": "FB-QH:2135",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        62,
+        8
+      ],
+      "reference": "FB-QH:2635",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        5
+      ],
+      "reference": "FB-QH:2434",
+      "sea_ratio": 0.7557
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        8
+      ],
+      "reference": "FB-QH:2734",
+      "sea_ratio": 0.7632
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        9
+      ],
+      "reference": "FB-QH:2834",
+      "sea_ratio": 0.8333
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        63,
+        10
+      ],
+      "reference": "FB-QH:2934",
+      "sea_ratio": 0.8539
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        3
+      ],
+      "reference": "FB-QH:2133",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        64,
+        8
+      ],
+      "reference": "FB-QH:2633",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        3
+      ],
+      "reference": "FB-QH:2232",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        65,
+        9
+      ],
+      "reference": "FB-QH:2832",
+      "sea_ratio": 0.912
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        1
+      ],
+      "reference": "FB-QH:1931",
+      "sea_ratio": 0.7506
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        66,
+        4
+      ],
+      "reference": "FB-QH:2231",
+      "sea_ratio": 0.7626
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        67,
+        3
+      ],
+      "reference": "FB-QH:2230",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        3
+      ],
+      "reference": "FB-QH:2129",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        8
+      ],
+      "reference": "FB-QH:2629",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        68,
+        12
+      ],
+      "reference": "FB-QH:3029",
+      "sea_ratio": 0.7139
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        0
+      ],
+      "reference": "FB-QH:1928",
+      "sea_ratio": 0.8284
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        1
+      ],
+      "reference": "FB-QH:2028",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        2
+      ],
+      "reference": "FB-QH:2128",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        8
+      ],
+      "reference": "FB-QH:2728",
+      "sea_ratio": 0.7582
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        9
+      ],
+      "reference": "FB-QH:2828",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        10
+      ],
+      "reference": "FB-QH:2928",
+      "sea_ratio": 0.8442
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        69,
+        11
+      ],
+      "reference": "FB-QH:3028",
+      "sea_ratio": 0.625
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        3
+      ],
+      "reference": "FB-QH:2127",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        8
+      ],
+      "reference": "FB-QH:2627",
+      "sea_ratio": 0.7854
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        70,
+        11
+      ],
+      "reference": "FB-QH:2927",
+      "sea_ratio": 0.654
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        3
+      ],
+      "reference": "FB-QH:2226",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        7
+      ],
+      "reference": "FB-QH:2626",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        71,
+        10
+      ],
+      "reference": "FB-QH:2926",
+      "sea_ratio": 0.7348
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        1
+      ],
+      "reference": "FB-QH:1925",
+      "sea_ratio": 0.7462
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        4
+      ],
+      "reference": "FB-QH:2225",
+      "sea_ratio": 0.7348
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        72,
+        7
+      ],
+      "reference": "FB-QH:2525",
+      "sea_ratio": 0.7034
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        3
+      ],
+      "reference": "FB-QH:2224",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        73,
+        7
+      ],
+      "reference": "FB-QH:2624",
+      "sea_ratio": 0.7647
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        3
+      ],
+      "reference": "FB-QH:2123",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        74,
+        8
+      ],
+      "reference": "FB-QH:2623",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        2
+      ],
+      "reference": "FB-QH:2122",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-QH",
+        75,
+        5
+      ],
+      "reference": "FB-QH:2422",
+      "sea_ratio": 0.7513
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        17
+      ],
+      "reference": "FB-RH:0550",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        19
+      ],
+      "reference": "FB-RH:0750",
+      "sea_ratio": 0.7171
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        22
+      ],
+      "reference": "FB-RH:1050",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        24
+      ],
+      "reference": "FB-RH:1250",
+      "sea_ratio": 0.7122
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        26
+      ],
+      "reference": "FB-RH:1450",
+      "sea_ratio": 0.7897
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        27
+      ],
+      "reference": "FB-RH:1550",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        47,
+        41
+      ],
+      "reference": "FB-RH:2950",
+      "sea_ratio": 0.7262
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        15
+      ],
+      "reference": "FB-RH:0249",
+      "sea_ratio": 0.8005
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        16
+      ],
+      "reference": "FB-RH:0349",
+      "sea_ratio": 0.7935
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        17
+      ],
+      "reference": "FB-RH:0449",
+      "sea_ratio": 0.7188
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        19
+      ],
+      "reference": "FB-RH:0649",
+      "sea_ratio": 0.7083
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        20
+      ],
+      "reference": "FB-RH:0749",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        23
+      ],
+      "reference": "FB-RH:1049",
+      "sea_ratio": 0.7355
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        24
+      ],
+      "reference": "FB-RH:1149",
+      "sea_ratio": 0.7868
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        25
+      ],
+      "reference": "FB-RH:1249",
+      "sea_ratio": 0.6313
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        26
+      ],
+      "reference": "FB-RH:1349",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        27
+      ],
+      "reference": "FB-RH:1449",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        29
+      ],
+      "reference": "FB-RH:1649",
+      "sea_ratio": 0.7311
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        48,
+        42
+      ],
+      "reference": "FB-RH:2949",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        17
+      ],
+      "reference": "FB-RH:0548",
+      "sea_ratio": 0.8005
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        18
+      ],
+      "reference": "FB-RH:0648",
+      "sea_ratio": 0.7254
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        22
+      ],
+      "reference": "FB-RH:1048",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        25
+      ],
+      "reference": "FB-RH:1348",
+      "sea_ratio": 0.728
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        49,
+        26
+      ],
+      "reference": "FB-RH:1448",
+      "sea_ratio": 0.6176
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        18
+      ],
+      "reference": "FB-RH:0547",
+      "sea_ratio": 0.6474
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        22
+      ],
+      "reference": "FB-RH:0947",
+      "sea_ratio": 0.7756
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        26
+      ],
+      "reference": "FB-RH:1347",
+      "sea_ratio": 0.6397
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        50,
+        27
+      ],
+      "reference": "FB-RH:1447",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        15
+      ],
+      "reference": "FB-RH:0346",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        17
+      ],
+      "reference": "FB-RH:0546",
+      "sea_ratio": 0.7348
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        18
+      ],
+      "reference": "FB-RH:0646",
+      "sea_ratio": 0.733
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        19
+      ],
+      "reference": "FB-RH:0746",
+      "sea_ratio": 0.7751
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        20
+      ],
+      "reference": "FB-RH:0846",
+      "sea_ratio": 0.796
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        21
+      ],
+      "reference": "FB-RH:0946",
+      "sea_ratio": 0.7132
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        24
+      ],
+      "reference": "FB-RH:1246",
+      "sea_ratio": 0.7262
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        26
+      ],
+      "reference": "FB-RH:1446",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        27
+      ],
+      "reference": "FB-RH:1546",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        28
+      ],
+      "reference": "FB-RH:1646",
+      "sea_ratio": 0.7794
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        51,
+        29
+      ],
+      "reference": "FB-RH:1746",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        17
+      ],
+      "reference": "FB-RH:0445",
+      "sea_ratio": 0.7115
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        18
+      ],
+      "reference": "FB-RH:0545",
+      "sea_ratio": 0.8005
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        22
+      ],
+      "reference": "FB-RH:0945",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        52,
+        27
+      ],
+      "reference": "FB-RH:1445",
+      "sea_ratio": 0.6064
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        16
+      ],
+      "reference": "FB-RH:0444",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        17
+      ],
+      "reference": "FB-RH:0544",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        22
+      ],
+      "reference": "FB-RH:1044",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        26
+      ],
+      "reference": "FB-RH:1444",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        27
+      ],
+      "reference": "FB-RH:1544",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        53,
+        31
+      ],
+      "reference": "FB-RH:1944",
+      "sea_ratio": 0.7927
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        20
+      ],
+      "reference": "FB-RH:0743",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        26
+      ],
+      "reference": "FB-RH:1343",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        28
+      ],
+      "reference": "FB-RH:1543",
+      "sea_ratio": 0.733
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        29
+      ],
+      "reference": "FB-RH:1643",
+      "sea_ratio": 0.7328
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        54,
+        32
+      ],
+      "reference": "FB-RH:1943",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        22
+      ],
+      "reference": "FB-RH:1042",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        26
+      ],
+      "reference": "FB-RH:1442",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        28
+      ],
+      "reference": "FB-RH:1642",
+      "sea_ratio": 0.7132
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        55,
+        31
+      ],
+      "reference": "FB-RH:1942",
+      "sea_ratio": 0.7946
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        22
+      ],
+      "reference": "FB-RH:0941",
+      "sea_ratio": 0.778
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        27
+      ],
+      "reference": "FB-RH:1441",
+      "sea_ratio": 0.7927
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        29
+      ],
+      "reference": "FB-RH:1641",
+      "sea_ratio": 0.7195
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        31
+      ],
+      "reference": "FB-RH:1841",
+      "sea_ratio": 0.7868
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        56,
+        36
+      ],
+      "reference": "FB-RH:2341",
+      "sea_ratio": 0.7843
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        19
+      ],
+      "reference": "FB-RH:0740",
+      "sea_ratio": 0.777
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        21
+      ],
+      "reference": "FB-RH:0940",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        24
+      ],
+      "reference": "FB-RH:1240",
+      "sea_ratio": 0.7237
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        27
+      ],
+      "reference": "FB-RH:1540",
+      "sea_ratio": 0.7355
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        28
+      ],
+      "reference": "FB-RH:1640",
+      "sea_ratio": 0.7794
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        29
+      ],
+      "reference": "FB-RH:1740",
+      "sea_ratio": 0.6272
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        30
+      ],
+      "reference": "FB-RH:1840",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        33
+      ],
+      "reference": "FB-RH:2140",
+      "sea_ratio": 0.723
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        57,
+        36
+      ],
+      "reference": "FB-RH:2440",
+      "sea_ratio": 0.7482
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        62,
+        22
+      ],
+      "reference": "FB-RH:0935",
+      "sea_ratio": 0.778
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        63,
+        21
+      ],
+      "reference": "FB-RH:0934",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        63,
+        24
+      ],
+      "reference": "FB-RH:1234",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        64,
+        22
+      ],
+      "reference": "FB-RH:0933",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        68,
+        18
+      ],
+      "reference": "FB-RH:0529",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-RH",
+        70,
+        17
+      ],
+      "reference": "FB-RH:0427",
+      "sea_ratio": 0.7335
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        51,
+        46
+      ],
+      "reference": "FB-SH:0546",
+      "sea_ratio": 0.7955
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        52,
+        44
+      ],
+      "reference": "FB-SH:0245",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        56,
+        48
+      ],
+      "reference": "FB-SH:0641",
+      "sea_ratio": 0.7843
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        59,
+        48
+      ],
+      "reference": "FB-SH:0738",
+      "sea_ratio": 0.7829
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        60,
+        49
+      ],
+      "reference": "FB-SH:0737",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        61,
+        48
+      ],
+      "reference": "FB-SH:0736",
+      "sea_ratio": 0.7775
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        65,
+        49
+      ],
+      "reference": "FB-SH:0832",
+      "sea_ratio": 0.6667
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        66,
+        49
+      ],
+      "reference": "FB-SH:0731",
+      "sea_ratio": 0.6256
+    },
+    {
+      "key": [
+        "Map 3",
+        "FB-SH",
+        66,
+        50
+      ],
+      "reference": "FB-SH:0831",
+      "sea_ratio": 0.7819
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TJ",
+        6,
+        27
+      ],
+      "reference": "BK-TJ:2001",
+      "sea_ratio": 0.8186
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        0,
+        36
+      ],
+      "reference": "BK-UJ:0807",
+      "sea_ratio": 0.8395
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        1,
+        35
+      ],
+      "reference": "BK-UJ:0806",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        2,
+        34
+      ],
+      "reference": "BK-UJ:0605",
+      "sea_ratio": 0.8438
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        2,
+        35
+      ],
+      "reference": "BK-UJ:0705",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        3,
+        35
+      ],
+      "reference": "BK-UJ:0804",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        4,
+        36
+      ],
+      "reference": "BK-UJ:0803",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        5,
+        33
+      ],
+      "reference": "BK-UJ:0602",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        5,
+        36
+      ],
+      "reference": "BK-UJ:0902",
+      "sea_ratio": 0.7632
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UJ",
+        6,
+        36
+      ],
+      "reference": "BK-UJ:0801",
+      "sea_ratio": 0.8237
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        0,
+        40
+      ],
+      "reference": "HP-A:0217",
+      "sea_ratio": 0.8123
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        1,
+        40
+      ],
+      "reference": "HP-A:0316",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        2,
+        38
+      ],
+      "reference": "HP-A:0015",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        2,
+        41
+      ],
+      "reference": "HP-A:0315",
+      "sea_ratio": 0.738
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        2,
+        42
+      ],
+      "reference": "HP-A:0415",
+      "sea_ratio": 0.7843
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        2,
+        44
+      ],
+      "reference": "HP-A:0615",
+      "sea_ratio": 0.7255
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        3,
+        40
+      ],
+      "reference": "HP-A:0314",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        4,
+        40
+      ],
+      "reference": "HP-A:0213",
+      "sea_ratio": 0.7775
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        5,
+        37
+      ],
+      "reference": "HP-A:0012",
+      "sea_ratio": 0.7824
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        5,
+        38
+      ],
+      "reference": "HP-A:0112",
+      "sea_ratio": 0.801
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-A",
+        5,
+        39
+      ],
+      "reference": "HP-A:0212",
+      "sea_ratio": 0.7255
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        16,
+        58
+      ],
+      "reference": "FB-PH:0706",
+      "sea_ratio": 0.7794
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        16,
+        60
+      ],
+      "reference": "FB-PH:0906",
+      "sea_ratio": 0.8995
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        16,
+        61
+      ],
+      "reference": "FB-PH:1006",
+      "sea_ratio": 0.897
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        18,
+        56
+      ],
+      "reference": "FB-PH:0504",
+      "sea_ratio": 0.8485
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        18,
+        57
+      ],
+      "reference": "FB-PH:0604",
+      "sea_ratio": 0.7626
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        18,
+        60
+      ],
+      "reference": "FB-PH:0904",
+      "sea_ratio": 0.7512
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        19,
+        57
+      ],
+      "reference": "FB-PH:0603",
+      "sea_ratio": 0.8186
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        20,
+        58
+      ],
+      "reference": "FB-PH:0702",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        21,
+        55
+      ],
+      "reference": "FB-PH:0401",
+      "sea_ratio": 0.7628
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        21,
+        58
+      ],
+      "reference": "FB-PH:0701",
+      "sea_ratio": 0.7677
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        21,
+        59
+      ],
+      "reference": "FB-PH:0801",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PH",
+        22,
+        58
+      ],
+      "reference": "FB-PH:0700",
+      "sea_ratio": 0.7843
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        90
+      ],
+      "reference": "FB-QH:0821",
+      "sea_ratio": 0.8395
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        0,
+        94
+      ],
+      "reference": "FB-QH:1221",
+      "sea_ratio": 0.8428
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        1,
+        94
+      ],
+      "reference": "FB-QH:1320",
+      "sea_ratio": 0.8086
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        2,
+        92
+      ],
+      "reference": "FB-QH:1019",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        2,
+        95
+      ],
+      "reference": "FB-QH:1319",
+      "sea_ratio": 0.7255
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        2,
+        96
+      ],
+      "reference": "FB-QH:1419",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        2,
+        97
+      ],
+      "reference": "FB-QH:1519",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        3,
+        94
+      ],
+      "reference": "FB-QH:1318",
+      "sea_ratio": 0.8086
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        5,
+        94
+      ],
+      "reference": "FB-QH:1316",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        5,
+        95
+      ],
+      "reference": "FB-QH:1416",
+      "sea_ratio": 0.7335
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        5,
+        96
+      ],
+      "reference": "FB-QH:1516",
+      "sea_ratio": 0.5542
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        5,
+        97
+      ],
+      "reference": "FB-QH:1616",
+      "sea_ratio": 0.7335
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        7,
+        98
+      ],
+      "reference": "FB-QH:1714",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        8,
+        95
+      ],
+      "reference": "FB-QH:1313",
+      "sea_ratio": 0.723
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        8,
+        96
+      ],
+      "reference": "FB-QH:1413",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        9,
+        94
+      ],
+      "reference": "FB-QH:1312",
+      "sea_ratio": 0.8136
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        10,
+        94
+      ],
+      "reference": "FB-QH:1211",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        11,
+        93
+      ],
+      "reference": "FB-QH:1210",
+      "sea_ratio": 0.7311
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        12,
+        94
+      ],
+      "reference": "FB-QH:1209",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        13,
+        85
+      ],
+      "reference": "FB-QH:0408",
+      "sea_ratio": 0.7794
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        13,
+        86
+      ],
+      "reference": "FB-QH:0508",
+      "sea_ratio": 0.728
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        83
+      ],
+      "reference": "FB-QH:0107",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        86
+      ],
+      "reference": "FB-QH:0407",
+      "sea_ratio": 0.598
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        87
+      ],
+      "reference": "FB-QH:0507",
+      "sea_ratio": 0.7935
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        88
+      ],
+      "reference": "FB-QH:0607",
+      "sea_ratio": 0.7955
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        89
+      ],
+      "reference": "FB-QH:0707",
+      "sea_ratio": 0.7139
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        14,
+        92
+      ],
+      "reference": "FB-QH:1007",
+      "sea_ratio": 0.7525
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        15,
+        85
+      ],
+      "reference": "FB-QH:0406",
+      "sea_ratio": 0.7188
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        15,
+        89
+      ],
+      "reference": "FB-QH:0806",
+      "sea_ratio": 0.7751
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        16,
+        85
+      ],
+      "reference": "FB-QH:0305",
+      "sea_ratio": 0.7273
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        16,
+        90
+      ],
+      "reference": "FB-QH:0805",
+      "sea_ratio": 0.8065
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        82
+      ],
+      "reference": "FB-QH:0104",
+      "sea_ratio": 0.7955
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        83
+      ],
+      "reference": "FB-QH:0204",
+      "sea_ratio": 0.7751
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        84
+      ],
+      "reference": "FB-QH:0304",
+      "sea_ratio": 0.6237
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        87
+      ],
+      "reference": "FB-QH:0604",
+      "sea_ratio": 0.7188
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        90
+      ],
+      "reference": "FB-QH:0904",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        17,
+        91
+      ],
+      "reference": "FB-QH:1004",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        18,
+        90
+      ],
+      "reference": "FB-QH:0803",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        20,
+        84
+      ],
+      "reference": "FB-QH:0201",
+      "sea_ratio": 0.7132
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        20,
+        85
+      ],
+      "reference": "FB-QH:0301",
+      "sea_ratio": 0.7254
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        21,
+        83
+      ],
+      "reference": "FB-QH:0200",
+      "sea_ratio": 0.6993
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QH",
+        21,
+        85
+      ],
+      "reference": "FB-QH:0400",
+      "sea_ratio": 0.7824
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        17,
+        0
+      ],
+      "reference": "BK-SI:1528",
+      "sea_ratio": 0.8103
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        23,
+        0
+      ],
+      "reference": "BK-SI:1522",
+      "sea_ratio": 0.7198
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        24,
+        4
+      ],
+      "reference": "BK-SI:1821",
+      "sea_ratio": 0.8287
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        25,
+        4
+      ],
+      "reference": "BK-SI:1920",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        25,
+        6
+      ],
+      "reference": "BK-SI:2120",
+      "sea_ratio": 0.7188
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        26,
+        5
+      ],
+      "reference": "BK-SI:1919",
+      "sea_ratio": 0.7457
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        26,
+        6
+      ],
+      "reference": "BK-SI:2019",
+      "sea_ratio": 0.8235
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        26,
+        7
+      ],
+      "reference": "BK-SI:2119",
+      "sea_ratio": 0.6446
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        27,
+        4
+      ],
+      "reference": "BK-SI:1918",
+      "sea_ratio": 0.7946
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        28,
+        4
+      ],
+      "reference": "BK-SI:1817",
+      "sea_ratio": 0.8161
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        0
+      ],
+      "reference": "BK-SI:1516",
+      "sea_ratio": 0.8147
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        1
+      ],
+      "reference": "BK-SI:1616",
+      "sea_ratio": 0.8539
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        2
+      ],
+      "reference": "BK-SI:1716",
+      "sea_ratio": 0.8543
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        3
+      ],
+      "reference": "BK-SI:1816",
+      "sea_ratio": 0.7733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        29,
+        6
+      ],
+      "reference": "BK-SI:2116",
+      "sea_ratio": 0.7304
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        30,
+        4
+      ],
+      "reference": "BK-SI:1815",
+      "sea_ratio": 0.8161
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        31,
+        4
+      ],
+      "reference": "BK-SI:1914",
+      "sea_ratio": 0.7946
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        32,
+        2
+      ],
+      "reference": "BK-SI:1613",
+      "sea_ratio": 0.7563
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        32,
+        5
+      ],
+      "reference": "BK-SI:1913",
+      "sea_ratio": 0.7531
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        32,
+        6
+      ],
+      "reference": "BK-SI:2013",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        32,
+        7
+      ],
+      "reference": "BK-SI:2113",
+      "sea_ratio": 0.8382
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        1
+      ],
+      "reference": "BK-SI:1612",
+      "sea_ratio": 0.8212
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        2
+      ],
+      "reference": "BK-SI:1712",
+      "sea_ratio": 0.7362
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        3
+      ],
+      "reference": "BK-SI:1812",
+      "sea_ratio": 0.8363
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        4
+      ],
+      "reference": "BK-SI:1912",
+      "sea_ratio": 0.6259
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        33,
+        5
+      ],
+      "reference": "BK-SI:2012",
+      "sea_ratio": 0.8533
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        34,
+        4
+      ],
+      "reference": "BK-SI:1811",
+      "sea_ratio": 0.8232
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        0
+      ],
+      "reference": "BK-SI:1510",
+      "sea_ratio": 0.819
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        1
+      ],
+      "reference": "BK-SI:1610",
+      "sea_ratio": 0.8492
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        2
+      ],
+      "reference": "BK-SI:1710",
+      "sea_ratio": 0.8518
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        3
+      ],
+      "reference": "BK-SI:1810",
+      "sea_ratio": 0.7733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        35,
+        6
+      ],
+      "reference": "BK-SI:2110",
+      "sea_ratio": 0.7255
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        36,
+        4
+      ],
+      "reference": "BK-SI:1809",
+      "sea_ratio": 0.8262
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        37,
+        4
+      ],
+      "reference": "BK-SI:1908",
+      "sea_ratio": 0.7971
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        38,
+        2
+      ],
+      "reference": "BK-SI:1607",
+      "sea_ratio": 0.7613
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        38,
+        5
+      ],
+      "reference": "BK-SI:1907",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        38,
+        6
+      ],
+      "reference": "BK-SI:2007",
+      "sea_ratio": 0.8235
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        38,
+        7
+      ],
+      "reference": "BK-SI:2107",
+      "sea_ratio": 0.8407
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        39,
+        4
+      ],
+      "reference": "BK-SI:1906",
+      "sea_ratio": 0.802
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        40,
+        4
+      ],
+      "reference": "BK-SI:1805",
+      "sea_ratio": 0.8182
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        0
+      ],
+      "reference": "BK-SI:1504",
+      "sea_ratio": 0.8233
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        1
+      ],
+      "reference": "BK-SI:1604",
+      "sea_ratio": 0.8543
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        2
+      ],
+      "reference": "BK-SI:1704",
+      "sea_ratio": 0.8568
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        3
+      ],
+      "reference": "BK-SI:1804",
+      "sea_ratio": 0.7758
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        41,
+        6
+      ],
+      "reference": "BK-SI:2104",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        42,
+        4
+      ],
+      "reference": "BK-SI:1803",
+      "sea_ratio": 0.8258
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        43,
+        4
+      ],
+      "reference": "BK-SI:1902",
+      "sea_ratio": 0.8044
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        44,
+        2
+      ],
+      "reference": "BK-SI:1601",
+      "sea_ratio": 0.7613
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        44,
+        5
+      ],
+      "reference": "BK-SI:1901",
+      "sea_ratio": 0.7574
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        44,
+        6
+      ],
+      "reference": "BK-SI:2001",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SI",
+        44,
+        7
+      ],
+      "reference": "BK-SI:2101",
+      "sea_ratio": 0.848
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        12,
+        26
+      ],
+      "reference": "BK-TI:1933",
+      "sea_ratio": 0.7139
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        12,
+        27
+      ],
+      "reference": "BK-TI:2033",
+      "sea_ratio": 0.8086
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        13,
+        25
+      ],
+      "reference": "BK-TI:1932",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        13,
+        26
+      ],
+      "reference": "BK-TI:2032",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        14,
+        24
+      ],
+      "reference": "BK-TI:1731",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        14,
+        25
+      ],
+      "reference": "BK-TI:1831",
+      "sea_ratio": 0.6029
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        14,
+        26
+      ],
+      "reference": "BK-TI:1931",
+      "sea_ratio": 0.7335
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        15,
+        24
+      ],
+      "reference": "BK-TI:1830",
+      "sea_ratio": 0.733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        15,
+        26
+      ],
+      "reference": "BK-TI:2030",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        16,
+        22
+      ],
+      "reference": "BK-TI:1529",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        16,
+        24
+      ],
+      "reference": "BK-TI:1729",
+      "sea_ratio": 0.7298
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        16,
+        27
+      ],
+      "reference": "BK-TI:2029",
+      "sea_ratio": 0.801
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        17,
+        21
+      ],
+      "reference": "BK-TI:1528",
+      "sea_ratio": 0.7632
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        17,
+        23
+      ],
+      "reference": "BK-TI:1728",
+      "sea_ratio": 0.7132
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        17,
+        24
+      ],
+      "reference": "BK-TI:1828",
+      "sea_ratio": 0.7481
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        18,
+        22
+      ],
+      "reference": "BK-TI:1527",
+      "sea_ratio": 0.8136
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        18,
+        24
+      ],
+      "reference": "BK-TI:1727",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        19,
+        22
+      ],
+      "reference": "BK-TI:1626",
+      "sea_ratio": 0.8111
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        19,
+        24
+      ],
+      "reference": "BK-TI:1826",
+      "sea_ratio": 0.7298
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        20,
+        23
+      ],
+      "reference": "BK-TI:1625",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        22,
+        18
+      ],
+      "reference": "BK-TI:1123",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        24,
+        9
+      ],
+      "reference": "BK-TI:0221",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        24,
+        13
+      ],
+      "reference": "BK-TI:0621",
+      "sea_ratio": 0.8186
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        25,
+        8
+      ],
+      "reference": "BK-TI:0220",
+      "sea_ratio": 0.8136
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        25,
+        13
+      ],
+      "reference": "BK-TI:0720",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        26,
+        8
+      ],
+      "reference": "BK-TI:0119",
+      "sea_ratio": 0.7657
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        26,
+        11
+      ],
+      "reference": "BK-TI:0419",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        26,
+        14
+      ],
+      "reference": "BK-TI:0719",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        26,
+        15
+      ],
+      "reference": "BK-TI:0819",
+      "sea_ratio": 0.8463
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        26,
+        16
+      ],
+      "reference": "BK-TI:0919",
+      "sea_ratio": 0.8284
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        27,
+        7
+      ],
+      "reference": "BK-TI:0118",
+      "sea_ratio": 0.728
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        27,
+        8
+      ],
+      "reference": "BK-TI:0218",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        27,
+        13
+      ],
+      "reference": "BK-TI:0718",
+      "sea_ratio": 0.7946
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        28,
+        8
+      ],
+      "reference": "BK-TI:0117",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        28,
+        9
+      ],
+      "reference": "BK-TI:0217",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        28,
+        13
+      ],
+      "reference": "BK-TI:0617",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        29,
+        8
+      ],
+      "reference": "BK-TI:0216",
+      "sea_ratio": 0.7348
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        29,
+        9
+      ],
+      "reference": "BK-TI:0316",
+      "sea_ratio": 0.7451
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        29,
+        10
+      ],
+      "reference": "BK-TI:0416",
+      "sea_ratio": 0.8539
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        29,
+        11
+      ],
+      "reference": "BK-TI:0516",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        29,
+        12
+      ],
+      "reference": "BK-TI:0616",
+      "sea_ratio": 0.7607
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        30,
+        9
+      ],
+      "reference": "BK-TI:0215",
+      "sea_ratio": 0.6088
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        30,
+        13
+      ],
+      "reference": "BK-TI:0615",
+      "sea_ratio": 0.8237
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        31,
+        8
+      ],
+      "reference": "BK-TI:0214",
+      "sea_ratio": 0.8212
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        31,
+        9
+      ],
+      "reference": "BK-TI:0314",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        31,
+        13
+      ],
+      "reference": "BK-TI:0714",
+      "sea_ratio": 0.7971
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        32,
+        8
+      ],
+      "reference": "BK-TI:0113",
+      "sea_ratio": 0.7708
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        32,
+        10
+      ],
+      "reference": "BK-TI:0313",
+      "sea_ratio": 0.733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        32,
+        11
+      ],
+      "reference": "BK-TI:0413",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        32,
+        14
+      ],
+      "reference": "BK-TI:0713",
+      "sea_ratio": 0.7451
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        33,
+        8
+      ],
+      "reference": "BK-TI:0212",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        33,
+        10
+      ],
+      "reference": "BK-TI:0412",
+      "sea_ratio": 0.7355
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        33,
+        13
+      ],
+      "reference": "BK-TI:0712",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        34,
+        9
+      ],
+      "reference": "BK-TI:0211",
+      "sea_ratio": 0.7951
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        34,
+        11
+      ],
+      "reference": "BK-TI:0411",
+      "sea_ratio": 0.7237
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        34,
+        13
+      ],
+      "reference": "BK-TI:0611",
+      "sea_ratio": 0.8258
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        35,
+        9
+      ],
+      "reference": "BK-TI:0310",
+      "sea_ratio": 0.7451
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        35,
+        10
+      ],
+      "reference": "BK-TI:0410",
+      "sea_ratio": 0.8564
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        35,
+        11
+      ],
+      "reference": "BK-TI:0510",
+      "sea_ratio": 0.6446
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        35,
+        12
+      ],
+      "reference": "BK-TI:0610",
+      "sea_ratio": 0.7657
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        36,
+        9
+      ],
+      "reference": "BK-TI:0209",
+      "sea_ratio": 0.7824
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        36,
+        12
+      ],
+      "reference": "BK-TI:0509",
+      "sea_ratio": 0.7059
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        36,
+        13
+      ],
+      "reference": "BK-TI:0609",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        37,
+        8
+      ],
+      "reference": "BK-TI:0208",
+      "sea_ratio": 0.8111
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        37,
+        12
+      ],
+      "reference": "BK-TI:0608",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        37,
+        13
+      ],
+      "reference": "BK-TI:0708",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        38,
+        8
+      ],
+      "reference": "BK-TI:0107",
+      "sea_ratio": 0.7733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        38,
+        11
+      ],
+      "reference": "BK-TI:0407",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        38,
+        13
+      ],
+      "reference": "BK-TI:0607",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        39,
+        8
+      ],
+      "reference": "BK-TI:0206",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        39,
+        13
+      ],
+      "reference": "BK-TI:0706",
+      "sea_ratio": 0.5697
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        40,
+        9
+      ],
+      "reference": "BK-TI:0205",
+      "sea_ratio": 0.7854
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        40,
+        13
+      ],
+      "reference": "BK-TI:0605",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        41,
+        9
+      ],
+      "reference": "BK-TI:0304",
+      "sea_ratio": 0.7451
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        41,
+        10
+      ],
+      "reference": "BK-TI:0404",
+      "sea_ratio": 0.8615
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        41,
+        11
+      ],
+      "reference": "BK-TI:0504",
+      "sea_ratio": 0.8284
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        41,
+        12
+      ],
+      "reference": "BK-TI:0604",
+      "sea_ratio": 0.6382
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        42,
+        9
+      ],
+      "reference": "BK-TI:0203",
+      "sea_ratio": 0.7878
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        42,
+        12
+      ],
+      "reference": "BK-TI:0503",
+      "sea_ratio": 0.709
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        42,
+        13
+      ],
+      "reference": "BK-TI:0603",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        43,
+        8
+      ],
+      "reference": "BK-TI:0202",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        43,
+        11
+      ],
+      "reference": "BK-TI:0502",
+      "sea_ratio": 0.7098
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        43,
+        13
+      ],
+      "reference": "BK-TI:0702",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        8
+      ],
+      "reference": "BK-TI:0101",
+      "sea_ratio": 0.7834
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        11
+      ],
+      "reference": "BK-TI:0401",
+      "sea_ratio": 0.5515
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        14
+      ],
+      "reference": "BK-TI:0701",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        23
+      ],
+      "reference": "BK-TI:1601",
+      "sea_ratio": 0.7549
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        24
+      ],
+      "reference": "BK-TI:1701",
+      "sea_ratio": 0.8618
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TI",
+        44,
+        25
+      ],
+      "reference": "BK-TI:1801",
+      "sea_ratio": 0.8162
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        7,
+        35
+      ],
+      "reference": "BK-UI:0838",
+      "sea_ratio": 0.78
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        8,
+        33
+      ],
+      "reference": "BK-UI:0537",
+      "sea_ratio": 0.7683
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        8,
+        34
+      ],
+      "reference": "BK-UI:0637",
+      "sea_ratio": 0.798
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        8,
+        35
+      ],
+      "reference": "BK-UI:0737",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        9,
+        32
+      ],
+      "reference": "BK-UI:0536",
+      "sea_ratio": 0.6333
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        9,
+        33
+      ],
+      "reference": "BK-UI:0636",
+      "sea_ratio": 0.7
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        9,
+        34
+      ],
+      "reference": "BK-UI:0736",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        9,
+        35
+      ],
+      "reference": "BK-UI:0836",
+      "sea_ratio": 0.6675
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        10,
+        31
+      ],
+      "reference": "BK-UI:0335",
+      "sea_ratio": 0.7557
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        10,
+        33
+      ],
+      "reference": "BK-UI:0535",
+      "sea_ratio": 0.8732
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        10,
+        36
+      ],
+      "reference": "BK-UI:0835",
+      "sea_ratio": 0.7073
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        11,
+        28
+      ],
+      "reference": "BK-UI:0134",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        11,
+        30
+      ],
+      "reference": "BK-UI:0334",
+      "sea_ratio": 0.7171
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        11,
+        33
+      ],
+      "reference": "BK-UI:0634",
+      "sea_ratio": 0.7293
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        11,
+        36
+      ],
+      "reference": "BK-UI:0934",
+      "sea_ratio": 0.6073
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        12,
+        31
+      ],
+      "reference": "BK-UI:0333",
+      "sea_ratio": 0.8111
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        12,
+        36
+      ],
+      "reference": "BK-UI:0833",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        13,
+        31
+      ],
+      "reference": "BK-UI:0432",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        14,
+        29
+      ],
+      "reference": "BK-UI:0131",
+      "sea_ratio": 0.7657
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        14,
+        32
+      ],
+      "reference": "BK-UI:0431",
+      "sea_ratio": 0.7481
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        14,
+        33
+      ],
+      "reference": "BK-UI:0531",
+      "sea_ratio": 0.7819
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        14,
+        34
+      ],
+      "reference": "BK-UI:0631",
+      "sea_ratio": 0.7985
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        15,
+        31
+      ],
+      "reference": "BK-UI:0430",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-UI",
+        16,
+        31
+      ],
+      "reference": "BK-UI:0329",
+      "sea_ratio": 0.8015
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        17,
+        27
+      ],
+      "reference": "HP-B:0232",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        17,
+        28
+      ],
+      "reference": "HP-B:0332",
+      "sea_ratio": 0.801
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        17,
+        29
+      ],
+      "reference": "HP-B:0432",
+      "sea_ratio": 0.7985
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        44,
+        26
+      ],
+      "reference": "HP-B:0005",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        44,
+        27
+      ],
+      "reference": "HP-B:0105",
+      "sea_ratio": 0.8939
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        45,
+        26
+      ],
+      "reference": "HP-B:0104",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        46,
+        27
+      ],
+      "reference": "HP-B:0103",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        48,
+        26
+      ],
+      "reference": "HP-B:0001",
+      "sea_ratio": 0.8824
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-B",
+        48,
+        27
+      ],
+      "reference": "HP-B:0101",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        26,
+        51
+      ],
+      "reference": "FB-OG:1545",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        27,
+        49
+      ],
+      "reference": "FB-OG:1444",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        28,
+        49
+      ],
+      "reference": "FB-OG:1343",
+      "sea_ratio": 0.8065
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        29,
+        48
+      ],
+      "reference": "FB-OG:1342",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        30,
+        49
+      ],
+      "reference": "FB-OG:1341",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        32,
+        47
+      ],
+      "reference": "FB-OG:1139",
+      "sea_ratio": 0.7525
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        32,
+        50
+      ],
+      "reference": "FB-OG:1439",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        32,
+        51
+      ],
+      "reference": "FB-OG:1539",
+      "sea_ratio": 0.7897
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        33,
+        49
+      ],
+      "reference": "FB-OG:1438",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        34,
+        45
+      ],
+      "reference": "FB-OG:0937",
+      "sea_ratio": 0.7601
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        34,
+        49
+      ],
+      "reference": "FB-OG:1337",
+      "sea_ratio": 0.804
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        35,
+        45
+      ],
+      "reference": "FB-OG:1036",
+      "sea_ratio": 0.6308
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        35,
+        46
+      ],
+      "reference": "FB-OG:1136",
+      "sea_ratio": 0.8593
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        35,
+        47
+      ],
+      "reference": "FB-OG:1236",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        35,
+        48
+      ],
+      "reference": "FB-OG:1336",
+      "sea_ratio": 0.7451
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        36,
+        45
+      ],
+      "reference": "FB-OG:0935",
+      "sea_ratio": 0.8035
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        36,
+        46
+      ],
+      "reference": "FB-OG:1035",
+      "sea_ratio": 0.7164
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        36,
+        49
+      ],
+      "reference": "FB-OG:1335",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        37,
+        44
+      ],
+      "reference": "FB-OG:0934",
+      "sea_ratio": 0.806
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        37,
+        46
+      ],
+      "reference": "FB-OG:1134",
+      "sea_ratio": 0.7506
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        37,
+        49
+      ],
+      "reference": "FB-OG:1434",
+      "sea_ratio": 0.8212
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        38,
+        47
+      ],
+      "reference": "FB-OG:1133",
+      "sea_ratio": 0.5416
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        38,
+        48
+      ],
+      "reference": "FB-OG:1233",
+      "sea_ratio": 0.7408
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        38,
+        49
+      ],
+      "reference": "FB-OG:1333",
+      "sea_ratio": 0.7412
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        38,
+        50
+      ],
+      "reference": "FB-OG:1433",
+      "sea_ratio": 0.6201
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        38,
+        51
+      ],
+      "reference": "FB-OG:1533",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        39,
+        49
+      ],
+      "reference": "FB-OG:1432",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        40,
+        48
+      ],
+      "reference": "FB-OG:1231",
+      "sea_ratio": 0.8848
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        40,
+        49
+      ],
+      "reference": "FB-OG:1331",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        41,
+        47
+      ],
+      "reference": "FB-OG:1230",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        41,
+        48
+      ],
+      "reference": "FB-OG:1330",
+      "sea_ratio": 0.6895
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        43,
+        47
+      ],
+      "reference": "FB-OG:1228",
+      "sea_ratio": 0.8965
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        44,
+        48
+      ],
+      "reference": "FB-OG:1227",
+      "sea_ratio": 0.8753
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        44,
+        49
+      ],
+      "reference": "FB-OG:1327",
+      "sea_ratio": 0.8561
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        44,
+        50
+      ],
+      "reference": "FB-OG:1427",
+      "sea_ratio": 0.6814
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        45,
+        48
+      ],
+      "reference": "FB-OG:1326",
+      "sea_ratio": 0.8973
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        45,
+        49
+      ],
+      "reference": "FB-OG:1426",
+      "sea_ratio": 0.7582
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        45,
+        50
+      ],
+      "reference": "FB-OG:1526",
+      "sea_ratio": 0.6691
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        45,
+        51
+      ],
+      "reference": "FB-OG:1626",
+      "sea_ratio": 0.8939
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        46,
+        49
+      ],
+      "reference": "FB-OG:1325",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        46,
+        50
+      ],
+      "reference": "FB-OG:1425",
+      "sea_ratio": 0.7059
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        46,
+        51
+      ],
+      "reference": "FB-OG:1525",
+      "sea_ratio": 0.5623
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        47,
+        47
+      ],
+      "reference": "FB-OG:1224",
+      "sea_ratio": 0.8564
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        47,
+        48
+      ],
+      "reference": "FB-OG:1324",
+      "sea_ratio": 0.5707
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        47,
+        49
+      ],
+      "reference": "FB-OG:1424",
+      "sea_ratio": 0.7431
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        47,
+        51
+      ],
+      "reference": "FB-OG:1624",
+      "sea_ratio": 0.5556
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        48,
+        48
+      ],
+      "reference": "FB-OG:1223",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        48,
+        49
+      ],
+      "reference": "FB-OG:1323",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        42
+      ],
+      "reference": "FB-OG:0722",
+      "sea_ratio": 0.7229
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        43
+      ],
+      "reference": "FB-OG:0822",
+      "sea_ratio": 0.7164
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        44
+      ],
+      "reference": "FB-OG:0922",
+      "sea_ratio": 0.6121
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        45
+      ],
+      "reference": "FB-OG:1022",
+      "sea_ratio": 0.7255
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        46
+      ],
+      "reference": "FB-OG:1122",
+      "sea_ratio": 0.654
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        47
+      ],
+      "reference": "FB-OG:1222",
+      "sea_ratio": 0.6751
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        48
+      ],
+      "reference": "FB-OG:1322",
+      "sea_ratio": 0.7262
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        49
+      ],
+      "reference": "FB-OG:1422",
+      "sea_ratio": 0.6348
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        50
+      ],
+      "reference": "FB-OG:1522",
+      "sea_ratio": 0.7304
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        49,
+        51
+      ],
+      "reference": "FB-OG:1622",
+      "sea_ratio": 0.7449
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        41
+      ],
+      "reference": "FB-OG:0521",
+      "sea_ratio": 0.7115
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        42
+      ],
+      "reference": "FB-OG:0621",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        43
+      ],
+      "reference": "FB-OG:0721",
+      "sea_ratio": 0.8137
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        44
+      ],
+      "reference": "FB-OG:0821",
+      "sea_ratio": 0.5859
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        45
+      ],
+      "reference": "FB-OG:0921",
+      "sea_ratio": 0.7531
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        46
+      ],
+      "reference": "FB-OG:1021",
+      "sea_ratio": 0.7293
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        47
+      ],
+      "reference": "FB-OG:1121",
+      "sea_ratio": 0.7582
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        50
+      ],
+      "reference": "FB-OG:1421",
+      "sea_ratio": 0.7506
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        50,
+        51
+      ],
+      "reference": "FB-OG:1521",
+      "sea_ratio": 0.8366
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        41
+      ],
+      "reference": "FB-OG:0620",
+      "sea_ratio": 0.7017
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        42
+      ],
+      "reference": "FB-OG:0720",
+      "sea_ratio": 0.7506
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        43
+      ],
+      "reference": "FB-OG:0820",
+      "sea_ratio": 0.7108
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        44
+      ],
+      "reference": "FB-OG:0920",
+      "sea_ratio": 0.8035
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        47
+      ],
+      "reference": "FB-OG:1220",
+      "sea_ratio": 0.8992
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        49
+      ],
+      "reference": "FB-OG:1420",
+      "sea_ratio": 0.8111
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        51,
+        51
+      ],
+      "reference": "FB-OG:1620",
+      "sea_ratio": 0.7247
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        52,
+        41
+      ],
+      "reference": "FB-OG:0519",
+      "sea_ratio": 0.7237
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        52,
+        45
+      ],
+      "reference": "FB-OG:0919",
+      "sea_ratio": 0.8136
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        52,
+        49
+      ],
+      "reference": "FB-OG:1319",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        52,
+        51
+      ],
+      "reference": "FB-OG:1519",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        42
+      ],
+      "reference": "FB-OG:0718",
+      "sea_ratio": 0.738
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        45
+      ],
+      "reference": "FB-OG:1018",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        46
+      ],
+      "reference": "FB-OG:1118",
+      "sea_ratio": 0.8662
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        47
+      ],
+      "reference": "FB-OG:1218",
+      "sea_ratio": 0.8338
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        48
+      ],
+      "reference": "FB-OG:1318",
+      "sea_ratio": 0.7439
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        50
+      ],
+      "reference": "FB-OG:1518",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        53,
+        51
+      ],
+      "reference": "FB-OG:1618",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        54,
+        49
+      ],
+      "reference": "FB-OG:1317",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        54,
+        50
+      ],
+      "reference": "FB-OG:1417",
+      "sea_ratio": 0.7304
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        55,
+        40
+      ],
+      "reference": "FB-OG:0516",
+      "sea_ratio": 0.7897
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        55,
+        49
+      ],
+      "reference": "FB-OG:1416",
+      "sea_ratio": 0.8186
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        55,
+        50
+      ],
+      "reference": "FB-OG:1516",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        56,
+        41
+      ],
+      "reference": "FB-OG:0515",
+      "sea_ratio": 0.739
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        56,
+        46
+      ],
+      "reference": "FB-OG:1015",
+      "sea_ratio": 0.8537
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        56,
+        47
+      ],
+      "reference": "FB-OG:1115",
+      "sea_ratio": 0.7576
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        56,
+        50
+      ],
+      "reference": "FB-OG:1415",
+      "sea_ratio": 0.7531
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        56,
+        51
+      ],
+      "reference": "FB-OG:1515",
+      "sea_ratio": 0.6024
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        57,
+        40
+      ],
+      "reference": "FB-OG:0514",
+      "sea_ratio": 0.7941
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        57,
+        45
+      ],
+      "reference": "FB-OG:1014",
+      "sea_ratio": 0.8113
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        57,
+        49
+      ],
+      "reference": "FB-OG:1414",
+      "sea_ratio": 0.8161
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        57,
+        51
+      ],
+      "reference": "FB-OG:1614",
+      "sea_ratio": 0.7172
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        58,
+        40
+      ],
+      "reference": "FB-OG:0413",
+      "sea_ratio": 0.8136
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        58,
+        45
+      ],
+      "reference": "FB-OG:0913",
+      "sea_ratio": 0.7154
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        58,
+        49
+      ],
+      "reference": "FB-OG:1313",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        44
+      ],
+      "reference": "FB-OG:0912",
+      "sea_ratio": 0.8864
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        45
+      ],
+      "reference": "FB-OG:1012",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        46
+      ],
+      "reference": "FB-OG:1112",
+      "sea_ratio": 0.8687
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        47
+      ],
+      "reference": "FB-OG:1212",
+      "sea_ratio": 0.864
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        48
+      ],
+      "reference": "FB-OG:1312",
+      "sea_ratio": 0.7415
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        59,
+        50
+      ],
+      "reference": "FB-OG:1512",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        60,
+        40
+      ],
+      "reference": "FB-OG:0411",
+      "sea_ratio": 0.8237
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        60,
+        49
+      ],
+      "reference": "FB-OG:1311",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        60,
+        50
+      ],
+      "reference": "FB-OG:1411",
+      "sea_ratio": 0.7328
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        61,
+        40
+      ],
+      "reference": "FB-OG:0510",
+      "sea_ratio": 0.7531
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        61,
+        49
+      ],
+      "reference": "FB-OG:1410",
+      "sea_ratio": 0.6313
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        38
+      ],
+      "reference": "FB-OG:0209",
+      "sea_ratio": 0.6993
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        41
+      ],
+      "reference": "FB-OG:0509",
+      "sea_ratio": 0.7262
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        42
+      ],
+      "reference": "FB-OG:0609",
+      "sea_ratio": 0.8485
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        43
+      ],
+      "reference": "FB-OG:0709",
+      "sea_ratio": 0.8215
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        44
+      ],
+      "reference": "FB-OG:0809",
+      "sea_ratio": 0.7626
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        62,
+        47
+      ],
+      "reference": "FB-OG:1109",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        63,
+        35
+      ],
+      "reference": "FB-OG:0008",
+      "sea_ratio": 0.7819
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        63,
+        40
+      ],
+      "reference": "FB-OG:0508",
+      "sea_ratio": 0.7843
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        63,
+        44
+      ],
+      "reference": "FB-OG:0908",
+      "sea_ratio": 0.8035
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        63,
+        48
+      ],
+      "reference": "FB-OG:1308",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        64,
+        36
+      ],
+      "reference": "FB-OG:0007",
+      "sea_ratio": 0.7848
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        64,
+        45
+      ],
+      "reference": "FB-OG:0907",
+      "sea_ratio": 0.8035
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        64,
+        48
+      ],
+      "reference": "FB-OG:1207",
+      "sea_ratio": 0.7268
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        64,
+        49
+      ],
+      "reference": "FB-OG:1307",
+      "sea_ratio": 0.702
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        36
+      ],
+      "reference": "FB-OG:0106",
+      "sea_ratio": 0.7049
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        37
+      ],
+      "reference": "FB-OG:0206",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        38
+      ],
+      "reference": "FB-OG:0306",
+      "sea_ratio": 0.7751
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        39
+      ],
+      "reference": "FB-OG:0406",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        42
+      ],
+      "reference": "FB-OG:0706",
+      "sea_ratio": 0.7449
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        45
+      ],
+      "reference": "FB-OG:1006",
+      "sea_ratio": 0.7122
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        46
+      ],
+      "reference": "FB-OG:1106",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        47
+      ],
+      "reference": "FB-OG:1206",
+      "sea_ratio": 0.6222
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        65,
+        48
+      ],
+      "reference": "FB-OG:1306",
+      "sea_ratio": 0.6098
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        36
+      ],
+      "reference": "FB-OG:0005",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        40
+      ],
+      "reference": "FB-OG:0405",
+      "sea_ratio": 0.8182
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        45
+      ],
+      "reference": "FB-OG:0905",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        47
+      ],
+      "reference": "FB-OG:1105",
+      "sea_ratio": 0.7431
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        48
+      ],
+      "reference": "FB-OG:1205",
+      "sea_ratio": 0.7157
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        66,
+        49
+      ],
+      "reference": "FB-OG:1305",
+      "sea_ratio": 0.7839
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        35
+      ],
+      "reference": "FB-OG:0004",
+      "sea_ratio": 0.5941
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        36
+      ],
+      "reference": "FB-OG:0104",
+      "sea_ratio": 0.7304
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        37
+      ],
+      "reference": "FB-OG:0204",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        38
+      ],
+      "reference": "FB-OG:0304",
+      "sea_ratio": 0.7286
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        39
+      ],
+      "reference": "FB-OG:0404",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        40
+      ],
+      "reference": "FB-OG:0504",
+      "sea_ratio": 0.6064
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        41
+      ],
+      "reference": "FB-OG:0604",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        42
+      ],
+      "reference": "FB-OG:0704",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        43
+      ],
+      "reference": "FB-OG:0804",
+      "sea_ratio": 0.7237
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        44
+      ],
+      "reference": "FB-OG:0904",
+      "sea_ratio": 0.6288
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        45
+      ],
+      "reference": "FB-OG:1004",
+      "sea_ratio": 0.7268
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        46
+      ],
+      "reference": "FB-OG:1104",
+      "sea_ratio": 0.5783
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        47
+      ],
+      "reference": "FB-OG:1204",
+      "sea_ratio": 0.5844
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        67,
+        48
+      ],
+      "reference": "FB-OG:1304",
+      "sea_ratio": 0.7384
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        38
+      ],
+      "reference": "FB-OG:0203",
+      "sea_ratio": 0.7213
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        41
+      ],
+      "reference": "FB-OG:0503",
+      "sea_ratio": 0.7115
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        42
+      ],
+      "reference": "FB-OG:0603",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        43
+      ],
+      "reference": "FB-OG:0703",
+      "sea_ratio": 0.7707
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        44
+      ],
+      "reference": "FB-OG:0803",
+      "sea_ratio": 0.7424
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        46
+      ],
+      "reference": "FB-OG:1003",
+      "sea_ratio": 0.7164
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        68,
+        47
+      ],
+      "reference": "FB-OG:1103",
+      "sea_ratio": 0.4217
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        69,
+        35
+      ],
+      "reference": "FB-OG:0002",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        69,
+        44
+      ],
+      "reference": "FB-OG:0902",
+      "sea_ratio": 0.8111
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        70,
+        36
+      ],
+      "reference": "FB-OG:0001",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        70,
+        43
+      ],
+      "reference": "FB-OG:0701",
+      "sea_ratio": 0.722
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-OG",
+        70,
+        44
+      ],
+      "reference": "FB-OG:0801",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        23,
+        57
+      ],
+      "reference": "FB-PG:0649",
+      "sea_ratio": 0.8182
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        24,
+        54
+      ],
+      "reference": "FB-PG:0348",
+      "sea_ratio": 0.7317
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        24,
+        56
+      ],
+      "reference": "FB-PG:0548",
+      "sea_ratio": 0.822
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        24,
+        57
+      ],
+      "reference": "FB-PG:0648",
+      "sea_ratio": 0.7601
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        25,
+        54
+      ],
+      "reference": "FB-PG:0347",
+      "sea_ratio": 0.8971
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        26,
+        53
+      ],
+      "reference": "FB-PG:0246",
+      "sea_ratio": 0.7298
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        26,
+        54
+      ],
+      "reference": "FB-PG:0346",
+      "sea_ratio": 0.868
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        27,
+        51
+      ],
+      "reference": "FB-PG:0045",
+      "sea_ratio": 0.8485
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        27,
+        52
+      ],
+      "reference": "FB-PG:0145",
+      "sea_ratio": 0.6912
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        30,
+        51
+      ],
+      "reference": "FB-PG:0042",
+      "sea_ratio": 0.6985
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        33,
+        51
+      ],
+      "reference": "FB-PG:0039",
+      "sea_ratio": 0.8535
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        33,
+        52
+      ],
+      "reference": "FB-PG:0139",
+      "sea_ratio": 0.7384
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        36,
+        51
+      ],
+      "reference": "FB-PG:0036",
+      "sea_ratio": 0.6985
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        39,
+        51
+      ],
+      "reference": "FB-PG:0033",
+      "sea_ratio": 0.7449
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        42,
+        51
+      ],
+      "reference": "FB-PG:0030",
+      "sea_ratio": 0.6716
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        42,
+        76
+      ],
+      "reference": "FB-PG:2530",
+      "sea_ratio": 0.8729
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        43,
+        75
+      ],
+      "reference": "FB-PG:2429",
+      "sea_ratio": 0.8701
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        44,
+        78
+      ],
+      "reference": "FB-PG:2728",
+      "sea_ratio": 0.7098
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        45,
+        51
+      ],
+      "reference": "FB-PG:0027",
+      "sea_ratio": 0.7677
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        45,
+        64
+      ],
+      "reference": "FB-PG:1327",
+      "sea_ratio": 0.5355
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        45,
+        66
+      ],
+      "reference": "FB-PG:1527",
+      "sea_ratio": 0.8729
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        45,
+        67
+      ],
+      "reference": "FB-PG:1627",
+      "sea_ratio": 0.7355
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        45,
+        77
+      ],
+      "reference": "FB-PG:2627",
+      "sea_ratio": 0.7059
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        46,
+        53
+      ],
+      "reference": "FB-PG:0226",
+      "sea_ratio": 0.7727
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        46,
+        60
+      ],
+      "reference": "FB-PG:0926",
+      "sea_ratio": 0.8995
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        51
+      ],
+      "reference": "FB-PG:0025",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        52
+      ],
+      "reference": "FB-PG:0125",
+      "sea_ratio": 0.7262
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        53
+      ],
+      "reference": "FB-PG:0225",
+      "sea_ratio": 0.597
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        54
+      ],
+      "reference": "FB-PG:0325",
+      "sea_ratio": 0.6479
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        56
+      ],
+      "reference": "FB-PG:0525",
+      "sea_ratio": 0.6235
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        57
+      ],
+      "reference": "FB-PG:0625",
+      "sea_ratio": 0.7733
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        58
+      ],
+      "reference": "FB-PG:0725",
+      "sea_ratio": 0.8732
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        59
+      ],
+      "reference": "FB-PG:0825",
+      "sea_ratio": 0.8992
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        62
+      ],
+      "reference": "FB-PG:1125",
+      "sea_ratio": 0.7805
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        63
+      ],
+      "reference": "FB-PG:1225",
+      "sea_ratio": 0.7449
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        47,
+        66
+      ],
+      "reference": "FB-PG:1525",
+      "sea_ratio": 0.7873
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        54
+      ],
+      "reference": "FB-PG:0324",
+      "sea_ratio": 0.7328
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        55
+      ],
+      "reference": "FB-PG:0424",
+      "sea_ratio": 0.8308
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        56
+      ],
+      "reference": "FB-PG:0524",
+      "sea_ratio": 0.7745
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        57
+      ],
+      "reference": "FB-PG:0624",
+      "sea_ratio": 0.5707
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        58
+      ],
+      "reference": "FB-PG:0724",
+      "sea_ratio": 0.7181
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        63
+      ],
+      "reference": "FB-PG:1224",
+      "sea_ratio": 0.6465
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        64
+      ],
+      "reference": "FB-PG:1324",
+      "sea_ratio": 0.8284
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        65
+      ],
+      "reference": "FB-PG:1424",
+      "sea_ratio": 0.8611
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        48,
+        66
+      ],
+      "reference": "FB-PG:1524",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        49,
+        51
+      ],
+      "reference": "FB-PG:0023",
+      "sea_ratio": 0.7305
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        49,
+        52
+      ],
+      "reference": "FB-PG:0123",
+      "sea_ratio": 0.8922
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        49,
+        57
+      ],
+      "reference": "FB-PG:0623",
+      "sea_ratio": 0.7985
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        49,
+        66
+      ],
+      "reference": "FB-PG:1523",
+      "sea_ratio": 0.7726
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        50,
+        52
+      ],
+      "reference": "FB-PG:0122",
+      "sea_ratio": 0.5303
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        50,
+        53
+      ],
+      "reference": "FB-PG:0222",
+      "sea_ratio": 0.5581
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        50,
+        55
+      ],
+      "reference": "FB-PG:0422",
+      "sea_ratio": 0.7146
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        50,
+        56
+      ],
+      "reference": "FB-PG:0522",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        51,
+        51
+      ],
+      "reference": "FB-PG:0021",
+      "sea_ratio": 0.6474
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        51,
+        52
+      ],
+      "reference": "FB-PG:0121",
+      "sea_ratio": 0.6642
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        52,
+        52
+      ],
+      "reference": "FB-PG:0120",
+      "sea_ratio": 0.869
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        52,
+        53
+      ],
+      "reference": "FB-PG:0220",
+      "sea_ratio": 0.5808
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        52,
+        66
+      ],
+      "reference": "FB-PG:1520",
+      "sea_ratio": 0.8799
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        54,
+        66
+      ],
+      "reference": "FB-PG:1518",
+      "sea_ratio": 0.8652
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        55,
+        51
+      ],
+      "reference": "FB-PG:0017",
+      "sea_ratio": 0.8813
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        55,
+        52
+      ],
+      "reference": "FB-PG:0117",
+      "sea_ratio": 0.665
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        55,
+        66
+      ],
+      "reference": "FB-PG:1517",
+      "sea_ratio": 0.8848
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        56,
+        52
+      ],
+      "reference": "FB-PG:0116",
+      "sea_ratio": 0.6675
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        56,
+        58
+      ],
+      "reference": "FB-PG:0716",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        57,
+        51
+      ],
+      "reference": "FB-PG:0015",
+      "sea_ratio": 0.5919
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        57,
+        52
+      ],
+      "reference": "FB-PG:0115",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        59,
+        57
+      ],
+      "reference": "FB-PG:0613",
+      "sea_ratio": 0.801
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        60,
+        56
+      ],
+      "reference": "FB-PG:0512",
+      "sea_ratio": 0.8333
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-PG",
+        60,
+        57
+      ],
+      "reference": "FB-PG:0612",
+      "sea_ratio": 0.7652
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QG",
+        23,
+        85
+      ],
+      "reference": "FB-QG:0449",
+      "sea_ratio": 0.8788
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QG",
+        24,
+        86
+      ],
+      "reference": "FB-QG:0548",
+      "sea_ratio": 0.8409
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QG",
+        37,
+        84
+      ],
+      "reference": "FB-QG:0335",
+      "sea_ratio": 0.8799
+    },
+    {
+      "key": [
+        "Map 5",
+        "FB-QG",
+        40,
+        86
+      ],
+      "reference": "FB-QG:0532",
+      "sea_ratio": 0.702
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        45,
+        4
+      ],
+      "reference": "BK-SH:1938",
+      "sea_ratio": 0.7917
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        46,
+        4
+      ],
+      "reference": "BK-SH:1837",
+      "sea_ratio": 0.8232
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        0
+      ],
+      "reference": "BK-SH:1536",
+      "sea_ratio": 0.8147
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        1
+      ],
+      "reference": "BK-SH:1636",
+      "sea_ratio": 0.8568
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        2
+      ],
+      "reference": "BK-SH:1736",
+      "sea_ratio": 0.8568
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        3
+      ],
+      "reference": "BK-SH:1836",
+      "sea_ratio": 0.7688
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        47,
+        6
+      ],
+      "reference": "BK-SH:2136",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        48,
+        1
+      ],
+      "reference": "BK-SH:1535",
+      "sea_ratio": 0.8813
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        48,
+        4
+      ],
+      "reference": "BK-SH:1835",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        49,
+        0
+      ],
+      "reference": "BK-SH:1534",
+      "sea_ratio": 0.8836
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        49,
+        4
+      ],
+      "reference": "BK-SH:1934",
+      "sea_ratio": 0.799
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        50,
+        2
+      ],
+      "reference": "BK-SH:1633",
+      "sea_ratio": 0.7563
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        50,
+        5
+      ],
+      "reference": "BK-SH:1933",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        50,
+        6
+      ],
+      "reference": "BK-SH:2033",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        50,
+        7
+      ],
+      "reference": "BK-SH:2133",
+      "sea_ratio": 0.8407
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        51,
+        4
+      ],
+      "reference": "BK-SH:1932",
+      "sea_ratio": 0.7966
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        52,
+        4
+      ],
+      "reference": "BK-SH:1831",
+      "sea_ratio": 0.8283
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        0
+      ],
+      "reference": "BK-SH:1530",
+      "sea_ratio": 0.8147
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        1
+      ],
+      "reference": "BK-SH:1630",
+      "sea_ratio": 0.8568
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        2
+      ],
+      "reference": "BK-SH:1730",
+      "sea_ratio": 0.8568
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        3
+      ],
+      "reference": "BK-SH:1830",
+      "sea_ratio": 0.7714
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        53,
+        6
+      ],
+      "reference": "BK-SH:2130",
+      "sea_ratio": 0.7353
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        54,
+        4
+      ],
+      "reference": "BK-SH:1829",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        55,
+        0
+      ],
+      "reference": "BK-SH:1528",
+      "sea_ratio": 0.8798
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        55,
+        1
+      ],
+      "reference": "BK-SH:1628",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        55,
+        3
+      ],
+      "reference": "BK-SH:1828",
+      "sea_ratio": 0.899
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        55,
+        4
+      ],
+      "reference": "BK-SH:1928",
+      "sea_ratio": 0.7966
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        1
+      ],
+      "reference": "BK-SH:1527",
+      "sea_ratio": 0.8643
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        2
+      ],
+      "reference": "BK-SH:1627",
+      "sea_ratio": 0.6985
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        3
+      ],
+      "reference": "BK-SH:1727",
+      "sea_ratio": 0.8518
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        5
+      ],
+      "reference": "BK-SH:1927",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        6
+      ],
+      "reference": "BK-SH:2027",
+      "sea_ratio": 0.8235
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        56,
+        7
+      ],
+      "reference": "BK-SH:2127",
+      "sea_ratio": 0.8382
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        57,
+        4
+      ],
+      "reference": "BK-SH:1926",
+      "sea_ratio": 0.7868
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        58,
+        4
+      ],
+      "reference": "BK-SH:1825",
+      "sea_ratio": 0.8283
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        0
+      ],
+      "reference": "BK-SH:1524",
+      "sea_ratio": 0.8233
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        1
+      ],
+      "reference": "BK-SH:1624",
+      "sea_ratio": 0.8593
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        2
+      ],
+      "reference": "BK-SH:1724",
+      "sea_ratio": 0.8593
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        3
+      ],
+      "reference": "BK-SH:1824",
+      "sea_ratio": 0.7764
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        59,
+        6
+      ],
+      "reference": "BK-SH:2124",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        60,
+        4
+      ],
+      "reference": "BK-SH:1823",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        61,
+        4
+      ],
+      "reference": "BK-SH:1922",
+      "sea_ratio": 0.8015
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        62,
+        2
+      ],
+      "reference": "BK-SH:1621",
+      "sea_ratio": 0.7688
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        62,
+        5
+      ],
+      "reference": "BK-SH:1921",
+      "sea_ratio": 0.7549
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        62,
+        6
+      ],
+      "reference": "BK-SH:2021",
+      "sea_ratio": 0.8407
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        62,
+        7
+      ],
+      "reference": "BK-SH:2121",
+      "sea_ratio": 0.8456
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        63,
+        4
+      ],
+      "reference": "BK-SH:1920",
+      "sea_ratio": 0.7892
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        64,
+        4
+      ],
+      "reference": "BK-SH:1819",
+      "sea_ratio": 0.8283
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        0
+      ],
+      "reference": "BK-SH:1518",
+      "sea_ratio": 0.8276
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        1
+      ],
+      "reference": "BK-SH:1618",
+      "sea_ratio": 0.8618
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        2
+      ],
+      "reference": "BK-SH:1718",
+      "sea_ratio": 0.8593
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        3
+      ],
+      "reference": "BK-SH:1818",
+      "sea_ratio": 0.7814
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        65,
+        6
+      ],
+      "reference": "BK-SH:2118",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        66,
+        4
+      ],
+      "reference": "BK-SH:1817",
+      "sea_ratio": 0.8232
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        68,
+        2
+      ],
+      "reference": "BK-SH:1615",
+      "sea_ratio": 0.7714
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-SH",
+        68,
+        5
+      ],
+      "reference": "BK-SH:1915",
+      "sea_ratio": 0.6838
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        45,
+        8
+      ],
+      "reference": "BK-TH:0238",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        45,
+        10
+      ],
+      "reference": "BK-TH:0438",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        45,
+        13
+      ],
+      "reference": "BK-TH:0738",
+      "sea_ratio": 0.7824
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        45,
+        22
+      ],
+      "reference": "BK-TH:1638",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        46,
+        9
+      ],
+      "reference": "BK-TH:0237",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        46,
+        10
+      ],
+      "reference": "BK-TH:0337",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        46,
+        13
+      ],
+      "reference": "BK-TH:0637",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        46,
+        22
+      ],
+      "reference": "BK-TH:1537",
+      "sea_ratio": 0.8232
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        9
+      ],
+      "reference": "BK-TH:0336",
+      "sea_ratio": 0.6152
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        10
+      ],
+      "reference": "BK-TH:0436",
+      "sea_ratio": 0.8539
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        11
+      ],
+      "reference": "BK-TH:0536",
+      "sea_ratio": 0.8284
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        12
+      ],
+      "reference": "BK-TH:0636",
+      "sea_ratio": 0.7613
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        15
+      ],
+      "reference": "BK-TH:0936",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        18
+      ],
+      "reference": "BK-TH:1236",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        19
+      ],
+      "reference": "BK-TH:1336",
+      "sea_ratio": 0.8543
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        20
+      ],
+      "reference": "BK-TH:1436",
+      "sea_ratio": 0.8407
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        21
+      ],
+      "reference": "BK-TH:1536",
+      "sea_ratio": 0.7733
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        47,
+        24
+      ],
+      "reference": "BK-TH:1836",
+      "sea_ratio": 0.7601
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        9
+      ],
+      "reference": "BK-TH:0235",
+      "sea_ratio": 0.7073
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        13
+      ],
+      "reference": "BK-TH:0635",
+      "sea_ratio": 0.8131
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        18
+      ],
+      "reference": "BK-TH:1135",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        20
+      ],
+      "reference": "BK-TH:1335",
+      "sea_ratio": 0.8687
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        21
+      ],
+      "reference": "BK-TH:1435",
+      "sea_ratio": 0.8313
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        22
+      ],
+      "reference": "BK-TH:1535",
+      "sea_ratio": 0.7778
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        48,
+        25
+      ],
+      "reference": "BK-TH:1835",
+      "sea_ratio": 0.8826
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        49,
+        8
+      ],
+      "reference": "BK-TH:0234",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        49,
+        13
+      ],
+      "reference": "BK-TH:0734",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        49,
+        17
+      ],
+      "reference": "BK-TH:1134",
+      "sea_ratio": 0.8283
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        49,
+        22
+      ],
+      "reference": "BK-TH:1634",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        8
+      ],
+      "reference": "BK-TH:0133",
+      "sea_ratio": 0.6902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        11
+      ],
+      "reference": "BK-TH:0433",
+      "sea_ratio": 0.7402
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        14
+      ],
+      "reference": "BK-TH:0733",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        15
+      ],
+      "reference": "BK-TH:0833",
+      "sea_ratio": 0.8489
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        16
+      ],
+      "reference": "BK-TH:0933",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        17
+      ],
+      "reference": "BK-TH:1033",
+      "sea_ratio": 0.7688
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        50,
+        20
+      ],
+      "reference": "BK-TH:1333",
+      "sea_ratio": 0.7576
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        8
+      ],
+      "reference": "BK-TH:0232",
+      "sea_ratio": 0.7399
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        11
+      ],
+      "reference": "BK-TH:0532",
+      "sea_ratio": 0.8805
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        12
+      ],
+      "reference": "BK-TH:0632",
+      "sea_ratio": 0.8662
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        13
+      ],
+      "reference": "BK-TH:0732",
+      "sea_ratio": 0.6927
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        14
+      ],
+      "reference": "BK-TH:0832",
+      "sea_ratio": 0.8712
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        51,
+        17
+      ],
+      "reference": "BK-TH:1132",
+      "sea_ratio": 0.8232
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        52,
+        9
+      ],
+      "reference": "BK-TH:0231",
+      "sea_ratio": 0.7146
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        52,
+        13
+      ],
+      "reference": "BK-TH:0631",
+      "sea_ratio": 0.7828
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        52,
+        14
+      ],
+      "reference": "BK-TH:0731",
+      "sea_ratio": 0.8875
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        53,
+        9
+      ],
+      "reference": "BK-TH:0330",
+      "sea_ratio": 0.6176
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        53,
+        10
+      ],
+      "reference": "BK-TH:0430",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        53,
+        11
+      ],
+      "reference": "BK-TH:0530",
+      "sea_ratio": 0.826
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        53,
+        12
+      ],
+      "reference": "BK-TH:0630",
+      "sea_ratio": 0.7663
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        53,
+        15
+      ],
+      "reference": "BK-TH:0930",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        54,
+        9
+      ],
+      "reference": "BK-TH:0229",
+      "sea_ratio": 0.778
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        54,
+        10
+      ],
+      "reference": "BK-TH:0329",
+      "sea_ratio": 0.7273
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        54,
+        13
+      ],
+      "reference": "BK-TH:0629",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        55,
+        8
+      ],
+      "reference": "BK-TH:0228",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        55,
+        10
+      ],
+      "reference": "BK-TH:0428",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        55,
+        13
+      ],
+      "reference": "BK-TH:0728",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        56,
+        8
+      ],
+      "reference": "BK-TH:0127",
+      "sea_ratio": 0.7688
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        56,
+        11
+      ],
+      "reference": "BK-TH:0427",
+      "sea_ratio": 0.5539
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        56,
+        14
+      ],
+      "reference": "BK-TH:0727",
+      "sea_ratio": 0.7377
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        56,
+        15
+      ],
+      "reference": "BK-TH:0827",
+      "sea_ratio": 0.8442
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        56,
+        16
+      ],
+      "reference": "BK-TH:0927",
+      "sea_ratio": 0.8162
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        57,
+        8
+      ],
+      "reference": "BK-TH:0226",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        57,
+        11
+      ],
+      "reference": "BK-TH:0526",
+      "sea_ratio": 0.7024
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        57,
+        13
+      ],
+      "reference": "BK-TH:0726",
+      "sea_ratio": 0.778
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        58,
+        9
+      ],
+      "reference": "BK-TH:0225",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        58,
+        12
+      ],
+      "reference": "BK-TH:0525",
+      "sea_ratio": 0.7132
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        58,
+        13
+      ],
+      "reference": "BK-TH:0625",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        59,
+        9
+      ],
+      "reference": "BK-TH:0324",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        59,
+        10
+      ],
+      "reference": "BK-TH:0424",
+      "sea_ratio": 0.8636
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        59,
+        11
+      ],
+      "reference": "BK-TH:0524",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        59,
+        12
+      ],
+      "reference": "BK-TH:0624",
+      "sea_ratio": 0.6482
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        59,
+        15
+      ],
+      "reference": "BK-TH:0924",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        60,
+        9
+      ],
+      "reference": "BK-TH:0223",
+      "sea_ratio": 0.7829
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        60,
+        13
+      ],
+      "reference": "BK-TH:0623",
+      "sea_ratio": 0.7374
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        60,
+        22
+      ],
+      "reference": "BK-TH:1523",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        61,
+        8
+      ],
+      "reference": "BK-TH:0222",
+      "sea_ratio": 0.8207
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        61,
+        13
+      ],
+      "reference": "BK-TH:0722",
+      "sea_ratio": 0.6659
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        61,
+        14
+      ],
+      "reference": "BK-TH:0822",
+      "sea_ratio": 0.7525
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        62,
+        8
+      ],
+      "reference": "BK-TH:0121",
+      "sea_ratio": 0.7783
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        62,
+        11
+      ],
+      "reference": "BK-TH:0421",
+      "sea_ratio": 0.7426
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        62,
+        14
+      ],
+      "reference": "BK-TH:0721",
+      "sea_ratio": 0.75
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        62,
+        15
+      ],
+      "reference": "BK-TH:0821",
+      "sea_ratio": 0.8489
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        62,
+        23
+      ],
+      "reference": "BK-TH:1621",
+      "sea_ratio": 0.6324
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        63,
+        8
+      ],
+      "reference": "BK-TH:0220",
+      "sea_ratio": 0.8157
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        63,
+        13
+      ],
+      "reference": "BK-TH:0720",
+      "sea_ratio": 0.7829
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        63,
+        22
+      ],
+      "reference": "BK-TH:1620",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        64,
+        9
+      ],
+      "reference": "BK-TH:0219",
+      "sea_ratio": 0.7878
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        64,
+        12
+      ],
+      "reference": "BK-TH:0519",
+      "sea_ratio": 0.8309
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        64,
+        13
+      ],
+      "reference": "BK-TH:0619",
+      "sea_ratio": 0.7828
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        65,
+        9
+      ],
+      "reference": "BK-TH:0318",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        65,
+        10
+      ],
+      "reference": "BK-TH:0418",
+      "sea_ratio": 0.8586
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        65,
+        11
+      ],
+      "reference": "BK-TH:0518",
+      "sea_ratio": 0.8333
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        65,
+        12
+      ],
+      "reference": "BK-TH:0618",
+      "sea_ratio": 0.7588
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        65,
+        20
+      ],
+      "reference": "BK-TH:1418",
+      "sea_ratio": 0.8431
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        66,
+        9
+      ],
+      "reference": "BK-TH:0217",
+      "sea_ratio": 0.7902
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        66,
+        20
+      ],
+      "reference": "BK-TH:1317",
+      "sea_ratio": 0.7146
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        66,
+        21
+      ],
+      "reference": "BK-TH:1417",
+      "sea_ratio": 0.7286
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        66,
+        22
+      ],
+      "reference": "BK-TH:1517",
+      "sea_ratio": 0.6414
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        67,
+        8
+      ],
+      "reference": "BK-TH:0216",
+      "sea_ratio": 0.8056
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        67,
+        13
+      ],
+      "reference": "BK-TH:0716",
+      "sea_ratio": 0.7922
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        68,
+        23
+      ],
+      "reference": "BK-TH:1615",
+      "sea_ratio": 0.6324
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        69,
+        21
+      ],
+      "reference": "BK-TH:1514",
+      "sea_ratio": 0.7475
+    },
+    {
+      "key": [
+        "Map 5",
+        "BK-TH",
+        69,
+        22
+      ],
+      "reference": "BK-TH:1614",
+      "sea_ratio": 0.8283
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        49,
+        25
+      ],
+      "reference": "HP-C:0228",
+      "sea_ratio": 0.8439
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        49,
+        26
+      ],
+      "reference": "HP-C:0328",
+      "sea_ratio": 0.7753
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        50,
+        25
+      ],
+      "reference": "HP-C:0127",
+      "sea_ratio": 0.7549
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        50,
+        26
+      ],
+      "reference": "HP-C:0227",
+      "sea_ratio": 0.6446
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        51,
+        24
+      ],
+      "reference": "HP-C:0126",
+      "sea_ratio": 0.8864
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        51,
+        25
+      ],
+      "reference": "HP-C:0226",
+      "sea_ratio": 0.8561
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        53,
+        24
+      ],
+      "reference": "HP-C:0124",
+      "sea_ratio": 0.7525
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        53,
+        25
+      ],
+      "reference": "HP-C:0224",
+      "sea_ratio": 0.8578
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        53,
+        26
+      ],
+      "reference": "HP-C:0324",
+      "sea_ratio": 0.8945
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        53,
+        27
+      ],
+      "reference": "HP-C:0424",
+      "sea_ratio": 0.7206
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        54,
+        25
+      ],
+      "reference": "HP-C:0123",
+      "sea_ratio": 0.8998
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        54,
+        26
+      ],
+      "reference": "HP-C:0223",
+      "sea_ratio": 0.8578
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        54,
+        27
+      ],
+      "reference": "HP-C:0323",
+      "sea_ratio": 0.7854
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        56,
+        24
+      ],
+      "reference": "HP-C:0021",
+      "sea_ratio": 0.8015
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        56,
+        25
+      ],
+      "reference": "HP-C:0121",
+      "sea_ratio": 0.7623
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        57,
+        26
+      ],
+      "reference": "HP-C:0320",
+      "sea_ratio": 0.803
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        58,
+        27
+      ],
+      "reference": "HP-C:0319",
+      "sea_ratio": 0.7778
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        59,
+        24
+      ],
+      "reference": "HP-C:0118",
+      "sea_ratio": 0.5505
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        59,
+        25
+      ],
+      "reference": "HP-C:0218",
+      "sea_ratio": 0.7279
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        59,
+        26
+      ],
+      "reference": "HP-C:0318",
+      "sea_ratio": 0.701
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        62,
+        33
+      ],
+      "reference": "HP-C:0915",
+      "sea_ratio": 0.7721
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        62,
+        34
+      ],
+      "reference": "HP-C:1015",
+      "sea_ratio": 0.8106
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        62,
+        35
+      ],
+      "reference": "HP-C:1115",
+      "sea_ratio": 0.723
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        63,
+        27
+      ],
+      "reference": "HP-C:0414",
+      "sea_ratio": 0.8732
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        64,
+        27
+      ],
+      "reference": "HP-C:0313",
+      "sea_ratio": 0.7551
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        64,
+        28
+      ],
+      "reference": "HP-C:0413",
+      "sea_ratio": 0.6626
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        64,
+        33
+      ],
+      "reference": "HP-C:0913",
+      "sea_ratio": 0.8799
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        27
+      ],
+      "reference": "HP-C:0412",
+      "sea_ratio": 0.6103
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        28
+      ],
+      "reference": "HP-C:0512",
+      "sea_ratio": 0.7965
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        29
+      ],
+      "reference": "HP-C:0612",
+      "sea_ratio": 0.8005
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        30
+      ],
+      "reference": "HP-C:0712",
+      "sea_ratio": 0.7034
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        32
+      ],
+      "reference": "HP-C:0912",
+      "sea_ratio": 0.8848
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        65,
+        33
+      ],
+      "reference": "HP-C:1012",
+      "sea_ratio": 0.7487
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        66,
+        27
+      ],
+      "reference": "HP-C:0311",
+      "sea_ratio": 0.702
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        66,
+        28
+      ],
+      "reference": "HP-C:0411",
+      "sea_ratio": 0.8875
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        66,
+        31
+      ],
+      "reference": "HP-C:0711",
+      "sea_ratio": 0.8081
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        25
+      ],
+      "reference": "HP-C:0210",
+      "sea_ratio": 0.6659
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        26
+      ],
+      "reference": "HP-C:0310",
+      "sea_ratio": 0.5505
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        27
+      ],
+      "reference": "HP-C:0410",
+      "sea_ratio": 0.6756
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        28
+      ],
+      "reference": "HP-C:0510",
+      "sea_ratio": 0.6641
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        29
+      ],
+      "reference": "HP-C:0610",
+      "sea_ratio": 0.6944
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        30
+      ],
+      "reference": "HP-C:0710",
+      "sea_ratio": 0.7328
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        31
+      ],
+      "reference": "HP-C:0810",
+      "sea_ratio": 0.601
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        67,
+        34
+      ],
+      "reference": "HP-C:1110",
+      "sea_ratio": 0.6829
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        24
+      ],
+      "reference": "HP-C:0009",
+      "sea_ratio": 0.7513
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        25
+      ],
+      "reference": "HP-C:0109",
+      "sea_ratio": 0.6299
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        29
+      ],
+      "reference": "HP-C:0509",
+      "sea_ratio": 0.7406
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        30
+      ],
+      "reference": "HP-C:0609",
+      "sea_ratio": 0.8701
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        32
+      ],
+      "reference": "HP-C:0809",
+      "sea_ratio": 0.6495
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        33
+      ],
+      "reference": "HP-C:0909",
+      "sea_ratio": 0.6814
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        34
+      ],
+      "reference": "HP-C:1009",
+      "sea_ratio": 0.7576
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        68,
+        35
+      ],
+      "reference": "HP-C:1109",
+      "sea_ratio": 0.6912
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        69,
+        31
+      ],
+      "reference": "HP-C:0808",
+      "sea_ratio": 0.8005
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        69,
+        32
+      ],
+      "reference": "HP-C:0908",
+      "sea_ratio": 0.8927
+    },
+    {
+      "key": [
+        "Map 5",
+        "HP-C",
+        70,
+        31
+      ],
+      "reference": "HP-C:0707",
+      "sea_ratio": 0.8106
+    }
+  ]
+}

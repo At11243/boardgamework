@@ -1,0 +1,16 @@
+# Unlocated — Poland, group 1
+
+Answer **Yes** if the reverse is blank; **No** if printed; **Unsure**, **Not found**, or **Mixed** if identical fronts have different backs. Type in the **Blank?** column. An empty cell means unanswered. For No/Mixed, give reverse designation, size, ratings and symbol; mention a different blank colour. Check the exact illustrated front, not a similar neighbouring counter. Leave uncertain answers unresolved.
+
+Rows/columns refer to the indicated photo page as displayed: top to bottom, left to right, columns 1–20 across both halves. Source-page parity does not define the counter's front. Rows follow sheet order; columns on even pages are reversed for sorting within the sheet. Use the linked annotated photo to identify the marked cell.
+
+These are front/core-complete candidates whose current outstanding question is their reverse. Answers will be rechecked against saved metadata and any new discrepancies before verification. No statuses have been changed. VASSAL art remains the working reference.
+
+
+[Checklist hub](../../COUNTER_BACK_CHECKLIST.md) · [Illustrated browser guide](index.html)
+
+| Question | Exact front | Identification | Source position | Blank? | Details |
+| --- | --- | --- | --- | --- | --- |
+| B242409 | ![B242409](../../assets/counters/images/9c7872d6817862a6aeb7.png) | Poland — Garland — Destroyer / Ship | Not confidently located after quick search |  |  |
+| B242410 | ![B242410](../../assets/counters/images/d28eec7e552439444a74.png) | Poland — Garland — Destroyer / Ship | Not confidently located after quick search |  |  |
+| B242414 | ![B242414](../../assets/counters/images/5d730dfac3e0ac1d3e88.png) | Poland — Kujawaik — Large Escort / Ship | Not confidently located after quick search |  |  |

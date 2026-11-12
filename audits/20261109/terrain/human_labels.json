@@ -1,0 +1,938 @@
+{
+  "T001": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      74,
+      14
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 32.978,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T002": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      72,
+      12
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 8.033,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T003": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      71,
+      12
+    ],
+    "label": "Mixed",
+    "status": "needs_review",
+    "seconds": 3.402,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T004": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      73,
+      12
+    ],
+    "label": "Mixed",
+    "status": "needs_review",
+    "seconds": 20.464,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T005": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      72,
+      14
+    ],
+    "label": "Swamp",
+    "status": "confirmed",
+    "seconds": 4.621,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T006": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      71,
+      14
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 5.076,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T007": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      71,
+      15
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.68,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T008": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      69,
+      14
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.957,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T009": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      56,
+      6
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 3.875,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T010": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      53,
+      11
+    ],
+    "label": "Mixed",
+    "status": "needs_review",
+    "seconds": 6.52,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T011": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      53,
+      5
+    ],
+    "label": "Unsure",
+    "status": "needs_review",
+    "seconds": 3.929,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T012": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      54,
+      5
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 5.946,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T013": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      54,
+      6
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.332,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T014": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      54,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.852,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T015": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      55,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 0.961,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T016": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      56,
+      11
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 0.932,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T017": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      56,
+      14
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 0.712,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T018": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      57,
+      15
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.16,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T019": {
+    "key": [
+      "Map 3",
+      "FB-RH",
+      57,
+      14
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.031,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T020": {
+    "key": [
+      "Map 3",
+      "FB-QH",
+      55,
+      6
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 0.691,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T021": {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      23,
+      62
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "seconds": 2.225,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T022": {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      17,
+      64
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "seconds": 1.184,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T023": {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      27,
+      54
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 3.039,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T024": {
+    "key": [
+      "Map 2",
+      "HP-ZF",
+      28,
+      56
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.285,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T025": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      29,
+      49
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.381,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T026": {
+    "key": [
+      "Map 6",
+      "FB-RH",
+      9,
+      33
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.75,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T027": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      49,
+      69
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.268,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T028": {
+    "key": [
+      "Map 6",
+      "FB-RH",
+      21,
+      33
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.972,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T029": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      61,
+      37
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.9,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T030": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      53,
+      57
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.179,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T031": {
+    "key": [
+      "Map 6",
+      "FB-SH",
+      21,
+      61
+    ],
+    "label": "Swamp",
+    "status": "confirmed",
+    "seconds": 4.042,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T032": {
+    "key": [
+      "Map 6",
+      "FB-RH",
+      21,
+      13
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.045,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T033": {
+    "key": [
+      "Map 6",
+      "FB-RH",
+      5,
+      37
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.497,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T034": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      65,
+      45
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.485,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T035": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      57,
+      69
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 3.124,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T036": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      33,
+      41
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.121,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T037": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      37,
+      13
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.848,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T038": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      61,
+      33
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.89,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T039": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      53,
+      45
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.786,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T040": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      57,
+      57
+    ],
+    "label": "Mixed",
+    "status": "needs_review",
+    "seconds": 3.092,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T041": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      29,
+      17
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.873,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T042": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      57,
+      37
+    ],
+    "label": "Mixed",
+    "status": "needs_review",
+    "seconds": 1.785,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T043": {
+    "key": [
+      "Map 6",
+      "FB-QG",
+      65,
+      9
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.911,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T044": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      49,
+      21
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.701,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T045": {
+    "key": [
+      "Map 6",
+      "FB-RH",
+      21,
+      21
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.631,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T046": {
+    "key": [
+      "Map 6",
+      "FB-SG",
+      53,
+      65
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 2.083,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T047": {
+    "key": [
+      "Map 6",
+      "FB-RG",
+      57,
+      21
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.797,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T048": {
+    "key": [
+      "Map 6",
+      "FB-SH",
+      5,
+      45
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.7,
+    "mode": "manual",
+    "split": "training"
+  },
+  "T049": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      49,
+      69
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 3.444,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T050": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      5,
+      49
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.198,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T051": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      49,
+      13
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.779,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T052": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      49,
+      17
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.822,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T053": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      9,
+      37
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.671,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T054": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      49,
+      65
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 3.969,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T055": {
+    "key": [
+      "Map 9",
+      "FB-QF",
+      37,
+      5
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.929,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T056": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      33,
+      17
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.018,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T057": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      5,
+      25
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.791,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T058": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      5,
+      37
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.594,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T059": {
+    "key": [
+      "Map 9",
+      "FB-QF",
+      21,
+      9
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.603,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T060": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      29,
+      13
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.609,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T061": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      33,
+      13
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.768,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T062": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      37,
+      53
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.857,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T063": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      25,
+      49
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 3.265,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T064": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      29,
+      41
+    ],
+    "label": "Clear",
+    "status": "confirmed",
+    "seconds": 4.113,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T065": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      17,
+      21
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 2.022,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T066": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      41,
+      29
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 10.299,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T067": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      13,
+      41
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.956,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T068": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      45,
+      69
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 1.398,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T069": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      33,
+      45
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.927,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T070": {
+    "key": [
+      "Map 9",
+      "FB-QF",
+      33,
+      5
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 1.327,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T071": {
+    "key": [
+      "Map 9",
+      "FB-RF",
+      5,
+      17
+    ],
+    "label": "Other",
+    "status": "needs_review",
+    "seconds": 0.886,
+    "mode": "manual",
+    "split": "evaluation"
+  },
+  "T072": {
+    "key": [
+      "Map 9",
+      "FB-SF",
+      13,
+      57
+    ],
+    "label": "Steppe",
+    "status": "confirmed",
+    "seconds": 0.731,
+    "mode": "manual",
+    "split": "evaluation"
+  }
+}

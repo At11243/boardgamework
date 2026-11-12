@@ -288,6 +288,93 @@ class UnitEditorTests(unittest.TestCase):
                 controls["front"][field].setText("0")
             self.assertEqual(self.editor.definition_issues(), [])
 
+    def test_special_ground_layouts_are_face_specific_and_round_trip(self):
+        front = self.editor.ground_controls["front"]
+        back = self.editor.ground_controls["back"]
+        self.editor.ground_formats["front"].setCurrentText("Movement only")
+        self.editor.ground_formats["back"].setCurrentText("Operational / code")
+        front["movement"].setText("0")
+        back["printed_rating"].setText("OP")
+        back["capacity"].setText("20 SP")
+        front["printed_symbol_rating"].setText("1")
+        self.assertEqual(self.editor.definition_issues(), [])
+        self.assertTrue(self.editor.save_definition())
+        self.editor.load_definitions()
+        self.editor.show_definition(self.editor.browser.results.currentItem(), None)
+        self.assertEqual(self.editor.ground_formats["back"].currentText(), "Operational / code")
+        self.assertEqual(back["printed_rating"].text(), "OP")
+        self.assertEqual(front["printed_symbol_rating"].text(), "1")
+        saved = json.loads(self.path.read_text(encoding="utf-8"))["definitions"]["one"]
+        self.assertEqual(saved["future_field"], 42)
+        self.assertEqual(saved["ground"]["front"]["future"], 7)
+        self.assertEqual(saved["ground"]["back"]["capacity"], "20 SP")
+
+    def test_level_layouts_do_not_require_invented_ratings(self):
+        self.editor.back_appearance.setCurrentText("Blank color")
+        controls = self.editor.ground_controls["front"]
+        for fmt, field in [("Fortification level", "fortification_level"),
+                           ("Coastal defense", "cd_level")]:
+            self.editor.ground_formats["front"].setCurrentText(fmt)
+            self.assertTrue(self.editor.definition_issues())
+            controls[field].setText("0")
+            self.assertEqual(self.editor.definition_issues(), [])
+            controls[field].setText("N/A")
+            self.assertEqual(self.editor.definition_issues(), [])
+        controls["printed_code"].setText("V")
+        self.assertTrue(self.editor.save_definition())
+        self.editor.load_definitions()
+        self.editor.show_definition(self.editor.browser.results.currentItem(), None)
+        self.assertEqual(controls["printed_code"].text(), "V")
+        self.assertEqual(controls["cd_short"].text(), "")
+
+    def test_submarine_and_fas_do_not_require_tactical_speed(self):
+        self.editor.counter_category.setCurrentText("Naval unit")
+        self.editor.back_appearance.setCurrentText("Blank color")
+        controls = self.editor.special_rating_controls["naval"]["front"]
+        for key, value in {"ship_type": "SSF", "gunnery": "0", "protection": "1"}.items():
+            controls[key].setText(value)
+        self.assertTrue(any("patrol range" in issue for issue in self.editor.definition_issues()))
+        controls["patrol_range"].setText("12")
+        controls["printed_bottom_right"].setText("12")
+        self.assertEqual(self.editor.definition_issues(), [])
+        self.assertTrue(controls["tactical_speed"].isHidden())
+        self.assertFalse(controls["patrol_range"].isHidden())
+        self.assertTrue(self.editor.save_definition())
+        saved = json.loads(self.path.read_text(encoding="utf-8"))["definitions"]["one"]
+        self.assertIsNone(saved["naval"]["front"]["tactical_speed"])
+        self.editor.load_definitions()
+        self.editor.show_definition(self.editor.browser.results.currentItem(), None)
+        self.assertEqual(controls["patrol_range"].text(), "12")
+        controls["ship_type"].setText("fas")
+        controls["patrol_range"].clear()
+        controls["printed_bottom_right"].clear()
+        self.assertTrue(any("bottom-right" in issue for issue in self.editor.definition_issues()))
+        controls["printed_bottom_right"].setText("4")
+        self.assertEqual(self.editor.definition_issues(), [])
+        controls["ship_type"].setText("DD")
+        self.assertTrue(any("Tactical speed" in issue for issue in self.editor.definition_issues()))
+        self.assertFalse(controls["tactical_speed"].isHidden())
+        self.assertEqual(controls["printed_bottom_right"].text(), "4")
+
+    def test_new_fields_loader_validation_and_commander_literals(self):
+        self.editor.counter_category.setCurrentText("Commander")
+        self.editor.back_appearance.setCurrentText("Blank color")
+        controls = self.editor.special_rating_controls["commander"]["front"]
+        for key, value in {"rank": "****", "movement": "9", "printed_header": "M **** C",
+                           "printed_lower_line": "+1 9 0"}.items():
+            controls[key].setText(value)
+        self.assertEqual(self.editor.definition_issues(), [])
+        self.assertTrue(self.editor.save_definition())
+        self.editor.load_definitions()
+        self.editor.show_definition(self.editor.browser.results.currentItem(), None)
+        self.assertEqual(controls["printed_header"].text(), "M **** C")
+        self.assertEqual(controls["attack_bonus"].text(), "")
+        data = json.loads(self.path.read_text(encoding="utf-8"))
+        data["definitions"]["one"]["naval"] = {"front": {"patrol_range": 12}}
+        self.path.write_text(json.dumps(data), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "patrol range"):
+            self.editor.load_definitions()
+
 
 if __name__ == "__main__":
     unittest.main()

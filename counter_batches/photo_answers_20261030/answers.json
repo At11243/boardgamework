@@ -1,0 +1,568 @@
+{
+  "date": "2026-10-30",
+  "policy": "VASSAL artwork is the working reference pending creator clarification. Physical observations do not automatically replace digital artwork or establish face orientation.",
+  "definition_sha256": "5335110a5b1ba99d64d04afbecb9f04efede54d2b53363726ea034ce91adea70",
+  "definition_changes": 0,
+  "status_counts": {
+    "Verified": 4531,
+    "In progress": 2437
+  },
+  "responses": [
+    {
+      "question_id": "Q01",
+      "type_id": "vassal:133:235715",
+      "question": "Does the physical front read II/54 and the reverse I/54? Please confirm the Roman numerals and printed 1-2-18 on both faces.",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 11,
+        "back_row": 3,
+        "back_column": 10,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q01-235715.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "They both read II/54 on front and back, with 1-2-18 on them.",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "physical reading resolved; digital reverse coverage open",
+        "review_outcome": "User resolves the Roman numeral as II/54 on both pictured faces, 1-2-18. Earlier I/54 wording was a reading error. Only one VASSAL image is currently assigned; the physical observation does not establish whether a second imported asset is missing. Do not invent a reverse asset or promote status.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "Artillery Battalion II/54",
+        "front_image": "assets/counters/images/6d2e69d1187df18d9fa8.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q02",
+      "type_id": "vassal:133:235779",
+      "question": "Does artillery 154 (1-2-18) really have Artko 131/132 (6-5-18; please read the number) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 3,
+        "front_column": 14,
+        "back_row": 3,
+        "back_column": 7,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q02-235779.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "On the back it looks like it reads Arko 132",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "possible missing reverse pairing",
+        "review_outcome": "Record the user reading Arko 132, consistent with the illustrated crop (artwork spelling appears Artko). Printed reverse candidate is 6-5-18. Check the VASSAL module for this pairing; no reverse is assigned in the current definition.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "154",
+        "front_image": "assets/counters/images/2bf459dacd39d65abe2b.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q03",
+      "type_id": "vassal:133:235835",
+      "question": "Does artillery 849 (2-18) really have Artko 121 (6-4-18) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 5,
+        "front_column": 3,
+        "back_row": 5,
+        "back_column": 18,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q03-235835.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "On the back it looks like Arko 121 on the back",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "possible missing reverse pairing",
+        "review_outcome": "Record the user reading Arko 121, consistent with the illustrated crop (artwork spelling appears Artko). Printed reverse candidate is 6-4-18. Check the VASSAL module for this pairing; no reverse is assigned in the current definition.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "849",
+        "front_image": "assets/counters/images/5a2455e7a9f17d1b1437.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q04",
+      "type_id": "vassal:133:235866",
+      "question": "Does II/64 (2-18) have I/64 (1-2-12) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 9,
+        "front_column": 9,
+        "back_row": 9,
+        "back_column": 12,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q04-235866.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "They ready II/64 on both the front and back. with (1-2-12) being on the reverse.",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "physical reading resolved; digital reverse coverage open",
+        "review_outcome": "User resolves both face labels as II/64; reverse ratings 1-2-12. The pictured front is 2-18. Preserve the user parentheses verbatim in the answer, without interpreting them as printed defense-only notation. Earlier I/64 wording was a reading error. No reverse asset assigned.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "II/64",
+        "front_image": "assets/counters/images/f2d405a32193bfe647c2.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q05",
+      "type_id": "vassal:133:235875",
+      "question": "Does II/109 (1-2-18) have I/109 (1-2-12) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 4,
+        "front_column": 18,
+        "back_row": 4,
+        "back_column": 3,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q05-235875.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "I think the reverse you might have shown me is wrong. The reverse side is I/108",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "photo matching error; pairing unresolved",
+        "review_outcome": "Reject the original I/109 reverse claim. The native context shows I/108 above an Artko 106 (6-3-18) cell; the latter is near the proposed mirrored row. The original crop included more than one row and was misleading. The user reading identifies a visible neighbour, not a secure II/109 pairing. Re-establish sheet alignment before assigning any reverse. This is a photo-matching issue, not an established VASSAL artwork error.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "II/109",
+        "front_image": "assets/counters/images/953bd2fa49ff53d9ede5.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q06",
+      "type_id": "vassal:133:235882",
+      "question": "Does III/818 (1-2-18) have Artko 109 (6-4-18) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 3,
+        "back_page": 4,
+        "front_row": 2,
+        "front_column": 15,
+        "back_row": 2,
+        "back_column": 6,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q06-235882.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "ON the back it reads Arko 108",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "disputed transcription; pairing unresolved",
+        "review_outcome": "User reads Arko 108; the current comparison crop appears to read Artko 109. Retain both readings without choosing a number. This is a printed reverse candidate, but exact designation and pairing need a sharper photo or physical check. No assignment or promotion.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "III/818",
+        "front_image": "assets/counters/images/f4543565d5f2948d332b.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q07",
+      "type_id": "vassal:133:236410",
+      "question": "Does Norwegen infantry (1)-6 have Schlange ski-unit (1)-6 on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 8,
+        "back_page": 7,
+        "front_row": 3,
+        "front_column": 2,
+        "back_row": 3,
+        "back_column": 19,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q07-236410.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "It looks the reverse candidate is schlabrugge ? but i think this might actually be the front instead of the back (you might check)",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "orientation correction; possible missing reverse pairing",
+        "review_outcome": "Correct earlier Schlange transcription: the saved VASSAL counterpart is Light Infantry Battalion Schlebrugge (236438), whose artwork matches the ski-unit appearance. Norwegen (236410) is pictured on PDF page 8 and Schlebrugge on page 7. These page numbers do not establish a canonical front. Keep the Norwegen VASSAL image as its working front; record the proposed physical pair without swapping either definition.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "Infantry Battalion Norwegen",
+        "front_image": "assets/counters/images/87ca11880f39e17f0650.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q08",
+      "type_id": "vassal:133:237026",
+      "question": "Does construction battalion 406 (0-6) have construction regiment 6 (0-6) on its reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 5,
+        "back_page": 6,
+        "front_row": 9,
+        "front_column": 20,
+        "back_row": 9,
+        "back_column": 1,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q08-237026.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "Yes it looks like 6 on the reverse",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "possible missing reverse pairing",
+        "review_outcome": "User confirms the printed construction 6 reverse candidate. The illustration shows size III and 0-6 versus front battalion 406, size II, 0-6. This is not a blank. Request VASSAL pairing information; no reverse asset assigned.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "406",
+        "front_image": "assets/counters/images/c45203822e71617fa700.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q09",
+      "type_id": "vassal:133:237591",
+      "question": "Is the physical front II/RPU and the reverse RPU, both (1)-6?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 199.pdf",
+        "source_sha256": "f358d99b0751a321a5752effc6d293a76c8df60f0886a0a28b0f78cd5153a7b5",
+        "front_page": 8,
+        "back_page": 7,
+        "front_row": 14,
+        "front_column": 7,
+        "back_row": 14,
+        "back_column": 14,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q09-237591.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "It looks like you got your front and back mixed up again on this one, but the front readys RPU with II at the top and is (1) -6 while the back reads I/RPU with II at the top and is also (1)-6",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "orientation correction; possible missing reverse pairing",
+        "review_outcome": "Correct presentation order relative to the saved RPU artwork: RPU on PDF page 7 is the working front and I/RPU on page 8 is the proposed reverse. Both have size II and (1)-6. I/RPU already exists as a separate VASSAL profile (237589). Earlier II/RPU wording confused the size marker with the designation. No definition face swap is needed.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "RPU",
+        "front_image": "assets/counters/images/b2373c32026a03077289.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q10",
+      "type_id": "vassal:133:238106",
+      "question": "Does engineer 152 (0-6) have a printed (1)-6 reverse? Please confirm the reverse symbol and label.",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 14,
+        "front_column": 16,
+        "back_row": 14,
+        "back_column": 5,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q10-238106.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "Yes it does look like the printed reverse is the counter that has label 2A with size III and (1)-6",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "possible missing reverse pairing",
+        "review_outcome": "User confirms reverse candidate 2A, size III, (1)-6; pictured symbol is combat engineer. Front is 152, size II, 0-6. Record a printed reverse candidate, not a blank; VASSAL reverse assignment still unresolved.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "152",
+        "front_image": "assets/counters/images/c28bff6e4dee78bc8b4f.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q11",
+      "type_id": "vassal:133:238128",
+      "question": "Does V C use a construction symbol or a combat-engineer symbol? What is its actual reverse?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 6,
+        "front_column": 16,
+        "back_row": 6,
+        "back_column": 5,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q11-238128.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "The mirrored reverse candidate looks blank to me. On the front the VC uses a combat engineer symbol, while the saved original front uses a construction symbol",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "physical/digital front symbol difference; physical blank observed",
+        "review_outcome": "User confirms a blank physical reverse candidate and a front-symbol difference: physical V C is combat engineer, VASSAL V C is construction. The blank applies to the pictured physical variant. Preserve VASSAL construction artwork and classification, and keep the discrepancy open rather than applying physical metadata to it.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "V C",
+        "front_image": "assets/counters/images/9a285dd538c81b7b316e.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q12",
+      "type_id": "vassal:133:238135",
+      "question": "What exact label and size appear on the printed reverse of KMOF (0-6)?",
+      "source": {
+        "source_pdf": "C:\\Users\\dt112\\Downloads\\KIC Document 120.pdf",
+        "source_sha256": "6a91aab96c9620cf297c9c8f57eef4c657c7c141546363bb6471216e1ba5d5a0",
+        "front_page": 1,
+        "back_page": 2,
+        "front_row": 13,
+        "front_column": 15,
+        "back_row": 13,
+        "back_column": 6,
+        "confidence": 0.94,
+        "result": "Physical candidate discrepancy",
+        "orientation": "20 columns; horizontally mirrored reverse, same row.",
+        "scope": "Counter metadata only; no gameplay validation."
+      },
+      "image": "Q12-238135.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "It looks like on the reverse III C is printed on the size and the size is II with the back also being 0-6",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "possible missing reverse pairing",
+        "review_outcome": "Record the user reading III C as the reverse designation and II as its size, with 0-6. Do not combine III C into a size field. The VASSAL KMOF front remains [III], 0-6. Printed reverse candidate needs VASSAL pairing information.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "KMOF",
+        "front_image": "assets/counters/images/de3d0223b72434fb1b3d.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q13",
+      "type_id": "vassal:133:239471",
+      "question": "What is the exact designation on the reverse of siege artillery 281? It appears to be 109/24AD rather than the saved 109/16AD.",
+      "candidate_location": {
+        "type_id": "vassal:133:239471",
+        "pdf": 108,
+        "page": 7,
+        "row": 4,
+        "column": 12,
+        "kind": "flag",
+        "detail": "Siege artillery 281 (3-12) has a printed 109/...AD (4-5-12) reverse. The divisional suffix appears different from the saved 109/16AD artwork; exact identity needs confirmation before pairing."
+      },
+      "image": "Q13-239471.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "It looks like it reads 104/12AD with size X",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "disputed transcription; possible missing reverse pairing",
+        "review_outcome": "User reads 104/12AD, size X. The displayed photograph appears closer to 109/12AD; earlier review readings included 109/24AD and 109/16AD. Exact digits remain disputed. Preserve the user answer verbatim and do not normalize the designation into saved metadata. No reverse asset assigned.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "281",
+        "front_image": "assets/counters/images/9ad194f860e25e41e571.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q14",
+      "type_id": "vassal:133:240210",
+      "question": "Is Northern headquarters 6 physically blank-backed? The bright reverse photo has a faint HQ-like marking; please distinguish printing from show-through/reflection.",
+      "candidate_location": {
+        "type_id": "vassal:133:240210",
+        "pdf": 108,
+        "page": 3,
+        "row": 2,
+        "column": 9,
+        "kind": "flag",
+        "detail": "A faint headquarters-like marking is visible at/near the mirrored reverse cell in the bright photo. Blank versus printed/bleed-through is not established above 95%; physical inspection is needed."
+      },
+      "image": "Q14-240210.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "In the reverse image that you presented it does look like it has a back. It is the same as the front except the side writing is not northern. I can't make it out because of the glare but it looks like Kare??n. where ? is an character I can't read.",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "printed physical reverse observed; label unresolved",
+        "review_outcome": "User confirms printing on the pictured reverse, not a blank. Tentative label Kare??n is preserved literally; do not expand it into a guessed name. Dedicated HQ rating metadata remains unresolved independently. Request a clearer reverse photo and VASSAL pairing information.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "Northern",
+        "front_image": "assets/counters/images/08061373d5a1f26952cd.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q15",
+      "type_id": "vassal:133:241166",
+      "question": "The proposed source cell for 3AC reads 6AC. Can you identify the actual 3AC (3-4-6) and its reverse? This pictured candidate is not accepted.",
+      "candidate_location": {
+        "type_id": "vassal:133:241166",
+        "pdf": 132,
+        "page": 3,
+        "row": 10,
+        "column": 3,
+        "kind": "flag",
+        "detail": "Earlier physical candidate at PDF132 p3 r10 c3 reads 6AC (3-4-6), not saved 3AC. Exact 3AC pairing is not established at this position; retain original front and review."
+      },
+      "image": "Q15-241166.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "In the reverse photo that you have submitted it looks like it reads 6AC on the back and the front.",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "wrong physical candidate",
+        "review_outcome": "User corroborates that both physical candidates are 6AC. Reject this locator for the requested 3AC profile. Keep the existing VASSAL 3AC printed pair unchanged. Actual physical 3AC remains unlocated; this is a matching error, not evidence of incorrect VASSAL 3AC artwork.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "Glider Brigade 3 AC",
+        "front_image": "assets/counters/images/ff7d455e05c7895bf06f.png",
+        "back_image": "assets/counters/images/e2396207df646937d8d9.png",
+        "back_appearance": "Printed image",
+        "review_status": "In progress"
+      }
+    },
+    {
+      "question_id": "Q16",
+      "type_id": "vassal:133:241381",
+      "question": "Does rocket artillery 98+ (7-2-8) have a printed 6GRD (24-3-12) reverse, or is that a neighbouring counter? Please confirm its actual reverse.",
+      "candidate_location": {
+        "type_id": "vassal:133:241381",
+        "pdf": 132,
+        "page": 7,
+        "row": 14,
+        "column": 14,
+        "kind": "flag",
+        "detail": "A printed 6GRD (24-3-12) appearance lies at/near the mirrored position of rocket artillery 98+ (7-2-8). Exact cell/pairing needs confirmation; a blank reverse is not accepted."
+      },
+      "image": "Q16-241381.png",
+      "user_response": {
+        "date": "2026-10-30",
+        "answer_verbatim": "It does look like the back of it is 6GD reverse",
+        "qualification": "User answers are conditional on the illustrated candidates being correctly paired.",
+        "classification": "physical/digital pairing conflict; unresolved",
+        "review_outcome": "User reads 6GD; the pictured candidate visibly reads 6GRD, 24-3-12. This identifies the photographed face but does not resolve the physical pairing. Existing VASSAL 6GRD (241365) is paired with 89+ (241378), corroborated previously at KIC132 page 8 row14 column5 / page7 row14 column16. The current 98+ proposal uses page7 column14 / page8 column7. That conflict remains open. Preserve 6GRD/89+ and do not link 6GRD to 98+.",
+        "definition_changed": false,
+        "status_changed": false
+      },
+      "working_definition": {
+        "designation": "98+",
+        "front_image": "assets/counters/images/f565ad688e5f370b6f26.png",
+        "back_image": null,
+        "back_appearance": "Not yet reviewed",
+        "review_status": "In progress"
+      }
+    }
+  ]
+}

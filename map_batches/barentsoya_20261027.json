@@ -1,0 +1,1266 @@
+{
+  "batch": "barentsoya_20261027",
+  "review_date": "2026-10-27",
+  "backup": "mapping_backups/before-barentsoya-20261027-072836.zip",
+  "sources": [
+    {
+      "path": "assets/maps/Map 02.HAB.png",
+      "sha256": "39058285481001ea3149d47c74ec41ec034408c45bb4311796318cd4d9b52dda"
+    },
+    {
+      "path": "reference/UICFB.pdf",
+      "sha256": "9dd5d18ce430eec5400f9d32abc329dc57d32a835dfb68585718abdb87f9daa4"
+    }
+  ],
+  "source_locator": "UICFB PDF p4, map crop x7670 y2120 width950 height750; eight outline tiles inspected",
+  "policy": "User project convention, not a published rule. >20% of whole hex; confidence strictly >.95.",
+  "raster_sample_caveat": "Approximate color-area support only; grid/text/antialias pixels unclassified. Adjacent Edgeoya/sea hexes 2631/2731 excluded after visual inspection. Text-contaminated small coastal tips remain drafts.",
+  "evidence": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "number": "2333",
+      "center": [
+        7846.7192271,
+        2435.481065230094
+      ],
+      "fractions": {
+        "Other": 0.2085,
+        "Sea": 0.5306,
+        "Mountain": 0.0074,
+        "Clear": 0.2422,
+        "Hills": 0.0112
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2333",
+      "confidence": 0.9,
+      "issues": [
+        "Tiny western Clear tip; no land type confidently exceeds 20%. Text and adjacent Spitsbergen land contaminate whole-hex color samples."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "number": "2433",
+      "center": [
+        7976.3047882,
+        2435.481065230094
+      ],
+      "fractions": {
+        "Other": 0.163,
+        "Sea": 0.3467,
+        "Clear": 0.1824,
+        "Mountain": 0.0122,
+        "Hills": 0.2957
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2433",
+      "confidence": 0.97,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "number": "2533",
+      "center": [
+        8105.890349300001,
+        2435.481065230094
+      ],
+      "fractions": {
+        "Other": 0.1873,
+        "Sea": 0.6115,
+        "Hills": 0.1404,
+        "Mountain": 0.0036,
+        "Clear": 0.0573
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2533",
+      "confidence": 0.9,
+      "issues": [
+        "Northern coastal tip with Hills and Clear, neither confidently above 20%; boundary lines/text affect sampling."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "number": "2432",
+      "center": [
+        7911.512007650001,
+        2547.821113649644
+      ],
+      "fractions": {
+        "Other": 0.0951,
+        "Mountain": 0.008,
+        "Clear": 0.5061,
+        "Hills": 0.0136,
+        "Sea": 0.3772
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2432",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Clear"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "number": "2532",
+      "center": [
+        8041.09756875,
+        2547.821113649644
+      ],
+      "fractions": {
+        "Other": 0.0943,
+        "Mountain": 0.0123,
+        "Hills": 0.0225,
+        "Clear": 0.8709
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2532",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Clear"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "number": "2632",
+      "center": [
+        8170.683129850001,
+        2547.821113649644
+      ],
+      "fractions": {
+        "Other": 0.0701,
+        "Sea": 0.7805,
+        "Hills": 0.0856,
+        "Clear": 0.0621,
+        "Mountain": 0.0017
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2632",
+      "confidence": 0.9,
+      "issues": [
+        "Narrow eastern coast with Clear and Hills, neither exceeds 20% confidently."
+      ],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": null,
+      "review_status": "In progress"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "number": "2431",
+      "center": [
+        7976.3047882,
+        2660.161162069194
+      ],
+      "fractions": {
+        "Other": 0.0995,
+        "Clear": 0.0981,
+        "Mountain": 0.0188,
+        "Hills": 0.6156,
+        "Sea": 0.168
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2431",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "number": "2531",
+      "center": [
+        8105.890349300001,
+        2660.161162069194
+      ],
+      "fractions": {
+        "Other": 0.1264,
+        "Clear": 0.0929,
+        "Hills": 0.3396,
+        "Mountain": 0.0082,
+        "Sea": 0.4328
+      },
+      "batch": "barentsoya_20261027",
+      "geographical_area": "Barentsoya (Nor)",
+      "printed_annotations": [
+        "Barentsoya (Nor) geographic name; not a settlement symbol",
+        "Blue sea-zone boundary strokes; no road/rail symbols"
+      ],
+      "printed_reference": "HP-ZF:2531",
+      "confidence": 0.98,
+      "issues": [],
+      "scope": "Printed terrain and feature metadata; no movement/stacking rules implemented.",
+      "terrain_convention": "Project: >20% of whole hex area; ignore incidental spillover unless clearly combined.",
+      "unknown_fields": [
+        "weather_zone",
+        "sea_zone",
+        "hexside navigation",
+        "hexside relief",
+        "hexside higher_ground",
+        "hexside navigable_strait"
+      ],
+      "inspection": "Full-resolution artwork, full island crop and hex-outline contact sheets; UICFB PDF p4 Terrain Key. No printed settlements, ports, facilities, anchorage, roads, railways, ferries, rivers, borders, fortifications, cliffs or High Mountain bars. Geographic names are not settlement symbols. Blue ice/weather and sea-zone lines are not roads.",
+      "terrain": [
+        "Hills"
+      ],
+      "review_status": "Verified"
+    }
+  ],
+  "mirrored_edges": [
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        61
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        60
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        60
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        60
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        21,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        60
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        62
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        64
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        64
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        22,
+        63
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        61
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        61
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        61
+      ],
+      "neighbor_side": 2
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 0,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        63
+      ],
+      "neighbor_side": 3
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 1,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        64
+      ],
+      "neighbor_side": 4
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 2,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        63
+      ],
+      "neighbor_side": 5
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 3,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        25,
+        62
+      ],
+      "neighbor_side": 0
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 4,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        62
+      ],
+      "neighbor_side": 1
+    },
+    {
+      "key": [
+        "Map 2",
+        "HP-ZF",
+        24,
+        63
+      ],
+      "side": 5,
+      "neighbor": [
+        "Map 2",
+        "HP-ZF",
+        23,
+        62
+      ],
+      "neighbor_side": 2
+    }
+  ],
+  "changed_records": [
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      24,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      22,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      22,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      22,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      23,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      23,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      23,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      21,
+      61
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      23,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      22,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      21,
+      60
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      21,
+      62
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      21,
+      63
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      22,
+      64
+    ],
+    [
+      "Map 2",
+      "HP-ZF",
+      23,
+      64
+    ]
+  ],
+  "counts": {
+    "reviewed": 8,
+    "Verified": 5,
+    "In progress": 3,
+    "transport_verified": 8,
+    "changed_records": 18,
+    "added_records": 14,
+    "total_records": 5496
+  },
+  "checks": [
+    "All original property values preserved; no prior status changes",
+    "All proposed records roundtrip through real app loader/writer in temp file",
+    "8 editor display/apply roundtrips retain statuses, unresolved fields and map_review metadata",
+    "Exact ZIP backup bytes and integrity checked; original transport/old terrain backup unchanged"
+  ]
+}

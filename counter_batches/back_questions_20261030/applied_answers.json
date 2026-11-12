@@ -1,0 +1,3091 @@
+{
+  "date": "2026-10-30",
+  "backup": "assets\\counters\\recovery_snapshots\\before-user-back-answers-20261030.zip",
+  "input_sha256": "40bbb98766c1bd18470602c8049d5dea9cc5a3f14c059367d2956c9b0e10d9ee",
+  "output_sha256": "c23f1e497e22f987ffb62ad8b5b409799924f987d2c1fa6c6220f6ad76fa6562",
+  "all_rows": [
+    {
+      "question_id": "B235938",
+      "type_id": "vassal:133:235938",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:235938",
+        "search_index": 638,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          3,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 420.18968195568635,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            3,
+            3
+          ],
+          "score": 0.5512025356292725,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236004",
+      "type_id": "vassal:133:236004",
+      "answer": "No",
+      "details": "Back reads Coastal Defense level 5, side text is still 489",
+      "location": {
+        "type_id": "vassal:133:236004",
+        "search_index": 24,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          9,
+          8
+        ],
+        "x": 1209.8634567901236,
+        "y": 1390.2787997710736,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            9,
+            8
+          ],
+          "score": 0.7344791889190674,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236015",
+      "type_id": "vassal:133:236015",
+      "answer": "No",
+      "details": "Back reas coastal defense level 9, side text is still Bodo",
+      "location": {
+        "type_id": "vassal:133:236015",
+        "search_index": 503,
+        "choice": 2,
+        "loc": [
+          108,
+          2,
+          9,
+          12
+        ],
+        "x": 1849.941728395062,
+        "y": 1388.1648815850435,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            9,
+            12
+          ],
+          "score": 0.506435751914978,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236030",
+      "type_id": "vassal:133:236030",
+      "answer": "No",
+      "details": "Back reads coastal defense level 7, side text is still Leland",
+      "location": {
+        "type_id": "vassal:133:236030",
+        "search_index": 6,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          10,
+          10
+        ],
+        "x": 1478.5044444444445,
+        "y": 1543.7969094922737,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            10,
+            10
+          ],
+          "score": 0.7787039279937744,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236023",
+      "type_id": "vassal:133:236023",
+      "answer": "No",
+      "details": "Back reads coastal defense level 10, same name on side",
+      "location": {
+        "type_id": "vassal:133:236023",
+        "search_index": 738,
+        "choice": 2,
+        "loc": [
+          108,
+          2,
+          12,
+          20
+        ],
+        "x": 2904.1422222222222,
+        "y": 1849.5015943095411,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            12,
+            20
+          ],
+          "score": 0.4986586570739746,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236035",
+      "type_id": "vassal:133:236035",
+      "answer": "No",
+      "details": "Back reads coastal defense level 14, on the left side is the same text as with the other coastal defenses that had backs, except on the ride side this time there is a V.",
+      "location": {
+        "type_id": "vassal:133:236035",
+        "search_index": 904,
+        "choice": 1,
+        "loc": [
+          108,
+          2,
+          12,
+          19
+        ],
+        "x": 2797.367160493827,
+        "y": 1851.172539721473,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            12,
+            19
+          ],
+          "score": 0.5154197812080383,
+          "scale": 1,
+          "dx": 25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236006",
+      "type_id": "vassal:133:236006",
+      "answer": "No",
+      "details": "Back reas coastal defense level 3, on the left side is the same text as front.",
+      "location": {
+        "type_id": "vassal:133:236006",
+        "search_index": 41,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          12,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 1867.6731256642959,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            12,
+            3
+          ],
+          "score": 0.6959018707275391,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B241690",
+      "type_id": "vassal:133:241690",
+      "answer": "No",
+      "details": "back is the exact same as the front",
+      "location": {
+        "type_id": "vassal:133:241690",
+        "search_index": 33,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          13,
+          7
+        ],
+        "x": 1075.542962962963,
+        "y": 2074.8712288447387,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            13,
+            7
+          ],
+          "score": 0.7189247012138367,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B238162",
+      "type_id": "vassal:133:238162",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238162",
+        "search_index": 507,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          13,
+          13
+        ],
+        "x": 1981.716790123457,
+        "y": 2085.315509770256,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            13,
+            13
+          ],
+          "score": 0.5657153725624084,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239475",
+      "type_id": "vassal:133:239475",
+      "answer": "No",
+      "details": "Back is same unit type, but size is X, and the left side text reads 108/17AD. The unit has strength 4-5-12",
+      "location": {
+        "type_id": "vassal:133:239475",
+        "search_index": 635,
+        "choice": 2,
+        "loc": [
+          108,
+          3,
+          3,
+          13
+        ],
+        "x": 1981.716790123457,
+        "y": 439.14621317417493,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            3,
+            3,
+            13
+          ],
+          "score": 0.5413578748703003,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B241081",
+      "type_id": "vassal:133:241081",
+      "answer": "No",
+      "details": "The image that you link to is actually the back of the counter. The front of the counter is same unit type, size [II], left size text 33, and strength (1) - 6",
+      "location": {
+        "type_id": "vassal:133:241081",
+        "search_index": 878,
+        "choice": 2,
+        "loc": [
+          108,
+          6,
+          6,
+          11
+        ],
+        "x": 1718.1666666666667,
+        "y": 877.0235467255335,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            6,
+            6,
+            11
+          ],
+          "score": 0.48103711009025574,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239470",
+      "type_id": "vassal:133:239470",
+      "answer": "No",
+      "details": "Back side reads unit size X, strength 4-5-12, left side text 105/7AD same unit type though.",
+      "location": {
+        "type_id": "vassal:133:239470",
+        "search_index": 745,
+        "choice": 1,
+        "loc": [
+          108,
+          5,
+          7,
+          14
+        ],
+        "x": 2113.4918518518516,
+        "y": 1042.5916114790286,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            5,
+            7,
+            14
+          ],
+          "score": 0.5377500057220459,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239098",
+      "type_id": "vassal:133:239098",
+      "answer": "No",
+      "details": "Again the image that you link to is actually the back of the counter. The front of the counter is same unit type but strength 5-12, unit size III, and left side text 437",
+      "location": {
+        "type_id": "vassal:133:239098",
+        "search_index": 609,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          3,
+          11
+        ],
+        "x": 1718.1666666666667,
+        "y": 450.00735835172924,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            3,
+            11
+          ],
+          "score": 0.5551900863647461,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239224",
+      "type_id": "vassal:133:239224",
+      "answer": "No",
+      "details": "The back is same unit type, unit size [III], left side text 374, and bottom strength 5-6",
+      "location": {
+        "type_id": "vassal:133:239224",
+        "search_index": 946,
+        "choice": 2,
+        "loc": [
+          108,
+          7,
+          4,
+          5
+        ],
+        "x": 806.901975308642,
+        "y": 598.6031395634045,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            4,
+            5
+          ],
+          "score": 0.495059072971344,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239476",
+      "type_id": "vassal:133:239476",
+      "answer": "No",
+      "details": "Back is same unit type, but size X, strength 4-5-12, and left side text 103/21AD",
+      "location": {
+        "type_id": "vassal:133:239476",
+        "search_index": 49,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          7,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 1060.9197939661515,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            7,
+            3
+          ],
+          "score": 0.6866709589958191,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239485",
+      "type_id": "vassal:133:239485",
+      "answer": "No",
+      "details": "This is actually the back of counter 515 strength 3-12, size III which is same unit type.",
+      "location": {
+        "type_id": "vassal:133:239485",
+        "search_index": 125,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          8,
+          17
+        ],
+        "x": 2508.8170370370367,
+        "y": 1225.3791186329818,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            8,
+            17
+          ],
+          "score": 0.6345252394676208,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239474",
+      "type_id": "vassal:133:239474",
+      "answer": "",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239474",
+        "search_index": 168,
+        "choice": 2,
+        "loc": [
+          108,
+          7,
+          8,
+          4
+        ],
+        "x": 672.5814814814815,
+        "y": 1214.8295315182734,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            8,
+            4
+          ],
+          "score": 0.5298774242401123,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239073",
+      "type_id": "vassal:133:239073",
+      "answer": "No",
+      "details": "This is the backside of the counter. The front side is the same except with strength 5-12",
+      "location": {
+        "type_id": "vassal:133:239073",
+        "search_index": 70,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          8,
+          14
+        ],
+        "x": 2113.4918518518516,
+        "y": 1215.4047911045704,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            8,
+            14
+          ],
+          "score": 0.6633357405662537,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239275",
+      "type_id": "vassal:133:239275",
+      "answer": "No",
+      "details": "The back of this is the same except unit size is [III] and strength is 5-12",
+      "location": {
+        "type_id": "vassal:133:239275",
+        "search_index": 40,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          9,
+          1
+        ],
+        "x": 269.62,
+        "y": 1391.0890360559235,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            9,
+            1
+          ],
+          "score": 0.6969571709632874,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239477",
+      "type_id": "vassal:133:239477",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239477",
+        "search_index": 840,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          13,
+          9
+        ],
+        "x": 1344.1839506172842,
+        "y": 2097.220995830267,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            13,
+            9
+          ],
+          "score": 0.5279075503349304,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239468",
+      "type_id": "vassal:133:239468",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239468",
+        "search_index": 232,
+        "choice": 2,
+        "loc": [
+          108,
+          9,
+          3,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 440.18968195568635,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            9,
+            3,
+            3
+          ],
+          "score": 0.5604217648506165,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B241072",
+      "type_id": "vassal:133:241072",
+      "answer": "No",
+      "details": "This is actually the backside of the counter. The front side is the same except the unit size is [II], and the strength is (1)-6",
+      "location": {
+        "type_id": "vassal:133:241072",
+        "search_index": 659,
+        "choice": 1,
+        "loc": [
+          108,
+          10,
+          7,
+          17
+        ],
+        "x": 2508.8170370370367,
+        "y": 1051.3127299484916,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            10,
+            7,
+            17
+          ],
+          "score": 0.5490170121192932,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239985",
+      "type_id": "vassal:133:239985",
+      "answer": "No",
+      "details": "Back is same unit type but without slash through it, unit size [III], strength 5-4-16, and left side text 121TB",
+      "location": {
+        "type_id": "vassal:133:239985",
+        "search_index": 572,
+        "choice": 1,
+        "loc": [
+          108,
+          9,
+          12,
+          16
+        ],
+        "x": 2377.041975308642,
+        "y": 1856.1853759572673,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            9,
+            12,
+            16
+          ],
+          "score": 0.558916449546814,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236330",
+      "type_id": "vassal:133:236330",
+      "answer": "",
+      "details": "I could not find this counter in that location on this counter sheet.",
+      "location": {
+        "type_id": "vassal:133:236330",
+        "search_index": 15,
+        "choice": 1,
+        "loc": [
+          120,
+          4,
+          5,
+          8
+        ],
+        "x": 2203.8399999999997,
+        "y": 1342.24,
+        "size": 145,
+        "retrieval": {
+          "loc": [
+            120,
+            4,
+            5,
+            8
+          ],
+          "score": 0.7557636499404907,
+          "scale": 1,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B238685",
+      "type_id": "vassal:133:238685",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238685",
+        "search_index": 72,
+        "choice": 1,
+        "loc": [
+          120,
+          7,
+          1,
+          2
+        ],
+        "x": 1399.08,
+        "y": 635.072,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            120,
+            7,
+            1,
+            2
+          ],
+          "score": 0.6615262031555176,
+          "scale": 1.12,
+          "dx": 25,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B238578",
+      "type_id": "vassal:133:238578",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238578",
+        "search_index": 65,
+        "choice": 1,
+        "loc": [
+          120,
+          7,
+          2,
+          4
+        ],
+        "x": 1670.44,
+        "y": 792.896,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            120,
+            7,
+            2,
+            4
+          ],
+          "score": 0.6681158542633057,
+          "scale": 1.12,
+          "dx": 25,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239091",
+      "type_id": "vassal:133:239091",
+      "answer": "",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239091",
+        "search_index": 3,
+        "choice": 1,
+        "loc": [
+          132,
+          1,
+          13,
+          5
+        ],
+        "x": 1781.12,
+        "y": 2634.048,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            1,
+            13,
+            5
+          ],
+          "score": 0.8051431179046631,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239643",
+      "type_id": "vassal:133:239643",
+      "answer": "",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239643",
+        "search_index": 43,
+        "choice": 1,
+        "loc": [
+          132,
+          1,
+          14,
+          2
+        ],
+        "x": 1374.08,
+        "y": 2765.9519999999998,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            1,
+            14,
+            2
+          ],
+          "score": 0.6919636726379395,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239988",
+      "type_id": "vassal:133:239988",
+      "answer": "",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239988",
+        "search_index": 8,
+        "choice": 1,
+        "loc": [
+          132,
+          1,
+          14,
+          3
+        ],
+        "x": 1509.7599999999998,
+        "y": 2772.8639999999996,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            1,
+            14,
+            3
+          ],
+          "score": 0.7775874137878418,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239503",
+      "type_id": "vassal:133:239503",
+      "answer": "No",
+      "details": "This is the back of the counter that is the same unit type but has size [II], strength 1-6 and left text 2",
+      "location": {
+        "type_id": "vassal:133:239503",
+        "search_index": 974,
+        "choice": 1,
+        "loc": [
+          132,
+          4,
+          13,
+          18
+        ],
+        "x": 3627.52,
+        "y": 2580.2239999999997,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            4,
+            13,
+            18
+          ],
+          "score": 0.5020744800567627,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B240010",
+      "type_id": "vassal:133:240010",
+      "answer": "No",
+      "details": "Back is left text 151TB strength 5-4-16, and size [III], same unit type without line through it",
+      "location": {
+        "type_id": "vassal:133:240010",
+        "search_index": 647,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          1,
+          20
+        ],
+        "x": 3893.7599999999998,
+        "y": 688.16,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            1,
+            20
+          ],
+          "score": 0.5506306886672974,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B240034",
+      "type_id": "vassal:133:240034",
+      "answer": "No",
+      "details": "Back has unit size [III], strength 5-4-16, and left side text 196TB, also unit type has no line through it.",
+      "location": {
+        "type_id": "vassal:133:240034",
+        "search_index": 580,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          3,
+          14
+        ],
+        "x": 3095.04,
+        "y": 1015.0719999999999,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            3,
+            14
+          ],
+          "score": 0.5579886436462402,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239382",
+      "type_id": "vassal:133:239382",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239382",
+        "search_index": 51,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          9,
+          2
+        ],
+        "x": 1374.08,
+        "y": 1942.4319999999998,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            9,
+            2
+          ],
+          "score": 0.6841493844985962,
+          "scale": 1,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239388",
+      "type_id": "vassal:133:239388",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239388",
+        "search_index": 90,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          9,
+          3
+        ],
+        "x": 1509.7599999999998,
+        "y": 1949.3439999999998,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            9,
+            3
+          ],
+          "score": 0.6524548530578613,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239979",
+      "type_id": "vassal:133:239979",
+      "answer": "No",
+      "details": "This is actually the back of the counter. The front of the counter has unit size [III], strength 5-4-16 and left text 114TB, unit is without line through it.",
+      "location": {
+        "type_id": "vassal:133:239979",
+        "search_index": 7,
+        "choice": 1,
+        "loc": [
+          132,
+          6,
+          10,
+          16
+        ],
+        "x": 3361.2799999999997,
+        "y": 2095.808,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            6,
+            10,
+            16
+          ],
+          "score": 0.7779536247253418,
+          "scale": 1,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B240017",
+      "type_id": "vassal:133:240017",
+      "answer": "",
+      "details": "Same issue as with previous",
+      "location": {
+        "type_id": "vassal:133:240017",
+        "search_index": 13,
+        "choice": 1,
+        "loc": [
+          132,
+          6,
+          13,
+          17
+        ],
+        "x": 3494.3999999999996,
+        "y": 2627.136,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            6,
+            13,
+            17
+          ],
+          "score": 0.7591276168823242,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B241586",
+      "type_id": "vassal:133:241586",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:241586",
+        "search_index": 110,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          13,
+          15
+        ],
+        "x": 3203.16,
+        "y": 2640.96,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            13,
+            15
+          ],
+          "score": 0.6438165307044983,
+          "scale": 0.87,
+          "dx": -25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B240015",
+      "type_id": "vassal:133:240015",
+      "answer": "No",
+      "details": "back is 158tb left text, unit size [III], strength 5-4-16 no line through unit type",
+      "location": {
+        "type_id": "vassal:133:240015",
+        "search_index": 141,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          14,
+          4
+        ],
+        "x": 1645.44,
+        "y": 2779.776,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            14,
+            4
+          ],
+          "score": 0.6285594701766968,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B240082",
+      "type_id": "vassal:133:240082",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:240082",
+        "search_index": 364,
+        "choice": 1,
+        "loc": [
+          132,
+          7,
+          4,
+          12
+        ],
+        "x": 2828.7999999999997,
+        "y": 1192.896,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            7,
+            4,
+            12
+          ],
+          "score": 0.5814526081085205,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239012",
+      "type_id": "vassal:133:239012",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239012",
+        "search_index": 531,
+        "choice": 1,
+        "loc": [
+          132,
+          7,
+          9,
+          7
+        ],
+        "x": 2052.48,
+        "y": 1996.992,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            7,
+            9,
+            7
+          ],
+          "score": 0.5634651780128479,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B239551",
+      "type_id": "vassal:133:239551",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239551",
+        "search_index": 120,
+        "choice": 1,
+        "loc": [
+          132,
+          9,
+          2,
+          10
+        ],
+        "x": 2459.52,
+        "y": 894.368,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            9,
+            2,
+            10
+          ],
+          "score": 0.6388095617294312,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236938",
+      "type_id": "vassal:133:236938",
+      "answer": "",
+      "details": "I can't find this counter",
+      "location": {
+        "type_id": "vassal:133:236938",
+        "search_index": 149,
+        "choice": 1,
+        "loc": [
+          199,
+          7,
+          7,
+          18
+        ],
+        "x": 3591.604125553602,
+        "y": 1699.493240289247,
+        "size": 126.15,
+        "retrieval": {
+          "loc": [
+            199,
+            7,
+            7,
+            18
+          ],
+          "score": 0.6264076828956604,
+          "scale": 0.87,
+          "dx": -25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    },
+    {
+      "question_id": "B236372",
+      "type_id": "vassal:133:236372",
+      "answer": "No",
+      "details": "This is the back of a counter that looks almost identical but that has a motorized infantry unit symbol instead.",
+      "location": {
+        "type_id": "vassal:133:236372",
+        "search_index": 662,
+        "choice": 1,
+        "loc": [
+          199,
+          12,
+          13,
+          6
+        ],
+        "x": 1915.0,
+        "y": 2661.225,
+        "size": 162.4,
+        "retrieval": {
+          "loc": [
+            199,
+            12,
+            13,
+            6
+          ],
+          "score": 0.5483622550964355,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      }
+    }
+  ],
+  "entries": {
+    "vassal:133:235938": {
+      "question_id": "B235938",
+      "type_id": "vassal:133:235938",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:235938",
+        "search_index": 638,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          3,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 420.18968195568635,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            3,
+            3
+          ],
+          "score": 0.5512025356292725,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:236004": {
+      "question_id": "B236004",
+      "type_id": "vassal:133:236004",
+      "answer": "No",
+      "details": "Back reads Coastal Defense level 5, side text is still 489",
+      "location": {
+        "type_id": "vassal:133:236004",
+        "search_index": 24,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          9,
+          8
+        ],
+        "x": 1209.8634567901236,
+        "y": 1390.2787997710736,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            9,
+            8
+          ],
+          "score": 0.7344791889190674,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236015": {
+      "question_id": "B236015",
+      "type_id": "vassal:133:236015",
+      "answer": "No",
+      "details": "Back reas coastal defense level 9, side text is still Bodo",
+      "location": {
+        "type_id": "vassal:133:236015",
+        "search_index": 503,
+        "choice": 2,
+        "loc": [
+          108,
+          2,
+          9,
+          12
+        ],
+        "x": 1849.941728395062,
+        "y": 1388.1648815850435,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            9,
+            12
+          ],
+          "score": 0.506435751914978,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236030": {
+      "question_id": "B236030",
+      "type_id": "vassal:133:236030",
+      "answer": "No",
+      "details": "Back reads coastal defense level 7, side text is still Leland",
+      "location": {
+        "type_id": "vassal:133:236030",
+        "search_index": 6,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          10,
+          10
+        ],
+        "x": 1478.5044444444445,
+        "y": 1543.7969094922737,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            10,
+            10
+          ],
+          "score": 0.7787039279937744,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236023": {
+      "question_id": "B236023",
+      "type_id": "vassal:133:236023",
+      "answer": "No",
+      "details": "Back reads coastal defense level 10, same name on side",
+      "location": {
+        "type_id": "vassal:133:236023",
+        "search_index": 738,
+        "choice": 2,
+        "loc": [
+          108,
+          2,
+          12,
+          20
+        ],
+        "x": 2904.1422222222222,
+        "y": 1849.5015943095411,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            12,
+            20
+          ],
+          "score": 0.4986586570739746,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236035": {
+      "question_id": "B236035",
+      "type_id": "vassal:133:236035",
+      "answer": "No",
+      "details": "Back reads coastal defense level 14, on the left side is the same text as with the other coastal defenses that had backs, except on the ride side this time there is a V.",
+      "location": {
+        "type_id": "vassal:133:236035",
+        "search_index": 904,
+        "choice": 1,
+        "loc": [
+          108,
+          2,
+          12,
+          19
+        ],
+        "x": 2797.367160493827,
+        "y": 1851.172539721473,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            2,
+            12,
+            19
+          ],
+          "score": 0.5154197812080383,
+          "scale": 1,
+          "dx": 25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236006": {
+      "question_id": "B236006",
+      "type_id": "vassal:133:236006",
+      "answer": "No",
+      "details": "Back reas coastal defense level 3, on the left side is the same text as front.",
+      "location": {
+        "type_id": "vassal:133:236006",
+        "search_index": 41,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          12,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 1867.6731256642959,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            12,
+            3
+          ],
+          "score": 0.6959018707275391,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:241690": {
+      "question_id": "B241690",
+      "type_id": "vassal:133:241690",
+      "answer": "No",
+      "details": "back is the exact same as the front",
+      "location": {
+        "type_id": "vassal:133:241690",
+        "search_index": 33,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          13,
+          7
+        ],
+        "x": 1075.542962962963,
+        "y": 2074.8712288447387,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            13,
+            7
+          ],
+          "score": 0.7189247012138367,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:238162": {
+      "question_id": "B238162",
+      "type_id": "vassal:133:238162",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238162",
+        "search_index": 507,
+        "choice": 1,
+        "loc": [
+          108,
+          1,
+          13,
+          13
+        ],
+        "x": 1981.716790123457,
+        "y": 2085.315509770256,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            1,
+            13,
+            13
+          ],
+          "score": 0.5657153725624084,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239475": {
+      "question_id": "B239475",
+      "type_id": "vassal:133:239475",
+      "answer": "No",
+      "details": "Back is same unit type, but size is X, and the left side text reads 108/17AD. The unit has strength 4-5-12",
+      "location": {
+        "type_id": "vassal:133:239475",
+        "search_index": 635,
+        "choice": 2,
+        "loc": [
+          108,
+          3,
+          3,
+          13
+        ],
+        "x": 1981.716790123457,
+        "y": 439.14621317417493,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            3,
+            3,
+            13
+          ],
+          "score": 0.5413578748703003,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:241081": {
+      "question_id": "B241081",
+      "type_id": "vassal:133:241081",
+      "answer": "No",
+      "details": "The image that you link to is actually the back of the counter. The front of the counter is same unit type, size [II], left size text 33, and strength (1) - 6",
+      "location": {
+        "type_id": "vassal:133:241081",
+        "search_index": 878,
+        "choice": 2,
+        "loc": [
+          108,
+          6,
+          6,
+          11
+        ],
+        "x": 1718.1666666666667,
+        "y": 877.0235467255335,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            6,
+            6,
+            11
+          ],
+          "score": 0.48103711009025574,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239470": {
+      "question_id": "B239470",
+      "type_id": "vassal:133:239470",
+      "answer": "No",
+      "details": "Back side reads unit size X, strength 4-5-12, left side text 105/7AD same unit type though.",
+      "location": {
+        "type_id": "vassal:133:239470",
+        "search_index": 745,
+        "choice": 1,
+        "loc": [
+          108,
+          5,
+          7,
+          14
+        ],
+        "x": 2113.4918518518516,
+        "y": 1042.5916114790286,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            5,
+            7,
+            14
+          ],
+          "score": 0.5377500057220459,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239098": {
+      "question_id": "B239098",
+      "type_id": "vassal:133:239098",
+      "answer": "No",
+      "details": "Again the image that you link to is actually the back of the counter. The front of the counter is same unit type but strength 5-12, unit size III, and left side text 437",
+      "location": {
+        "type_id": "vassal:133:239098",
+        "search_index": 609,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          3,
+          11
+        ],
+        "x": 1718.1666666666667,
+        "y": 450.00735835172924,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            3,
+            11
+          ],
+          "score": 0.5551900863647461,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239224": {
+      "question_id": "B239224",
+      "type_id": "vassal:133:239224",
+      "answer": "No",
+      "details": "The back is same unit type, unit size [III], left side text 374, and bottom strength 5-6",
+      "location": {
+        "type_id": "vassal:133:239224",
+        "search_index": 946,
+        "choice": 2,
+        "loc": [
+          108,
+          7,
+          4,
+          5
+        ],
+        "x": 806.901975308642,
+        "y": 598.6031395634045,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            4,
+            5
+          ],
+          "score": 0.495059072971344,
+          "scale": 1,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239476": {
+      "question_id": "B239476",
+      "type_id": "vassal:133:239476",
+      "answer": "No",
+      "details": "Back is same unit type, but size X, strength 4-5-12, and left side text 103/21AD",
+      "location": {
+        "type_id": "vassal:133:239476",
+        "search_index": 49,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          7,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 1060.9197939661515,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            7,
+            3
+          ],
+          "score": 0.6866709589958191,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239485": {
+      "question_id": "B239485",
+      "type_id": "vassal:133:239485",
+      "answer": "No",
+      "details": "This is actually the back of counter 515 strength 3-12, size III which is same unit type.",
+      "location": {
+        "type_id": "vassal:133:239485",
+        "search_index": 125,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          8,
+          17
+        ],
+        "x": 2508.8170370370367,
+        "y": 1225.3791186329818,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            8,
+            17
+          ],
+          "score": 0.6345252394676208,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239073": {
+      "question_id": "B239073",
+      "type_id": "vassal:133:239073",
+      "answer": "No",
+      "details": "This is the backside of the counter. The front side is the same except with strength 5-12",
+      "location": {
+        "type_id": "vassal:133:239073",
+        "search_index": 70,
+        "choice": 1,
+        "loc": [
+          108,
+          8,
+          8,
+          14
+        ],
+        "x": 2113.4918518518516,
+        "y": 1215.4047911045704,
+        "size": 135,
+        "retrieval": {
+          "loc": [
+            108,
+            8,
+            8,
+            14
+          ],
+          "score": 0.6633357405662537,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239275": {
+      "question_id": "B239275",
+      "type_id": "vassal:133:239275",
+      "answer": "No",
+      "details": "The back of this is the same except unit size is [III] and strength is 5-12",
+      "location": {
+        "type_id": "vassal:133:239275",
+        "search_index": 40,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          9,
+          1
+        ],
+        "x": 269.62,
+        "y": 1391.0890360559235,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            9,
+            1
+          ],
+          "score": 0.6969571709632874,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239477": {
+      "question_id": "B239477",
+      "type_id": "vassal:133:239477",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239477",
+        "search_index": 840,
+        "choice": 1,
+        "loc": [
+          108,
+          7,
+          13,
+          9
+        ],
+        "x": 1344.1839506172842,
+        "y": 2097.220995830267,
+        "size": 151.20000000000002,
+        "retrieval": {
+          "loc": [
+            108,
+            7,
+            13,
+            9
+          ],
+          "score": 0.5279075503349304,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239468": {
+      "question_id": "B239468",
+      "type_id": "vassal:133:239468",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239468",
+        "search_index": 232,
+        "choice": 2,
+        "loc": [
+          108,
+          9,
+          3,
+          3
+        ],
+        "x": 538.2609876543211,
+        "y": 440.18968195568635,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            9,
+            3,
+            3
+          ],
+          "score": 0.5604217648506165,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:241072": {
+      "question_id": "B241072",
+      "type_id": "vassal:133:241072",
+      "answer": "No",
+      "details": "This is actually the backside of the counter. The front side is the same except the unit size is [II], and the strength is (1)-6",
+      "location": {
+        "type_id": "vassal:133:241072",
+        "search_index": 659,
+        "choice": 1,
+        "loc": [
+          108,
+          10,
+          7,
+          17
+        ],
+        "x": 2508.8170370370367,
+        "y": 1051.3127299484916,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            10,
+            7,
+            17
+          ],
+          "score": 0.5490170121192932,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239985": {
+      "question_id": "B239985",
+      "type_id": "vassal:133:239985",
+      "answer": "No",
+      "details": "Back is same unit type but without slash through it, unit size [III], strength 5-4-16, and left side text 121TB",
+      "location": {
+        "type_id": "vassal:133:239985",
+        "search_index": 572,
+        "choice": 1,
+        "loc": [
+          108,
+          9,
+          12,
+          16
+        ],
+        "x": 2377.041975308642,
+        "y": 1856.1853759572673,
+        "size": 117.45,
+        "retrieval": {
+          "loc": [
+            108,
+            9,
+            12,
+            16
+          ],
+          "score": 0.558916449546814,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:236330": {
+      "question_id": "B236330",
+      "type_id": "vassal:133:236330",
+      "answer": "",
+      "details": "I could not find this counter in that location on this counter sheet.",
+      "location": {
+        "type_id": "vassal:133:236330",
+        "search_index": 15,
+        "choice": 1,
+        "loc": [
+          120,
+          4,
+          5,
+          8
+        ],
+        "x": 2203.8399999999997,
+        "y": 1342.24,
+        "size": 145,
+        "retrieval": {
+          "loc": [
+            120,
+            4,
+            5,
+            8
+          ],
+          "score": 0.7557636499404907,
+          "scale": 1,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Physical location disputed; not confirmed",
+      "review_status": "In progress"
+    },
+    "vassal:133:238685": {
+      "question_id": "B238685",
+      "type_id": "vassal:133:238685",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238685",
+        "search_index": 72,
+        "choice": 1,
+        "loc": [
+          120,
+          7,
+          1,
+          2
+        ],
+        "x": 1399.08,
+        "y": 635.072,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            120,
+            7,
+            1,
+            2
+          ],
+          "score": 0.6615262031555176,
+          "scale": 1.12,
+          "dx": 25,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:238578": {
+      "question_id": "B238578",
+      "type_id": "vassal:133:238578",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:238578",
+        "search_index": 65,
+        "choice": 1,
+        "loc": [
+          120,
+          7,
+          2,
+          4
+        ],
+        "x": 1670.44,
+        "y": 792.896,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            120,
+            7,
+            2,
+            4
+          ],
+          "score": 0.6681158542633057,
+          "scale": 1.12,
+          "dx": 25,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239503": {
+      "question_id": "B239503",
+      "type_id": "vassal:133:239503",
+      "answer": "No",
+      "details": "This is the back of the counter that is the same unit type but has size [II], strength 1-6 and left text 2",
+      "location": {
+        "type_id": "vassal:133:239503",
+        "search_index": 974,
+        "choice": 1,
+        "loc": [
+          132,
+          4,
+          13,
+          18
+        ],
+        "x": 3627.52,
+        "y": 2580.2239999999997,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            4,
+            13,
+            18
+          ],
+          "score": 0.5020744800567627,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:240010": {
+      "question_id": "B240010",
+      "type_id": "vassal:133:240010",
+      "answer": "No",
+      "details": "Back is left text 151TB strength 5-4-16, and size [III], same unit type without line through it",
+      "location": {
+        "type_id": "vassal:133:240010",
+        "search_index": 647,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          1,
+          20
+        ],
+        "x": 3893.7599999999998,
+        "y": 688.16,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            1,
+            20
+          ],
+          "score": 0.5506306886672974,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:240034": {
+      "question_id": "B240034",
+      "type_id": "vassal:133:240034",
+      "answer": "No",
+      "details": "Back has unit size [III], strength 5-4-16, and left side text 196TB, also unit type has no line through it.",
+      "location": {
+        "type_id": "vassal:133:240034",
+        "search_index": 580,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          3,
+          14
+        ],
+        "x": 3095.04,
+        "y": 1015.0719999999999,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            3,
+            14
+          ],
+          "score": 0.5579886436462402,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:239382": {
+      "question_id": "B239382",
+      "type_id": "vassal:133:239382",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239382",
+        "search_index": 51,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          9,
+          2
+        ],
+        "x": 1374.08,
+        "y": 1942.4319999999998,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            9,
+            2
+          ],
+          "score": 0.6841493844985962,
+          "scale": 1,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239388": {
+      "question_id": "B239388",
+      "type_id": "vassal:133:239388",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239388",
+        "search_index": 90,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          9,
+          3
+        ],
+        "x": 1509.7599999999998,
+        "y": 1949.3439999999998,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            9,
+            3
+          ],
+          "score": 0.6524548530578613,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239979": {
+      "question_id": "B239979",
+      "type_id": "vassal:133:239979",
+      "answer": "No",
+      "details": "This is actually the back of the counter. The front of the counter has unit size [III], strength 5-4-16 and left text 114TB, unit is without line through it.",
+      "location": {
+        "type_id": "vassal:133:239979",
+        "search_index": 7,
+        "choice": 1,
+        "loc": [
+          132,
+          6,
+          10,
+          16
+        ],
+        "x": 3361.2799999999997,
+        "y": 2095.808,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            6,
+            10,
+            16
+          ],
+          "score": 0.7779536247253418,
+          "scale": 1,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:240017": {
+      "question_id": "B240017",
+      "type_id": "vassal:133:240017",
+      "answer": "",
+      "details": "Same issue as with previous",
+      "location": {
+        "type_id": "vassal:133:240017",
+        "search_index": 13,
+        "choice": 1,
+        "loc": [
+          132,
+          6,
+          13,
+          17
+        ],
+        "x": 3494.3999999999996,
+        "y": 2627.136,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            6,
+            13,
+            17
+          ],
+          "score": 0.7591276168823242,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:241586": {
+      "question_id": "B241586",
+      "type_id": "vassal:133:241586",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:241586",
+        "search_index": 110,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          13,
+          15
+        ],
+        "x": 3203.16,
+        "y": 2640.96,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            13,
+            15
+          ],
+          "score": 0.6438165307044983,
+          "scale": 0.87,
+          "dx": -25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:240015": {
+      "question_id": "B240015",
+      "type_id": "vassal:133:240015",
+      "answer": "No",
+      "details": "back is 158tb left text, unit size [III], strength 5-4-16 no line through unit type",
+      "location": {
+        "type_id": "vassal:133:240015",
+        "search_index": 141,
+        "choice": 1,
+        "loc": [
+          132,
+          5,
+          14,
+          4
+        ],
+        "x": 1645.44,
+        "y": 2779.776,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            5,
+            14,
+            4
+          ],
+          "score": 0.6285594701766968,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    },
+    "vassal:133:240082": {
+      "question_id": "B240082",
+      "type_id": "vassal:133:240082",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:240082",
+        "search_index": 364,
+        "choice": 1,
+        "loc": [
+          132,
+          7,
+          4,
+          12
+        ],
+        "x": 2828.7999999999997,
+        "y": 1192.896,
+        "size": 119.19,
+        "retrieval": {
+          "loc": [
+            132,
+            7,
+            4,
+            12
+          ],
+          "score": 0.5814526081085205,
+          "scale": 0.87,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239012": {
+      "question_id": "B239012",
+      "type_id": "vassal:133:239012",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239012",
+        "search_index": 531,
+        "choice": 1,
+        "loc": [
+          132,
+          7,
+          9,
+          7
+        ],
+        "x": 2052.48,
+        "y": 1996.992,
+        "size": 153.44000000000003,
+        "retrieval": {
+          "loc": [
+            132,
+            7,
+            9,
+            7
+          ],
+          "score": 0.5634651780128479,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:239551": {
+      "question_id": "B239551",
+      "type_id": "vassal:133:239551",
+      "answer": "Yes",
+      "details": "",
+      "location": {
+        "type_id": "vassal:133:239551",
+        "search_index": 120,
+        "choice": 1,
+        "loc": [
+          132,
+          9,
+          2,
+          10
+        ],
+        "x": 2459.52,
+        "y": 894.368,
+        "size": 137,
+        "retrieval": {
+          "loc": [
+            132,
+            9,
+            2,
+            10
+          ],
+          "score": 0.6388095617294312,
+          "scale": 1,
+          "dx": 0,
+          "dy": 20,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Blank reverse confirmed by user",
+      "review_status": "Verified"
+    },
+    "vassal:133:236938": {
+      "question_id": "B236938",
+      "type_id": "vassal:133:236938",
+      "answer": "",
+      "details": "I can't find this counter",
+      "location": {
+        "type_id": "vassal:133:236938",
+        "search_index": 149,
+        "choice": 1,
+        "loc": [
+          199,
+          7,
+          7,
+          18
+        ],
+        "x": 3591.604125553602,
+        "y": 1699.493240289247,
+        "size": 126.15,
+        "retrieval": {
+          "loc": [
+            199,
+            7,
+            7,
+            18
+          ],
+          "score": 0.6264076828956604,
+          "scale": 0.87,
+          "dx": -25,
+          "dy": 0,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Physical location disputed; not confirmed",
+      "review_status": "In progress"
+    },
+    "vassal:133:236372": {
+      "question_id": "B236372",
+      "type_id": "vassal:133:236372",
+      "answer": "No",
+      "details": "This is the back of a counter that looks almost identical but that has a motorized infantry unit symbol instead.",
+      "location": {
+        "type_id": "vassal:133:236372",
+        "search_index": 662,
+        "choice": 1,
+        "loc": [
+          199,
+          12,
+          13,
+          6
+        ],
+        "x": 1915.0,
+        "y": 2661.225,
+        "size": 162.4,
+        "retrieval": {
+          "loc": [
+            199,
+            12,
+            13,
+            6
+          ],
+          "score": 0.5483622550964355,
+          "scale": 1.12,
+          "dx": 0,
+          "dy": -40,
+          "ocr": true
+        },
+        "confidence": 0.98,
+        "scope": "Exact front only: designation, printed size, icon, ratings and neighboring cells visually compared at native resolution. Back remains a user question."
+      },
+      "outcome": "Printed reverse reported; artwork pairing/transcription pending",
+      "review_status": "In progress"
+    }
+  },
+  "answer_counts": {
+    "Yes": 12,
+    "No": 24,
+    "No checkbox answer": 7
+  },
+  "temporary_roundtrips": 39,
+  "editor_issues": {
+    "vassal:133:235938": [],
+    "vassal:133:236004": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236015": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236030": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236023": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236035": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236006": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:241690": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:238162": [],
+    "vassal:133:239475": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:241081": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239470": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239098": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239224": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239476": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239485": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239073": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239275": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239477": [],
+    "vassal:133:239468": [],
+    "vassal:133:241072": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239985": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236330": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:238685": [],
+    "vassal:133:238578": [],
+    "vassal:133:239503": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:240010": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:240034": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:239382": [],
+    "vassal:133:239388": [],
+    "vassal:133:239979": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:240017": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:241586": [],
+    "vassal:133:240015": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:240082": [],
+    "vassal:133:239012": [],
+    "vassal:133:239551": [],
+    "vassal:133:236938": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ],
+    "vassal:133:236372": [
+      "Back appearance: not yet reviewed.",
+      "Back ground ratings: select a rating format."
+    ]
+  },
+  "totals": {
+    "Verified": 5144,
+    "In progress": 1824
+  },
+  "policy": "Yes answers plus prior front/core review and empty editor issues resolve blanks. No answers record printed-pair reports only, pending digital-artwork matching. No ratings, IDs, artwork or orientation changed."
+}

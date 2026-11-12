@@ -1,0 +1,22 @@
+{
+  "per_class": {
+    "Clear": {
+      "training_count": 8,
+      "evaluation_count": 0,
+      "recall": null
+    },
+    "Steppe": {
+      "training_count": 11,
+      "evaluation_count": 0,
+      "recall": null
+    },
+    "Swamp": {
+      "training_count": 7,
+      "evaluation_count": 0,
+      "recall": null
+    }
+  },
+  "evaluation_board": "Map 9",
+  "suggestions": 8175,
+  "limits": "No accuracy claim without held-out human labels. No CNN or timing comparison justified yet."
+}
