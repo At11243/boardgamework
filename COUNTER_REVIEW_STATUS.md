@@ -1,3 +1,11 @@
+## Full counter definition audit — 2026-11-12
+
+All 6,968 definitions received automated ID, artwork/reference, core completeness and source-location checks. Current statuses: **5,663 Verified / 1,305 In progress**. Corrected German → Germany for Infantry Division 87. Added source-review flags to 63 definitions (45 downgraded from Verified): nine confirmed wrong physical locators, six ambiguous physical-source cases, and 48 definitions sharing 23 conflicting physical front cells. No artwork, printed factors or face assignments changed.
+
+Independently reread 188 suspicious face rating sequences across 178 IDs; these saved values match original artwork. This is not full independent visual verification of every field on all counters. Exact per-ID coverage, flags, changes and remaining uncertainty: [full audit report](audits/20261112/counters_full_check/REPORT.md). Timestamped backups remain local under assets/counters/unit_definition_backups.
+
+---
+
 # Counter metadata review status
 
 ## Physical counter-sheet verification pass: 265 newly Verified — 2026-10-30

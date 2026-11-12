@@ -1,0 +1,13 @@
+{
+  "remaining_verified_editor_failures": 0,
+  "definitions": 6968,
+  "status_counts": {
+    "Verified": 5663,
+    "In progress": 1305
+  },
+  "unchanged_original_catalog": true,
+  "backup": "assets/counters/unit_definition_backups/before-full-audit-20261112-015429.json",
+  "preaudit_definition_sha256": "6bcdb591f3b5b384e98a1149812409a8a7c5e23649c7f71ce787f0ac45cbc26f",
+  "postaudit_definition_sha256": "9f658ed9c286f989be0eaf55d49ead0fc7a140a86848fa2c5e6ee310e09e34de",
+  "tests": "77 existing tests + 2 new counter-audit preservation/persistence tests passed"
+}

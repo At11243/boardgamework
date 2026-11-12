@@ -1,0 +1,11 @@
+{
+  "changed_definitions": 64,
+  "unchanged_definitions": 6904,
+  "ids_and_top_level_unknown_fields_preserved": true,
+  "artwork_rating_face_fields_preserved": true,
+  "unrelated_data_hashes": {
+    "assets\\counters\\counter_catalog.json": true,
+    "map_terrain.json": true,
+    "map_transport.json": true
+  }
+}

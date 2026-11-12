@@ -31,7 +31,7 @@ def load(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'), object_pairs_hook=pairs), duplicates
 
 
-def run(out, ocr=True):
+def run(out, ocr=True, check_all=False):
     out.mkdir(parents=True, exist_ok=True)
     app = QApplication.instance() or QApplication([])
     root = Path.cwd().resolve()
@@ -46,9 +46,13 @@ def run(out, ocr=True):
         issues.append(dict(type_id=uid, field=field, current=current, proposed=proposed, kind=kind, source=source))
     from counters import unit_editor
     ed = unit_editor.UnitEditor()
+    # Read-only batch navigation never needs an interactive unsaved-edit dialog.
+    ed.finish_pending_edits = lambda: True
+    ed.setUpdatesEnabled(False)
     editor_issues = {}
     try:
-        for uid, v in data.items():
+        for index,(uid, v) in enumerate(data.items(),1):
+            if index%500==0:print(f'Checked {index}/{len(data)} definitions',flush=True)
             if uid not in catalog['counter_types']:
                 issue(uid, 'type_id', uid, 'Review ID absent from imported catalog')
             if v.get('type_id', uid) != uid:
@@ -72,13 +76,13 @@ def run(out, ocr=True):
                 expected = v.get('batch_review', {}).get('image_sha256', {}).get(image)
                 if expected and expected != image_cache[image]['sha256']:
                     issue(uid, face+'_image_sha256', expected, image_cache[image]['sha256'], 'confirmed_integrity_error', image)
-            if v.get('review_status') == 'Verified':
+            if check_all or v.get('review_status') == 'Verified':
                 item = QListWidgetItem(); item.setData(Qt.ItemDataRole.UserRole, uid)
                 ed.dirty = False; ed.show_definition(item, None)
                 problems = ed.definition_issues()
                 if problems:
                     editor_issues[uid] = problems
-                    for problem in problems:issue(uid, 'editor_completeness', problem, 'Review before retaining Verified status')
+                    for problem in problems:issue(uid, 'editor_completeness', problem, 'Review before retaining Verified status' if v.get('review_status')=='Verified' else 'Complete the draft when source evidence is available')
             if v.get('back_appearance') == 'Blank color' and v.get('back_image'):
                 issue(uid, 'back_appearance', 'Blank color with assigned back image', 'Review whether image or generated blank is intended')
     finally:
@@ -130,4 +134,4 @@ def run(out, ocr=True):
 
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=Path('audits/20261109/counters'));parser.add_argument('--no-ocr',action='store_true');args=parser.parse_args();run(args.out,not args.no_ocr)
+    parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=Path('audits/20261109/counters'));parser.add_argument('--no-ocr',action='store_true');parser.add_argument('--all-definitions',action='store_true');args=parser.parse_args();run(args.out,not args.no_ocr,args.all_definitions)

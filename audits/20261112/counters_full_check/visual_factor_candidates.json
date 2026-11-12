@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "vassal:133:235705",
+    "face": "back",
+    "designation": "Artillery Battalion 425",
+    "expected": "1-2-6",
+    "observed": "21-2-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236151",
+    "face": "front",
+    "designation": "Armour Battalion 503",
+    "expected": "6-5-16",
+    "observed": "",
+    "strip": "0-5-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236180",
+    "face": "front",
+    "designation": "216",
+    "expected": "3-4-18",
+    "observed": "",
+    "strip": "3-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236261",
+    "face": "front",
+    "designation": "Mechanised Division 8 Pz",
+    "expected": "17-18-16",
+    "observed": "77-18-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236262",
+    "face": "back",
+    "designation": "Mechanised Division 8 Pz",
+    "expected": "10-11-16",
+    "observed": "101-11-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236263",
+    "face": "front",
+    "designation": "Mechanised Division 9 Pz",
+    "expected": "23-24-16",
+    "observed": "023-24-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236263",
+    "face": "back",
+    "designation": "Mechanised Division 9 Pz",
+    "expected": "11-12-16",
+    "observed": "71-12-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236779",
+    "face": "back",
+    "designation": "Infantry Division 205",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236792",
+    "face": "back",
+    "designation": "Infantry Division 246",
+    "expected": "7-8-6",
+    "observed": "3-8-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236796",
+    "face": "back",
+    "designation": "Infantry Division 254",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236798",
+    "face": "back",
+    "designation": "Infantry Division 256",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236831",
+    "face": "back",
+    "designation": "Infantry Division 78 Sturm",
+    "expected": "9-10-6",
+    "observed": "5-10-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:236888",
+    "face": "front",
+    "designation": "Infantry Brigade 218/7",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236891",
+    "face": "front",
+    "designation": "Infantry Division 2",
+    "expected": "6-7-6",
+    "observed": "",
+    "strip": "5-1-6",
+    "large": null
+  },
+  {
+    "id": "vassal:133:236935",
+    "face": "front",
+    "designation": "Reserve Division 174",
+    "expected": "5-6-4",
+    "observed": "36-4",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:237165",
+    "face": "front",
+    "designation": "Security Division 203",
+    "expected": "4-5-6",
+    "observed": "",
+    "strip": "4-5-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:237513",
+    "face": "front",
+    "designation": "Armour Division Das Reich",
+    "expected": "25-26-20",
+    "observed": "45-26-20",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:237535",
+    "face": "back",
+    "designation": "Infantry Division Galizien",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:238056",
+    "face": "back",
+    "designation": "I C",
+    "expected": "1-2-16",
+    "observed": "1-2- 6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:238066",
+    "face": "back",
+    "designation": "VI C",
+    "expected": "1-2-16",
+    "observed": "1-2- 6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:238165",
+    "face": "front",
+    "designation": "Infantry Division 1",
+    "expected": "4-5-6",
+    "observed": "",
+    "strip": "4-5-5",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238170",
+    "face": "front",
+    "designation": "Infantry Division 6",
+    "expected": "4-5-6",
+    "observed": "",
+    "strip": "4-5-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238173",
+    "face": "front",
+    "designation": "Infantry Division 9",
+    "expected": "4-5-6",
+    "observed": "",
+    "strip": "4-5-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238185",
+    "face": "front",
+    "designation": "Infantry Division 21",
+    "expected": "4-5-6",
+    "observed": "",
+    "strip": "4-5-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238218",
+    "face": "front",
+    "designation": "Infantry Division Szekler",
+    "expected": "6-7-6",
+    "observed": "",
+    "strip": "6-1-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238218",
+    "face": "back",
+    "designation": "Infantry Division Szekler",
+    "expected": "3-4-6",
+    "observed": "33-4-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:238230",
+    "face": "front",
+    "designation": "Infantry Division 1",
+    "expected": "11-12-6",
+    "observed": "",
+    "strip": "11-12-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238232",
+    "face": "front",
+    "designation": "Infantry Division 3",
+    "expected": "11-12-6",
+    "observed": "",
+    "strip": "11-12-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:238731",
+    "face": "front",
+    "designation": "Training Division 15",
+    "expected": "3-4-4",
+    "observed": "",
+    "strip": "5-4-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239063",
+    "face": "front",
+    "designation": "Artillery Regiment 218",
+    "expected": "5-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239079",
+    "face": "front",
+    "designation": "Artillery Regiment 280",
+    "expected": "5-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239133",
+    "face": "front",
+    "designation": "Artillery Regiment 607",
+    "expected": "5-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239137",
+    "face": "front",
+    "designation": "Artillery Regiment 621",
+    "expected": "5-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239151",
+    "face": "front",
+    "designation": "1324",
+    "expected": "5-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239161",
+    "face": "front",
+    "designation": "21AD",
+    "expected": "13-14-6",
+    "observed": "73-14-6",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239437",
+    "face": "front",
+    "designation": "5",
+    "expected": "4-3-12",
+    "observed": "",
+    "strip": "4-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239625",
+    "face": "front",
+    "designation": "Armour Regiment 3TB",
+    "expected": "5-4-16",
+    "observed": "{-4-16",
+    "strip": "5-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239628",
+    "face": "front",
+    "designation": "Armour Regiment 7TB",
+    "expected": "5-4-16",
+    "observed": "8-4-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239629",
+    "face": "front",
+    "designation": "Armour Regiment 8TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239644",
+    "face": "front",
+    "designation": "Armour Regiment 23TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239650",
+    "face": "front",
+    "designation": "Armour Regiment 30TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239655",
+    "face": "front",
+    "designation": "Armour Regiment 35TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239656",
+    "face": "front",
+    "designation": "Armour Regiment 36TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-15",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239657",
+    "face": "front",
+    "designation": "Armour Regiment 37TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-15",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239660",
+    "face": "front",
+    "designation": "Armour Regiment 40TB",
+    "expected": "5-4-16",
+    "observed": "34-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239665",
+    "face": "front",
+    "designation": "Armour Regiment 45TB",
+    "expected": "5-4-16",
+    "observed": "34-16",
+    "strip": "5-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239669",
+    "face": "front",
+    "designation": "Armour Regiment 49TB",
+    "expected": "5-4-16",
+    "observed": "3-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239675",
+    "face": "front",
+    "designation": "Armour Regiment 57TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239678",
+    "face": "front",
+    "designation": "Armour Regiment 60TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239688",
+    "face": "front",
+    "designation": "Armour Regiment 79TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239695",
+    "face": "front",
+    "designation": "Armour Regiment 87TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": "5-4-15",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239697",
+    "face": "front",
+    "designation": "Armour Regiment 91TB",
+    "expected": "5-4-16",
+    "observed": "4\u00e2\u20ac\u201d16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239699",
+    "face": "front",
+    "designation": "Armour Regiment 98TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239702",
+    "face": "front",
+    "designation": "Armour Regiment 104TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239707",
+    "face": "front",
+    "designation": "Armour Regiment 114TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239708",
+    "face": "front",
+    "designation": "Armour Regiment 115TB",
+    "expected": "5-4-16",
+    "observed": "16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239714",
+    "face": "front",
+    "designation": "Armour Regiment 121TB",
+    "expected": "5-4-16",
+    "observed": "b-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239716",
+    "face": "front",
+    "designation": "Armour Regiment 123TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4 -1b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239718",
+    "face": "front",
+    "designation": "Armour Regiment 125TB",
+    "expected": "5-4-16",
+    "observed": "b-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239723",
+    "face": "front",
+    "designation": "Armour Regiment 130TB",
+    "expected": "5-4-16",
+    "observed": "64-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239728",
+    "face": "front",
+    "designation": "Armour Regiment 135TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239731",
+    "face": "front",
+    "designation": "Armour Regiment 141TB",
+    "expected": "5-4-16",
+    "observed": "b-4-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239738",
+    "face": "front",
+    "designation": "Armour Regiment 148TB",
+    "expected": "5-4-16",
+    "observed": "b-4-16",
+    "strip": "5-4- 10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239740",
+    "face": "front",
+    "designation": "Armour Regiment 151TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239743",
+    "face": "front",
+    "designation": "Armour Regiment 154TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239747",
+    "face": "front",
+    "designation": "Armour Regiment 160TB",
+    "expected": "5-4-16",
+    "observed": "54-16",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239768",
+    "face": "front",
+    "designation": "Armour Regiment 193TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239776",
+    "face": "front",
+    "designation": "Armour Regiment 217TB",
+    "expected": "5-4-16",
+    "observed": "B-4-16",
+    "strip": "5-4-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239786",
+    "face": "front",
+    "designation": "Flamethrower Tanks Regiment 235TB",
+    "expected": "5-4-16",
+    "observed": "",
+    "strip": "5-4-10",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239850",
+    "face": "front",
+    "designation": "Armour Division 1TC",
+    "expected": "40-38-16",
+    "observed": "70-38-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239852",
+    "face": "back",
+    "designation": "Armour Division 2TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239853",
+    "face": "front",
+    "designation": "Armour Division 2TC",
+    "expected": "40-38-16",
+    "observed": "",
+    "strip": "40-36-16",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239853",
+    "face": "back",
+    "designation": "Armour Division 2TC",
+    "expected": "20-19-16",
+    "observed": "30-19-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239855",
+    "face": "front",
+    "designation": "Armour Division 3TC",
+    "expected": "34-32-16",
+    "observed": "",
+    "strip": "34-32-15",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239863",
+    "face": "front",
+    "designation": "Armour Division 9TC",
+    "expected": "17-15-16",
+    "observed": "017-15-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239865",
+    "face": "back",
+    "designation": "Armour Division 10TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239867",
+    "face": "back",
+    "designation": "Armour Division 11TC",
+    "expected": "9-8-16",
+    "observed": "5-8-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239868",
+    "face": "front",
+    "designation": "Armour Division 12TC",
+    "expected": "17-15-16",
+    "observed": "",
+    "strip": "11-15-15",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239873",
+    "face": "back",
+    "designation": "Armour Division 16TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239876",
+    "face": "front",
+    "designation": "Armour Division 18TC",
+    "expected": "17-15-16",
+    "observed": "",
+    "strip": "11-15-16",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239876",
+    "face": "back",
+    "designation": "Armour Division 18TC",
+    "expected": "9-8-16",
+    "observed": "5-8-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239877",
+    "face": "back",
+    "designation": "Armour Division 18TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239878",
+    "face": "back",
+    "designation": "Armour Division 18TC",
+    "expected": "17-16-16",
+    "observed": "77-16-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239884",
+    "face": "front",
+    "designation": "Armour Division 23TC",
+    "expected": "17-15-16",
+    "observed": "77-15-16",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:239885",
+    "face": "back",
+    "designation": "Armour Division 23TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239888",
+    "face": "back",
+    "designation": "Armour Division 25TC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239889",
+    "face": "back",
+    "designation": "Armour Division 26TC",
+    "expected": "9-8-16",
+    "observed": "5-8-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239892",
+    "face": "back",
+    "designation": "Armour Division 29TC",
+    "expected": "13-12-16",
+    "observed": "73-12-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239893",
+    "face": "back",
+    "designation": "Armour Division 29TC",
+    "expected": "17-16-16",
+    "observed": "77-16-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239903",
+    "face": "back",
+    "designation": "Light Armour Battalion 9TB",
+    "expected": "5-4-16",
+    "observed": "8-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239929",
+    "face": "back",
+    "designation": "Light Armour Battalion 35TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239932",
+    "face": "back",
+    "designation": "Light Armour Battalion 38TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239940",
+    "face": "back",
+    "designation": "Light Armour Battalion 46TB",
+    "expected": "5-4-16",
+    "observed": "3-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239943",
+    "face": "back",
+    "designation": "Light Armour Battalion 49TB",
+    "expected": "5-4-16",
+    "observed": "3-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239944",
+    "face": "back",
+    "designation": "Light Armour Battalion 52TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239945",
+    "face": "back",
+    "designation": "Light Armour Battalion 53TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239947",
+    "face": "back",
+    "designation": "Light Armour Battalion 55TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239950",
+    "face": "back",
+    "designation": "Light Armour Battalion 58TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239953",
+    "face": "back",
+    "designation": "Light Armour Battalion 61TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:239957",
+    "face": "back",
+    "designation": "Light Armour Battalion 68TB",
+    "expected": "5-4-16",
+    "observed": "6-4-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:240083",
+    "face": "front",
+    "designation": "1439",
+    "expected": "2-3-16",
+    "observed": ">-3-16",
+    "strip": "2-3-1 b",
+    "large": null
+  },
+  {
+    "id": "vassal:133:240102",
+    "face": "front",
+    "designation": "Cavalry Brigade 9K Krimskaya",
+    "expected": "4-3-9",
+    "observed": "",
+    "strip": "84-3-9",
+    "large": null
+  },
+  {
+    "id": "vassal:133:240165",
+    "face": "back",
+    "designation": "Mechanised Division 4MC",
+    "expected": "16-17-16",
+    "observed": "(6-17-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:240185",
+    "face": "back",
+    "designation": "Mechanised Division 163m",
+    "expected": "5-6-16",
+    "observed": "6-6-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:240189",
+    "face": "back",
+    "designation": "Mechanised Division 215m",
+    "expected": "5-6-16",
+    "observed": "6-6-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:240307",
+    "face": "front",
+    "designation": "Infantry Division 45 Uzbek",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-5",
+    "large": null
+  },
+  {
+    "id": "vassal:133:240508",
+    "face": "front",
+    "designation": "Infantry Division 232",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:240540",
+    "face": "front",
+    "designation": "Infantry Division 267",
+    "expected": "7-8-6",
+    "observed": "9-8-6",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:240685",
+    "face": "back",
+    "designation": "Infantry Division 332 Iv Frz",
+    "expected": "4-5-6",
+    "observed": "84-5-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:240872",
+    "face": "front",
+    "designation": "Infantry Regiment 9RB",
+    "expected": "2-3-6",
+    "observed": "02-3-6",
+    "strip": "",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241036",
+    "face": "back",
+    "designation": "Infantry Division 63 Frunze",
+    "expected": "4-5-6",
+    "observed": "84-5-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241171",
+    "face": "front",
+    "designation": "Glider Brigade 5 AC",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-6-5",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241173",
+    "face": "back",
+    "designation": "Glider Brigade 6 AC",
+    "expected": "2-3-6",
+    "observed": "02-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241174",
+    "face": "front",
+    "designation": "Glider Brigade 7 AC",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241175",
+    "face": "front",
+    "designation": "Glider Brigade 7 AC",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241178",
+    "face": "front",
+    "designation": "Glider Brigade 9 AC",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241178",
+    "face": "back",
+    "designation": "Glider Brigade 9 AC",
+    "expected": "1-2-6",
+    "observed": "01-2-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241327",
+    "face": "front",
+    "designation": "37",
+    "expected": "3-1-12",
+    "observed": "",
+    "strip": "3-1-1Z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241331",
+    "face": "front",
+    "designation": "49",
+    "expected": "3-1-12",
+    "observed": "",
+    "strip": "3-1-1Z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241333",
+    "face": "front",
+    "designation": "55",
+    "expected": "3-1-12",
+    "observed": "",
+    "strip": "3-1-1Z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241346",
+    "face": "front",
+    "designation": "34+",
+    "expected": "9-3-12",
+    "observed": "",
+    "strip": "9-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241347",
+    "face": "front",
+    "designation": "37+",
+    "expected": "9-3-12",
+    "observed": "",
+    "strip": "8-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241350",
+    "face": "front",
+    "designation": "46+",
+    "expected": "9-3-12",
+    "observed": "",
+    "strip": "9-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241355",
+    "face": "back",
+    "designation": "61+",
+    "expected": "15-5-12",
+    "observed": "i5-5-12",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241356",
+    "face": "back",
+    "designation": "64+",
+    "expected": "15-5-12",
+    "observed": "(5-5-12",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241357",
+    "face": "front",
+    "designation": "67+",
+    "expected": "9-3-12",
+    "observed": "",
+    "strip": "9-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241358",
+    "face": "back",
+    "designation": "70+",
+    "expected": "15-5-12",
+    "observed": "{5-5-12",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241359",
+    "face": "front",
+    "designation": "73+",
+    "expected": "9-3-12",
+    "observed": "",
+    "strip": "9-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241359",
+    "face": "back",
+    "designation": "73+",
+    "expected": "15-5-12",
+    "observed": "{5-5-12",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241360",
+    "face": "back",
+    "designation": "76+",
+    "expected": "15-5-12",
+    "observed": "i5-5-12",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241420",
+    "face": "back",
+    "designation": "Armour Division 1GTC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241421",
+    "face": "back",
+    "designation": "Armour Division 2GTC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241422",
+    "face": "back",
+    "designation": "Armour Division 3GTC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241423",
+    "face": "back",
+    "designation": "Armour Division 4GTC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241424",
+    "face": "back",
+    "designation": "Armour Division 5GTC",
+    "expected": "11-10-16",
+    "observed": "71-10-16",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241432",
+    "face": "back",
+    "designation": "Cavalry Division 3 GKC",
+    "expected": "7-6-9",
+    "observed": "9-6-9",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241437",
+    "face": "back",
+    "designation": "Cavalry/Mechanised Division 6GKC",
+    "expected": "11-10-9",
+    "observed": "71-10-9",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241466",
+    "face": "front",
+    "designation": "Infantry Brigade 11 VMF",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241467",
+    "face": "front",
+    "designation": "Infantry Brigade 15 VMF",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-6-5",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241484",
+    "face": "front",
+    "designation": "Infantry Division 17",
+    "expected": "9-10-6",
+    "observed": "",
+    "strip": "8-10-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241564",
+    "face": "front",
+    "designation": "Glider Division 3",
+    "expected": "10-11-6",
+    "observed": "IO-II-6",
+    "strip": "10-11-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241567",
+    "face": "front",
+    "designation": "Glider Division 6",
+    "expected": "10-11-6",
+    "observed": "",
+    "strip": "10-11-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241568",
+    "face": "front",
+    "designation": "Glider Division 7",
+    "expected": "10-11-6",
+    "observed": "",
+    "strip": "10-11-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241576",
+    "face": "front",
+    "designation": "Infantry Division 1",
+    "expected": "6-7-6",
+    "observed": "",
+    "strip": "6-1-6",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241577",
+    "face": "back",
+    "designation": "Infantry Division Ordzhnkdz",
+    "expected": "2-3-6",
+    "observed": "62-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241578",
+    "face": "back",
+    "designation": "Infantry Division Sukhumi",
+    "expected": "2-3-6",
+    "observed": "02-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241579",
+    "face": "front",
+    "designation": "Infantry Brigade 7",
+    "expected": "2-3-12",
+    "observed": "",
+    "strip": "2-3-1 z",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241599",
+    "face": "back",
+    "designation": "Reserve Brigade Odessa Cav",
+    "expected": "2-3-4",
+    "observed": "4-3-4",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241600",
+    "face": "front",
+    "designation": "Reserve Division 1 Gd Lgd",
+    "expected": "5-6-4",
+    "observed": "25-64",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241602",
+    "face": "front",
+    "designation": "Reserve Division 1 Moskva",
+    "expected": "5-6-4",
+    "observed": "3-64",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241603",
+    "face": "back",
+    "designation": "Reserve Division 2 Gd Lgd",
+    "expected": "2-3-4",
+    "observed": "42-3-4",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241605",
+    "face": "front",
+    "designation": "Reserve Division 2 Moskva",
+    "expected": "5-6-4",
+    "observed": "25-6-4",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241608",
+    "face": "front",
+    "designation": "Reserve Division 3 M W",
+    "expected": "5-6-4",
+    "observed": "\"5-64",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241610",
+    "face": "front",
+    "designation": "Reserve Division 4 M W",
+    "expected": "5-6-4",
+    "observed": "*5-64",
+    "strip": "5-0-4",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241611",
+    "face": "back",
+    "designation": "Reserve Division 5 Lgd",
+    "expected": "2-3-4",
+    "observed": "102-3-4",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241624",
+    "face": "back",
+    "designation": "Reserve Division Stalino",
+    "expected": "2-3-4",
+    "observed": "42-3-4",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241650",
+    "face": "back",
+    "designation": "Infantry Division 177 Lybn",
+    "expected": "5-6-6",
+    "observed": "6-6-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241651",
+    "face": "back",
+    "designation": "Infantry Division 196 Uz",
+    "expected": "2-3-6",
+    "observed": "22-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241654",
+    "face": "front",
+    "designation": "Infantry Division 223 Azr",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241660",
+    "face": "front",
+    "designation": "Infantry Division 310 Kzkh",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241663",
+    "face": "front",
+    "designation": "Infantry Division 345 Chn",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241664",
+    "face": "front",
+    "designation": "Infantry Division 361 Bsh",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241665",
+    "face": "front",
+    "designation": "Infantry Division 386 Arm",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241665",
+    "face": "back",
+    "designation": "Infantry Division 386 Arm",
+    "expected": "2-3-6",
+    "observed": "32-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241666",
+    "face": "front",
+    "designation": "Infantry Division 388 Arm",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-6",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241666",
+    "face": "back",
+    "designation": "Infantry Division 388 Arm",
+    "expected": "2-3-6",
+    "observed": "82-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241667",
+    "face": "back",
+    "designation": "Infantry Division 390 Arm",
+    "expected": "2-3-6",
+    "observed": "32-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241668",
+    "face": "front",
+    "designation": "Infantry Division 393 Grg",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241670",
+    "face": "back",
+    "designation": "Infantry Division 396 Grg",
+    "expected": "2-3-6",
+    "observed": "92-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241671",
+    "face": "front",
+    "designation": "Infantry Division 398 Azr",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241671",
+    "face": "back",
+    "designation": "Infantry Division 398 Azr",
+    "expected": "2-3-6",
+    "observed": "32-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241672",
+    "face": "front",
+    "designation": "Infantry Division 400 Grg",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241676",
+    "face": "front",
+    "designation": "Infantry Division 407 Grg",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241678",
+    "face": "front",
+    "designation": "Infantry Division 409 Arm",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241678",
+    "face": "back",
+    "designation": "Infantry Division 409 Arm",
+    "expected": "2-3-6",
+    "observed": "92-3-6",
+    "strip": null,
+    "large": null
+  },
+  {
+    "id": "vassal:133:241680",
+    "face": "front",
+    "designation": "Infantry Division 416 Az",
+    "expected": "5-6-6",
+    "observed": "",
+    "strip": "5-0-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241727",
+    "face": "front",
+    "designation": "Infantry Regiment 48",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241730",
+    "face": "front",
+    "designation": "Infantry Regiment 61",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241735",
+    "face": "front",
+    "designation": "Infantry Regiment 66",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241737",
+    "face": "front",
+    "designation": "Infantry Regiment 68",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241740",
+    "face": "front",
+    "designation": "Infantry Regiment 71",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241742",
+    "face": "front",
+    "designation": "Infantry Regiment 72",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241746",
+    "face": "front",
+    "designation": "Infantry Regiment 76",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241748",
+    "face": "front",
+    "designation": "Infantry Regiment 78",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241752",
+    "face": "front",
+    "designation": "Infantry Regiment 83",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241753",
+    "face": "front",
+    "designation": "Infantry Regiment 84",
+    "expected": "3-4-6",
+    "observed": "34-6",
+    "strip": "5-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241755",
+    "face": "front",
+    "designation": "Infantry Regiment 89",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "3-4-0",
+    "large": null
+  },
+  {
+    "id": "vassal:133:241761",
+    "face": "front",
+    "designation": "Infantry Regiment 254",
+    "expected": "3-4-6",
+    "observed": "",
+    "strip": "5-4-0",
+    "large": null
+  }
+]
